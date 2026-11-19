@@ -211,7 +211,8 @@ const LEVELS = ["Brand", "Model", "Year", "Livery"];
 const LEVEL_FIELD = ["brand", "model", "year", "colour"];
 const CONSTANT_FIELDS = {};
 const JOTFORM_BASE = "https://form.jotform.com/263078005069053";
-const FIELD = {"brand": "q3_textbox1", "model": "q4_textbox2", "year": "q5_textbox3", "colour": "q6_textbox4", "parts": "q7_textarea5"};
+const FIELD = {"brand": "q3_textbox1", "model": "q4_textbox2", "year": "q5_textbox3", "colour": "q6_textbox4", "parts": "q7_textarea5", "company": "q17_company", "tag": "jobReference"};
+const COMPANY = "Telstra";
 const N = LEVELS.length;
 
 const sels = [];
@@ -321,6 +322,15 @@ function updateSummary(){
   btnContinue.disabled = items.length === 0;
 }
 
+function makeSubmissionTag(){
+  const d = new Date();
+  const pad = n => String(n).padStart(2, '0');
+  const stamp = d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + '-' + pad(d.getHours()) + pad(d.getMinutes()) + pad(d.getSeconds());
+  const rand = Math.random().toString(36).slice(2, 6).toUpperCase();
+  const brandPart = (sels[0] && sels[0].value ? sels[0].value : 'VEH').replace(/[^A-Za-z0-9]+/g, '').slice(0, 10).toUpperCase();
+  return [COMPANY.replace(/[^A-Za-z0-9]+/g, '').toUpperCase(), brandPart, stamp, rand].join('-');
+}
+
 btnContinue.addEventListener('click', () => {
   const items = selectedItems();
   if (!items.length) return;
@@ -329,7 +339,11 @@ btnContinue.addEventListener('click', () => {
   Object.entries(CONSTANT_FIELDS).forEach(([fieldKey, val]) => { qp[FIELD[fieldKey]] = val; });
   LEVELS.forEach((lvl, i) => { qp[FIELD[LEVEL_FIELD[i]]] = sels[i].value; });
   qp[FIELD.parts] = partsText;
-  const qs = Object.entries(qp).map(([k, v]) => encodeURIComponent(k) + '=' + encodeURIComponent(v)).join('&');
+  qp[FIELD.tag] = makeSubmissionTag();
+  let qs = Object.entries(qp).map(([k, v]) => encodeURIComponent(k) + '=' + encodeURIComponent(v)).join('&');
+  // q17_company is a dropdown; Jotform's URL-prefill for select fields only fires
+  // reliably when both the bare key and the bracketed array key are present.
+  qs += '&company=' + encodeURIComponent(COMPANY) + '&' + encodeURIComponent(FIELD.company + '[]') + '=' + encodeURIComponent(COMPANY);
   window.open(JOTFORM_BASE + '?' + qs, '_blank');
 });
 </script>
