@@ -1,0 +1,65 @@
+Isuzu Single Cab w/ Tray - Supergraphic Livery (127346) — Annotation Report
+================================================================================
+
+Source: source_images/isuzu_single_cab_p1.png / _p2.png / _p3.png (1521x1075 px each)
+
+Page 1: Part checklist text only (no photo). Not tagged.
+
+Page 2: Full-size reference photos (drive side, front grille, pass side, rear
+tray close-up). These are the same decals shown more clearly, cropped and
+pre-labelled by the source document, on page 3. Not tagged separately — would
+duplicate page 3's tags on lower-resolution/less-isolated crops. Front grille
+photo (top-right of p2) has no Telstra decal items in our list (only the
+internal Handbrake/GPS decals, which are explicitly out of scope — internal
+windscreen/dash items, no W-codes required per task brief).
+
+Page 3: Primary labelled reference photo ("PARTS" page). Contains the source
+document's own blue callout boxes + leader lines for every item in our list.
+For each item, the actual decal pixel position was independently measured
+(not copied from the OCR/label text position) by:
+  1. Isolating the cyan/blue callout-box outline color in the image via numpy
+     (RGB ~ (0,174,239), distinguishing it from the darker label-line color).
+  2. Finding the box's true left/right/top/bottom pixel edges from column/row
+     sum peaks (avoiding contamination from the diagonal leader lines).
+  3. Computing the geometric center of each box.
+  4. Visually verifying every computed point by overlaying a marker dot on a
+     zoomed crop and confirming it lands on the actual decal artwork, not
+     just inside the box outline or on the leader line.
+
+All 7 items placed on page 3. Tagged image saved to:
+  annotated/isuzu_single_cab_p3_tagged.png
+
+Placements (pixel coordinates in the 1521x1075 p3 image):
+
+  D1  — Drive door Telstra T decal, "Isuzu S/Cab - Side" (320mm high)
+        PLACED at (578, 372) — centered on the Telstra T logo in the
+        "DRIVE SIDE 'T'" callout box (left cab photo).
+
+  P1  — Pass door Telstra T decal (320mm high)
+        PLACED at (1025, 356) — centered on the Telstra T logo in the
+        "PASS SIDE 'T'" callout box (right cab photo).
+
+  T1  — Rear small Telstra T decal
+        PLACED at (1075, 801) — centered on the small T logo, right side
+        of tailgate ("SMALL 'T'" callout).
+
+  T2  — Rear 'telstra.com.au' decal
+        PLACED at (796, 871) — centered on the "telstra.com" text decal,
+        bottom-center of tailgate.
+
+  T3  — Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal
+        PLACED at (550, 793) — centered on the "Safe driving is our
+        priority / GPS monitoring is on board / 1800 800 437" text block,
+        upper-left of tailgate.
+
+  T4  — Rear 'Before you dig' decal with QR code
+        PLACED at (532, 873) — centered on the "BEFORE YOU DIG" QR-code
+        decal, lower-left of tailgate.
+
+  T5  — Rear 'Green Fleet 2.2 Million...' decal
+        PLACED at (1023, 871) — centered on the Greenfleet decal, lower-
+        right of tailgate.
+
+No items skipped. No W-codes applicable (vehicle has no internal windscreen
+decal tags per task brief — the Handbrake/GPS decals visible in the p2
+top-left inset are explicitly internal/out of scope).

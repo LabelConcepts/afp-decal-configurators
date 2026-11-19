@@ -1,0 +1,42 @@
+Vehicle: norfolk_hilux_prisoner_pod (Toyota Hilux - Norfolk Island - Prisoner Pod)
+Source image used: source_images/norfolk_hilux_prisoner_pod.png
+NOTE: The file originally at this path (auto-selected by the extraction script as the
+page with the most text) was the text-only "PART CHECKLIST" page, which has no vehicle
+photo at all. The PDF's page 2 ("VISUAL" reference page, 4-photo grid: driver-side
+three-quarter, front face, passenger-side three-quarter, rear face) does contain real
+installed-vehicle photos and was substituted in as source_images/norfolk_hilux_prisoner_pod.png
+before annotating. This correction likely applies to the other 3 vehicles in this batch
+too (see their reports).
+
+Items (2 total):
+
+1. SIDE-1 — "4x SIDE NORFOLK CRESTS 345mm HIGH"
+   PLACED (2 of 4 quantity visually confirmed, 1 tag per visible instance):
+   - (772, 372) — Norfolk Island Police crest badge on driver-side front door, centered
+     in the checker stripe, just behind the A-pillar/mirror. Confirmed by cropping the
+     original untagged source at this point before drawing — crest clearly present.
+   - (380, 825) — matching crest badge on passenger-side front door (same position
+     mirrored), confirmed the same way on the second (bottom-row) photo.
+   UNVERIFIABLE (2 of 4 quantity): the checklist calls for 4 total crests but only one
+   crest per side (2 total) is visible anywhere in the available reference photo — side
+   panels, pod doors/latches, front face and rear face were all inspected and show no
+   second crest per side. The other 2 instances of this decal are not visible in this
+   photo and are not guessed; reason: no second crest location is visible in the
+   available image.
+
+2. REAR-1 — "2x REAR POLICE 345mm HIGH PLEASE REFER TO EXISTING BRANDED VEHICLES FOR
+   EXACT POSITIONING OF DECALS"
+   PLACED (1 of 2 quantity visually confirmed):
+   - (1271, 763) — "Police" text decal centered on the single flat rear panel of the
+     pod, above the number plate, between the two rear reflectors. Confirmed by cropping
+     the original source at this point before drawing.
+   UNVERIFIABLE (1 of 2 quantity): the rear of the pod is a single continuous panel in
+   the available photo with only one "Police" decal visible; no second rear decal
+   location is visible (no second rear face/door shown). Reason: only one rear elevation
+   is photographed, so a second instance cannot be independently located without
+   guessing.
+
+Summary: 2 codes in checklist, both codes have at least one instance placed with
+pixel coordinates; quantities (4x and 2x) are only partially visible in the single
+available reference photo — remaining instances reported above as unverifiable rather
+than guessed, per instructions.

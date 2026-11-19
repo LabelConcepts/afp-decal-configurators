@@ -1,0 +1,65 @@
+TELSTRA - SUPERGRAPHIC LIVERY - 2024 TOYOTA BZ4X ("bz4x")
+Source: source_images/bz4x_p1.png (checklist, NOT tagged per instructions),
+        source_images/bz4x_p2.png (titled "PARTS ON VEHICLE" - 4 photos: side/side/front/rear)
+Output: annotated/bz4x_p2_tagged.png
+
+Methodology note on D1/P1 (driver vs passenger) determination:
+bz4x_p2.png contains 4 photos: top-left (side view), top-right (front view, AU plate
+"2AD*8WF" visible), bottom-left (side view), bottom-right (rear view, matching plate +
+rear decals). Car is RHD (Australian plate), so driver's side = vehicle's right-hand
+side when facing the direction of travel.
+- Top-left photo: rear taillight visible at the image's LEFT edge, front fender/headlight
+  at the image's RIGHT edge (front-at-right). By compass reasoning (front-at-right in a
+  broadside photo places the camera on the vehicle's right/driver side), this is the
+  DRIVER side => used for D1.
+- Bottom-left photo: front fender/headlight visible at the image's LEFT edge, rear
+  taillight at the RIGHT edge (front-at-left) => camera on the vehicle's left/passenger
+  side => used for P1.
+Each side was independently inspected (zoomed crops of both front fenders) rather than
+assumed as a mirror of the other - confirmed genuinely different crops/backgrounds/angle,
+not a duplicated image.
+
+Placed tags (all coordinates are pixel x,y in the page image, 1521x1075):
+
+  D1  - Drive rear side Telstra T decal (539mm 'T')      -> (395, 330)   [top-left photo, on driver's side door T-logo]
+  P1  - Pass rear side Telstra T decal (539mm 'T')       -> (610, 810)   [bottom-left photo, on passenger's side door T-logo]
+  T1  - Rear small Telstra T decal                        -> (1142, 825)  [bottom-right/rear photo, left of plate]
+  T2  - Rear 'telstra.com.au' decal                       -> (1357, 817)  [rear photo, right side; text visibly reads "telstra.com" at this photo angle/crop]
+  T3  - Rear 'Safe driving / GPS monitoring / 1800 800 437' decal -> (1252, 876) [rear photo, bottom-center text block]
+  T4  - Rear 'Before you dig www.byda.com.au' decal       -> (1157, 877)  [rear photo, bottom-left logo sticker]
+  T5  - Rear 'Green Fleet 2.2 Million...' decal           -> (1357, 875)  [rear photo, bottom-right green logo]
+
+Skipped (unverifiable in available photos):
+
+  W1  - Internal windscreen 'Parking Brake' decal  -> SKIPPED. The front-view photo
+        (top-right) shows the windscreen, but it is too dark/reflective at this angle for
+        any internal decal to be visible; no interior/close-up shot of the windscreen is
+        provided on this page or page 1. Cannot be independently confirmed.
+  W2  - Internal windscreen 'GPS' decal            -> SKIPPED for the same reason as W1.
+
+All 7 placed tags were visually verified with zoomed crops before finalizing (each
+coordinate checked against a cropped close-up of the actual decal before drawing).
+
+ADDENDUM - re-verification of T1/T2/T4/T5 (bare/pre-decal rear-photo check):
+The coordinator flagged that several OTHER vehicles in this batch (sprinter_high_roof,
+landcruiser_obieco, ranger_dual_cab_tub) turned out to have "parts on vehicle" rear
+photos of a truck with the opaque logo decals (small T, telstra.com, byda, green fleet)
+not actually applied yet, and asked for a high-zoom re-check here in case the same issue
+was present and T1/T2/T4/T5 had been placed on blank bumper by a symmetric/plausible-
+looking guess rather than a genuinely spotted decal.
+Re-zoomed at ~8x on the exact tagged pixel coordinates (crop boxes used, in source image
+coordinates: T1 (1090,790)-(1200,860), T2 (1300,780)-(1420,850), T4 (1100,850)-(1220,910),
+T3 (1190,845)-(1320,905), T5 (1300,845)-(1420,905)). Result: unlike the other flagged
+vehicles, ALL FIVE decals are genuinely, crisply present on this rear photo, not faint
+ghosting and not blank panel:
+  - T1: sharp blue "T" + orange oval, clean vector edges, sitting beside a crisp "bZ4X"
+    badge.
+  - T2: crisp solid blue "telstra.com" text, fully legible.
+  - T3: crisp blue 3-line text block, fully legible (this is the one the coordinator
+    already confirmed).
+  - T4: crisp "BEFORE YOU DIG" sticker with full red/black colour fill and border, fully
+    legible.
+  - T5: crisp green "GreenFleet" logo with full colour fill, fully legible.
+No blank/undecaled bumper was found at any of the five locations - this vehicle's rear
+reference photo does NOT exhibit the bare/pre-decal issue seen on the other three
+vehicles. Tag positions and bz4x_p2_tagged.png are therefore left unchanged.

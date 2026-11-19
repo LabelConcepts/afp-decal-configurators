@@ -1,0 +1,47 @@
+VEHICLE: kia_sorrento_gd_2025_kings_crest — AFP Kia Sorrento, White Vehicle, General
+Duties (Victoria Police "Police" Battenburg checker livery), 2025 Kings Crest update
+
+Source PDF: "AFP - 2025 KIA SORRENTO - GENERAL DUTIES - 2025 KINGS CREST - FITTING
+GUIDE.pdf" (7 pages).
+  Page 1 ("AFP - 2025 KIA SORRENTO - GENERAL DUTIES") = real vehicle render, 2x2 grid
+    (pass/front/drive/rear) -> rendered and saved as
+    source_images/kia_sorrento_gd_2025_kings_crest.png (1521x1076),
+    annotated/kia_sorrento_gd_2025_kings_crest_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn magenta leader-line labels for every "KIA" lime reflective strip code ->
+    rendered and saved as source_images/kia_sorrento_gd_2025_kings_crest_p3.png,
+    annotated/kia_sorrento_gd_2025_kings_crest_p3_tagged.png.
+
+Note: unlike kia_sorrento_gd_2021_silver, this 2025-updated vehicle splits the side
+checker graphic into two explicitly separate bulk codes — SIDE-1 ("2x SIDE (REAR QTR)
+CHEQUERS") and SIDE-2 ("2x SIDE (FRONT QTR) CHEQUERS") — rather than one "4x" code, so
+each gets its own representative tag here (front-quarter and rear-quarter sections are
+visually distinguishable either side of the custom middle PASS-1/DRIVE-1 section).
+
+27 items total (13 main decals + 14 reflective strips), all placed, none skipped.
+
+Main page (13):
+SIDE-1 (130,310) Battenburg checker, rear-quarter section, pass side
+SIDE-2 (880,310) Battenburg checker, front-quarter section, pass side
+PASS-1 (530,310) "SIDE MIDDLE CHEQUERS CUSTOM", pass side
+PASS-2 (475,405) "Police" text, pass side
+PASS-3 (130,360) "131 444" phone text, pass side
+DRIVE-1 (490,735) "SIDE MIDDLE CHEQUERS CUSTOM", drive side
+DRIVE-2 (435,825) "Police" text + AFP crest, drive side
+DRIVE-3 (935,800) "131 444" phone text, drive side
+BONNET-1 (1225,275) "Police" text, bonnet
+REAR-1 (1280,800) "Police" text, tailgate
+REAR-2 (1140,765) "AFP" text, tailgate (left)
+REAR-3 (1390,765) "131 444" phone text, tailgate (right)
+REAR-4 (1280,715) Battenburg chequers, tailgate (upper band)
+
+Reflective page (14) — tag positions placed directly on each white/lime strip segment
+at the exact point the source document's own magenta leader-line label points to
+(cross-checked, not estimated). No R (rear) reflective codes exist for this vehicle:
+KIA D1 (395,285) KIA D3 (450,340) KIA D2 (660,285) KIA D4 (700,340)
+KIA F3 (1080,315) KIA F1 (1195,330) KIA F2 (1330,330) KIA F4 (1460,315) KIA F5 (1110,395) KIA F6 (1420,395)
+KIA P2 (435,690) KIA P1 (670,680) KIA P4 (440,745) KIA P3 (680,745)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 14 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

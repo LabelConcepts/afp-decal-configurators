@@ -1,0 +1,41 @@
+Vehicle: dmax_dual_canopy_nsw_projects (Isuzu D-Max Dual Cab w/ Canopy, NSW Projects branding)
+Source: source_images/dmax_dual_canopy_nsw_projects.png (1521x1075), 4-quadrant grid:
+  TL = driver-side full profile, BL = passenger-side full profile,
+  TR-top = front 3/4 (bonnet/grille), TR/BR-bottom = rear tailgate close-up.
+All coordinates are pixel (x,y) in the full source image.
+
+D1  (640,410)   PLACED - "A.G.Coombs / Projects" door text, TL quadrant (driver door).
+D2  (485,400)   PLACED - "02 9248 7400 / agcoombs.com.au" text, forward of D1, TL quadrant.
+D3  (280,360)   PLACED - "Air Conditioning & Building Services Specialist" text on rear quarter/canopy panel, TL quadrant.
+D4  (350,400)   PLACED - solid orange diagonal "fingerprint" body swoop below canopy, TL quadrant.
+D5  (300,220)   PLACED - green/orange diagonal canopy graphic (roof/window surround), TL quadrant.
+D6  (210,395)   PLACED - small coloured ring/fingerprint certification icon cluster (interpreted as "ISO"), TL quadrant, below D3 text.
+D7  (200,415)   PLACED - small teal "Green Building Council Australia" triangle logo ("GREEN"), TL quadrant, below D6.
+R1  (1290,712)  PLACED - large rear tub decal panel (A.G.Coombs Projects logo + Air Con text + phone/web + icons, 1044mm wide single panel), tagged at top logo line, BR quadrant.
+B1  (1290,360)  PLACED - orange & green bonnet "fingerprint" graphic, TR quadrant (front 3/4 view).
+P1  (460,785)   PLACED - "A.G.Coombs / Projects" door text, BL quadrant (passenger door).
+P2  (635,775)   PLACED - "02 9248 7400 / agcoombs.com.au" text, BL quadrant.
+P3  (950,760)   PLACED - "Air Conditioning & Building Services Specialist" text on rear quarter/canopy panel, BL quadrant.
+P4  (700,745)   PLACED - solid orange diagonal body swoop near rear door/canopy junction, BL quadrant.
+P5  (850,715)   PLACED - green/orange diagonal canopy graphic, BL quadrant.
+P6  (950,793)   PLACED - ring/certification icon cluster ("ISO"), BL quadrant, mirrors D6.
+P7  (940,810)   PLACED - teal "Green Building Council Australia" triangle logo ("GREEN"), BL quadrant, mirrors D7.
+
+D8  SKIPPED - "DRIVE 'ISO' DECAL (STANDARD DMAX BONNET) -CLEAR_WHITE INK UNDER". This is a
+    clear decal with white ink backing applied near the front guard/bonnet edge on the driver
+    side. Inspected the driver-side front fender/guard area at full zoom (no other decal visible
+    there) - on this gloss-white vehicle a clear/white-ink-under decal is essentially invisible
+    in a standard photo (no contrast against the white paint), and no edge, sheen difference, or
+    outline could be detected even at full digital zoom. Genuinely not identifiable in this
+    source photo rather than guessed.
+D9  SKIPPED - "DRIVE 'GREEN' DECAL -CLEAR_WHITE INK UNDER", same location/explanation as D8 above
+    (companion clear/white-ink decal, invisible on white gloss paint in this photo).
+
+Notes:
+- 16 of 18 items placed; 2 genuinely invisible clear/white-ink decals skipped and explained above.
+- Driver (D) and passenger (P) side coordinates were independently measured from their own
+  quadrants (TL vs BL) - not mirrored/copied from one another, despite the two sides carrying
+  matching artwork.
+- The small ISO/GREEN certification-icon pair (D6/D7, P6/P7) sits very close together (icon
+  cluster ~15-20px tall in the source image); tags necessarily sit close/slightly overlapping
+  there, matching the real decal spacing rather than being mis-measured.

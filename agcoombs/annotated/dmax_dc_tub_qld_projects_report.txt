@@ -1,0 +1,38 @@
+Vehicle: dmax_dc_tub_qld_projects — Isuzu D-Max Dual Cab w/ Tub, QLD Projects branding
+Source: source_images/dmax_dc_tub_qld_projects.png (1521x1075)
+Quadrants: top-left = driver side (nose pointing right), bottom-left = passenger side (nose pointing left),
+top-right = front/bonnet, bottom-right = rear.
+
+All 21 items placed. None skipped.
+
+D1 (672,397) — driver door, "A.G.Coombs / Projects" logo decal (740mm)
+D2 (492,392) — driver door, "07 3648 0500 / agcoombs.com.au" text (PHONE/WEB, 372mm)
+D3 (144,360) — driver-side tub front corner, "Air Conditioning & Building Services Specialist" text (AIR CON SERVICES, 386mm)
+D4 (217,332) — driver-side tub, green/yellow fingerprint diagonal panel
+D5 (400,397) — driver door, orange fingerprint diagonal panel
+D6 (148,390) — driver-side tub front corner, 'ISO' certification icon cluster (custom decal)
+D7 (144,403) — driver-side tub front corner, green building council leaf logo + text (GREEN custom decal), below D6
+D8 (155,432) — driver-side tub front corner, Queensland Government + QBCC logo block (QLD LOGOS custom decal), below D7
+
+P1 (467,785) — passenger door, "A.G.Coombs / Projects" logo decal
+P2 (600,780) — passenger door, "07 3648 0500 / agcoombs.com.au" text
+P3 (935,755) — passenger-side tub rear corner, "Air Conditioning & Building Services Specialist" text
+P4 (872,735) — passenger-side tub, green/yellow fingerprint diagonal panel
+P5 (742,780) — passenger door, orange fingerprint diagonal panel
+P6 (925,775) — passenger-side tub rear corner, 'ISO' certification icon cluster
+P7 (920,790) — passenger-side tub rear corner, green building council leaf logo + text, below P6
+P8 (925,818) — passenger-side tub rear corner, Queensland Government + QBCC logo block, below P7
+
+B1 (1260,350) — bonnet, orange/green fingerprint swoosh decal
+
+R1 (1260,669) — rear windscreen, "A.G.Coombs | Projects" + "Air Conditioning & Building Services Specialist" +
+     phone/web text (1000mm wide decal)
+R2 (1164,758) — rear tub/tailgate panel, 'ISO' certification icon cluster
+B1 noted above; R3 (1169,779) — rear tub/tailgate panel, green building council leaf logo + text, below R2
+R4 (1366,767) — rear tub/tailgate panel, Queensland Government + QBCC logo block (right side of tailgate)
+
+Skipped items: none — all 21 codes from the JSON item list were located and tagged.
+
+Note: D8/P8/R4 ("QLD LOGOS CUSTOM DECAL") is a stacked block containing both the Queensland Government
+crest/wordmark and the QBCC licence logo directly below it — treated as one combined decal position
+matching the single JSON code, consistent with how it is printed as one contiguous panel in the source art.

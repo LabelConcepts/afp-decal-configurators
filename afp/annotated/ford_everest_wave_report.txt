@@ -1,0 +1,65 @@
+Vehicle: ford_everest_wave — Ford Everest, WAVE design (000 phone placeholder)
+Source image used: source_images/ford_everest_wave.png (1521x1075), rendered from page 2
+("VISUAL - 000" vehicle-visual diagram page, 2x2 grid: driver side TL, front TR, passenger
+side BL, rear BR) of
+106438 - AFP - FORD EVEREST - WAVE - 000 - FITTING.pdf
+(page 1, the part checklist, has no vehicle image and was not used for tagging). Pages 5-7 of
+the PDF are blank "INSTALL PHOTO" placeholders, not usable either.
+
+All 13 items placed — none skipped.
+
+DRIVE-1  "Drive WAVE NEW (USE EVEREST CUT FILE)"         -> tag D1 at (310,390)
+  On the navy "wave" checker-pattern graphic on the driver-side lower body,
+  in a clear checker area between the front wheel arch and the AFP text.
+
+DRIVE-2  "Drive AUSTRALIAN FEDERAL POLICE TEXT 1663mmWide" -> tag D2 at (480,350)
+  On the "AUSTRALIAN FEDERAL POLICE" text on the driver-side doors.
+
+DRIVE-3  "Drive AFP CREST LOGO 170mmHigh ... (WHITE DECALS)" -> tag D3 at (625,440)
+  On the small AFP crest badge + "AFP" text near the driver-side rear door,
+  below the main text line.
+
+DRIVE-4  "Drive 000 300mmWide LIGHT VEHICLE (BLUE DECALS)" -> tag D4 at (125,300)
+  On the "000" phone-number text above the wheel arch near the driver-side
+  tail-light (the photo's "front" is to the right; this emergency-number
+  decal sits toward the rear quarter).
+
+BONNET-1 "Bonnet AFP CREST 550mmHigh"                    -> tag B1 at (1205,318)
+  On the AFP crest badge centred on the bonnet, front view.
+
+PASS-1   "Pass WAVE (NEW) ..."                            -> tag P1 at (480,840)
+  On the navy wave checker-pattern graphic on the passenger-side lower body,
+  below the "AUSTRALIAN FEDERAL POLICE" text (independently measured from
+  the passenger photo — not mirrored from DRIVE-1 coordinates).
+
+PASS-2   "Pass AUSTRALIAN FEDERAL POLICE TEXT 1663mmWide" -> tag P2 at (530,800)
+  On the "AUSTRALIAN FEDERAL POLICE" text on the passenger-side doors.
+
+PASS-3   "Pass AFP CREST LOGO 170mmHigh"                  -> tag P3 at (405,885)
+  On the AFP crest badge + "AFP" text near the passenger-side front door,
+  below the main text line.
+
+PASS-4   "Pass 000 300mmWide"                             -> tag P4 at (865,735)
+  On the "000" phone-number text near the passenger-side rear quarter
+  panel/tail-light.
+
+REAR-1   "Rear AUSTRALIAN FEDERAL POLICE TEXT 880mmWide"  -> tag R1 at (1255,848)
+  On the "AUSTRALIAN FEDERAL POLICE" text across the rear bumper, centred
+  below the number plate / Everest badge.
+
+REAR-2   "Rear AFP CREST 145mmHigh"                       -> tag R2 at (1330,815)
+  On the AFP crest badge to the right of the "000" text on the rear bumper.
+
+REAR-3   "Rear 000 248mmWide"                             -> tag R3 at (1160,815)
+  On the "000" phone-number text to the left on the rear bumper, beside the
+  crest.
+
+REAR-4   "Rear BUMPER BLUE 3500mm x 900mm"                -> tag R4 at (1150,910)
+  On the dark-blue painted/wrapped lower bumper panel itself, below the text
+  row, clear of the tow-bar assembly.
+
+Verification method: each coordinate was checked by cropping the original
+untagged render at the intended pixel location (with a reference grid overlay)
+to confirm the actual decal/text was present before the tag was drawn. Driver
+and passenger sides were measured independently from their own halves of the
+image, not mirrored/copied from one another.

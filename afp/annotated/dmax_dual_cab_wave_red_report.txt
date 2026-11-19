@@ -1,0 +1,56 @@
+VEHICLE: dmax_dual_cab_wave_red — AFP Isuzu D-Max Dual Cab (no pod, tub only), RED
+vehicle, WAVE design, 131 AFP, Updated 2025 "Kings Crest"
+
+Source PDF: "114686 - AFP - ISUZU DMAX DUAL CAB - RED VEHICLE - FITTING.pdf" (7
+pages). Same design/layout as dmax_dual_cab_wave but on a red-bodied vehicle instead
+of white — independently re-measured from this vehicle's own render, not copied from
+the white version's report.
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/dmax_dual_cab_wave_red.png (1521x1076),
+    annotated/dmax_dual_cab_wave_red_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow leader-line labels for every "DMAX" reflective
+    strip code -> rendered and saved as
+    source_images/dmax_dual_cab_wave_red_p3.png,
+    annotated/dmax_dual_cab_wave_red_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists "ITEM-1: 40mm THICK @ 1380mm WIDE STRIP" as a
+reflective item. This corresponds to the white horizontal strip running through the
+cab door line, visible on both pass and drive sides in the render — it is one
+continuous design element (a single checklist line item), not an individually-coded,
+single-point decal, and the source gives no per-instance code to pin a single
+coordinate to. Not tagged as a point, per project rules against guessing/inventing a
+code; its presence and location (the door-line strip, both sides) is noted here for
+completeness.
+
+27 items total (13 main decals + 13 reflective strips tagged + 1 bulk strip item
+documented as not point-tagged).
+
+Main page (13):
+PASS-4 (130,340) "131 AFP" phone text, pass-side tray
+PASS-1 (530,415) WAVE chequerboard, pass side
+PASS-2 (550,360) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (665,445) Kings Crest + "AFP" text, pass side
+DRIVE-1 (520,825) WAVE chequerboard, drive side
+DRIVE-2 (510,770) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (395,855) Kings Crest + "AFP" text, drive side
+DRIVE-4 (905,750) "131 AFP" phone text, drive-side tray
+BONNET-1 (1240,290) Kings Crest, bonnet
+REAR-3 (1160,740) "131 AFP" phone text, tailgate
+REAR-2 (1325,735) Kings Crest, tailgate (right of text)
+REAR-1 (1270,795) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-4 (1270,850) black bumper/tailgate panel
+
+Reflective page (13) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated). FRANW R1 has no label in the render but is unambiguous — the only
+reflective element on the rear quadrant is the single white strip across the top of the
+tailgate, matching the one "FRANW R1" code listed in afp_vehicles.json:
+DMAX D4 (460,350) DMAX D3 (635,350) DMAX D2 (800,375) DMAX D1 (975,455)
+DMAX F1 (1260,385) DMAX F2 (1260,475) DMAX F3 (1120,470) DMAX F4 (1410,470)
+DMAX P1 (90,775) DMAX P2 (250,720) DMAX P3 (415,710) DMAX P4 (620,710)
+FRANW R1 (1265,735)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 13 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

@@ -1,0 +1,50 @@
+VEHICLE: kia_sorrento_wave_2025_white — AFP Kia Sorrento, White Vehicle, WAVE design,
+131 AFP, 2025 model update
+
+Source PDF: "AFP - WAVE 2025 - KIA SORRENTO - 131AFP - WHITE - UPDATED FITTING.pdf" (5
+pages). Note: the fitting guide's install photos are flagged "PHOTOS SHOW OLDER CREST —
+KINGS CREST MUST BE USED"; the official VISUAL render (page 1, used here) already shows
+the correct current crest, so it was used instead of the install photos.
+  Page 1 ("KIA SORRENTO") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/kia_sorrento_wave_2025_white.png
+    (1521x1076), annotated/kia_sorrento_wave_2025_white_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow leader-line labels for every "KIA" reflective
+    strip code -> rendered and saved as
+    source_images/kia_sorrento_wave_2025_white_p3.png,
+    annotated/kia_sorrento_wave_2025_white_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists several codes as "ITEM-N" with a "2025" suffix
+("KIA F1 2025" etc.) — confirmed genuine against the source's own "KIA F1 2025" etc.
+labels on page 3 (not garbled/duplicate). "KIA D54" (garbled from "KIA D5") confirmed
+against the clean "KIA D5" position on page 3.
+
+30 items total (13 main decals + 17 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-4 (120,300) "131 AFP" phone text, pass side
+PASS-1 (460,360) WAVE chequerboard, pass side
+PASS-2 (510,335) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (660,415) AFP crest + "AFP" text, pass side
+DRIVE-1 (600,800) WAVE chequerboard, drive side
+DRIVE-2 (590,750) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (365,840) AFP crest + "AFP" text, drive side
+DRIVE-4 (930,720) "131 AFP" phone text, drive side
+BONNET-1 (1235,275) AFP crest, bonnet
+REAR-3 (1140,725) "131 AFP" phone text, tailgate
+REAR-2 (1360,725) AFP crest, tailgate (right of phone text)
+REAR-1 (1255,815) "AUSTRALIAN FEDERAL POLICE" text, tailgate (lower band)
+REAR-4 (1255,775) navy bumper panel, tailgate (above text)
+
+Reflective page (17) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated):
+KIA D1 (220,300) KIA D2 (400,300) KIA D3 (600,305) KIA D4 (695,320) KIA D54 (820,320)
+KIA F1 2025 (1150,335) KIA F2 2025 (1255,335) KIA F3 2025 (1365,335) KIA F4 2025 (1480,335)
+KIA F5 2025 (1155,405) KIA F6 2025 (1475,405)
+KIA P5 (255,720) KIA P4 (390,720) KIA P3 (555,720) KIA P2 (725,720) KIA P1 (900,720)
+KIA R1 2025 (1325,715)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 17 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

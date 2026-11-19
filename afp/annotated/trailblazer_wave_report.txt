@@ -1,0 +1,48 @@
+VEHICLE: trailblazer_wave — AFP Holden Trailblazer, Red Vehicle, WAVE design, 000
+phone
+
+Source PDF: "AFP_HOLDEN TRAILBLAZER - WAVE - RED - FITTING.pdf" (7 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/trailblazer_wave.png (1521x1076),
+    annotated/trailblazer_wave_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn black labels for every "TRA" reflective strip code -> rendered and
+    saved as source_images/trailblazer_wave_p3.png,
+    annotated/trailblazer_wave_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json's raw extraction lists TRA F1-F4 (4) and TRA R1-R6
+(6), but the source document's own page-3 labels clearly show 6 front codes
+(F1-F6) and 4 rear codes (R1-R4) — the opposite split, with the same total of 10. The
+source's own printed labels were used as authoritative (consistent with this
+project's rule to always verify against the actual artwork, not just the extracted
+text), since PDF text extraction has repeatedly proven unreliable elsewhere in this
+dataset for row/column order.
+
+29 items total (13 main decals + 16 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-4 (230,340) "000" phone text, pass side
+PASS-1 (440,400) WAVE chequerboard, pass side
+PASS-2 (540,365) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (630,455) AFP logo, pass side
+DRIVE-1 (470,820) WAVE chequerboard, drive side
+DRIVE-2 (540,810) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (385,880) AFP logo, drive side
+DRIVE-4 (795,785) "000" phone text, drive side
+BONNET-1 (1220,290) AFP crest, bonnet
+REAR-3 (1095,785) "000" phone text, tailgate
+REAR-2 (1290,785) AFP crest, tailgate (right)
+REAR-1 (1220,855) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-4 (1220,815) white bumper strip, tailgate (above text)
+
+Reflective page (16) — tag positions placed directly on each white strip segment at
+the exact point the source document's own black leader-line label points to
+(cross-checked, not estimated):
+TRA D1 (225,270) TRA D2 (430,270) TRA D3 (640,275)
+TRA F1 (1225,335) TRA F2 (1085,380) TRA F3 (1385,380) TRA F5 (1230,420) TRA F4 (1090,460) TRA F6 (1385,460)
+TRA P1 (935,705) TRA P2 (695,710) TRA P3 (460,715)
+TRA R1 (1220,705) TRA R2 (1330,705) TRA R3 (1195,785) TRA R4 (1360,785)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing leader-line labels on page 3.

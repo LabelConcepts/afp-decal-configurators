@@ -1,0 +1,31 @@
+dmax_vic_projects — Isuzu D-Max Dual Cab, AG Coombs VIC Projects branding w/ toolbox
+Source: source_images/dmax_vic_projects.png (1521x1075), 2x2 grid: top-left=profile A,
+bottom-left=profile B, top-right=rear, bottom-right=front/bonnet.
+
+SIDE IDENTIFICATION METHOD: text-justification cue confirmed independently from each photo:
+D1's toolbox 3-line text ("Air Conditioning & Building Services Specialist") is LEFT-justified
+in the top-left profile; the equivalent text in the bottom-left profile is RIGHT-justified
+("Specialist" right-aligned). This matches the JSON's own description (D1 "left justified",
+P1 "right justified"), confirming top-left=DRIVER, bottom-left=PASSENGER for this vehicle.
+
+PLACED (all 18/18):
+D1  DRIVE TOOLBOX 'Air Conditioning...' text (left)  -> (126,284)  top-left profile (driver)
+D2  DRIVE TOOLBOX ISO decals                         -> (108,323)  top-left profile (driver)
+D3  DRIVE TOOLBOX green building council decal       -> (90,341)   top-left profile (driver)
+D4  DRIVE TOOLBOX Orange/Green fingerprint decal     -> (220,263)  top-left profile (driver)
+D5  DRIVE SIDE/DOOR orange fingerprint decal         -> (450,405)  top-left profile (driver)
+D6  DRIVE DOOR Phone/Web 2-line text                 -> (535,350)  top-left profile (driver)
+D7  DRIVE FRONT DOOR AG Coombs Projects 2-line text  -> (690,368)  top-left profile (driver)
+B1  BONNET Orange/Green fingerprint decal            -> (1290,775) bottom-right (front quadrant)
+P1  PASS TOOLBOX 'Air Conditioning...' text (right)  -> (983,722)  bottom-left profile (passenger)
+P2  PASS TOOLBOX ISO decals                          -> (988,762)  bottom-left profile (passenger)
+P3  PASS TOOLBOX green building council decal       -> (970,776)  bottom-left profile (passenger)
+P4  PASS TOOLBOX Orange/Green fingerprint decal      -> (780,730)  bottom-left profile (passenger)
+P5  PASS SIDE/DOOR orange fingerprint decal          -> (433,880)  bottom-left profile (passenger)
+P6  PASS DOOR Phone/Web 2-line text                  -> (542,795)  bottom-left profile (passenger)
+P7  PASS FRONT DOOR AG Coombs Projects 2-line text   -> (385,811)  bottom-left profile (passenger)
+R1  REAR Large AG Coombs Projects 3-line decal       -> (1305,294) top-right (rear quadrant)
+R2  REAR TOOLBOX ISO decals                          -> (1188,373) top-right (rear quadrant)
+R3  REAR TOOLBOX green building council decal        -> (1402,373) top-right (rear quadrant)
+
+SKIPPED: none.

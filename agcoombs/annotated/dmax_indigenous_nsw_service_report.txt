@@ -1,0 +1,19 @@
+Vehicle: dmax_indigenous_nsw_service (Isuzu D-Max Dual Cab w/ Toolbox, NSW Service, Indigenous branding)
+Source image: source_images/dmax_indigenous_nsw_service.png (1521x1075)
+Note: this source image is a two-panel reference diagram (top = clean photo, bottom = same
+photo with the agency's own pink callout markup identifying decal zones). Tags were placed
+on the TOP (clean) panel, with positions independently measured against decal content visible
+in that same clean panel (verified via pixel crops before drawing), using the bottom panel's
+callouts only to identify WHICH zone is which code - not to copy coordinates.
+
+Item count check: JSON lists 4 items (D1, D2, D3, BU1). This matches the bottom panel's own
+markup, which shows exactly 4 highlighted regions ("AG COOMBS NSW SERVICE DOOR DECAL" callout
++ "INDIGENOUS 3 PARTS" callout covering 3 more regions). Count confirmed correct.
+
+Placed:
+- D1  DRIVE CAB 'INDIGENOUS' DECAL        -> (490, 300)  top panel, sloped triangular cab panel decal immediately behind driver door, below mirror
+- D2  DRIVE DOOR BASE 'INDIGENOUS' DECAL  -> (650, 352)  top panel, sill/rocker-panel strip decal below the doors
+- D3  DRIVE DOOR AG COOMBS 'SERVICE'      -> (725, 290)  top panel, centered on the A.G.Coombs Service text decal on the front door
+- BU1 BUMPER 'INDIGENOUS'                 -> (1070, 335) top panel, front guard/bumper patterned decal above front wheel
+
+All 4 items placed. None skipped.

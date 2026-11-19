@@ -1,0 +1,53 @@
+Vehicle: hilux_ev_toolbox_vic_service (Toyota Hilux Dual Cab w/ Toolbox, VIC Service, EV)
+Source image: source_images/hilux_ev_toolbox_vic_service.png (1521x1075), a 2x2 grid of real
+installed-vehicle photos: top-left = drive side (3/4 rear angle, front pointing right),
+bottom-left = passenger side (3/4 front angle, front pointing left), top-right = front view,
+bottom-right = rear view. Side assignment (drive vs passenger) was inferred from matching the
+exact same 3/4-rear-angle/front-pointing-right camera convention used for the confirmed
+"drive side" photo on the dmax_indigenous_nsw_service job (same documentation series).
+
+Item count: JSON lists 23 items (D1-D10, P1-P8, R1-R4, B1). All 23 placed; none skipped.
+
+Data quirk noted and resolved: D9 and D10 are BOTH labeled "DRIVE FRONT 'QR/NET ZERO' DECAL"
+in the source data (no P9/P10 exist). Physically, the identical QR/Net-Zero decal appears
+once on EACH front guard (one per side) - confirmed by independently inspecting both side
+photos. Since there is no separate passenger-side code available, D9 was placed on the
+drive-side guard decal and D10 was placed on the passenger-side guard decal, so both physical
+decals are tagged. This is flagged for awareness, not silently guessed.
+
+Each coordinate below was independently measured on this vehicle's own source image using
+pixel-grid overlays and crop verification against the clean (unmarked) photo - no coordinates
+were copied from the D-max vehicle or between the two side photos.
+
+Drive side (top-left photo):
+- D1  DOOR AG COOMBS 'SERVICE' (800mm)      -> (730,380)  front door, logo+"Service" text
+- D2  'PH/WEB' (369mm)                       -> (555,358)  above D1, phone/website text
+- D3  'AIR CON SERVICES' text (386mm)        -> (165,310)  toolbox panel, upper-left text block
+- D4  'ORANGE' FINGERPRINT                   -> (800,450)  orange swoosh band on cab door/body
+- D5  TOOLBOX 'GREEN/ORANGE'                 -> (460,240)  toolbox diagonal two-tone panel
+- D6  TOOLBOX 'ISO' DECAL                    -> (85,345)   toolbox, 4-icon certification cluster
+- D7  TOOLBOX 'GREEN' DECAL                  -> (60,350)   toolbox, Green Building Council leaf logo
+- D8  TOOLBOX 'TICK' VIC SERVICE DECAL       -> (125,332)  toolbox, blue/green tick icon
+- D9  FRONT 'QR/NET ZERO' DECAL (guard 1)    -> (865,360)  drive-side front guard QR decal
+- D10 FRONT 'QR/NET ZERO' DECAL (guard 2)    -> (172,727)  passenger-side front guard QR decal (see note above)
+
+Passenger side (bottom-left photo):
+- P1  DOOR AG COOMBS 'SERVICE' (800mm)       -> (410,785)  front door, logo+"Service" text
+- P2  'PH/WEB' (369mm)                       -> (555,765)  phone/website text, right of P1
+- P3  'AIR CON SERVICES' text (386mm)        -> (1010,675) toolbox panel text block
+- P4  'ORANGE' FINGERPRINT                   -> (450,825)  orange swoosh band on cab door/body
+- P5  TOOLBOX 'GREEN/ORANGE'                 -> (820,630)  toolbox diagonal two-tone panel
+- P6  TOOLBOX 'ISO' DECAL                    -> (1045,720) toolbox, 4-icon certification cluster
+- P7  TOOLBOX 'GREEN' DECAL                  -> (985,745)  toolbox, Green Building Council leaf logo
+- P8  TOOLBOX 'TICK' VIC SERVICE DECAL       -> (1000,715) toolbox, blue/green tick icon
+
+Front view (top-right photo):
+- B1  BONNET ORANGE & GREEN 'FINGERPRINT'    -> (1310,345) bonnet swirl graphic
+
+Rear view (bottom-right photo):
+- R1  REAR AGC 'VIC SERVICE' (813mm)         -> (1280,665) tailgate/toolbox back, logo+Service+phone text
+- R2  REAR TOOLBOX 'ISO' DECAL               -> (1236,737) 4-icon certification cluster
+- R3  REAR TOOLBOX 'GREEN' DECAL             -> (1398,738) Green Building Council leaf logo
+- R4  REAR TOOLBOX 'TICK' VIC SERVICE DECAL  -> (1163,738) blue/green tick icon
+
+All 23 items placed. None skipped.

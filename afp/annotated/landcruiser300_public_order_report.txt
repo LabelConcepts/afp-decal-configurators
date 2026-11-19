@@ -1,0 +1,94 @@
+landcruiser300_public_order — AFP Toyota LandCruiser 300 Public Order Management
+=================================================================================
+
+IMPORTANT METHODOLOGY NOTE (read first)
+----------------------------------------
+The pipeline's auto-picked reference image (source_images/landcruiser300_public_order.png)
+is page 1 of the source PDF ("138296 - AFP - LANDCRUISER 300 - PUBLIC ORDER - FITTING.pdf"),
+which is a TEXT-ONLY part checklist with zero embedded images — there is no photo of the
+vehicle on that page at all, so no tag position could ever be verified against it.
+
+I went back to the original PDF (path from manifest.txt / afp_vehicles.json
+source_pdf_path) and found the real vehicle reference photos on PAGE 2 (a 2x2 grid:
+top-left = drive side, bottom-left = pass side, top-right = front, bottom-right = rear),
+plus a page 5 crop labelled "DRIVE SIDE PLACEMENT / PASS SIDE PLACEMENT" that confirmed
+the drive/pass side assignment. I rendered page 2 at the same ~130dpi scale used by the
+pipeline and used THAT image (saved alongside the original as
+source_images/landcruiser300_public_order_vehicle.png, 1521x1075px) as the actual working
+source for measuring every tag position below. annotated/landcruiser300_public_order_tagged.png
+is built on top of that page-2 image, not the original (photo-less) reference_image.
+
+Note the top/bottom side photos are a mirrored digital mock-up of the same template
+(not two independently-photographed sides), so "drive" vs "pass" assignment here follows
+the document's own left-column/right-column convention (DRIVE listed first in the
+checklist = top photo) cross-checked against the page-5 crop, not a left/right real-world
+cue like a fuel-cap.
+
+COUNT-MISMATCH FINDING
+-----------------------
+afp_vehicles.json flags parts_total_stated=26 vs parts_extracted_count=20. This is NOT a
+text-extraction artifact — it's a real quirk of the source document, which has TWO
+separate checklists on two different pages, each with its own "Total Number of Parts"
+line: page 1 (standard decals) states 13, and page 3 (VC612 WHITE REFLECTIVE strip
+parts) also states 13. 13+13 = 26, which matches parts_total_stated exactly. The 17
+"items" I was given merge the unique line-entries from both pages (13 from page 1 + 4
+line-entries from page 3, where the page-3 lines describe 2x/1x physical quantities) —
+summing actual physical units from both pages' line-items gives 13 + 7 = 20, which
+matches parts_extracted_count exactly. So both numbers are internally consistent; the
+"mismatch" is just totals-per-page vs combined-line-item-count, not an error, and I did
+not alter the given item list.
+
+Also note: the 17-item list contains 4 CODE COLLISIONS where the same code string is
+reused across the two checklist pages for a different decal (DRIVE-1, PASS-1, REAR-1,
+REAR-2 each appear twice with different label text). To keep every placement
+unambiguous I tagged the second occurrence of each with a "-STRIP" suffix (these are
+all the page-3 reflective-strip border items). Mapping back to the original pairs:
+  DRIVE-1       = "DRIVE 'PUBLIC ORDER CHECKS' (680/8519)"              (page 1)
+  DRIVE-1-STRIP = "2x DRIVE 'CHECKS' TOP & BOTTOM STRIPS 23mm x 4650mm" (page 3)
+  PASS-1        = "PASS 'PUBLIC ORDER CHECKS' (680/8519)"               (page 1)
+  PASS-1-STRIP  = "2x PASS 'CHECKS' TOP & BOTTOM STRIPS 23mm x 4650mm"  (page 3)
+  REAR-1        = "REAR 'PUBLIC ORDER CHECKS' (680/8519)"               (page 1)
+  REAR-1-STRIP  = "2x REAR 'CHECKS' TOP & BOTTOM STRIPS 18mm x 1210mm"  (page 3)
+  REAR-2        = "REAR 'POLICE' (680/8519)"                            (page 1)
+  REAR-2-STRIP  = "REAR BOTTOM STRIP 40mm HIGH x 1620mm LENGTH"         (page 3)
+
+All 17 items were visually located and placed — none skipped.
+
+PLACEMENTS (coords are pixel x,y on source_images/landcruiser300_public_order_vehicle.png, 1521x1075)
+-------------------------------------------------------------------------------------------------------
+DRIVE-1       (535, 290)  — black/white checkerboard "PUBLIC ORDER CHECKS" band across the
+                            mid-body of the drive-side (top-left) photo. Confirmed present
+                            by cropping the original at this region before tagging.
+DRIVE-2       (170, 300)  — AFP crest/"Kings Crest" badge medallion at the rear quarter
+                            panel of the drive-side photo, just ahead of the tail-light.
+DRIVE-3       (565, 375)  — large white "Police" text below the checker band, drive side.
+DRIVE-4       (565, 412)  — "Public Order Management" sub-text directly beneath "Police",
+                            drive side.
+DRIVE-1-STRIP (535, 266)  — thin solid-white border strip running along the TOP edge of
+                            the drive-side checker band (the matching bottom-edge border
+                            is physically continuous with it, same decal pair, so one tag
+                            covers both per the "no need for every sub-piece" allowance).
+
+PASS-1        (475, 782)  — checkerboard "PUBLIC ORDER CHECKS" band, pass-side (bottom-
+                            left) photo.
+PASS-2        (937, 777)  — AFP crest badge, rear quarter panel, pass-side photo.
+PASS-3        (465, 847)  — "Police" text, pass side.
+PASS-4        (465, 885)  — "Public Order Management" text, pass side.
+PASS-1-STRIP  (475, 758)  — top white border strip of the pass-side checker band.
+
+BONNET-1      (1270, 235) — "Police" text decal across the bonnet/hood, front photo
+                            (top-right panel).
+
+REAR-1        (1282, 752) — checkerboard "PUBLIC ORDER CHECKS" band across the tailgate,
+                            rear photo (bottom-right panel).
+REAR-2        (1115, 805) — "Police" text, lower left of tailgate, rear photo.
+REAR-3        (1280, 838) — "Public Order Management" text, bottom-center of tailgate.
+REAR-4        (1405, 805) — "AFP 131444" phone-number text, lower right of tailgate.
+REAR-1-STRIP  (1282, 778) — thin white border strip directly beneath the rear checker
+                            band (the small 18mm top/bottom pair).
+REAR-2-STRIP  (1280, 820) — separate, longer solid-white reflective bar beneath the
+                            "Police / 131 444" text row and above "Public Order
+                            Management" (the larger 40mm x 1620mm strip) — visibly
+                            distinct from REAR-1-STRIP's thin border in a tight crop.
+
+All 17/17 items placed and visually confirmed. No items skipped.

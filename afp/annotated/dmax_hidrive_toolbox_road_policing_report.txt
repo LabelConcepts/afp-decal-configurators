@@ -1,0 +1,66 @@
+Vehicle: dmax_hidrive_toolbox_road_policing — Isuzu D-Max Hi-Drive (Toolbox) Road Policing
+Source image used: source_images/dmax_hidrive_toolbox_road_policing.png (1521x1075), rendered
+from page 2 ("DMAX DUAL - HIDRIVE BODY" vehicle-visual diagram page, 2x2 grid: driver side TL,
+front TR, passenger side BL, rear BR) of
+140779 - AFP - DMAX HIDRIVE - RP - FITTING.pdf
+(page 1, the part checklist, has no vehicle image and was not used for tagging).
+
+All 13 items placed — none skipped.
+
+Note on layout: this vehicle has a dual-cab utility body with a separate aluminium toolbox/canopy
+fitted behind the cab. The chequer belt visually runs continuously from canopy to cab but is two
+physically separate decal panels — hence separate "cab" items (DRIVE-1/PASS-1, no HIDRIVE prefix)
+and "canopy" items (HIDRIVE-prefixed DRIVE-2/3/4, PASS-2/3/4, REAR-1/2/3/4).
+
+DRIVE-1  "DRIVE 'POLICE' CHEQUERS"                     -> tag D1 at (580,405)
+  On the "Police" wordmark printed over the chequer pattern on the driver-side
+  cab door (this decal is the cab chequer + Police text as one combined print).
+
+BONNET-1 "BONNET 'POLICE' LOGO (850mmW)"               -> tag B1 at (1270,295)
+  On the "Police" wordmark on the bonnet, front view, above the ISUZU badge and
+  between the yellow reflective chevrons.
+
+DRIVE-2  "DRIVE HIDRIVE 'CHEQUERS'"                     -> tag D2 at (250,345)
+  Centered on the navy/white checkerboard pattern on the driver-side toolbox
+  canopy, below the yellow diagonal stripe.
+
+DRIVE-3  "DRIVE HIDRIVE '131 444' (540mmWIDE)"          -> tag D3 at (320,225)
+  On the "131 444" phone-number text on the upper driver-side canopy panel.
+
+DRIVE-4  "DRIVE HIDRIVE 'KINGS CREST' (550mmHIGH)"       -> tag D4 at (95,285)
+  On the AFP crest badge on the front-left of the driver-side canopy panel.
+
+PASS-1   "PASS 'POLICE' CHEQUERS"                       -> tag P1 at (500,840)
+  On the "Police" wordmark over the chequer pattern on the passenger-side cab
+  door (mirrors DRIVE-1, independently measured on the passenger photo).
+
+REAR-1   "REAR HIDRIVE '131 444' (540mmWIDE)"           -> tag R1 at (1200,700)
+  On the "131 444" phone-number text on the rear canopy door, left of centre,
+  below "ROAD POLICING".
+
+PASS-2   "PASS HIDRIVE 'CHEQUERS'"                       -> tag P2 at (830,775)
+  Centered on the checkerboard pattern on the passenger-side canopy, between
+  the crest badge and the door-lock mechanism, below the yellow stripe.
+
+REAR-2   "REAR HIDRIVE 'AFP' (200mmWIDE)"                -> tag R2 at (1420,700)
+  On the "AFP" lettering at the top-right of the rear canopy door, mirroring
+  the phone-number text on the left.
+
+PASS-3   "PASS HIDRIVE '131 444' (540mmWIDE)"            -> tag P3 at (765,660)
+  On the "131 444" phone-number text on the upper passenger-side canopy panel.
+
+REAR-3   "REAR HIDRIVE 'ROAD POLICING' (670mmWIDE)"      -> tag R3 at (1295,650)
+  On the "ROAD POLICING" text at the top of the rear canopy door, above the
+  phone number and AFP text.
+
+PASS-4   "PASS HIDRIVE 'KINGS CREST' (550mmHIGH)"        -> tag P4 at (975,755)
+  On the AFP crest badge on the passenger-side canopy panel, above the
+  door-lock mechanism.
+
+REAR-4   "REAR HIDRIVE 'CHEQUERS'"                       -> tag R4 at (1295,755)
+  Centered on the checkerboard band across the rear canopy door, below the
+  "Road Policing"/phone/AFP text row.
+
+Verification method: each coordinate was checked by cropping the original
+untagged render at the intended pixel location (with a reference grid overlay)
+to confirm the actual decal/text was present before the tag was drawn.

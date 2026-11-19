@@ -1,0 +1,30 @@
+VEHICLE: dmax_spacecab_tray_nsw_service
+"Isuzu D-Max Space Cab w/ Tray - NSW Service branding" (AG Coombs)
+Source photo: source_images/dmax_spacecab_tray_nsw_service.png (1521x1075), 2x2 grid:
+  top-left = driver side, top-right = front/bonnet, bottom-left = passenger side, bottom-right = rear tailgate.
+All 19 items placed; every coordinate individually measured from the untagged source via zoomed crops.
+
+D1  Drive AGC 'Service' logo        (660,295)  logo mark + "A.G.Coombs / Service" lockup
+D2  Drive 'Ph/Web' VIC               (545,275)  "1800 994 093 / agcoombs.com.au" text
+D3  Drive tray 'Air Con' text        (150,268)  "Air Conditioning & Building Services Specialist"
+D4  Drive tray green/orange decal    (375,290)  diagonal colour block on tray side
+D5  Drive orange fingerprint         (435,280)  thin orange accent at cab/tray seam
+D6  Drive tray ISO decal             (189,320)  orange ring badge, tray badge row
+D7  Drive tray GREEN decal           (277,268)  teal "green building council" logo+text
+D8  Drive front NSW tick decal       (171,275)  blue/green tick-shaped icon, tray badge row
+P1  Pass AGC 'Service' logo          (340,675)  mirrors D1
+P2  Pass 'Ph/Web' VIC                (510,675)  mirrors D2
+P3  Pass tray 'Air Con' text         (860,665)  mirrors D3
+P4  Pass tray green/orange decal     (655,685)  mirrors D4
+P5  Pass orange fingerprint          (610,650)  mirrors D5
+P6  Pass tray ISO decal              (853,715)  mirrors D6
+P7  Pass tray GREEN decal            (790,665)  mirrors D7
+P8  Pass front NSW tick decal        (916,665)  mirrors D8
+R1  Rear tray 'AG Coombs..'          (1145,705) "A.G.Coombs" text on tailgate
+R2  Rear tub 'Phone' NSW             (1410,705) "1800 994 093" text on tailgate
+B1  Bonnet fingerprint               (1297,257) orange/green swoosh on bonnet
+
+Note: D6/D7/D8 and their P-side mirrors sit on a very tight badge cluster (~15-20px apart in the
+source photo) — tags are individually verified against their own icon but necessarily crowd each
+other visually; this is a label-density artifact of the real decal layout, not a positioning error
+(consistent with the same issue flagged by other agents on sibling AG Coombs vehicles).

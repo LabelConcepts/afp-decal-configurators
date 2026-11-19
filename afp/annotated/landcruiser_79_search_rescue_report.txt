@@ -1,0 +1,46 @@
+landcruiser_79_search_rescue — Toyota LandCruiser 79 Series, Search & Rescue Group - General Duties
+Source used: source_images/landcruiser_79_search_rescue.png
+NOTE: the file originally saved at this path was the text PART CHECKLIST page (page 1 of the
+2-page fitting PDF). It contained no vehicle photo at all, so it has been REPLACED with page 2
+("VISUAL") of the same source PDF
+(79 SERIES LANDCRUISER - SEARCH AND RESCUE/AFP - TOYOTA LANDCRUISER - SRG GEN DUTIES - FITTING.pdf),
+a 2x2 grid of real installed-vehicle photos: top-left = one flank, top-right = front, bottom-left
+= other flank, bottom-right = rear. This is a genuine photo, not a labelled diagram, so every
+coordinate below was independently measured from scratch; no pre-existing leader lines existed to
+cross-check against.
+
+Side identification method: the front-view photo (top-right panel) shows a snorkel intake pipe
+mounted on the image-left side of the windscreen. For a vehicle facing the camera, image-left
+corresponds to the vehicle's own right-hand side; in Australia (RHD) the right-hand side is the
+DRIVER's side. The top-left photo's near/visible flank also clearly shows this same snorkel
+mounted on the A-pillar, so that photo = DRIVER side. The bottom-left photo (different, outdoor
+background, no snorkel on the visible flank) is therefore the PASSENGER side by elimination. This
+reasoning is noted explicitly because the two flank photos are otherwise visually symmetric and it
+would be easy to mix them up.
+
+Placed (16):
+DRIVE-1  Drive FRONT CHEQUERS (3M 680 WHITE)           -> (695,405)  cab-door chequered band, driver flank (top-left photo)
+DRIVE-2  Drive CANOPY CHEQUERS (3M 680 WHITE)          -> (300,375)  chequered band on canopy/tool-box, driver flank
+DRIVE-3  Drive FRONT POLICE STRIP (3M 680 WHITE)       -> (695,470)  white strip bearing "Police" lettering below the door chequers, driver flank
+DRIVE-4  4x Drive 23mm VC612 STRIPS x 2100mm (LIME)    -> (695,381)  yellow/lime pinstripe bordering the door chequers (one of the 4 strip segments — 2 flank the canopy chequers, 2 flank the cab-door chequers)
+DRIVE-5  Drive CANDELA SCREEN PRINT                    -> (300,265)  "Search and Rescue" white text on navy canopy panel, driver flank
+DRIVE-6  Drive CANDELA PRINT (1105 WHITE BACK)         -> (300,322)  "131 444" phone-number print below the Search & Rescue text, driver flank
+PASS-1   Pass FRONT CHEQUERS (3M 680 WHITE)            -> (480,892)  cab-door chequered band, passenger flank (bottom-left photo)
+PASS-2   Pass CANOPY CHEQUERS (3M 680 WHITE)           -> (965,860)  chequered band on canopy/tool-box, passenger flank
+PASS-3   Pass FRONT POLICE STRIP (3M 680 WHITE)        -> (480,955)  white strip bearing "Police" lettering below the door chequers, passenger flank
+PASS-4   4x Pass 23mm VC612 STRIPS x 2100mm (LIME)     -> (965,835)  yellow/lime pinstripe bordering the canopy chequers, passenger flank
+PASS-5   Pass CANDELA SCREEN PRINT                     -> (965,748)  "Search and Rescue" text, passenger flank
+PASS-6   Pass CANDELA PRINT (1105 WHITE BACK)          -> (955,811)  "131 444" phone-number print, passenger flank
+BONNET-1 Bonnet POLICE PRINT (3M 680 WHITE)            -> (1405,340) "Police" text on the bonnet/hood vent panel, front photo
+BONNET-2 4x Bonnet VC612 PIECES (LIME)                 -> (1287,357) lime accent piece at base of bonnet edge/bull-bar (one of 4 — left/right at bonnet-edge level and left/right lower at bull-bar level, all clearly visible and matching in the front photo)
+REAR-1   2x Rear 23mm VC612 STRIPS (LIME)              -> (1260,895) thin yellow strip along the top edge of the rear step bumper, rear photo
+REAR-2   2x Rear 40mm VC612 STRIPS (LIME)              -> (1270,860) thicker yellow strip bordering the dual spare-wheel carrier frame, rear photo
+
+Skipped (1):
+BONNET-3 Bonnet SAR 1 TEXT (50 SERIES BLACK) — UNVERIFIABLE. "SAR 1" is a vehicle call-sign
+text, most likely applied to the roof or another panel not captured by any of the 4 angles
+available in this source image (driver flank, passenger flank, front, rear). Checked the hood,
+windscreen, and both visible side panels at full zoom — no "SAR 1" text present in any of them.
+Not guessed.
+
+Total placed + skipped = 17 (matches the 17-item extracted list; count_mismatch flag was false).

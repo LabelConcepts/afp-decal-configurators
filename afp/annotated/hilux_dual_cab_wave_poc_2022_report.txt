@@ -1,0 +1,39 @@
+VEHICLE: hilux_dual_cab_wave_poc_2022 — AFP Toyota '22 Hilux Dual Cab - WAVE design PoC
+Source: source_images/hilux_dual_cab_wave_poc_2022.png — re-rendered from PDF page 2
+"VISUAL - TOYOTA '22 HILUX DUAL CAB -POC-" (the file originally cached at this path was
+the text-only PART CHECKLIST page). Rendered at 2526x1787 from
+"117421 - AFP - PoC AFP WAVE HILUX DUAL CAB/117421 - AFP - TOYOTA HILUX DUAL CAB 2022 -
+WAVE - PoC - FITTING.pdf", page index 1. 2x2 grid: top-left = pass side, top-right =
+front, bottom-left = drive side, bottom-right = rear.
+
+ITEM LIST NOTE: afp_vehicles.json lists 20 "items" for this vehicle, but 8 of them
+("FRANW D1"-"FRANW D4", "FRANW P1"-"FRANW P4") and "ITEM-1" (= "FRANW P4 COLOURS CMYK
+APPROVAL Job Ref#: Description:") have no real description distinct from their own code
+name — they are duplicate/garbled rows from a messy multi-column PDF text extraction of
+the SAME 8 core decals (WAVE, TEXT, CREST, PHONE x2 sides), not separate physical decals.
+Visually confirmed: this VISUAL page shows no artwork beyond the 12 real items below (no
+separate First Nations medallions or anything else "FRANW" could refer to). Tagging all
+8 "FRANW" placeholders as if real would mean guessing positions for decals that don't
+exist — not done, per project rules against guessing. Only the 12 genuine, independently
+confirmed items are tagged.
+
+PLACED (12/12 real items, all independently measured via zoomed crops):
+PASS-1  (750,680)   — WAVE chequerboard graphic, pass-side door/body panel.
+PASS-2  (1100,560)  — "AUSTRALIAN FEDERAL POLICE" text, pass side.
+PASS-3  (1080,700)  — AFP crest + "AFP" text, pass side, above chequers.
+PASS-4  (150,525)   — "131 AFP" phone text, pass-side tray/tailgate corner.
+DRIVE-1 (1000,1410) — WAVE chequerboard graphic, drive-side door/body panel.
+DRIVE-2 (870,1350)  — "AUSTRALIAN FEDERAL POLICE" text, drive side.
+DRIVE-3 (650,1450)  — AFP crest + "AFP" text, drive side, above chequers.
+DRIVE-4 (1740,1295) — "131 AFP" phone text, drive-side tray/tailgate corner.
+REAR-1  (2130,1370) — "AUSTRALIAN FEDERAL POLICE" text, tailgate lower navy band.
+REAR-2  (2310,1290) — AFP crest, tailgate upper grey band, right of centre.
+REAR-3  (2045,1295) — "131 AFP" phone text, tailgate upper grey band, left of centre.
+REAR-4  (1900,1250) — tailgate background panel (plain grey area, left edge).
+
+SKIPPED (not real decals — see note above): FRANW D1-D4, FRANW P1-P4, ITEM-1.
+
+All 12 placements independently verified by cropping/zooming the untagged source at each
+exact coordinate before drawing (see /tmp crops used during measurement). None copied
+from the previous (broken) version of this file — that version had used the wrong source
+image (checklist text page, 1521x1075) and was discarded.

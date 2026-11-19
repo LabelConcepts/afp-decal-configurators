@@ -1,0 +1,52 @@
+commodore_ssv_road_policing — AFP Holden SSV Commodore Sedan, Road Policing
+19 items total. count_mismatch=False.
+
+IMPORTANT NOTE ON SOURCE IMAGE:
+source_images/commodore_ssv_road_policing.png (as provided) is only the PART
+CHECKLIST text page (page 1 of the source PDF) — it contains no vehicle
+imagery at all, so it cannot be annotated. The original fitting PDF
+("AFP - HOLDEN SSV COMMODORE - ROAD POLICING - FITTING.pdf", in
+/Volumes/LabelConcepts/Workspace/AFP/WORKING FILES/HOLDEN SSV COMMODORE SEDAN/)
+has 7 pages; page 2 is a "VISUAL" page containing a 2x2 render grid
+(pass side / front / drive side / rear) which clearly shows every decal.
+That VISUAL page was rendered to PNG and used as the actual annotation
+canvas instead, saved as annotated/commodore_ssv_road_policing_tagged.png
+(2526x1786). Placements were cross-checked against the real install
+photographs on pages 4-6 of the same PDF (two real vehicles — one silver,
+one orange — both wearing this exact decal set), which confirmed the crest
+position (crest is centered directly over the fuel-filler flap per an
+explicit "INSTALL PHOTO - PETROL CAP" page), the phone-number decal, the
+chequer band, and the yellow strips.
+
+All coordinates below are pixel positions on annotated/commodore_ssv_road_policing_tagged.png.
+
+PASS SIDE (top-left quadrant of the VISUAL grid; car shown nose-right, rear-left)
+PASS-1  Pass SIDE POLICE CHEQUERS (3M 680)                    PLACED (730,665)  — navy/white chequer band on the front door, upper row, clear of the "Police" wordmark.
+PASS-2  Pass SIDE CREST (505mm High) (3M 680)                 PLACED (365,640)  — AFP crest badge on rear quarter panel, centered over the fuel-filler flap (confirmed against the dedicated "petrol cap" install-photo page).
+PASS-3  Pass SIDE AFP PHONE 131 444 (325mm Wide) (3M 680)     PLACED (195,760)  — "131 444" numerals on the yellow rear-quarter panel, below the crest.
+PASS-4  Pass SIDE BOTTOM YELLOW STRIP (3M 680)                PLACED (950,848)  — solid (non-reflective) yellow strip running along the lower rocker, mid-door.
+PASS-5  Pass SIDE TOP YELLOW REFLECT STRIP 3800mm (6900/5930 Class 1) PLACED (850,615) — thin bright chartreuse reflective line along the upper beltline, matches the page's own "50mm High Class 1 Strip over 3M680 Yellow" callout line.
+PASS-6  Pass SIDE BOTTOM YELLOW REFLECT STRIP 2300mm (6900/5930 Class 1) PLACED (550,850), LOWER CONFIDENCE — this reflective strip sits in the same lower-rocker band as PASS-4 and is not visually distinguishable from it in this vector render (no photo shows two separate bottom strips). Placed toward the rear portion of the strip on the assumption the shorter 2300mm reflective strip is the rear section; verify against the physical vehicle or artwork file before fabrication if exact start/end matters.
+
+DRIVE SIDE (bottom-left quadrant; car shown nose-left, rear-right — mirror of pass side)
+DRIVE-1  Drive SIDE POLICE CHEQUERS (3M 680)                  PLACED (730,1245)
+DRIVE-2  Drive SIDE CREST (505mm High) (3M 680)               PLACED (1400,1280) — over fuel-filler-flap position, mirrored.
+DRIVE-3  Drive SIDE AFP PHONE 131 444 (325mm Wide) (3M 680)   PLACED (1420,1365)
+DRIVE-4  Drive SIDE BOTTOM YELLOW STRIP (3M 680)              PLACED (850,1450)
+DRIVE-5  Drive SIDE TOP YELLOW REFLECT STRIP 3800mm (6900/5930 Class 1) PLACED (870,1195)
+DRIVE-6  Drive SIDE BOTTOM YELLOW REFLECT STRIP 2300mm (6900/5930 Class 1) PLACED (1150,1455), LOWER CONFIDENCE — same caveat as PASS-6; placed toward rear portion (near crest side).
+
+REAR (bottom-right quadrant)
+REAR-1  Rear POLICE CHEQUERS (3M 680)                         PLACED (2090,1255) — chequer band between the tail-lights.
+REAR-2  Rear AFP PHONE 131 444 (330mm WIDE) (3M 680)          PLACED (1905,1350) — "131 444" lower-left of bumper cover.
+REAR-3  Rear AFP WORDING (140mm WIDE) (3M 680)                PLACED (2290,1347) — "AFP" lower-right of bumper cover.
+REAR-4  Rear POLICE (430mm WIDE) (3M 680)                     PLACED (2075,1298) — white "Police" rectangle, center of chequer band.
+REAR-5  Rear ROAD POLICING TEXT (36mm HIGH) (3M 680)          PLACED (1930,1197) — "ROAD POLICING" text on the yellow band above the chequers.
+REAR-6  Rear YELLOW BUMPER (3M 680)                           PLACED (1850,1400) — base yellow bumper-cover fill, left side clear of text.
+REAR-7  Rear YELLOW BUMPER TOP STRIP (3M 680) 320mm High      PLACED (1850,1172) — thin yellow strip at the very top edge of the bumper cover, left of the ROAD POLICING text.
+
+Summary: 19/19 placed. Two items (PASS-6, DRIVE-6) are flagged lower-confidence
+because the reference material (a clean vector render, not a photo) does not
+visually distinguish the short reflective bottom strip from the full-length
+solid bottom strip occupying the same band — recommend a final visual check
+against the physical vehicle before relying on these two exact positions.

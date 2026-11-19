@@ -1,0 +1,50 @@
+FN_TRAILER - "First Nations - Landcruiser Obieco Trailer" (125923)
+Source: source_images/fn_trailer_p1.png (checklist, no photo), fn_trailer_p2.png (DRIVERS SIDE
+photo/render, 1521x1075px), fn_trailer_p3.png (PASSENGER SIDE photo/render, 1521x1075px)
+Annotated output: annotated/fn_trailer_p2_tagged.png, annotated/fn_trailer_p3_tagged.png
+
+NOTE: p2 and p3 are explicitly titled in the source PDF ("DRIVERS SIDE 'FIRST NATIONS' DECALS,
+ARTIST CREDIT DRIVE SIDE ONLY" and "PASSENGER SIDE 'FIRST NATIONS' DECALS" respectively), so
+drive/pass assignment is unambiguous (unlike pantec_trailer, which had no such labels). The two
+images are genuinely different artwork layouts (not a mirrored duplicate): on p2 the dot-art
+roundel sits toward the rear of the box with the T decal on the left; on p3 the roundel sits
+toward the front/toolbox end with the T decal on the right. This trailer is a separate physical
+object from pantec_trailer and from landcruiser_obieco; no coordinates were shared or copied
+between them -- every position below was measured independently on these two images by cropping
+the untagged source PNG at the candidate pixel and visually confirming the decal was present
+before drawing the tag.
+
+Page 1: Text-only checklist page (DRIVE/PASS T decal, toolbox First Nations decal, Connection
+clear decal, 5 total parts). No vehicle photo present. Not tagged.
+
+PLACED (fn_trailer_p2.png, DRIVERS SIDE):
+  D1 - Drive rear side Telstra T decal "Landcruiser - Side" (855mm high)
+       Page 2, pixel (406, 368) - on the blue "T", upper stroke, left-hand panel of the box.
+       Verified: crop (300,250)-(550,480) shows the tag point sits directly on the T decal.
+
+  D2 - Drive toolbox large 'First Nations' decal
+       Page 2, pixel (772, 446) - centered on the concentric-circle/dot-art roundel (the large
+       First Nations artwork) to the right of the T.
+       Verified: crop (650,350)-(950,550) shows the point lands inside the roundel's rings.
+
+  D3 - Drive 'Connection....' clear decal (artist credit, drive side only)
+       Page 2, pixel (875, 621) - on the small italic credit text "Connection, (c) Bobbi
+       Lockyer/Copyright Agency" near the bottom-right of the box panel. The source PDF itself
+       already draws a magenta leader line from a callout box to this exact text, confirming
+       the location independently of our own measurement.
+       Verified: zoomed crop (750,580)-(1050,660) shows the text spans x=823-957, y=615-627;
+       tag point (875,621) falls inside that span.
+
+PLACED (fn_trailer_p3.png, PASSENGER SIDE):
+  P1 - Pass rear side Telstra T decal (855mm high)
+       Page 3, pixel (1242, 388) - on the blue "T", vertical stroke, right-hand panel of the box.
+       Verified: crop (1100,250)-(1450,500) shows the point lands on the T decal.
+
+  P2 - Pass toolbox large 'First Nations' decal
+       Page 3, pixel (736, 486) - centered on the concentric-circle/dot-art roundel.
+       Verified: crop (600,350)-(900,600) shows the point lands in the center of the roundel.
+
+SKIPPED: none of the 5 checklist items were skipped -- D1, D2, D3 are visible and tagged on
+page 2 (drive side), and P1, P2 are visible and tagged on page 3 (passenger side). The checklist
+only specifies one "Connection...." artist-credit decal and it is explicitly drive-side only, so
+there is no P3 counterpart to tag (consistent with page 1's "Total Number of Parts: 5").

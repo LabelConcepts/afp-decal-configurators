@@ -1,0 +1,61 @@
+Vehicle: norfolk_hilux_with_pod (Toyota Hilux - Norfolk Island - With Pod)
+Source image used: source_images/norfolk_hilux_with_pod.png
+NOTE: The file originally at this path (auto-selected by the extraction script as the
+page with the most text/graphics) was a "PRINT FILES" page showing only flat checker-
+pattern print artwork with no vehicle photo. The PDF's page 2 ("VISUAL" reference page,
+4-photo grid: driver-side three-quarter, front face, passenger-side three-quarter, rear
+face) contains the real installed-vehicle photos and was substituted in as
+source_images/norfolk_hilux_with_pod.png before annotating. Page 3 ("PANELS", close-up
+crops of the same photos) was used only as a cross-reference zoom, not as the final
+source.
+
+Side identification (DRIVE vs PASS): this PDF's VISUAL page does not label its two side
+photos directly. Top-row photo = DRIVE, bottom-row photo = PASS was inferred from the
+same Label Concepts document template's convention confirmed explicitly on the AFP Mazda
+CX-80 job (that PDF's "REFLECTIVE" page overlays the identical top/bottom two-photo
+layout with explicit "MAZ CX80 D1" on the top, nose-right photo and "MAZ CX80 P1" on the
+bottom, nose-left photo). Flagging this inference here for transparency since it could
+not be independently confirmed within this specific PDF.
+
+Items (7 total, all visually confirmed):
+
+1. PASS-1 — "PASS CAB CHECKERS (3554 x 158 mm) (3M 680)"
+   PLACED: (555, 827) — checker-pattern band on the passenger-side cab door section,
+   clearly past the pod/cab seam (seam located at x≈697 on this photo) and before the
+   Norfolk crest badge. Confirmed by cropping the untagged source at this point first.
+
+2. PASS-2 — "PASS POD CHECKERS (2065 x 158 mm) (3M 680/HI TACK)"
+   PLACED: (750, 827) — checker-pattern band on the passenger-side pod section, past the
+   seam, in clean checker pattern before the pod latch icons.
+
+3. DRIVE-1 — "DRIVE CAB CHECKERS (3554 x 158 mm) (3M 680)"
+   PLACED: (550, 372) — checker band on the driver-side cab door section, past the
+   pod/cab seam (seam at x≈401 on this photo) and before the Norfolk crest badge.
+
+4. DRIVE-2 — "DRIVE POD CHECKERS (2065 x 158 mm) (3M 680/HI TACK)"
+   PLACED: (320, 372) — checker band on the driver-side pod section, between the two
+   pod latch/lock icons, clear checker pattern confirmed by crop.
+
+5. SIDE-1 — "2x SIDE NORFOLK CRESTS 345mm HIGH"
+   PLACED (both of 2 confirmed):
+   - (772, 372) — Norfolk Island Police crest badge inset into the checker band on the
+     driver-side front door, just behind the mirror.
+   - (380, 825) — matching crest badge inset into the checker band on the passenger-side
+     front door.
+
+6. SIDE-2 — "2x SIDE POLICE DECALS 938mm x 162mm HIGH"
+   PLACED (both of 2 confirmed):
+   - (640, 427) — white "Police" text decal below the checker band, driver-side door.
+   - (500, 890) — matching white "Police" text decal below the checker band,
+     passenger-side door.
+
+7. REAR-1 — "REAR POLICE DECALS 938mm x 162mm HIGH PLEASE REFER TO EXISTING BRANDED
+   VEHICLES FOR EXACT POSITIONING OF DECALS"
+   PLACED: (1275, 755) — white "Police" text decal centered on the single flat rear
+   panel of the pod, above the number plate, between the two rear reflectors.
+
+Summary: all 7 codes placed with pixel coordinates (9 tag instances total, since SIDE-1
+and SIDE-2 each appear twice — once per side — matching their stated 2x quantities). No
+items skipped; every decal location was independently measured and crop-verified on the
+untagged source before drawing, with driver-side and passenger-side positions measured
+separately rather than mirrored/copied from one another.

@@ -1,0 +1,42 @@
+VEHICLE: mazda_bt50_dual_cab_wave — AFP Mazda BT-50 Dual Cab, WAVE design, 131 AFP
+
+Source PDF: "132333 - AFP - BT-50 DUAL CAB - WAVE - FITTING.pdf" (6 pages).
+  Page 1 ("BT-50 DUAL CAB") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/mazda_bt50_dual_cab_wave.png (1521x1076),
+    annotated/mazda_bt50_dual_cab_wave_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow labels for every "FRANW" reflective strip code ->
+    rendered and saved as source_images/mazda_bt50_dual_cab_wave_p3.png,
+    annotated/mazda_bt50_dual_cab_wave_p3_tagged.png.
+
+28 items total (14 main decals + 14 reflective strips), all placed, none skipped.
+
+Main page (14):
+PASS-4 (115,325) "131 AFP" phone text, pass-side tray
+PASS-1 (430,390) WAVE chequerboard, pass side
+PASS-2 (530,330) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (680,425) Kings Crest + "AFP" text, pass side
+DRIVE-1 (430,795) WAVE chequerboard, drive side
+DRIVE-2 (525,740) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (385,815) Kings Crest + "AFP" text, drive side
+DRIVE-4 (950,710) "131 AFP" phone text, drive-side tray
+BONNET-1 (1275,255) Kings Crest, bonnet
+REAR-3 (1210,715) "131 AFP" phone text, tailgate
+REAR-2 (1325,715) Kings Crest, tailgate (right of phone text)
+REAR-1 (1265,770) "AUSTRALIAN FEDERAL POLICE" text, tailgate (navy band)
+REAR-4 (1265,830) silver bumper panel, lower tailgate
+ITEM-1 (50,410) navy "BLUE SIDES" background panel, pass-side tray (left edge, before
+  the chequer pattern begins) — representative of the 2x (pass+drive) solid navy side
+  panels described in the checklist as "2x BLUE SIDES @ 800mm Wide x 700mm High"
+
+Reflective page (14) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow label points to (cross-checked, not
+estimated):
+FRANW D1 (260,290) FRANW D2 (510,290) FRANW D3 (655,290) FRANW D4 (820,290) FRANW D5 (920,390)
+FRANW F1 (1285,310) FRANW F2 (1175,310) FRANW F3 (1390,310)
+FRANW P4 (295,695) FRANW P3 (445,670) FRANW P2 (620,670) FRANW P1 (855,670) FRANW P5 (205,785)
+FRANW R1 (1310,640)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 14 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

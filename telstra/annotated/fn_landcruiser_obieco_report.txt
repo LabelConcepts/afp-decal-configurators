@@ -1,0 +1,140 @@
+VEHICLE: fn_landcruiser_obieco
+"First Nations - Toyota Landcruiser Obieco S/Body" (same physical Landcruiser
+Obieco S/Body as landcruiser_obieco, base Telstra livery + First Nations artwork
+added on driver/passenger doors & toolboxes)
+Source checklist: source_images/fn_landcruiser_obieco_p1.png (14 total parts)
+Photo pages used:
+  - source_images/fn_landcruiser_obieco_p2.png - full 4-quadrant vehicle photos
+    (driver profile / front / passenger profile / rear) WITH First Nations artwork
+    visible, plus mm dimension callouts. IMPORTANT CORRECTION to initial brief:
+    this page is NOT just a dimension diagram - it shows the same decals as the
+    non-FN vehicle's p2, so D1/P1/T1-T5 were independently measured directly on
+    THIS vehicle's own photo, not merely cross-referenced from landcruiser_obieco.
+  - source_images/fn_landcruiser_obieco_p3.png - driver-side First Nations
+    artwork close-up (toolbox medallion, door medallion, artist-credit clear decal)
+  - source_images/fn_landcruiser_obieco_p4.png - passenger-side First Nations
+    artwork close-up (toolbox medallion, door medallion)
+Annotated outputs:
+  annotated/fn_landcruiser_obieco_p2_tagged.png
+  annotated/fn_landcruiser_obieco_p3_tagged.png
+  annotated/fn_landcruiser_obieco_p4_tagged.png
+
+Every coordinate below was measured independently by visually inspecting and/or
+color-analyzing THIS vehicle's own images. Where p2's rear/profile photos are
+visually very similar to landcruiser_obieco's p2 (same base vehicle/scene), the
+pixel positions were still re-measured from scratch on fn_landcruiser_obieco_p2.png
+itself (they differ by 10-30px from the other vehicle's file due to slightly
+different image export/crop) - confirmed independently, not copied.
+
+PLACED - p2 (driver/passenger/rear, independently confirmed on this vehicle's own photo):
+  D1 - Drive rear side Telstra T decal (855mm T)
+       Page: p2, top-left photo (driver-side profile, FN artwork visible)
+       Pixel coords: (256, 315)
+       Independently confirmed (not just cross-referenced) - this vehicle's own
+       photo clearly shows the same blue T decal.
+
+  P1 - Pass rear side Telstra T decal (855mm T)
+       Page: p2, bottom-left photo (passenger-side profile, FN artwork + black
+       redaction square visible)
+       Pixel coords: (942, 727)
+       Independently confirmed on this vehicle's own photo.
+
+  T1 - Rear small Telstra T decal (logo)
+       Page: p2, bottom-right photo (rear view between spare tires)
+       Pixel coords: (1255, 760)
+       Independently confirmed via color-mask analysis on this vehicle's own photo.
+
+  T2 - Rear "telstra.com.au" decal (reads "telstra.com" in photo)
+       Page: p2, bottom-right photo
+       Pixel coords: (1258, 823)
+       Independently confirmed.
+
+  T3 - Rear "Safe driving.../GPS monitoring.../1800 800 437" clear decal
+       Page: p2, bottom-right photo
+       Pixel coords: (1258, 797)
+       Independently confirmed.
+
+  T4 - Rear "Before you dig www.byda.com.au" decal
+       Page: p2, bottom-right photo, bumper strip
+       Pixel coords: (1199, 860)
+       Independently confirmed via 4x zoom crop.
+
+  T5 - Rear "Green Fleet 2.2 Million..." decal
+       Page: p2, bottom-right photo, bumper strip
+       Pixel coords: (1291, 858)
+       Independently confirmed via 4x zoom crop.
+
+PLACED - p3 (driver-side First Nations close-up):
+  D3 - Drive toolbox large 'First Nations' decal (larger medallion/ribbon design,
+       left side of crop, on the toolbox)
+       Pixel coords: (272, 460)
+       Verified via color-mask centroid + visual zoom crop confirming exact
+       disc center.
+
+  D2 - Drive door 'First Nations' decal (medallion/ribbon design on the cab door,
+       right side of crop)
+       Pixel coords: (1090, 670)
+       Verified via color-mask centroid + visual zoom crop.
+
+  D4 - Drive 'Connection...' clear decal (artist credit, driver side only)
+       Pixel coords: (1000, 864)
+       The source PDF itself pre-marks this location with a magenta box + leader
+       line reading "Connection, (c) Bobbi Lockyer/Copyright Agency" / "ARTIST
+       CREDIT DRIVE SIDE ONLY". Our own tag was placed independently by zooming
+       into the photo and locating the actual small italic credit text printed
+       on the door panel (visible at ~4x zoom), landing at the same location the
+       source's own leader line points to - cross-checked, not blindly copied
+       from the source's magenta annotation.
+
+PLACED - p4 (passenger-side First Nations close-up):
+  P3 - Pass toolbox large 'First Nations' decal (larger medallion, right side of crop)
+       Pixel coords: (1222, 555)
+       Verified via color-mask centroid + visual zoom crop.
+
+  P2 - Pass door 'First Nations' decal (medallion on cab door, left side of crop)
+       Pixel coords: (232, 855)
+       Verified via color-mask centroid + visual zoom crop.
+
+NOT APPLICABLE / SKIPPED:
+  W1 - Internal windscreen "Parking Brake" decal
+       Reason: no interior/windscreen photo supplied for this vehicle (p2-p4 are
+       all exterior body-panel shots). Not shown on landcruiser_obieco's pages
+       either. Skipped.
+
+  W2 - Internal windscreen "GPS" decal
+       Reason: same as W1 - no interior/windscreen photo supplied. Skipped.
+
+Total: 10 placed, 2 skipped (both for lack of a source photo).
+All 10 placed tags were measured directly from fn_landcruiser_obieco's own
+source images (p2/p3/p4) - none were copied from landcruiser_obieco or from the
+opposite driver/passenger side.
+
+---
+RE-VERIFICATION (requested by coordinator, re: possible "bare/undecaled reference
+photo" concern seen on another vehicle, sprinter_high_roof - coordinator asked to
+double-check the same concern here since T1-T5 were measured on this vehicle's
+own p2 photo rather than cross-referenced):
+
+Re-opened source_images/fn_landcruiser_obieco_p2.png and zoomed to 6-7x on the
+tailgate panel between the spare tires (the T1-T5 cluster).
+
+Finding: not bare. All five items are clearly visible as genuinely printed
+artwork on this vehicle's own rear photo:
+  - T1 (T logo): sharp, in-focus, clearly printed. Additionally anchored by this
+    page's own magenta "40mm" dimension arrow, which starts at the top of the T
+    letter - the source document itself is measuring this real printed decal,
+    not an empty panel.
+  - T3 (safe driving / GPS / 1800 800 437 text): legible blue text, clearly
+    printed, directly below T1.
+  - T2 (telstra.com): legible blue text below T3. Also anchored by this page's
+    own magenta "80mm" dimension arrow, which starts at the telstra.com
+    baseline.
+  - T4 (Before You Dig sticker): red/black/white sticker, clearly printed, on
+    the bumper strip, confirmed at 7x zoom.
+  - T5 (GreenFleet logo): green leaf logo to the right of T4 on the same bumper
+    strip, clearly printed, confirmed at 7x zoom.
+
+Conclusion: no change needed. T1-T5 on fn_landcruiser_obieco_p2.png are
+confirmed genuine, independently verified decal positions (not cross-referenced
+guesses, and not placed on blank/reference panel). This vehicle does not
+exhibit the bare/reference-photo issue flagged on sprinter_high_roof.

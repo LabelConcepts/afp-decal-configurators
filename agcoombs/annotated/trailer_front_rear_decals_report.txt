@@ -1,0 +1,10 @@
+Vehicle: trailer_front_rear_decals
+Enclosed Trailer, Front/Rear decals only (ACM)
+Source: source_images/trailer_front_rear_decals.png (1521x1075)
+Two separate photos side by side: LEFT photo shows the trailer end with the tow hitch/jockey wheel/drawbar visible below the panel = FRONT of trailer. RIGHT photo shows the trailer end with a number plate and taillights visible = REAR of trailer. Confirmed by these physical cues, not assumed from left/right position.
+
+PLACED (pixel coords are in the full 1521x1075 source image):
+T1 (335,490)   LEFT photo (confirmed FRONT - tow hitch/drawbar visible below panel) - "A.G.Coombs" decal on the front ACM panel
+T2 (1120,492)  RIGHT photo (confirmed REAR - number plate "139 97D" and taillights visible) - "A.G.Coombs" decal on the rear ACM panel
+
+SKIPPED: none - both items were visible and placed, and front/rear were independently verified against physical features (hitch vs. number plate) rather than assumed.

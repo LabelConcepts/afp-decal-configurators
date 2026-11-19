@@ -1,0 +1,48 @@
+VEHICLE: hilux_4person_prisoner_pod_gd — AFP Toyota Hilux Dual Cab, 4-Person Prisoner
+Pod, General Duties (Victoria Police "Police" Battenburg checker livery)
+
+Source PDF: "AFP - TOYOTA HILUX - 4 PERSON PRISONER POD - GEN DUTIES - FITTING.pdf"
+(9 pages).
+  Page 1 ("PRINT PARTS") = real install-photo render, 2x2 grid (pass/front/drive/rear)
+    -> rendered and saved as source_images/hilux_4person_prisoner_pod_gd.png
+    (1521x1076), annotated/hilux_4person_prisoner_pod_gd_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn cyan labels for every "GD POD"/"GD HILUX" reflective code -> rendered
+    and saved as source_images/hilux_4person_prisoner_pod_gd_p3.png,
+    annotated/hilux_4person_prisoner_pod_gd_p3_tagged.png.
+
+41 items total (17 main decals + 24 reflective strips), all placed, none skipped.
+
+Main page (17):
+PASS-6 (125,205) "131 444" phone text, pass side
+PASS-3 (190,310) "SIDE POD CHEQUERS", pass side
+PASS-1 (640,310) "SIDE CABIN CHEQUERS", pass side
+PASS-2 (940,315) "SIDE FRONT QUARTER CHEQUERS", pass side
+PASS-5 (660,390) "Police" text, pass side
+PASS-4 (385,340) "SIDE REAR WHITE" filler piece, pass-side pod rear corner
+DRIVE-2 (210,755) "SIDE FRONT QUARTER CHEQUERS", drive side
+DRIVE-1 (490,750) "SIDE CABIN CHEQUERS", drive side
+DRIVE-3 (840,745) "SIDE POD CHEQUERS", drive side
+DRIVE-6 (955,640) "131 444" phone text, drive side
+DRIVE-5 (480,825) "Police" text, drive side
+DRIVE-4 (1040,785) "SIDE REAR WHITE" filler piece, drive-side pod rear corner
+BONNET-1 (1300,255) "Police" text, bonnet
+REAR-2 (1200,685) "AFP" text, rear pod door (left)
+REAR-1 (1305,685) "Police" text, rear pod door
+REAR-3 (1425,685) "131 444" phone text, rear pod door (right)
+REAR-4 (1305,780) Battenburg chequers, rear pod door (lower band)
+
+Reflective page (24) — tag positions placed directly on each white strip segment at
+the exact point the source document's own cyan leader-line label points to
+(cross-checked, not estimated):
+GD POD D1 (30,375) GD POD D2 (145,375) GD POD D4 (85,410) GD POD D5 (175,410)
+GD POD D3 (270,370) GD POD D6 (260,410) GD POD D7 (370,380)
+GD HILUX F1 (1170,315) GD HILUX F2 (1380,315) GD HILUX F3 (1275,335) GD HILUX F4 (1105,365)
+GD HILUX F5 (1445,365) GD HILUX F6 (1190,415) GD HILUX F7 (1325,415)
+GD POD P7 (725,850) GD POD P3 (845,850) GD POD P6 (860,865) GD POD P5 (950,850)
+GD POD P2 (935,820) GD POD P4 (995,865) GD POD P1 (1060,825)
+GD POD R1 (1190,815) GD POD R2 (1295,820) GD POD R3 (1405,815)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing leader-line labels on page 3.

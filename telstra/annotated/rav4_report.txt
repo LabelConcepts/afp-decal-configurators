@@ -1,0 +1,82 @@
+Vehicle: rav4 — "Toyota RAV4 (2026 Model) - Super G Livery"
+Source document: TELSTRA - RAV4_2026 MODEL - SUPER G - JULY 2026 - FITTING.pdf (3 pages)
+
+PAGE SUMMARY
+- p1: text-only part checklist (no photos). Not tagged. Confirms 8 parts, no "Green Fleet" decal for
+  this model (correctly excluded from tagging — no T5).
+- p2: photo page titled "RAV4 (2026 MODEL)" containing 4 photos: driver-side profile (top-left, with
+  magenta arrow + text "Handbrake Decal, installed internally to face the driver" and a separate inset
+  "GPS Decal, installed internally on windscreen to face the driver"), front view (top-right),
+  passenger-side profile (bottom-left), rear view (bottom-right).
+  Tagged -> annotated/rav4_p2_tagged.png
+- p3: photo page with installer measurement callouts ("100mm"/"420mm" door-T vertical offset from the
+  window crease, "SIT ON SWAGE LINE" for the rear small-T and telstra.com decals, "120mm" dimension,
+  and a "C" centreline mark). Same physical vehicle/photos as p2, cropped tighter for the dimension
+  lines. Tagged -> annotated/rav4_p3_tagged.png
+
+METHOD NOTE ON D1 vs P1 (driver vs passenger side identification)
+p2's top-left profile photo is EXPLICITLY labelled as the driver's side by the fitting guide itself
+(magenta arrow + caption "Handbrake Decal, installed internally to face the driver" pointing at the
+driver's door mirror). That same photo's background (a venetian-blind-style reflection pattern visible
+in the rear quarter window, plus the door-handle/mirror silhouette) was matched pixel-for-pixel against
+p3's top-left "100mm" photo, confirming they are the same source photo of the same side — so p3 top-left
+= D1 (driver) with certainty. p3 top-right ("420mm") and p2 bottom-left are therefore the passenger side
+(P1) by elimination and by their distinct studio background (no blind-reflection pattern, different
+mirror shape visible). Not copied/assumed from the opposite side or another vehicle.
+
+ITEMS PLACED (independently measured on this vehicle's own photos; colour-mask centroid of the actual
+blue/orange Telstra "T" artwork or decal text was used to compute pixel centres, then each point was
+re-cropped from the source PNG and visually confirmed before drawing)
+
+D1 — Drive rear door Telstra T decal (458mm high)
+  p2: (389, 354)  — top-left profile photo, T decal on driver's door.
+  p3: (530, 290)  — top-left "100mm" photo, T decal (driver side, same photo as above, tighter crop).
+
+P1 — Pass rear door Telstra T decal (458mm high)
+  p2: (632, 787)  — bottom-left profile photo, T decal on passenger's door.
+  p3: (960, 290)  — top-right "420mm" photo, T decal (passenger side).
+
+T1 — Rear small Telstra T decal
+  p2: (1155, 774) — rear photo, small blue/orange T logo, left of numberplate.
+  p3: (540, 775)  — same rear photo, same decal (p3 is the same rear photo, uncropped).
+
+T2 — Rear 'telstra.com.au' decal
+  p2: (1387, 766) — rear photo, "telstra.com" text, right of numberplate.
+  p3: (965, 787)  — same decal, p3 coordinates.
+  Note: only "telstra.com" is legibly resolvable at source resolution; ".au" suffix is present per the
+  checklist but below the photo's resolvable detail. Same decal as item T2.
+
+T3 — Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal
+  p2: (1260, 816) — rear photo, 3-line blue text block below numberplate.
+  p3: (760, 858)  — same decal, p3 coordinates.
+
+T4 — Rear 'Before you dig' decal
+  p2: (1153, 813) — rear photo, "BEFORE YOU DIG" dog-logo sticker with QR code, left side near bumper.
+  p3: (578, 858)  — same decal, p3 coordinates.
+
+ITEMS SKIPPED / UNVERIFIABLE
+
+W1 — Internal windscreen 'Parking Brake' decal: SKIPPED, unverifiable in a photo.
+  p2 contains a magenta arrow running from the caption "Handbrake Decal, installed internally to face
+  the driver" to a point on the vehicle photo. That arrow endpoint was cropped and zoomed to full
+  resolution (see crops/rav4_w1_zoom.png): it lands on the dark exterior wing-mirror housing / A-pillar
+  trim, NOT on glass, and no decal is visible there. The accompanying yellow "ATTENTION / APPLY PARKING
+  BRAKE" graphic is separate reference artwork, not a photographed in-place decal. No other photo on
+  p1-p3 shows the interior of the windscreen. Left untagged rather than guessed, consistent with the
+  same finding/approach used for this same decal type on other vehicles in this project (e.g.
+  ranger_single_cab_tray).
+
+W2 — Internal windscreen 'GPS' decal: SKIPPED, unverifiable in a photo.
+  Same p2 caption area shows only a disconnected reference-artwork thumbnail (a dark blue rectangle with
+  white text/line pattern) labelled "GPS Decal, installed internally on windscreen to face the driver" —
+  not a photo of the decal applied to the vehicle. The front-view photo (p2 top-right) does show a
+  lighter geometric pattern in the windscreen glass behind the rear-view mirror, but the SAME diagonal
+  striped reflection pattern also appears in unrelated side windows throughout p2/p3 (e.g. the rear
+  quarter window in the driver-side photo), indicating it is a studio-environment reflection (blinds/
+  shelving), not decal artwork — confirmed by cross-checking multiple windows. Left untagged rather than
+  risk a false-positive placement.
+
+FILES
+  annotated/rav4_p2_tagged.png
+  annotated/rav4_p3_tagged.png
+  annotated/rav4_report.txt (this file)

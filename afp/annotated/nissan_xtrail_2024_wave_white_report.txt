@@ -1,0 +1,48 @@
+VEHICLE: nissan_xtrail_2024_wave_white — AFP Nissan X-Trail 2024, White Vehicle, WAVE
+design, 131 AFP
+
+Source PDF: "124627 - AFP - NISSAN X TRAIL - WAVE - 131 AFP - WHITE VEHICLE -
+FITTING.pdf" (9 pages).
+  Page 1 ("NISSAN X TRAIL - 131 AFP") = real vehicle render, 2x2 grid
+    (pass/front/drive/rear) -> rendered and saved as
+    source_images/nissan_xtrail_2024_wave_white.png (1521x1076),
+    annotated/nissan_xtrail_2024_wave_white_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - 131AFP") = same vehicle render with the source
+    document's OWN pre-drawn yellow labels for every "24XTRL" reflective strip code ->
+    rendered and saved as source_images/nissan_xtrail_2024_wave_white_p3.png,
+    annotated/nissan_xtrail_2024_wave_white_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists several "24XTRL F" codes as "ITEM-N" with
+extra "COLOURS"/"CMYK"/"APPROVAL Job Ref#:" suffix text — confirmed genuine against
+the source's own clean "24XTRL F1"-"F6" labels on page 3, not duplicates. REAR-3 ("2x
+Rear QTR - QUARTER BLUE") represents 2 physical navy side panels flanking the number
+plate; one representative point is tagged (the right-hand panel), the left-hand one
+being visually identical and not separately pinpointed.
+
+29 items total (12 main decals tagged + 17 reflective strips tagged).
+
+Main page (12):
+PASS-4 (180,290) "131 AFP" phone text, pass side
+PASS-1 (480,385) WAVE chequerboard, pass side
+PASS-2 (560,385) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (650,455) 2025 Kings Crest + "AFP" text, pass side
+DRIVE-1 (580,805) WAVE chequerboard, drive side
+DRIVE-2 (540,785) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (350,860) 2025 Kings Crest + "AFP" text, drive side
+DRIVE-4 (850,705) "131 AFP" phone text, drive side
+BONNET-1 (1210,290) 2025 Kings Crest, bonnet
+REAR-2 (1065,785) "131 AFP" phone text, tailgate (left)
+REAR-1 (1290,785) 2025 Kings Crest, tailgate (right)
+REAR-3 (1395,785) navy quarter panel, tailgate (right edge) — representative of 2x
+
+Reflective page (17) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow label points to (cross-checked, not
+estimated):
+24XTRL D5 (210,320) 24XTRL D4 (395,325) 24XTRL D3 (560,325) 24XTRL D2 (695,325) 24XTRL D1 (815,325)
+24XTRL F1 (1050,345) 24XTRL F3 (1315,345) 24XTRL F2 (1225,415) 24XTRL F4 (1030,455) 24XTRL F6 (1340,455) 24XTRL F5 (1225,490)
+24XTRL P1 (270,725) 24XTRL P2 (415,725) 24XTRL P3 (545,725) 24XTRL P4 (700,725) 24XTRL P5 (815,715)
+24XTRL R1 (1215,840)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 17 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

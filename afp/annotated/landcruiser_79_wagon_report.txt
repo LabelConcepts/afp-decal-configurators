@@ -1,0 +1,39 @@
+VEHICLE: landcruiser_79_wagon — AFP Toyota 79 LandCruiser, White Vehicle, WAVE design
+
+Source PDF: "AFP - 79 SERIES LANDCRUISER WAGON - 000 - FITTING - NEW.pdf" (4 pages).
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/landcruiser_79_wagon.png (1521x1076),
+    annotated/landcruiser_79_wagon_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn yellow leader-line labels for every "79 LAND" reflective strip code ->
+    rendered and saved as source_images/landcruiser_79_wagon_p3.png,
+    annotated/landcruiser_79_wagon_p3_tagged.png.
+
+22 items total (11 main decals + 11 reflective strips), all placed, none skipped.
+
+Main page (11) — note only 2 rear items for this vehicle (no REAR-3/REAR-4):
+PASS-1 (550,360) WAVE wireframe/template graphic, pass side
+PASS-2 (645,330) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (780,385) AFP logo + "AFP" text, pass side
+PASS-4 (165,295) "000" phone text, pass-side tray rail
+DRIVE-1 (400,800) WAVE wireframe/template graphic, drive side
+DRIVE-2 (430,762) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (370,815) AFP logo + "AFP" text, drive side
+DRIVE-4 (975,737) "000" phone text, drive-side tray rail
+BONNET-1 (1283,300) AFP crest, bonnet
+REAR-1 (1330,715) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-2 (1300,745) "000" phone text, tailgate (below REAR-1)
+
+Reflective page (11) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated):
+79 LAND D1 (185,330)  79 LAND D2 (490,320)  79 LAND D3 (700,320)  79 LAND D4 (790,315)
+79 LAND F1 (1190,350) 79 LAND F2 (1320,350) 79 LAND F3 (1455,350)
+79 LAND P4 (340,770)  79 LAND P3 (470,765)  79 LAND P2 (650,765)  79 LAND P1 (900,765)
+(No R-prefixed reflective codes exist for this vehicle, consistent with afp_vehicles.json
+listing only 11 "79 LAND" items with no R1-R4 — confirmed the rear reflective quadrant on
+page 3 has no pre-drawn labels either.)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 11 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

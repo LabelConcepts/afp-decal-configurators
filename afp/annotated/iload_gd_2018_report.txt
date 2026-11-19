@@ -1,0 +1,62 @@
+Vehicle: iload_gd_2018 — Hyundai iLoad 2018 General Duties
+Source image used: source_images/iload_gd_2018.png (1521x1075), rendered from page 2
+("ILOAD" vehicle-visual diagram page, 2x2 grid: driver side TL, front TR,
+passenger side BL, rear BR) of
+141424 - AFP - ILOAD GENERAL DUTIES - FITTING.pdf
+(page 1, the part checklist, has no vehicle image and was not used for tagging).
+
+All 11 items placed — none skipped.
+
+DRIVE-1  "DRIVE AFP CHEQUERS (5950mmLONG)"            -> tag D1 at (455,358)
+  Centered on the navy/white checkerboard band on the driver-side body,
+  between the sliding-door checker section, clear of text overlays.
+
+DRIVE-2  "DRIVE AFP POLICE + CREST STRIPS (5950mmLONG)" -> tag D2 at (546,436)
+  Placed on the "Police" wordmark on the driver-side rear door/panel — the
+  wordmark + crest + yellow stripes are the distinguishing elements of this
+  long contour-cut strip (separate from the plain chequer tape, DRIVE-1).
+
+DRIVE-3  "DRIVE '131 444' (485mmWIDE)"                  -> tag D3 at (127,302)
+  On the "131 444" phone-number text near the driver-side rear quarter
+  panel, above the chequers, beside the tail-light.
+
+BONNET-1 "BONNET 'POLICE' LOGO (850mmW)"                -> tag B1 at (1222,283)
+  On the "Police" wordmark printed on the bonnet, front view, between the
+  windscreen and the yellow reflective chevrons.
+
+REAR-1   "REAR 'AFP' (180mmWIDE)"                       -> tag R1 at (1131,741)
+  On the "AFP" lettering at the top-left of the rear tailgate, above the
+  chequer band, left of the centre door join.
+
+REAR-2   "REAR '131 444' (320mmWIDE)"                   -> tag R2 at (1410,741)
+  On the "131 444" phone-number text at the top-right of the rear tailgate,
+  mirroring the AFP text on the left.
+
+REAR-3   "REAR 'POLICE STRIP' (706mmWIDE)"              -> tag R3 at (1352,858)
+  On the "Police" wordmark at the bottom-right of the rear tailgate, below
+  the chequer band (this is the narrower police-strip decal, distinct from
+  the full-width chequer tape below).
+
+REAR-4   "REAR AFP CHEQUERS (2400mmLONG)"                -> tag R4 at (1268,806)
+  Centered on the navy/white checkerboard band spanning the rear tailgate,
+  above the numberplate.
+
+PASS-1   "PASS AFP CHEQUERS (5950mmLONG)"                -> tag P1 at (455,812)
+  Centered on the checkerboard band on the passenger-side body (mirrors
+  DRIVE-1 but independently measured — passenger photo geometry differs
+  slightly from the driver photo).
+
+PASS-2   "PASS AFP POLICE + CREST STRIPS (5950mmLONG)"   -> tag P2 at (552,904)
+  On the "Police" wordmark on the passenger-side panel, beside the AFP
+  crest badge (crest + wordmark + stripes = one long contour-cut strip).
+
+PASS-3   "PASS '131 444' (485mmWIDE)"                    -> tag P3 at (910,754)
+  On the "131 444" phone-number text on the passenger-side rear quarter
+  panel, above the chequers near the rear door.
+
+Verification method: each coordinate was first checked by cropping the
+original untagged render at (and around) the intended pixel location to
+confirm the actual decal/text was present before the tag was drawn (done
+at native 200dpi render resolution, then proportionally rescaled by 0.65x
+to match the final 130dpi working image — scale verified consistent with
+image dimensions 2339x1654 -> 1521x1075).

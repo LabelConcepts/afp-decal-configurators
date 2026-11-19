@@ -1,0 +1,42 @@
+Vehicle: dmax_dual_toolbox_game_time (Isuzu D-Max Dual Cab w/ Toolbox, Game Time branding)
+Source: source_images/dmax_dual_toolbox_game_time.png (1521x1075, 2x4 photo grid)
+Output: annotated/dmax_dual_toolbox_game_time_tagged.png
+
+Item list has 4 unique codes but several carry a "2x"/"3x" quantity in the label text,
+meaning the same code is physically applied more than once (confirmed against
+parts_total_stated/parts_extracted_count = 8). Each physical occurrence was tagged
+separately below, all placements independently measured on this vehicle's own photo
+(no coordinates reused between vehicles or across quadrants).
+
+Quadrant layout: top-left = side view (side "A"), bottom-left = side view (side "B",
+mirrored framing - confirmed genuinely a different photo, not a flip, because the
+"A.G.Coombs"/"Murrungar" decal order is reversed left-to-right between the two),
+top-right = front view, bottom-right = rear view of toolbox.
+
+PLACED:
+- F1 "2x FRONT DOOR AG COOMBS/PHONE/WEB" - instance 1: (685,340) top-left quadrant,
+  on door, directly on "A.G.Coombs / 03 9248 2700" text. Verified on source crop.
+- F1 - instance 2: (345,755) bottom-left quadrant, same door decal, other side.
+  Verified on source crop.
+- X1 "2x DOOR 'MURRUNGAR' LOGO" - instance 1: (515,350) top-left quadrant, on
+  Murrungar Aboriginal-art roundel logo beside F1. Verified.
+- X1 - instance 2: (515,780) bottom-left quadrant, same Murrungar logo, other side.
+  Verified.
+- X2 "3x TOOLBOX PANELS 'GAME TIME'" - instance 1: (250,268) top-left quadrant,
+  centered on the black "GAME TIME COFFEE" roundel on the toolbox side panel.
+  Verified.
+- X2 - instance 2: (815,710) bottom-left quadrant, same toolbox pattern, opposite
+  side panel. Verified.
+- X2 - instance 3: (1300,715) bottom-right quadrant (rear view), on the "GAME TIME
+  COFFEE" roundel visible on the rear face of the toolbox. Verified.
+- B1 "BONNET 'AG COOMBS' LOGO" - (1255,305) top-right quadrant (front view), on the
+  "A.G.Coombs" logo printed on the bonnet/hood. Verified.
+
+SKIPPED: none - all 8 physical decal instances (4 codes x their stated quantities)
+were located and tagged.
+
+Item-count check: parts_total_stated=8, parts_extracted_count=8, count_mismatch=false.
+8 tags placed, consistent with the stated total. Checklist appears complete and
+consistent with what's visible in the photo - no extra unlisted branding observed
+beyond the ISUZU/dealer-stock badging (grille/model badges), which are not AG Coombs
+decals and are correctly excluded.

@@ -1,0 +1,66 @@
+VEHICLE: hilux_dual_cab_2person_prisoner_pod_wave — AFP Toyota Hilux Dual Cab,
+2-Person Prisoner Pod (Varley), WAVE design, 131 AFP, 2025 Kings Crest
+
+Source PDF: "AFP - TOYOTA HILUX DUAL - 2 PER PRISONER POD - WAVE - FITTING.pdf" (4
+pages).
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as
+    source_images/hilux_dual_cab_2person_prisoner_pod_wave.png (1521x1076),
+    annotated/hilux_dual_cab_2person_prisoner_pod_wave_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn yellow labels for every "W HILUX"/"WPOD"/"PPOD2" reflective code ->
+    rendered and saved as
+    source_images/hilux_dual_cab_2person_prisoner_pod_wave_p3.png,
+    annotated/hilux_dual_cab_2person_prisoner_pod_wave_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json concatenates several reflective codes with
+descriptive text under "ITEM-N" ("ITEM-1" = "W HILUX D2-D3-D4" meaning these 3 codes
+appear together in one checklist cell; "ITEM-2" = "W HILUX P2-P3-P4 SUPPLY") —
+confirmed genuine against the source's own clean individual D2/D3/D4 and P2/P3/P4
+labels on page 3, each tagged separately below as distinct codes, not merged. "WPOD
+R2" also carries a duplicated "2500mm Long Strip @ 40mm" description twice in the
+JSON extraction — same single code, tagged once.
+
+42 items placed (14 main decals + 28 reflective strips). 1 reflective item skipped —
+see note.
+
+Main page (14):
+PASS-4 (145,260) "131 AFP" phone text, pass-side pod
+PASS-1 (580,385) WAVE chequerboard, pass side
+PASS-2 (645,355) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (760,435) 2025 Kings Crest + "AFP" text, pass side
+PASS-5 (170,400) navy "BLUE 1100x1100" panel, pass-side pod
+DRIVE-1 (410,830) WAVE chequerboard, drive side
+DRIVE-2 (510,800) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (360,880) 2025 Kings Crest + "AFP" text, drive side
+DRIVE-4 (935,745) "131 AFP" phone text, drive-side pod
+PASS-6 (1030,830) navy "BLUE 1100x1100" panel, drive-side pod (duplicate of PASS-5,
+  mislabeled with a "PASS" prefix in the checklist despite being on the drive side —
+  confirmed visually, this is the second of the 2 navy panels, one per side)
+BONNET-1 (1290,255) 2025 Kings Crest, bonnet
+REAR-2 (1180,675) crest, rear pod door (left)
+REAR-3 (1360,675) "131 AFP" phone text, rear pod door (right)
+REAR-1 (1270,790) "AUSTRALIAN FEDERAL POLICE" text, rear pod door (below)
+
+Reflective page (28 tagged) — tag positions placed directly on each white strip
+segment at the exact point the source document's own yellow leader-line label points
+to (cross-checked, not estimated):
+Drive side: W HILUX D4 (540,290) W HILUX D3 (725,290) W HILUX D2 (895,290) W HILUX D1 (985,385)
+  WPOD D1 (300,385)
+  PPOD2 D1 (135,270) PPOD2 D2 (165,325) PPOD2 D3 (210,355) PPOD2 D4 (90,440) PPOD2 D5 (240,465)
+Front: W HILUX F1 (1130,355) W HILUX F2 (1360,355) W HILUX F3 (1260,410) W HILUX F4 (1080,435)
+  W HILUX F5 (1435,435) W HILUX F6 (1170,490) W HILUX F7 (1330,490)
+Pass side: W HILUX P2 (275,770) W HILUX P3 (445,745) W HILUX P4 (615,740) W HILUX P1 (80,820)
+  PPOD2 P1 (975,730) PPOD2 P2 (900,780) PPOD2 P3 (925,805) PPOD2 P4 (965,890)
+Rear: WPOD R1 (1165,870) WPOD R3 (1380,870) WPOD R2 (1280,885)
+
+SKIPPED: PPOD2 P5 (afp_vehicles.json lists this code, but only PPOD2 P1-P4 have
+pre-drawn labels anywhere on the pass-side pod render — no 5th segment is visible to
+independently verify a position for). Not tagged, per project rules against guessing.
+Also not tagged as a point: the "25mm STRIPS" vertical trim visible at the leading
+edge of the pod on both pass and drive sides (a bulk design element, same treatment
+as other vehicles' unlabelled trim strips).
+
+All 28 placements independently measured via zoomed crops of each page quadrant
+before tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing leader-line labels on page 3.

@@ -1,0 +1,36 @@
+dmax_service_vic — Isuzu D-Max Dual Cab, VIC Service branding w/ toolbox
+Source: source_images/dmax_service_vic.png (1521x1075), 2x2 grid: top-left=profile A,
+bottom-left=profile B, top-right=rear, bottom-right=front/bonnet.
+
+SIDE IDENTIFICATION METHOD: same text-justification cue as dmax_vic_projects (same layout
+template) — D1's toolbox 3-line text is left-justified in the top-left profile, and P1's
+equivalent text is right-justified in the bottom-left profile, matching the JSON description.
+Top-left=DRIVER, bottom-left=PASSENGER for this vehicle. Separately confirmed by colour
+sampling that the small icon cluster on the toolbox contains THREE distinct decals (not two):
+a cyan/green "Tick VIC" logo, a 4-colour ISO icon row, and a teal green-building-council leaf
+logo — each tagged individually (D2/D3/D4 and P2/P3/P4 and R2/R3/R4).
+
+PLACED (all 21/21):
+D1  DRIVE TOOLBOX 'Air Conditioning...' text (left)  -> (127,284)  top-left profile (driver)
+D2  DRIVE TOOLBOX ISO decals                         -> (112,324)  top-left profile (driver)
+D3  DRIVE TOOLBOX green building council decal       -> (89,340)   top-left profile (driver)
+D4  DRIVE TOOLBOX 'Tick VIC' logo decal              -> (153,325)  top-left profile (driver)
+D5  DRIVE TOOLBOX Orange/Green fingerprint decal     -> (220,263)  top-left profile (driver)
+D6  DRIVE SIDE/DOOR orange fingerprint decal         -> (433,410)  top-left profile (driver)
+D7  DRIVE DOOR Phone/Web 2-line text                 -> (533,351)  top-left profile (driver)
+D8  DRIVE FRONT DOOR AG Coombs SERVICE 2-line text   -> (690,369)  top-left profile (driver)
+B1  BONNET Orange/Green fingerprint decal            -> (1290,780) bottom-right (front quadrant)
+P1  PASS TOOLBOX 'Air Conditioning...' text (right)  -> (983,722)  bottom-left profile (passenger)
+P2  PASS TOOLBOX ISO decals                          -> (992,765)  bottom-left profile (passenger)
+P3  PASS TOOLBOX green building council decal       -> (975,780)  bottom-left profile (passenger)
+P4  PASS TOOLBOX 'Tick VIC' logo decal               -> (946,765)  bottom-left profile (passenger)
+P5  PASS TOOLBOX Orange/Green fingerprint decal      -> (747,697)  bottom-left profile (passenger)
+P6  PASS SIDE/DOOR orange fingerprint decal          -> (433,880)  bottom-left profile (passenger)
+P7  PASS DOOR Phone/Web 2-line text                  -> (542,795)  bottom-left profile (passenger)
+P8  PASS FRONT DOOR AG Coombs SERVICE 2-line text    -> (389,811)  bottom-left profile (passenger)
+R1  REAR Large AG Coombs SERVICE 3-line decal        -> (1307,294) top-right (rear quadrant)
+R2  REAR TOOLBOX ISO decals                          -> (1203,369) top-right (rear quadrant)
+R3  REAR TOOLBOX green building council decal        -> (1403,369) top-right (rear quadrant)
+R4  REAR TOOLBOX 'TICK VIC' logo decal               -> (1160,368) top-right (rear quadrant)
+
+SKIPPED: none.

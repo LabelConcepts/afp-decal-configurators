@@ -1,0 +1,19 @@
+Vehicle: dmax_dual_toolbox_vic_projects_indigenous
+Isuzu D-Max Dual Cab w/ Toolbox, VIC Projects, Indigenous branding
+Source: source_images/dmax_dual_toolbox_vic_projects_indigenous.png (1521x1075)
+This source image usefully includes the manufacturer's own callout/markup copy (bottom row) in addition to clean photos (top row). Tags were placed on the top-row CLEAN photos only (TL = full drive side, TR = full rear); the bottom-row markup was used purely as a reference to understand decal boundaries, not as the tagged output.
+
+PLACED (pixel coords are in the full 1521x1075 source image):
+D1  (165,216)   TL quadrant - toolbox "Air Conditioning & Building Services Specialist" text. Note: item label says "FULL REAR" meaning this same decal piece is specified to also span the full rear panel; only one tag was placed (drive-side toolbox, the clearer distinct location) to avoid a misleading duplicate marker, per the single-code-one-tag convention.
+D2  (280,160)   TL quadrant - toolbox Indigenous-art decal panel (part 1 of 3 of the Indigenous print)
+D3  (480,250)   TL quadrant - cab/tub-side Indigenous-art decal panel (part 2 of 3, the diagonal panel between the toolbox and the cab door)
+D4  (600,348)   TL quadrant - door-base/sill Indigenous-art decal strip (part 3 of 3, narrow band beneath the door text)
+D5  (690,247)   TL quadrant - driver door "A.G.Coombs / Projects / 03 9248 2700 | agcoombs.com.au" decal text
+D6  (108,258)   TL quadrant - toolbox Green Building Council Australia leaf logo ("GREEN" decal, clear/white-ink-under)
+D7  (142,243)   TL quadrant - toolbox row of 4 circular ISO certification-mark icons (clear/white-ink-under)
+R1  (1310,205)  TR quadrant - rear tailgate "A.G.Coombs | Projects" decal text
+R2  (1290,410)  TR quadrant - rear tailgate Indigenous-art panel (the black/white dotted + orange/yellow pattern bordering the tailgate text panel)
+R3  (1220,352)  TR quadrant - rear tailgate row of circular ISO certification-mark icons (clear/white-ink-under)
+R4  (1405,352)  TR quadrant - rear tailgate Green Building Council Australia logo ("GREEN BUILDING" decal, clear/white-ink-under)
+
+SKIPPED: none - all 11 items were visible and placed.

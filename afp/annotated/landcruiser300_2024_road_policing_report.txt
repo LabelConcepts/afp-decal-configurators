@@ -1,0 +1,51 @@
+landcruiser300_2024_road_policing — AFP Toyota LandCruiser 300 (2024), Road Policing
+19 items total (checklist). count_mismatch=False.
+
+IMPORTANT NOTE ON SOURCE IMAGE:
+source_images/landcruiser300_2024_road_policing.png (as provided) is only the
+PART CHECKLIST text page — no vehicle imagery. The original fitting PDF
+("128327 - AFP - ROAD POLICING - LANDCRUISER 300 - FITTING GUIDE.pdf", in
+/Volumes/LabelConcepts/Workspace/AFP/WORKING FILES/TOYOTA LANDCRUISER 300 (2024)/
+128327 - AFP - 2024 LANDCRUISER 300 - ROAD POLICING/) has 3 pages; page 2 is a
+"VISUAL" page with a 2x2 render grid (pass side / front / drive side / rear)
+showing every decal. That page was rendered to PNG and used as the actual
+annotation canvas, saved as annotated/landcruiser300_2024_road_policing_tagged.png
+(2526x1786). Page 3 ("REFLECTIVE VISUAL") was used as a cross-check for which
+elements are the retro-reflective (VC612 lime / 3M 780) items vs plain colour.
+Every coordinate below was verified by sampling the actual pixel colour at
+that exact point on the clean (untagged) source render before the tag was
+drawn (navy/white chequer, yellow-green reflective paint, white text panel,
+etc.) — not just eyeballed.
+
+PASS SIDE (top-left quadrant; car shown nose-right, rear-left)
+PASS-1  PASS SIDE (3M 780 REFLECT) Decals                 PLACED (1100,770) — on the solid yellow-green (lime) lower-body colour change, mid-door.
+PASS-2  PASS AFP CREST 280mm High (3M 780 REFLECT)        PLACED (1065,480) — crest badge just behind the front wheel arch, over the front guard/quarter panel (not over the fuel cap on this vehicle — no petrol-cap callout exists in this fitting guide, unlike the Commodore).
+PASS-3  PASS PHONE 131 444 PHONE 308mm Wide (3M 780 REFLECT) PLACED (175,712) — "131 444" numerals on the lime rear-quarter panel.
+PASS-4  PASS SIDE YELLOW (1105 w 1460z)                    PLACED (180,760), LOWER CONFIDENCE — same lime colour region as PASS-1; this item uses a different print/laminate spec (1105 w/ 1460z) vs PASS-1's 3M 780 reflective, but the two are not visually distinguishable from each other in this render (both render as the same flat yellow-green). Placed at the rear-tip panel on the assumption it is a separately-cut piece from the main running section; verify against artwork files if the exact panel boundary matters.
+PASS-5  PASS REFLECTIVE STRIP 35mm Wide x 2020mm Long (VC612 LIME) PLACED (300,620) — confirmed on the thin bright reflective line (pixel-sampled as yellow) that runs the length of the body, rear portion of the line.
+PASS-6  3x PASS REFLECTIVE STRIP 35mm Wide x 1550mm Long (VC612 LIME) PLACED (850,628), LOWER CONFIDENCE — the render shows only ONE continuous reflective line for the full pass side (confirmed by pixel-scanning its y-position across x=250-1300); there is no second, visually separate set of "3x" shorter strips. Placed further along the same line (front-door section) on the working assumption that the "3x 1550mm" spec describes this strip being supplied/cut as 3 shorter door-length segments rather than one piece, while PASS-5 (2020mm) is the longer uninterrupted rear-quarter run. Recommend confirming against the artwork file.
+
+DRIVE SIDE (bottom-left quadrant; car shown nose-left, rear-right — mirror of pass side)
+DRIVE-1  DRIVE SIDE (3M 780 REFLECT)                       PLACED (950,1470) — lime lower-body colour, mid-door.
+DRIVE-2  DRIVE AFP CREST 280mm High (3M 780 REFLECT)       PLACED (615,1400) — behind front wheel arch, mirrored.
+DRIVE-3  DRIVE PHONE 131AFP 308mm Wide (3M 780 REFLECT)    PLACED (1595,1403) — "131 444" on rear-quarter lime panel.
+DRIVE-4  DRIVE SIDE YELLOW (1105 w 1460z)                  PLACED (1550,1440), LOWER CONFIDENCE — same caveat as PASS-4.
+DRIVE-5  DRIVE REFLECTIVE STRIP 35mm Wide x 2020mm Long (VC612 LIME) PLACED (1250,1322) — rear portion of the single visible reflective line.
+DRIVE-6  3x DRIVE REFLECTIVE STRIP 35mm Wide x 1550mm Long (VC612 LIME) PLACED (700,1348), LOWER CONFIDENCE — same caveat as PASS-6 (front-door section of the same line).
+
+REAR (bottom-right quadrant)
+REAR-1  REAR CHEQUERS 500mm Wide (3M 780 REFLECT)          PLACED (2150,1280) — navy/white chequer band between the tail-lights, confirmed navy pixel.
+REAR-2  REAR ROAD POLICING 618mm Wide (3M 780 REFLECT)     PLACED (1950,1235) — "ROAD POLICING" text, on the yellow band across the tailgate glass trim, confirmed bright-yellow background pixel.
+REAR-3  REAR AFP WORD 135mm Wide (3M 780 REFLECT)          PLACED (2305,1500) — "AFP" lettering on the lime lower tailgate, located by zoomed crop and confirmed dark-text pixel.
+REAR-4  REAR PHONE 131 444 315mm Wide (3M 780 REFLECT)     PLACED (1960,1485) — "131 444" numerals, confirmed navy-text pixel.
+REAR-5  REAR POLICE SQURE DECAL 428mm Wide (3M 780 REFLECT) PLACED (2100,1430) — white "Police" rectangle, confirmed pure-white pixel.
+REAR-6  REAR BUMPER YELLOW 1010mm Wide x 4520mm High (1105 w 1460z) PLACED (2150,1470) — base yellow lower-tailgate fill, confirmed yellow pixel, clear of text.
+REAR-7  REAR YELLOW TOP (1105 w 1460z)                      PLACED (2300,1235) — yellow band at the very top of the tailgate graphic (same band as REAR-2 but away from its text), confirmed yellow pixel.
+
+Summary: 19/19 placed. Four items (PASS-4, PASS-6, DRIVE-4, DRIVE-6) are
+flagged lower-confidence for the same reason as on the Commodore: the vector
+render does not visually distinguish between items that share an identical
+rendered colour but differ only in material/print spec or in being a
+continuous run vs multiple shorter cut segments. Everything else was
+confirmed by directly sampling the pixel colour at the exact tag coordinate
+on the clean source render before placing the tag.

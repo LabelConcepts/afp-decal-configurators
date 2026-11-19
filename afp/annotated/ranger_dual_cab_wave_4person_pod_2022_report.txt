@@ -1,0 +1,55 @@
+VEHICLE: ranger_dual_cab_wave_4person_pod_2022 — AFP 2022 Ford Ranger Dual Cab, 4-Person
+Prisoner Pod, WAVE design, 131AFP, New 2023 AFP Crest
+
+Source PDF: "AFP - 2022 FORD RANGER DUAL CAB - WAVE - 131 - 4 PERSON PRISONER POD -
+FITTING.pdf" (12 pages: 2 PART CHECKLIST pages, 2 VISUAL/REFLECTIVE render pages, 7 real
+install photographs, 1 reflective-parts naming-key/legend sheet).
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/ranger_dual_cab_wave_4person_pod_2022.png
+    (1521x1076), annotated/ranger_dual_cab_wave_4person_pod_2022_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn yellow leader-line labels for every reflective strip code -> rendered and
+    saved as source_images/ranger_dual_cab_wave_4person_pod_2022_p3.png,
+    annotated/ranger_dual_cab_wave_4person_pod_2022_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json concatenates each reflective code with its item name
+into a single string (e.g. "DCM D1" = code "DCM"; "BR F1" = code "BR"), and several of
+these appear as "ITEM-N" with extra garbled file-reference text attached (confirmed
+against the source PDF's own short-code labels on page 3, which show only "DCM", "BR",
+"BON", etc. with no "D1"/"F1" suffix). All 32 are genuine distinct reflective-strip
+codes — confirmed via the separate naming-key/legend sheet in the source PDF (page 11,
+"'22 RANGER DUAL CAB VC PARTS") which lists all 32 codes with full descriptive names.
+None are duplicates or garbled artifacts; all are tagged.
+
+44 items total (12 main decals + 32 reflective strips), all placed, none skipped.
+
+Main page (12):
+PASS-1 (540,395) WAVE chequerboard, pass side
+PASS-2 (630,350) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (690,430) New 2023 AFP crest, pass side
+PASS-4 (120,360) "131 AFP" phone text, pass-side pod
+DRIVE-1 (640,825) WAVE chequerboard, drive side
+DRIVE-2 (500,785) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (410,860) New 2023 AFP crest, drive side
+DRIVE-4 (1030,795) "131 AFP" phone text, drive-side pod
+BONNET-1 (1275,255) New 2023 AFP crest, bonnet
+REAR-1 (1305,730) "AUSTRALIAN FEDERAL POLICE" text, rear pod door
+REAR-2 (1305,685) New 2023 AFP crest, rear pod door (above text)
+REAR-3 (1305,775) "131 AFP" phone text, rear pod door (below text)
+
+Reflective page (32) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated):
+Drive side: DCM (410,305) DRD (505,300) DFD (660,300) DFG (815,300)
+  WPOD D4 (70,315) WPOD D3 (175,320) WPOD D2 (260,325) WPOD D1 (295,380)
+  WPOD D5 (195,380) WPOD D6 (115,405) WPOD D7 (210,410)
+Front: BR (1150,295) BON (1275,295) BL (1450,295) DBU (1165,345) PBU (1435,345)
+  BUR (1200,400) BUL (1335,400)
+Pass side: PFG (280,730) PFD (430,730) PRD (600,730) PCM (690,730)
+  WPOD P1 (810,805) WPOD P2 (860,775) WPOD P3 (1015,750) WPOD P4 (1050,775)
+  WPOD P5 (875,835) WPOD P6 (1025,840) WPOD P7 (810,850)
+Rear: WPOD R1 (1170,790) WPOD R2 (1305,810) WPOD R3 (1420,790)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; all 32 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

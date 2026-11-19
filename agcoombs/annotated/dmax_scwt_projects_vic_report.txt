@@ -1,0 +1,34 @@
+Vehicle: dmax_scwt_projects_vic — Isuzu D-Max Single Cab w/ Tray, VIC Projects branding
+Source: source_images/dmax_scwt_projects_vic.png (1521x1075)
+Quadrants: top-left = driver side (nose pointing left), bottom-left = passenger side (nose pointing right),
+top-right = front/bonnet, bottom-right = rear.
+
+All 16 items placed. Each coordinate independently measured from the untagged source and
+verified by cropping the exact pixel location before tagging.
+
+D1 (107,345) — driver side tray front rail, 'ISO' certification icon cluster (4 small circular badges)
+D2 (110,378) — driver side tray front rail, green building council leaf logo + text, directly below D1
+D3 (233,362) — driver side tray front rail, "03 9248 2700 | agcoombs.com.au" + "Air Conditioning & Building Services Specialist" text
+D4 (410,372) — driver side tray, green/yellow + orange diagonal two-tone stripe block
+D5 (655,446) — driver side door, lower orange rocker-panel fingerprint strip
+D6 (700,397) — driver door, "A.G.Coombs / Projects" logo decal
+
+P1 (975,760) — passenger side tray front rail, 'ISO' certification icon cluster
+P2 (975,787) — passenger side tray front rail, green building council leaf logo + text, directly below P1
+P3 (854,773) — passenger side tray front rail, "03 9248 2700 | agcoombs.com.au" + aircon text
+P4 (682,785) — passenger side tray, green/yellow + orange diagonal two-tone stripe block
+P5 (407,868) — passenger door, lower orange rocker-panel fingerprint strip
+P6 (427,811) — passenger door, "A.G.Coombs / Projects" logo decal
+
+B1 (1240,332) — bonnet, orange/green fingerprint swoosh decal
+
+R1 (1277,787) — rear tray rail, "A.G.Coombs | Projects" + phone/web text (718mm decal)
+R2 (1132,782) — rear tray rail, 'ISO' certification icon cluster (same icons as side rails)
+R3 (1383,782) — rear tray rail, green building council leaf logo + text
+
+Skipped items: none — all 16 codes from the JSON item list were located and tagged.
+
+Note on D4/D5 distinction: D4 ("TRAY GREEN/ORANGE STRIPS") is the two-tone diagonal stripe
+block physically on the aluminium tray; D5 ("'ORANGE' FINGERPRINT STRIP") is the separate
+solid-orange lower rocker-panel strip on the cab door/body panel — confirmed these are two
+distinct decal applications (different panels) even though they align visually into one line.

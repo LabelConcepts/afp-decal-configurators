@@ -1,0 +1,50 @@
+VEHICLE: isuzu_mux_wave — AFP Isuzu MU-X, WAVE design, 131 AFP
+
+Source PDF: "AFP - ISUZU MU-X - WAVE - 131 AFP - FITTING.pdf" (11 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/isuzu_mux_wave.png (1521x1076),
+    annotated/isuzu_mux_wave_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn yellow leader-line labels for every "MUX" reflective strip code ->
+    rendered and saved as source_images/isuzu_mux_wave_p3.png,
+    annotated/isuzu_mux_wave_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists PASS-5, DRIVE-5, and REAR-4 as "coloured
+vehicle" alternate-colour variants of PASS-4, DRIVE-4, and REAR-3/4 (phone text in
+white decals for a non-white body colour). Since this specific render depicts a white
+vehicle, only the white-vehicle/blue-decal variants (PASS-4, DRIVE-4, REAR-3) are
+visually present and tagged; the coloured-vehicle alternates have no separate artwork
+to independently verify here and are not tagged, per project rules against guessing.
+
+28 items total (13 main decals tagged + 3 alternate-colour duplicates skipped + 14
+reflective strips tagged, 1 bulk/alternate note).
+
+Main page (13 tagged):
+PASS-4 (180,295) "131 AFP" phone text, pass side (white vehicle/blue decal variant)
+PASS-1 (530,350) WAVE chequerboard, pass side
+PASS-2 (530,375) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (625,440) AFP crest + "AFP" text, pass side
+DRIVE-1 (530,800) WAVE chequerboard, drive side
+DRIVE-2 (530,795) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (355,860) AFP crest + "AFP" text, drive side
+DRIVE-4 (830,735) "131 AFP" phone text, drive side (white vehicle/blue decal variant)
+BONNET-1 (1240,290) AFP crest, bonnet
+REAR-1 (1265,660) "AUSTRALIAN FEDERAL POLICE" text, rear window
+REAR-3 (1150,775) "AFP" phone text, tailgate (white vehicle/blue decal variant)
+REAR-2 (1320,785) AFP crest, tailgate (right of phone text)
+REAR-5 (1265,855) navy bumper panel, lower tailgate
+SKIPPED: PASS-5, DRIVE-5, REAR-4 (coloured-vehicle/white-decal alternates of
+PASS-4/DRIVE-4/REAR-3 — no second artwork instance visible on this white-vehicle
+render; see note above).
+
+Reflective page (14) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated):
+MUX D1 (205,285) MUX D2 (390,285) MUX D3 (590,285) MUX D4 (725,300)
+MUX F1 (1215,335) MUX F3 (1215,410) MUX F2 (1070,390) MUX F4 (1355,390)
+MUX P4 (260,740) MUX P3 (425,725) MUX P2 (650,725) MUX P1 (795,710)
+MUX R1 (1245,730) MUX R2 (1245,810)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 14 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

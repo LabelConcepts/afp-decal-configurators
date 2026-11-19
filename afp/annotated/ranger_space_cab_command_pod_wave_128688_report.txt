@@ -1,0 +1,59 @@
+VEHICLE: ranger_space_cab_command_pod_wave_128688 — AFP Ford Ranger Space/Extra Cab,
+Command Pod, WAVE design, 131 AFP (job 128688)
+
+Source PDF: "128688 - AFP - FORD RANGER COMMAND POD - SPACE CAB - WAVE - FITTING.pdf"
+(8 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as
+    source_images/ranger_space_cab_command_pod_wave_128688.png (1521x1076),
+    annotated/ranger_space_cab_command_pod_wave_128688_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow leader-line labels -> rendered and saved as
+    source_images/ranger_space_cab_command_pod_wave_128688_p3.png,
+    annotated/ranger_space_cab_command_pod_wave_128688_p3_tagged.png.
+
+CODE MAPPING NOTE: the renderer's own leader-line labels on page 3's front quadrant
+read "FRANW F1-F5" (5 segments: 3 on the upper grille strip, 2 on the lower bumper
+strip), but the authoritative text checklist (page 2, "PART CHECKLIST - REFLECTIVE
+VC612 WHITE", and its physical cut-layout diagram beneath it) lists only F1-F3 under
+"FRONT" and separately lists B1-B2 under "BUMPER" — confirmed by the cut-layout
+diagram, which groups "FRANW B1"/"FRANW B2" as their own pieces distinct from
+"FRANW F1/F2/F3". The render's "F4"/"F5" labels on the lower bumper strip are stale
+artwork labels from an earlier revision; the two lower-bumper segments are tagged here
+as FRANW B1/B2 (the checklist's authoritative names for those same physical positions),
+and the three upper-strip segments remain FRANW F1/F2/F3 as labelled.
+
+30 items total (15 main decals + 15 reflective strips: D1-3, P1-3, F1-3, B1-2, R1-4),
+all placed, none skipped.
+
+Main page (15):
+PASS-1 (625,400) WAVE chequerboard, cab door, pass side
+PASS-2 (650,350) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (720,435) AFP crest + "AFP" text, pass side
+PASS-4 (125,310) "131 AFP" phone text, pass-side pod
+PASS-5 (360,410) navy "SIDE REAR BOTTOM BLUE PIECE", pass-side pod lower corner
+DRIVE-1 (530,795) WAVE chequerboard, cab door, drive side
+DRIVE-2 (430,750) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (330,825) AFP crest + "AFP" text, drive side
+DRIVE-4 (890,710) "131 AFP" phone text, drive-side pod
+DRIVE-5 (930,810) navy "SIDE REAR BOTTOM BLUE PIECE", drive-side pod lower corner
+BONNET-1 (1265,280) AFP crest, bonnet
+REAR-1 (1285,685) "AUSTRALIAN FEDERAL POLICE" text, rear pod door
+REAR-2 (1285,640) AFP crest, rear pod door (above text)
+REAR-3 (1285,720) "131 AFP" phone text, rear pod door (below text)
+REAR-4 (1285,790) lower rear pod door panel
+
+Reflective page (15) — tag positions placed directly on each white strip segment at the
+exact point the source document's own leader-line label points to (cross-checked, not
+estimated; B1/B2 renamed from the render's stale "F4/F5" labels per the checklist, as
+explained above):
+FRANW D1 (515,315) FRANW D2 (650,315) FRANW D3 (800,315)
+FRANW F2 (1125,390) FRANW F1 (1250,390) FRANW F3 (1395,390)
+FRANW B1 (1115,460) FRANW B2 (1395,460)
+FRANW P3 (260,690) FRANW P2 (415,690) FRANW P1 (570,690)
+FRANW R1 (1125,630) FRANW R3 (1410,630) FRANW R2 (1125,770) FRANW R4 (1420,770)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; all 15 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3 and the
+checklist's cut-layout diagram on page 2.

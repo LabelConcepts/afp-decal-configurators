@@ -1,0 +1,106 @@
+Vehicle: fn_rav4 — "126000 - Telstra Supergraphic - First Nations - RAV 4"
+Source document: 126000 - TELSTRA SG - FIRST NATIONS - RAV 4 - FITTING.pdf (4 pages)
+
+MODEL-YEAR / BODY NOTE
+This vehicle's own photos (front view, p2 top-right) show an older-style RAV4 front end (narrower LED
+daytime-running strip, different grille/bumper texture, different plate "1PU 5BD") compared to the
+base `rav4` document's "2026 MODEL" refresh (different grille/headlight shape, plate "2EW 4GN"). These
+are confirmed to be two different photo sets of two different model years, NOT the same vehicle body.
+Fortunately, fn_rav4's own 4 pages independently show every item on its checklist except the two
+internal windscreen decals (see SKIPPED section) — no cross-referencing against the `rav4` document was
+actually needed for D1/P1/T1-T5, contrary to the initial assumption that cross-referencing might be
+required. This avoids mixing model years into one vehicle's artwork, per the stated methodology risk.
+
+PAGE SUMMARY
+- p1: text-only part checklist (no photos). Confirms 14 parts including a "Green Fleet 2.2 Million..."
+  decal (T5) — unlike the base `rav4` doc, this checklist DOES include it. Not tagged.
+- p2: two driver-side full-vehicle photos (top-left: with clear-decal "Connection" artist-credit callout
+  arrow + "DRIVERS SIDE ONLY" note; bottom-left: same driver-side artwork, captioned "'T' IN SIDE LOGO
+  MEASURES 458mm HIGH"), a front-view photo (top-right) and a rear-view photo (bottom-right, own numberplate
+  "1PU 5BD"). Tags placed on the top-left photo (D1-D4) and the rear photo (T1-T5).
+  Tagged -> annotated/fn_rav4_p2_tagged.png
+- p3: "DRIVERS SIDE 'FIRST NATIONS' DECALS" — large close-up of the driver-side artwork, with the same
+  "Connection" artist-credit arrow pointing to small print on the rocker panel (D4).
+  Tagged -> annotated/fn_rav4_p3_tagged.png
+- p4: "PASSENGER SIDE 'FIRST NATIONS' DECALS" — large close-up of the passenger-side artwork (own T
+  logo visible, no artist-credit callout present — correctly, per checklist, as D4 is drive-side only).
+  Tagged -> annotated/fn_rav4_p4_tagged.png
+
+METHOD NOTE ON D2/D3 vs P2/P3 (which mandala is the "Extended" design)
+The checklist text itself states the asymmetry explicitly (not inferred): driver side has the "Extended"
+variant at the REAR QTR (D3) with a plain "First Nations" decal at the DOOR (D2); passenger side has the
+"Extended" variant at the DOOR (P2) with a plain "First Nations" decal at the REAR QTR (P3). This was
+cross-checked visually: the two "Extended" motifs (D3, P2) both show an added outer ring of small linked
+circles/beads around the core mandala, while the plain motifs (D2, P3) show a simpler toothed/gear-ring
+border with no linked-circle embellishment — confirming the checklist's own left/right labelling matches
+what's actually drawn on each side, rather than assuming symmetry.
+
+ITEMS PLACED (colour-mask / visual centroid measured independently per photo, then re-cropped from the
+untagged source PNG and visually confirmed before drawing)
+
+D1 — Drive rear side Telstra T decal "RAV4 - Side" (458mm high)
+  p2: (389, 354) — top-left driver photo, T decal.
+  p3: (670, 600) — driver-side close-up, same T decal.
+  Confirmed independently on fn_rav4's own photos; no cross-reference to base `rav4` needed.
+
+P1 — Pass rear side Telstra T decal (458mm high)
+  p4: (730, 635) — passenger-side close-up, T decal.
+  Confirmed independently on fn_rav4's own photo (p4); no cross-reference to base `rav4` needed. Note:
+  unlike the driver side, p2 has no full-vehicle passenger-side photo — p4's close-up is the only view.
+
+D2 — Drive door 'First Nations' decal
+  p2: (235, 360) — top-left driver photo, front/door mandala motif (plain gear-ring border).
+  p3: (220, 490) — driver-side close-up, same motif.
+
+D3 — Drive rear qtr 'First Nations Extended' decal
+  p2: (625, 400) — top-left driver photo, rear-quarter mandala motif (linked-circle "extended" border).
+  p3: (1195, 560) — driver-side close-up, same motif.
+
+D4 — Drive 'Connection....' clear decal (artist credit, driver side only)
+  p2: (695, 471) — magenta arrow tip from the "CLEAR DECAL ... DRIVERS SIDE ONLY" callout, landing
+       directly on the "Connection © Bobbi Lockyer/Copyright Agency" text on the rocker panel.
+  p3: (1145, 764) — same arrow/callout repeated ("ARTIST CREDIT DRIVE SIDE ONLY"), same text, zoomed in.
+
+P2 — Pass door 'First Nations Extended' decal
+  p4: (290, 600) — front/door mandala motif, showing the linked-circle "extended" border (confirmed
+       distinct from D2's plain border — the asymmetry called out in the brief).
+
+P3 — Pass rear qtr 'First Nations' decal
+  p4: (1290, 465) — rear-quarter mandala motif, plain gear-ring border (no linked-circle extension).
+
+T1 — Rear small Telstra T decal
+  p2: (1115, 790) — rear photo (own vehicle, plate 1PU 5BD), small blue/orange T + "RAV4" text, left of
+       plate. Independently confirmed on fn_rav4's own rear photo — no cross-reference needed.
+
+T2 — Rear 'telstra.com.au' decal
+  p2: (1327, 780) — rear photo, "telstra.com" text, right of plate.
+
+T3 — Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal
+  p2: (1230, 825) — rear photo, 3-line blue text block directly below plate.
+
+T4 — Rear 'Before you dig www.byda.com.au' decal
+  p2: (1130, 825) — rear photo, "BEFORE YOU DIG" dog-logo sticker with QR code, below T1.
+
+T5 — Rear 'Green Fleet 2.2 Million...' decal
+  p2: (1323, 815) — rear photo, green leaf "GreenFleet" logo/text, below T2, next to "HYBRID" badge.
+  Confirmed as present and visually distinct from T1/T2 — this vehicle's checklist (unlike base rav4's)
+  explicitly includes this decal, and it is physically visible on its own rear photo.
+
+ITEMS SKIPPED / UNVERIFIABLE
+
+W1 — Internal windscreen 'Parking Brake' decal: SKIPPED, unverifiable in a photo.
+  None of fn_rav4's 4 pages contain any callout, arrow, or inset artwork for this decal (unlike the base
+  `rav4` document, which at least had an instructional arrow — itself later judged unverifiable there
+  too). The front-view photo (p2 top-right) windscreen was zoomed to full resolution and shows only
+  plain tinted glass, no visible decal silhouette. Given the body/model-year mismatch against `rav4`
+  noted above, and that `rav4`'s own W1/W2 placements were themselves found unverifiable, there is
+  nothing reliable to cross-reference. Left untagged.
+
+W2 — Internal windscreen 'GPS' decal: SKIPPED, unverifiable in a photo.
+  Same reasoning as W1 — no callout or visible decal evidence anywhere in p1-p4. Left untagged.
+
+FILES
+  annotated/fn_rav4_p2_tagged.png
+  annotated/fn_rav4_p3_tagged.png
+  annotated/fn_rav4_p4_tagged.png
+  annotated/fn_rav4_report.txt (this file)

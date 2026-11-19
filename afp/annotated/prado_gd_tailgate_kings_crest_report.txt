@@ -1,0 +1,56 @@
+prado_gd_tailgate_kings_crest — Toyota Prado, General Duties, Tailgate design, Kings Crest
+Source used: source_images/prado_gd_tailgate_kings_crest.png
+NOTE: the file originally saved at this path was the text PART CHECKLIST page (page 3 of the
+8-page fitting PDF) with no vehicle photo at all. Replaced with page 2 ("VISUAL") of the same
+source PDF (TOYOTA PRADO/GENERAL DUTIES/AFP - PRADO LANDCRUISER - TAIL GATE - KINGS CREST -
+FITTING.pdf), a 2x2 grid of real installed-vehicle photos: top-left = one flank, top-right =
+front, bottom-left = other flank, bottom-right = rear. Every coordinate below was independently
+measured from this photo.
+
+Side identification: unlike the LandCruiser SRG (which had a snorkel to anchor driver vs
+passenger), this Prado's two flank photos show no reliable asymmetric exterior feature (no
+snorkel, no visible fuel flap, no external tailgate hinge in frame) to conclusively fix which
+photo is physically the driver's side vs passenger's side. I confirmed via nose direction that
+the two photos are genuinely opposite flanks (top photo: nose right, tail/taillight at left edge;
+bottom photo: nose left, tail at right edge) so they are not duplicates. I assigned top photo =
+"FRONT" (matches the checklist's FRONT-x codes) and bottom photo = "PASS" (matches PASS-x codes)
+by position/order only. FLAGGED FOR CONFIRMATION: if this assignment is backwards, every FRONT-x
+and PASS-x tag below is simply on the wrong physical side of the vehicle (decal content/positions
+are mirror-identical on both flanks, so nothing is missing — only the Front/Pass labelling could
+be swapped).
+
+The front guard has a pre-existing labelled reference diagram (page 4 of the same PDF, a night/UV
+photo with "PRA GD F1–F5" and "PRA GD R1" leader-line labels already drawn by Label Concepts) which
+I used ONLY to confirm what the "PRA" codes refer to (the 4 lime/fluoro corner accent pieces on the
+bull bar/hood edge, and the lime strip on the rear bumper) — not to copy coordinates, since that
+diagram is a different photo shoot with different framing. All PRA coordinates below were
+independently re-measured on the actual output image (the 2x2 grid).
+
+Placed (17):
+BONNET-1 BONNET POLICE 910mm Wide (3M 680 W 8528)       -> (1380,272)  "Police" text on bonnet, front photo
+FRONT-1  Front SIDE CHEQUERS (3M 680 W 8519)            -> (527,283)   main chequered band, flank shown in top photo
+FRONT-2  Front SIDE FRONT TRIANGLE (3M 680 W 8519)      -> (1015,335)  tapering triangular point where the chequered band comes to an end near the front guard/headlight, top photo
+FRONT-3  Front SIDE MIDDLE POLICE KINGS CREST (3M 680 W 8519) -> (740,417)  small crest/shield badge beside "Police" text, top photo
+FRONT-4  Front SIDE REAR 131 444 (3M 680 W 8519)        -> (120,387)   "131 444" + phone icon near rear of that flank, top photo
+PASS-1   Pass SIDE CHEQUERS (3M 680 W 8519)             -> (527,753)   main chequered band, flank shown in bottom photo
+PASS-2   Pass SIDE FRONT TRIANGLE (3M 680 W 8519)       -> (210,790)   triangular taper point near front guard/headlight, bottom photo
+PASS-3   Pass SIDE MIDDLE POLICE KINGS CREST (3M 680 W 8519) -> (453,867)  crest badge beside "Police" text, bottom photo
+PASS-4   Pass SIDE REAR 131 444 (3M 680 W 8519)         -> (1093,837)  "131 444" + phone icon near rear of that flank, bottom photo
+SIDE-1   8x SIDE STRIPE 23mm Thick x 1150 Long          -> (527,268)   yellow pinstripe bordering the chequers (one of 8 total strip segments — top+bottom pinstripe x 2 flanks x ~2 joined 1150mm lengths per run)
+ITEM-1   PRA R1 40mm Thick @ 1470 Long (VC162 LIME)     -> (1350,882)  yellow strip across the top of the rear bumper, rear photo (matches "PRA GD R1" in the source's own labelled reference)
+PRA F1   PRA F1 (VC162 LIME)                            -> (1245,308)  lime accent piece, upper-left at base of bonnet edge, front photo
+PRA F2   PRA F2 (VC162 LIME)                            -> (1537,308)  lime accent piece, upper-right at base of bonnet edge, front photo
+PRA F3   PRA F3 (VC162 LIME)                            -> (1215,357)  lime accent piece, lower-left on bull bar, front photo
+PRA F4   PRA F4 (VC162 LIME)                            -> (1560,357)  lime accent piece, lower-right on bull bar, front photo
+REAR-1   Rear POLICE 595mm Wide (3M 680 W 8519)         -> (1415,735)  "Police" white panel on the spare-wheel cover, rear photo
+REAR-2   Rear AFP 149mm Wide (3M 680 W 8519)            -> (1410,697)  "AFP" text above "Police" on the spare-wheel cover, rear photo
+
+Skipped (1):
+REAR-3 Rear 131AFP 304mm Wide (3M 680 W 8519) — UNVERIFIABLE. Checked the entire rear view
+(spare-wheel cover, bumper, tailgate, number plate surround) at full zoom. The only phone-number
+print actually present on the vehicle reads "131 444" with a phone icon on the spare-wheel cover
+(already tagged as REAR... no — that text matches the wording of FRONT-4/PASS-4 "SIDE REAR 131 444"
+rather than a separate "131AFP"). No distinct "131AFP" text exists anywhere in the available rear
+photo. Not guessed/duplicated onto the existing 131 444 print.
+
+Total placed + skipped = 18 (matches the 18-item extracted list; count_mismatch flag was false).

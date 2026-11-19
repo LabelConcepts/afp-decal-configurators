@@ -1,0 +1,40 @@
+VEHICLE: iload_wave_2019_white — AFP Hyundai iLoad 2019, White Vehicle, WAVE design,
+131 AFP
+
+Source PDF: "AFP - HYUNDAI iLOAD 2019 - WAVE 131 AFP - WHITE - FITTING.pdf" (8 pages).
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/iload_wave_2019_white.png (1521x1076),
+    annotated/iload_wave_2019_white_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow labels for every "ILOAD" reflective strip code ->
+    rendered and saved as source_images/iload_wave_2019_white_p3.png,
+    annotated/iload_wave_2019_white_p3_tagged.png.
+
+35 items total (13 main decals + 22 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-4 (120,325) "131 AFP" phone text, pass side
+PASS-1 (430,390) WAVE chequerboard, pass side
+PASS-2 (530,355) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (690,450) AFP crest + "AFP" text, pass side
+DRIVE-1 (630,850) WAVE chequerboard, drive side
+DRIVE-2 (530,815) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (350,900) AFP crest + "AFP" text, drive side
+DRIVE-4 (905,785) "131 AFP" phone text, drive side
+BONNET-1 (1275,310) AFP crest, bonnet
+REAR-1 (1130,750) "AUSTRALIAN FEDERAL POLICE" text, rear door
+REAR-3 (1295,750) "131 AFP" phone text, rear door
+REAR-2 (1395,750) AFP crest, rear door (right)
+REAR-4 (1270,880) black bumper panel, lower rear door
+
+Reflective page (22) — tag positions placed directly on each white strip segment at
+the exact point the source document's own yellow leader-line label points to
+(cross-checked, not estimated):
+ILOAD D1 (225,205) ILOAD D2 (525,205) ILOAD D3 (260,290) ILOAD D4 (530,290) ILOAD D5 (755,290) ILOAD D6 (870,290)
+ILOAD F1 (1275,385) ILOAD F2 (1125,470) ILOAD F3 (1435,470) ILOAD F4 (1170,510) ILOAD F5 (1355,510)
+ILOAD P2 (640,660) ILOAD P1 (840,660) ILOAD P6 (230,745) ILOAD P5 (365,745) ILOAD P4 (640,745) ILOAD P3 (845,745)
+ILOAD R1 (1170,625) ILOAD R2 (1275,625) ILOAD R3 (1380,625) ILOAD R4 (1195,910) ILOAD R5 (1335,910)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing leader-line labels on page 3.

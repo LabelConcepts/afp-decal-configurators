@@ -1,0 +1,30 @@
+Vehicle: dmax_walker_alloy_tray — Isuzu D-Max Dual Cab w/ Alloy Tray, Walker Fire branding
+Source: source_images/dmax_walker_alloy_tray.png (1521x1075)
+Quadrants: top-left = driver side (nose pointing right), bottom-left = passenger side (nose pointing left),
+top-right = front/bonnet, bottom-right = rear.
+(Note: Volumes/LabelConcepts source PDF was not reachable in this session, so this vehicle was
+tagged purely from the supplied source_images reference photo, same as vehicle 1.)
+
+All 16 items placed. None skipped.
+
+D1 (855,391) — driver A-pillar/door area, "An A.G. Coombs Company" small text (AGC COMPANY, 191mm)
+D2 (740,398) — driver door, "Walker / FIRE PROTECTION" logo + text (960x306mm)
+D3 (482,417) — driver door/cab, solid orange fingerprint-texture diagonal panel
+D4 (282,393) — driver-side tray, yellow-green/orange fingerprint diagonal stripe panel
+D5 (100,392) — driver-side tray front rail, 4-icon 'ISO' badge cluster
+D6 (81,408) — driver-side tray front rail, red "FPAS" accreditation badge, below D5
+
+P1 (245,755) — passenger A-pillar/door area, "An A.G. Coombs Company" text
+P2 (353,762) — passenger door, "Walker / FIRE PROTECTION" logo + text
+P3 (670,735) — passenger door/cab, solid orange fingerprint-texture diagonal panel
+P4 (796,761) — passenger-side tray, yellow-green/orange fingerprint diagonal stripe panel
+P5 (997,755) — passenger-side tray front rail, 4-icon 'ISO' badge cluster
+P6 (1013,770) — passenger-side tray front rail, red "FPAS" accreditation badge, below P5
+
+B1 (1300,365) — bonnet, orange/green fingerprint swoosh decal
+
+R1 (1299,776) — rear tailgate, "Walker / FIRE PROTECTION" logo + text (531x110mm)
+R2 (1175,755) — rear tailgate, 4-icon 'ISO' badge cluster (326mm)
+R3 (1159,771) — rear tailgate, red "FPAS" accreditation badge (166mm), below R2
+
+Skipped items: none — all 16 codes from the JSON item list were located and tagged.

@@ -1,0 +1,72 @@
+Vehicle: norfolk_hilux_with_tub (Toyota Hilux - Norfolk Island - With Tub)
+Source image used: source_images/norfolk_hilux_with_tub.png
+NOTE: The file originally at this path (auto-selected by the extraction script as the
+page with the most text/graphics) was a "PRINT FILES" page showing only flat checker-
+pattern/text print artwork with no vehicle photo. The PDF's page 2 ("VISUAL" reference
+page, 4-photo grid: driver-side three-quarter, front face, passenger-side three-quarter,
+rear face) contains the real installed-vehicle photos and was substituted in as
+source_images/norfolk_hilux_with_tub.png before annotating. Page 3 ("PANELS") was
+checked as a cross-reference only.
+
+Side identification (DRIVE vs PASS): this PDF's VISUAL page does not label its two side
+photos directly. Top-row photo = DRIVE, bottom-row photo = PASS was inferred from the
+same Label Concepts document template's convention confirmed explicitly on the AFP Mazda
+CX-80 job (that PDF's "REFLECTIVE" page overlays the identical top/bottom two-photo
+layout with explicit "MAZ CX80 D1" on the top, nose-right photo and "MAZ CX80 P1" on the
+bottom, nose-left photo). Flagging this inference here for transparency since it could
+not be independently confirmed within this specific PDF.
+
+The checker-stripe band on each side is actually two separate decal pieces applied
+end-to-end (a "CAB CHECKERS" piece over the doors and a "TUB CHECKERS" piece over the
+tray), meeting at a body seam near the C-pillar/rear-door-to-tray join. This seam was
+located independently on each side before placing the two checker tags, rather than
+assumed to be a fixed fraction of the band:
+- Driver side (top row): seam at x≈350 (tray occupies x<350, cab x>350..~950).
+- Passenger side (bottom row): seam at x≈750 (cab occupies x<750, tray x>750..~1060).
+These two seam positions are different pixel values, confirming they were each measured
+independently rather than mirrored.
+
+Items (9 total, all visually confirmed):
+
+1. DRIVE-1 — "DRIVE NORFOLK CRESTS"
+   PLACED: (715, 375) — Norfolk Island Police crest badge inset in the checker band on
+   the driver-side front door, just behind the mirror.
+
+2. PASS-1 — "PASS NORFOLK CRESTS (345mm HIGH) (3M 680)"
+   PLACED: (385, 803) — matching crest badge inset in the checker band on the
+   passenger-side front door (measured independently — not copied from the driver-side
+   x-coordinate, hence the different value).
+
+3. DRIVE-2 — "DRIVE POLICE"
+   PLACED: (580, 435) — white "Police" text decal below the checker band, driver-side
+   door.
+
+4. PASS-2 — "PASS POLICE (938 x 162 mm) (3M 680)"
+   PLACED: (565, 867) — matching white "Police" text decal below the checker band,
+   passenger-side door.
+
+5. DRIVE-3 — "DRIVE CAB CHECKERS"
+   PLACED: (500, 375) — clear checker pattern on the driver-side cab-door section,
+   between the pod/tub seam (x≈350) and the crest badge.
+
+6. PASS-3 — "PASS CAB CHECKERS (3554 x 158 mm) (3M 680)"
+   PLACED: (560, 800) — clear checker pattern on the passenger-side cab-door section,
+   between the crest badge and the cab/tub seam (x≈750).
+
+7. DRIVE-4 — "DRIVE TUB CHECKERS"
+   PLACED: (150, 375) — clear checker pattern on the driver-side tray/tub section,
+   left of the seam, above the rear wheel arch.
+
+8. PASS-4 — "PASS TUB CHECKERS (2065 x 158 mm) (3M 680)"
+   PLACED: (860, 800) — clear checker pattern on the passenger-side tray/tub section,
+   right of the seam, before the tray taillight.
+
+9. REAR-1 — "REAR POLICE (938 x 162 mm) (3M 680) PLEASE REFER TO EXISTING BRANDED
+   VEHICLES FOR EXACT POSITIONING OF DECALS"
+   PLACED: (1265, 830) — white "Police" text decal centered on the tailgate, above the
+   number plate area, between the two taillights.
+
+Summary: all 9 codes placed with pixel coordinates. No items skipped. Every decal
+location — including the two checker-band seam positions and both crest positions — was
+independently measured by cropping and visually confirming the untagged source image
+before drawing, with driver-side and passenger-side positions kept fully separate.

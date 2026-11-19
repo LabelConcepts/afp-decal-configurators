@@ -1,0 +1,63 @@
+VEHICLE: ranger_dual_cab_gd_prisoner_pod — AFP Ford Ranger Dual Cab Prisoner Pod,
+General Duties (Victoria Police "Police" Battenburg checker livery), Updated 2025
+"Kings Crest"
+
+Source PDF: "AFP - FORD RANGER DUAL CAB - GD PRISONER POD - FITTING GUIDE.pdf" (12
+pages).
+  Page 1 ("FORD RANGER - PRINT PARTS - GENERAL DUTIES") = real vehicle render, 2x2
+    grid (pass/front/drive/rear) -> rendered and saved as
+    source_images/ranger_dual_cab_gd_prisoner_pod.png (1521x1076),
+    annotated/ranger_dual_cab_gd_prisoner_pod_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn cyan leader-line labels for every "GD POD" / "FRAN GD" reflective code ->
+    rendered and saved as source_images/ranger_dual_cab_gd_prisoner_pod_p3.png,
+    annotated/ranger_dual_cab_gd_prisoner_pod_p3_tagged.png.
+  (Page 2 is a text-only PART CHECKLIST for the reflective parts.)
+
+This vehicle is the 2025 "Kings Crest" update of the same GD 4-person prisoner pod
+design already completed as ranger_dual_cab_gd_4person_pod — same layout and reflective
+strip positions, confirmed independently from this vehicle's own PDF (not copied from
+the other vehicle's report).
+
+35 items placed (15 main decals + 20 reflective codes). One additional checklist line
+item is a bulk quantity spec, not a positional decal — see SKIPPED note below.
+
+Main page (15):
+PASS-4 (180,345) "SIDE POD CHEQUERS" — Battenburg checker, toolbox/pod, pass side
+PASS-1 (730,345) "SIDE CABIN CHEQUERS" — Battenburg checker, cab door, pass side
+PASS-5 (115,235) "PHONE 131 444", pass-side pod
+PASS-3 (600,430) "POLICE" text + 2025 Kings Crest combo, pass side
+PASS-2 (980,370) "SIDE FRONT QUARTER CHEQUERS", pass-side front guard
+DRIVE-3 (330,830) "POLICE" text + 2025 Kings Crest combo, drive side
+DRIVE-1 (640,745) "SIDE CABIN CHEQUERS", cab door, drive side
+DRIVE-2 (180,745) "SIDE FRONT QUARTER CHEQUERS", drive-side front guard
+DRIVE-4 (880,745) "SIDE POD CHEQUERS", toolbox/pod, drive side
+DRIVE-5 (980,665) "PHONE 131 444", drive-side pod
+BONNET-1 (1300,250) "POLICE" text, front windscreen visor/header
+REAR-1 (1295,675) "POLICE" text, rear pod door
+REAR-2 (1165,680) "AFP" logo text, rear pod door (left of "Police")
+REAR-3 (1415,675) "PHONE 131 444", rear pod door (right of "Police")
+REAR-4 (1295,810) Battenburg chequers, rear pod door (lower band)
+
+Reflective page (20) — tag positions placed directly on each white/labelled strip
+segment at the exact point the source document's own leader-line label points to
+(cross-checked, not estimated):
+Drive side: GD POD D1 (41,407) GD POD D2 (150,407) GD POD D3 (257,407)
+  GD POD D4 (90,437) GD POD D5 (170,437) GD POD D6 (244,437)
+Front: FRAN GD F2 (1160,365) FRAN GD F1 (1300,365) FRAN GD F3 (1440,365)
+  FRAN GD F4 (1155,440) FRAN GD F5 (1440,440)
+Pass side: GD POD P3 (848,828) GD POD P6 (848,858) GD POD P2 (945,828) GD POD P5 (940,858)
+  GD POD P4 (1035,858) GD POD P1 (1070,828)
+Rear: GD POD R1 (1190,825) GD POD R2 (1305,850) GD POD R3 (1420,825)
+
+SKIPPED (not tagged as a point): the checklist's "4 x 5300mm long @ 23mm Thick
+Reflective Strips VC612 LiME" line (afp_vehicles.json "ITEM-3"). Same as the related
+ranger_dual_cab_gd_4person_pod vehicle, this is a bulk quantity spec for the thin
+yellow trim lines along the top/bottom edges of the Battenburg checker band on both
+sides, not an individually-coded, single-point decal, and the source gives no
+per-instance codes to distinguish the 4 strips. Not tagged, per project rules against
+guessing/inventing codes.
+
+All 15 main-page and 20 reflective placements independently measured via zoomed crops
+of each page quadrant before tagging; the reflective positions were cross-checked
+against (not blindly copied from) the source PDF's own pre-existing leader-line labels.

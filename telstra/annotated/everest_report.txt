@@ -1,0 +1,95 @@
+EVEREST (Ford Everest 2023 - Supergraphic Livery) - Annotation Report
+======================================================================
+Source PDF pages used: everest_p2.png (PARTS ON VEHICLE), everest_p3.png (INSTALLED PHOTOS
++ REAR UPDATE: MAY-JUNE 2024 mockup). Image size for both: 1521 x 1075 px.
+
+Method: every coordinate below was measured directly from the source PNG using Python/PIL
+crops zoomed in at 3-4x, and for D1/P1 cross-checked with an objective color-based centroid
+(HSV/RGB threshold on the Telstra blue) rather than eyeballed. Each placement was re-rendered
+with the actual draw_tag() call and visually re-inspected before being accepted (see
+annotated/everest_p2_tagged.png and annotated/everest_p3_tagged.png).
+
+PLACED TAGS
+-----------
+
+D1 - Drive rear side Telstra T decal (539mm high)
+  Page: everest_p2.png  ->  annotated/everest_p2_tagged.png
+  Pixel coords: (426, 303)  [center of the blue "T" mark, TOP-LEFT side-view photo]
+  Verification: isolated blue pixels in the photo region (R<G<B, B>140, B>R+40) and took the
+  centroid -> (426.4, 302.8), matched visually to the T stroke.
+
+P1 - Pass rear side Telstra T decal (539mm high)
+  Page: everest_p2.png  ->  annotated/everest_p2_tagged.png
+  Pixel coords: (621, 709)  [center of the blue "T" mark, BOTTOM-LEFT side-view photo]
+  Verification: same blue-pixel centroid method -> (621.2, 709.3).
+
+  IMPORTANT CAVEAT on D1 vs P1 assignment: the fitting-guide photos do not caption which
+  side-view photo is literally the driver's side vs. passenger's side. I confirmed the two
+  photos are genuinely two different sides (not a mirrored duplicate) — the top photo's rear
+  quarter panel has no fuel filler flap visible, while the bottom photo's rear quarter panel
+  clearly shows a fuel filler flap outline — so they are not the same physical panel. However
+  I could not positively identify from the images alone which side is drive vs. pass (no
+  visible steering wheel, badge, or captioned reference). I assigned D1 to the TOP photo and
+  P1 to the BOTTOM photo purely by reading-order convention (matching the Page 1 checklist's
+  "DRIVE ... / PASS ..." left-to-right listing and top-to-bottom photo order). If the client
+  knows which physical side was photographed first, this label pair (D1/P1) may need to be
+  swapped — the pixel positions themselves are correct for "a side T-decal," only the D/P
+  naming is a best-effort assumption.
+
+T1 - Rear small Telstra T decal
+  Page: everest_p3.png (REAR UPDATE mockup, right side of page) -> annotated/everest_p3_tagged.png
+  Pixel coords: (1346, 554)
+  Note: used the REAR UPDATE mockup photo rather than the page 3 "INSTALLED PHOTOS" real rear
+  shot on page 2, because the mockup is sharper/higher-contrast and all 5 rear decals are
+  legible on it; the real installed rear photo on page 2 (bottom-right quadrant) shows the
+  same 5 decals in the same relative layout but is slightly softer/blurrier.
+
+T2 - Rear 'telstra.com.au' decal
+  Page: everest_p3.png (REAR UPDATE mockup) -> annotated/everest_p3_tagged.png
+  Pixel coords: (1090, 553)
+  Note: the rendered decal text reads "telstra.com" at this photo resolution; no ".au" is
+  legibly resolvable even at 4x zoom (it may be present but sub-pixel at this scan
+  resolution). Position tagged is the visible "telstra.com" wordmark, which is the decal the
+  checklist calls "telstra.com.au".
+
+T3 - Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal
+  Page: everest_p3.png (REAR UPDATE mockup) -> annotated/everest_p3_tagged.png
+  Pixel coords: (1213, 618)
+  Verification: zoomed crop confirms all three lines of text ("Safe driving is our priority",
+  "GPS monitoring is on board", "1800 800 437") centered under the tag.
+
+T4 - Rear 'Before you dig www.byda.com.au' decal
+  Page: everest_p3.png (REAR UPDATE mockup) -> annotated/everest_p3_tagged.png
+  Pixel coords: (1025, 684)
+  Verification: zoomed crop confirms the "BEFORE YOU DIG" sticker (with www.byda.com.au
+  sub-text) centered under the tag, bottom-left bumper area.
+
+T5 - Rear 'Green Fleet 2.2 Million...' decal
+  Page: everest_p3.png (REAR UPDATE mockup) -> annotated/everest_p3_tagged.png
+  Pixel coords: (1398, 681)
+  Verification: zoomed crop confirms the "Greenfleet" leaf logo + "2.2 million trees ... and
+  growing" sub-text centered under the tag, bottom-right bumper area.
+
+SKIPPED
+-------
+
+W1 - Internal windscreen 'Parking Brake' decal: SKIPPED - unverifiable.
+  Checked the only front-on windscreen view available (everest_p2.png, top-right quadrant,
+  front grille photo). There are two/three small stickers visible in the upper-right corner
+  of the windscreen (driver's side top corner), but at full zoom they remain too low-resolution
+  to read any text — they look consistent with standard compliance/registration stickers
+  (one appears to carry a vehicle-rego-style green/colour-coded sticker), not a readable
+  "Parking Brake" decal. No other page/photo shows the windscreen close enough to confirm.
+  Per instructions, not tagging a position I cannot actually read.
+
+W2 - Internal windscreen 'GPS' decal: SKIPPED - unverifiable, same reason as W1. Same
+  windscreen corner was inspected at 4x zoom; no legible "GPS" decal could be confirmed.
+
+SUMMARY
+-------
+Placed: D1, P1 (everest_p2_tagged.png); T1, T2, T3, T4, T5 (everest_p3_tagged.png) = 7 tags.
+Skipped: W1, W2 (not visible/legible in any supplied photo).
+Pages annotated: everest_p2_tagged.png, everest_p3_tagged.png.
+Page p1 (checklist, text-only) and p4 (measurement-diagram repeat of the p2 photos) were
+reviewed but did not require separate tagged outputs — p4 shows the same two side photos as
+p2 with manufacturer mm-offset arrows already overlaid, not a new distinct decal view.

@@ -1,0 +1,44 @@
+VEHICLE: ford_everest_wave_2025 — AFP Ford Everest, WAVE design, 131 AFP / 2025 Kings Crest
+
+Source PDF: "136726 - AFP - FORD EVEREST - WAVE - 131 AFP - FITTING.pdf" (6 pages).
+  Page 1 ("EVEREST WAVE - 131 AFP") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/ford_everest_wave_2025.png (1521x1076),
+    annotated/ford_everest_wave_2025_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - 131 AFP") = same vehicle render with the source document's
+    OWN pre-drawn yellow leader-line labels for every "EVT" reflective strip code ->
+    rendered and saved as source_images/ford_everest_wave_2025_p3.png,
+    annotated/ford_everest_wave_2025_p3_tagged.png.
+  (Pages 0/2 are the text-only PART CHECKLIST pages; not tagged.)
+
+Note: this is a distinct vehicle entry from the separate "ford_everest_wave" (no year,
+13 items, already completed in an earlier session) — "_2025" adds the 2025 Kings Crest
+artwork and 14 EVT reflective-strip items on top of the same 13 main-decal positions.
+
+27 items total (13 main decals + 14 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-1 (220,400) WAVE chequerboard, pass side
+PASS-2 (540,365) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (620,455) AFP 2025 Kings Crest logo + "AFP" text, pass side
+PASS-4 (110,290) "131 AFP" phone text, pass-side front guard
+DRIVE-1 (690,825) WAVE chequerboard, drive side
+DRIVE-2 (605,790) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (450,870) AFP 2025 Kings Crest logo + "AFP" text, drive side
+DRIVE-4 (885,730) "131 AFP" phone text, drive-side rear quarter
+BONNET-1 (1243,299) AFP 2025 Kings Crest, bonnet/grille
+REAR-1 (1258,858) "AUSTRALIAN FEDERAL POLICE" text, tailgate lower navy band
+REAR-2 (1333,792) AFP 2025 Kings Crest, tailgate (right of number plate)
+REAR-3 (1173,797) "131 AFP" phone text, tailgate (left of number plate)
+REAR-4 (1258,920) bumper navy panel, lower tailgate
+
+Reflective page (14) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated):
+EVT D1 (235,335)  EVT D2 (430,335)  EVT D3 (630,335)  EVT D4 (890,345)
+EVT F1 (1128,337) EVT F2 (1253,337) EVT F3 (1368,337) EVT F4 (1103,409) EVT F5 (1368,409)
+EVT P4 (205,750)  EVT P3 (425,750)  EVT P2 (660,750)  EVT P1 (865,750)
+EVT R1 (1258,805)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 14 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

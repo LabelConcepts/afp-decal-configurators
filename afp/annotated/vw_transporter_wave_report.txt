@@ -1,0 +1,18 @@
+VEHICLE: vw_transporter_wave - "AFP VW Transporter LWB (2021) - WAVE/General Duties"
+Source fixed: source_images/vw_transporter_wave.png from PDF page 2 "VISUAL".
+Reflective strip codes (TRANS F1-F3, R1, R2) tagged on a second output: annotated/vw_transporter_wave_p4_tagged.png,
+copied from PDF page 4 "REFLECTIVE PARTS" which already has the source's own pre-drawn leader-line labels -
+tags placed at those exact leader-line endpoints, not estimated.
+
+BONNET-1 (1300,320) "Police" bonnet text
+PASS-3 (170,305) phone, PASS-1 (325,343) chequers, PASS-2 (500,420) "Police" text/strip band
+DRIVE-3 (900,753) phone, DRIVE-1 (467,797) chequers, DRIVE-2 (587,880) "Police" text/strip band
+REAR-2 (1188,743) "AFP" text, REAR-3 (1397,743) phone, REAR-4 (1313,787) chequers, REAR-1 (1297,863) "Police" text
+TRANS F1 (1103,392), TRANS F2 (1260,392), TRANS F3 (1473,392) - front reflective strip, 3 segments
+TRANS R1 (1190,633), TRANS R2 (1363,633) - rear reflective strip, 2 segments
+
+Data note: afp_vehicles.json's extracted item list for this vehicle is partly garbled (an "ITEM-1"
+duplicate of TRANS R1 and a generic "ITEM-2: 14x reflective strips" line, from a messy multi-column
+PDF parse) - the real reflective-strip codes were recovered directly from PDF page 4's own labelled
+diagram (5 codes: TRANS F1/F2/F3/R1/R2) rather than trusted from the JSON. A "TIG P1" label also
+appears on that page but belongs to a different vehicle (Tiguan) - a template leftover, ignored.

@@ -1,0 +1,60 @@
+VEHICLE: iveco_daily_truck_wave — AFP Iveco Daily Truck (box body / mobile command unit),
+WAVE design
+
+Source PDF: "AFP - IVECO DAILY TRUCK - WAVE - FITTING.pdf" (5 pages).
+  Page 2 ("PRINT PANELS") = real vehicle render with the source document's OWN
+    pre-drawn magenta panel-boundary boxes and yellow labels for every DRIVE/PASS panel
+    -> rendered and saved as source_images/iveco_daily_truck_wave.png (1521x1076),
+    annotated/iveco_daily_truck_wave_tagged.png.
+  Page 4 ("VISUAL" — reflective) = close-up crops of the rear corners showing the
+    required 45mm/50mm width of the white reflective border trim on the chequerboard
+    wave graphic — see note below, no separate point codes.
+
+Note: this truck's body is divided into 5 numbered print panels per side (the chequer-
+board wave graphic is supplied as 5 separate cut panels, not one continuous piece),
+plus a toolbox graphic, the "AUSTRALIAN FEDERAL POLICE" text, and the AFP crest+text
+logo layered on top — all independently confirmed against the source's own pre-drawn
+panel-boundary boxes.
+
+20 items total (main decals only — no separate reflective-strip codes for this
+vehicle), all placed.
+
+Drive side (8):
+DRIVE-1 (160,300) print panel 1 (leading/cab-end panel)
+DRIVE-2 (305,300) print panel 2
+DRIVE-3 (500,300) print panel 3
+DRIVE-4 (690,300) print panel 4
+DRIVE-5 (860,300) print panel 5 (trailing/rear-end panel)
+DRIVE-6 (230,450) navy "TOOLBOX BLUE" graphic, within panel 1
+DRIVE-7 (320,315) "AUSTRALIAN FEDERAL POLICE" text
+DRIVE-8 (585,335) AFP crest + "AFP" text logo
+
+Pass side (7):
+PASS-5 (420,850) print panel 5 (leading/cab-end panel)
+PASS-4 (540,920) print panel 4 (door panel)
+PASS-3 (670,860) print panel 3
+PASS-2 (775,860) print panel 2
+PASS-1 (910,820) print panel 1 (trailing/rear-end panel)
+PASS-6 (690,810) "AUSTRALIAN FEDERAL POLICE" text
+PASS-7 (540,915) AFP crest + "AFP" text logo
+
+Front/Rear (5):
+BONNET-1 (1235,300) AFP crest, front cab visor area
+REAR-1 (1195,815) "AUSTRALIAN FEDERAL POLICE" text, rear door
+REAR-3 (1320,815) "000" phone text, rear door
+REAR-2 (1395,815) AFP crest, rear door (right of phone text)
+REAR-4 (1355,860) navy background panel, rear door (lower half)
+
+SKIPPED (not tagged as separate points): afp_vehicles.json "ITEM-1" (3x VC612 WHITE
+4940mm lengths @ 60mm thick), "ITEM-2" (VC612 WHITE 900mm @ 60mm thick), "ITEM-3"
+(VC612 WHITE 1000mm @ 60mm thick). Page 4 of the source PDF confirms these refer to
+the white reflective border trim running along the edge of the chequerboard wave
+graphic itself (shown there at 45mm/50mm width dimensions at the rear corners) — this
+trim is part of the WAVE panels already tagged above (DRIVE-1-5 / PASS-1-5), not
+separate, independently-placeable decals with their own codes. Tagging them as extra
+points would duplicate the panel tags already placed — not done, per project rules
+against inventing/duplicating codes.
+
+All 20 placements independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing panel-boundary boxes and labels on page 2.

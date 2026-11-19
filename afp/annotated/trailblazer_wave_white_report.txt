@@ -1,0 +1,43 @@
+VEHICLE: trailblazer_wave_white — AFP Holden Trailblazer, White Vehicle, WAVE design,
+131 AFP
+
+Source PDF: "AFP_HOLDEN TRAILBLAZER - WAVE - WHITE - FITTING.pdf" (7 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/trailblazer_wave_white.png (1521x1076),
+    annotated/trailblazer_wave_white_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn labels for every "TRA" reflective strip code -> rendered and saved as
+    source_images/trailblazer_wave_white_p3.png,
+    annotated/trailblazer_wave_white_p3_tagged.png.
+
+ITEM LIST NOTE: as with trailblazer_wave (red), the source document's own page-3
+labels show 6 front codes (F1-F6) and 4 rear codes (R1-R4) — used as authoritative
+over the raw JSON extraction's split.
+
+29 items total (13 main decals + 16 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-4 (230,335) "131 AFP" phone text, pass side
+PASS-1 (440,395) WAVE chequerboard, pass side
+PASS-2 (540,370) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (630,450) AFP crest logo, pass side
+DRIVE-1 (470,820) WAVE chequerboard, drive side
+DRIVE-2 (540,815) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (385,880) AFP crest logo, drive side
+DRIVE-4 (840,765) "131 AFP" phone text, drive side
+BONNET-1 (1220,290) AFP crest, bonnet
+REAR-3 (1120,795) "131 AFP" phone text, tailgate
+REAR-2 (1300,795) AFP crest, tailgate (right)
+REAR-1 (1220,880) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-4 (1220,840) navy bumper panel, tailgate
+
+Reflective page (16) — tag positions placed directly at the exact point the source
+document's own leader-line label points to (cross-checked, not estimated):
+TRA D1 (220,260) TRA D2 (420,265) TRA D3 (630,270)
+TRA F1 (1225,340) TRA F2 (1085,380) TRA F3 (1385,380) TRA F5 (1230,420) TRA F4 (1090,460) TRA F6 (1385,460)
+TRA P1 (935,705) TRA P2 (690,710) TRA P3 (465,715)
+TRA R1 (1220,705) TRA R2 (1335,705) TRA R3 (1200,785) TRA R4 (1355,785)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing leader-line labels on page 3.

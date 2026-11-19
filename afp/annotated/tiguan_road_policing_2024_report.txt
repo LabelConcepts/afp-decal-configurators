@@ -1,0 +1,12 @@
+VEHICLE: tiguan_road_policing_2024 - "AFP VW Tiguan (2024) - Road Policing"
+Source photo already correct (real vehicle photo, no fix needed). 18/18 items placed.
+
+PASS-3 (145,455) phone, PASS-1 (380,470) chequers, PASS-2 (805,475) crest, PASS-4 (460,580) yellow lower
+DRIVE-2 (400,915) crest, DRIVE-1 (790,880) chequers, DRIVE-3 (1030,895) phone, DRIVE-4 (660,1010) yellow lower
+REAR-8 (1375,770) "Road Policing" text, REAR-2 (1250,790) top yellow band, REAR-3 (1375,860) mid chequers,
+REAR-6 (1252,960) phone, REAR-7 (1380,962) "Police" text, REAR-5 (1492,962) "AFP" text, REAR-1 (1375,1025) lower yellow bumper
+
+REAR-4 "lower chequers" (1375,895): only one visible chequer band exists on the rear in this photo
+(around the number plate) - REAR-3 and REAR-4 are placed at the upper/lower edge of that same band
+since no second, visually distinct chequer panel is present. Flagged as a best-effort split rather
+than two independently confirmed decals.

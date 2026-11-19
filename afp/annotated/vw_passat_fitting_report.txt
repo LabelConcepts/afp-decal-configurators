@@ -1,0 +1,101 @@
+vw_passat_fitting — AFP VW Passat (Fitting guide), 16 items
+=============================================================
+
+IMPORTANT NOTE ON SOURCE IMAGE: the original source_images/vw_passat_fitting.png
+produced by the extraction pipeline was the PART-CHECKLIST TEXT PAGE of the
+fitting-guide PDF (page 1 of 7) — it contains no photo of the vehicle at all, so
+no decal position could be verified against it. The underlying PDF
+(AFP_VW PASSAT - FITTING.pdf, at /Volumes/LabelConcepts/Workspace/AFP/WORKING
+FILES/VW Passat/) actually contains a "VISUAL" page (page 2) with a 2x2 photo
+grid (driver-side, passenger-side, front, rear of an actual installed/livery
+vehicle) plus a dedicated full-size "INSTALL PHOTO" of the tailgate (page 4).
+I rebuilt source_images/vw_passat_fitting.png from those real photos (stacked:
+Side 1 photo, Side 2 photo, then the large rear photo) so every item below was
+measured against an actual photo, not the checklist text. Flagging this pipeline
+issue since the same bug likely affected other AFP vehicles rendered from this
+PDF set.
+
+DRIVE/PASS SIDE ASSIGNMENT CAVEAT: both side photos are mirror-symmetric in
+content (same crest/phone-number/chequers layout on each), and no asymmetric
+visual cue (steering wheel, fuel flap, etc.) was visible in any of the available
+photos to independently confirm which physical side is "driver" vs "passenger".
+I assigned Side 1 (car's nose pointing right in the photo) = DRIVE and Side 2
+(nose pointing left) = PASS, by convention, consistently. Each side's decals
+were still measured completely independently (no coordinates copied between
+the two side photos). Recommend client confirm Drive/Pass assignment against
+the physical vehicle.
+
+RESULT: 15 of 16 items placed with real photo verification. 1 item
+(ITEM-2) skipped as unverifiable — see note below.
+
+Side 1 ("DRIVE", by convention — nose faces right in photo):
+  DRIVE-1  "Drive SIDE CHEQUERS (3M 680) PASSAT"      -> PLACED (525,285)
+           Centered on the chequer/"Police" wordmark band mid-door.
+  DRIVE-2  "Drive AFP LOGO (3M 680) 420mm High"       -> PLACED (128,220)
+           AFP crest badge on the rear quarter panel, ahead of tail-light.
+  DRIVE-3  "Drive 131 444 (3M 680) 389mm Wide"        -> PLACED (103,295)
+           "131 444" + phone icon on the yellow rear bumper corner, below crest.
+  ITEM-1   "2x 3500mm @ 35mm VC612 LIME STRIPS"       -> PLACED (538,238)
+           Thin lime/yellow reflective pinstripe forming the top edge of the
+           chequer band, measured on the long straight mid-door section.
+
+Side 2 ("PASS", by convention — nose faces left in photo):
+  PASS-1   "Pass SIDE CHEQUERS (3M 680) PASSAT"       -> PLACED (580,660)
+           Centered on the chequer/"Police" wordmark band mid-door.
+  PASS-2   "Pass AFP SIDE CREST (3M 680) 420mm High"  -> PLACED (962,605)
+           AFP crest badge on the rear quarter panel, ahead of tail-light.
+  PASS-3   "Pass 131 444 (3M 680) 389mm Wide"         -> PLACED (982,677)
+           "131 444" + phone icon on the yellow rear bumper corner, below crest.
+
+Rear tailgate (from the large "INSTALL PHOTO" page — note: that specific
+install photo's yellow band reads "TRAFFIC OPERATIONS" rather than "ROAD
+POLICING", i.e. it's a different business-unit text variant of the same
+physical template; decal POSITIONS below still apply directly, only the
+printed wording differs from REAR-8's checklist description):
+  REAR-2   "Rear TOP YELLOW (1105w1460z)"                       -> PLACED (350,1195)
+           Plain yellow band area (left of the text), above the chequers.
+  REAR-8   "Rear ROAD POLICING TEXT (3M 680) 36mm High"         -> PLACED (700,1195)
+           The text sitting inside the top yellow band (reads "TRAFFIC
+           OPERATIONS" on this specific reference photo — same position/
+           component, different final wording).
+  REAR-3   "Rear MID CHEQUERS (3M 680)"                         -> PLACED (550,1290)
+           Upper chequer row, level with the tail-lights/VW badge.
+  REAR-4   "Rear LOWER CHEQUERS (3M 680) SIDE REFLECTIVE"       -> PLACED (950,1410)
+           Lower chequer row, level with/below the number plate.
+           (Confidence: MEDIUM — the tailgate shows one continuous chequer
+           graphic with a visible seam near the plate line that I've read as
+           the MID/LOWER boundary; a true material seam was not independently
+           confirmed.)
+  REAR-6   "Rear 131444 (3M 680) 316mm Wide"                    -> PLACED (435,1500)
+           "131 444" + phone icon, bottom-left of tailgate.
+  REAR-7   "Rear POLICE (3M 680) 510mm x 100mm"                 -> PLACED (700,1515)
+           White "Police" rectangle, bottom-centre of tailgate.
+  REAR-5   "Rear AFP LOGO (3M 680) 135mm Wide"                  -> PLACED (1060,1500)
+           "AFP" wordmark, bottom-right of tailgate. (Confidence: MEDIUM — no
+           separate crest/badge graphic appears anywhere on this tailgate;
+           this "AFP" text is the only AFP-branded element there, so I've
+           treated it as the "AFP LOGO" item. If a distinct small crest badge
+           exists elsewhere on the real vehicle, it was not visible in any
+           available photo.)
+  REAR-1   "Rear BUMPER (1105w1460z) 600mm High"                -> PLACED (560,1545)
+           Plain yellow bumper-cover background, between the phone number and
+           the "Police" box.
+
+SKIPPED (unverifiable):
+  ITEM-2   "2x 2250mm @ 35mm VC612 LIME STRIPS"                 -> SKIPPED
+           Same lime/yellow pinstripe family as ITEM-1. The checklist lists
+           two different strip lengths (3500mm and 2250mm) under one "SIDE
+           REFLECTIVE" heading, but in every available photo the pinstripe
+           along each side reads as a single continuous line from the rear
+           crest to the front wheel arch — no visible seam, colour change, or
+           break distinguishes a second, shorter segment. I could not locate
+           a position for this item that I could independently confirm is a
+           physically distinct decal rather than the same line already tagged
+           as ITEM-1. Reporting as unverifiable rather than guessing a second
+           placement on the same visible line.
+
+Files:
+  annotated/vw_passat_fitting_tagged.png  (1420x1740, composite of Side 1 /
+    Side 2 / Rear photos, replaces the checklist-page render)
+  source_images/vw_passat_fitting.png     (same composite, untagged — replaces
+    the original checklist-page render for future reference)

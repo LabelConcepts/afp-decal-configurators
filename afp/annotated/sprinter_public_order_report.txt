@@ -1,0 +1,55 @@
+VEHICLE: sprinter_public_order — AFP Mercedes Sprinter LWB Hi-Roof, Public Order
+Management van
+
+Source PDF: "138296 - AFP - SPRINTER - PUBLIC ORDER - FITTING.pdf" (5 pages).
+  Page 2 ("SPRINTER LWB HI ROOF") = real install-photo render, 2x2 grid
+    (pass/front/drive/rear) -> rendered and saved as
+    source_images/sprinter_public_order.png (1521x1076),
+    annotated/sprinter_public_order_tagged.png.
+  Page 4 ("VC612 WHITE REFLECTIVE") = same vehicle render with the source document's
+    own pre-drawn magenta zone boxes labelling the chequer-band sub-segments and the
+    remaining front/rear reflective strips -> rendered and saved as
+    source_images/sprinter_public_order_p3.png,
+    annotated/sprinter_public_order_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json's "DRIVE-1..4" and "PASS-1..4" codes are listed
+TWICE with different meanings — once for the main decals (Police text, Public Order
+Management text, chequer band, Kings Crest) and again for the reflective strip specs
+("4x CHECKS top&bottom 2900mm" = DRIVE-3/PASS-3; "2x CHECKS top&bottom 1500mm" =
+DRIVE-4/PASS-4). The source document's own reflective page (page 4) confirms this:
+it divides each side's single chequer band (already tagged as PASS-3/DRIVE-3 below)
+into 3 visual zones ("CHEQUERS DRIVE 1/2/3", "CHEQUERS PASS 1/2/3") that correspond to
+the 2900mm+2900mm+1500mm length breakdown, but does not give them separate point
+codes distinct from the main-page PASS-3/DRIVE-3/DRIVE-4/PASS-4 — and those code
+names already collide with the main-page crest codes. To avoid inventing or
+duplicating codes, these zone subdivisions are documented here rather than given
+extra point tags; only FRONT-1 and REAR-4/REAR-5 (which do not collide with any
+main-page code) are tagged as distinct reflective points.
+
+15 items placed total (12 main decals + 3 reflective strips: FRONT-1, REAR-4, REAR-5).
+The chequer-band length subdivisions (DRIVE-3/4, PASS-3/4 reflective specs) are
+documented as already covered by the single PASS-3/DRIVE-3 chequer-band tags on the
+main page, per the note above.
+
+Main page (12):
+PASS-4 (90,370) AFP crest, pass side (front end of chequer band)
+PASS-1 (175,260) "Police" text, pass side
+PASS-2 (235,305) "Public Order Management" text, pass side
+PASS-3 (615,395) chequer band, pass side
+DRIVE-1 (985,720) "Police" text, drive side
+DRIVE-2 (935,765) "Public Order Management" text, drive side
+DRIVE-3 (615,855) chequer band, drive side
+DRIVE-4 (1050,830) AFP crest, drive side (rear end of chequer band)
+BONNET-1 (1315,290) "Police" text, bonnet
+REAR-1 (1205,805) "Police" text, tailgate
+REAR-3 (1410,805) "131 444" phone text, tailgate
+REAR-2 (1300,870) "Public Order Management" text, tailgate (below chequer band)
+
+Reflective page (3 tagged, non-colliding codes only):
+FRONT-1 (1290,405) horizontal white strip above grille, front
+REAR-5 (1290,660) horizontal white strip above rear window
+REAR-4 (1290,830) chequer band, tailgate (reflective version)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing zone labels on page 4.

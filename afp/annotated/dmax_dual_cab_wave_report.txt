@@ -1,0 +1,42 @@
+VEHICLE: dmax_dual_cab_wave — AFP Isuzu D-Max Dual Cab (no pod, tub only), WAVE design,
+131 AFP, Updated 2025 "Kings Crest"
+
+Source PDF: "114686 - AFP - ISUZU DMAX DUAL CAB - FITTING.pdf" (7 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/dmax_dual_cab_wave.png (1521x1076),
+    annotated/dmax_dual_cab_wave_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow leader-line labels for every "DMAX" reflective
+    strip code -> rendered and saved as source_images/dmax_dual_cab_wave_p3.png,
+    annotated/dmax_dual_cab_wave_p3_tagged.png.
+
+26 items total (13 main decals + 13 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-4 (130,350) "131 AFP" phone text, pass-side tray
+PASS-1 (530,420) WAVE chequerboard, pass side
+PASS-2 (550,360) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (660,450) Kings Crest + "AFP" text, pass side
+DRIVE-1 (530,815) WAVE chequerboard, drive side
+DRIVE-2 (510,765) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (395,855) Kings Crest + "AFP" text, drive side
+DRIVE-4 (910,755) "131 AFP" phone text, drive-side tray
+BONNET-1 (1240,290) Kings Crest, bonnet
+REAR-3 (1160,730) "131 AFP" phone text, tailgate
+REAR-2 (1325,720) Kings Crest, tailgate (right of text)
+REAR-1 (1270,785) "AUSTRALIAN FEDERAL POLICE" text, tailgate (lower navy band)
+REAR-4 (1270,835) black bumper/tailgate panel
+
+Reflective page (13) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated). FRANW R1 has no label in the render but is unambiguous — the only
+reflective element on the rear quadrant is the single white strip across the top of the
+tailgate, matching the one "FRANW R1" code listed in afp_vehicles.json for this side:
+DMAX D4 (460,350) DMAX D3 (635,350) DMAX D2 (800,375) DMAX D1 (975,455)
+DMAX F1 (1260,385) DMAX F2 (1260,475) DMAX F3 (1120,470) DMAX F4 (1410,470)
+DMAX P1 (90,875) DMAX P2 (250,790) DMAX P3 (415,780) DMAX P4 (620,780)
+FRANW R1 (1265,725)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 13 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

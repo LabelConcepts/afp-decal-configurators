@@ -1,0 +1,39 @@
+VEHICLE: prado_wave_white — AFP Toyota Prado, White Vehicle, WAVE design, 131 AFP
+
+Source PDF: "AFP - TOYOTA PRADO - WAVE - WHITE - FITTING.pdf" (4 pages).
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/prado_wave_white.png (1521x1076),
+    annotated/prado_wave_white_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn black labels for every "PRA" reflective strip code -> rendered and
+    saved as source_images/prado_wave_white_p3.png,
+    annotated/prado_wave_white_p3_tagged.png.
+
+30 items total (13 main decals + 17 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-4 (170,255) "131 AFP" phone text, pass side
+PASS-1 (215,335) WAVE chequerboard, pass side
+PASS-2 (540,335) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (650,415) AFP crest + "AFP" text, pass side
+DRIVE-1 (590,790) WAVE chequerboard, drive side
+DRIVE-2 (535,785) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (400,870) AFP crest + "AFP" text, drive side
+DRIVE-4 (880,740) "131 AFP" phone text, drive side
+BONNET-1 (1205,260) AFP crest, bonnet
+REAR-1 (1215,670) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-3 (1120,760) "131 AFP" phone text, tailgate
+REAR-2 (1330,760) AFP crest, tailgate (right)
+REAR-4 (1225,865) navy bumper panel, lower tailgate
+
+Reflective page (17) — tag positions placed directly on each white strip segment at
+the exact point the source document's own black leader-line label points to
+(cross-checked, not estimated):
+PRA D4 (300,260) PRA D3 (430,260) PRA D2 (645,275) PRA D1 (830,280)
+PRA F1 (1255,320) PRA F2 (1105,385) PRA F3 (1420,385) PRA F4 (1135,460) PRA F5 (1265,460) PRA F6 (1400,460)
+PRA P1 (295,745) PRA P2 (500,740) PRA P3 (740,740) PRA P4 (865,725)
+PRA R1 (1195,895) PRA R2 (1290,900) PRA R3 (1390,895)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing leader-line labels on page 3.

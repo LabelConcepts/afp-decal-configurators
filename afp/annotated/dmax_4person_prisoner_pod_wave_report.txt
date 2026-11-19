@@ -1,0 +1,49 @@
+VEHICLE: dmax_4person_prisoner_pod_wave — AFP Isuzu D-Max Dual Cab, 4-Person Prisoner
+Pod, WAVE design, 131 AFP
+
+Source PDF: "AFP - ISUZU DMAX UTE - WAVE - 4 PERSON - PRISONER POD - FITTING.pdf" (11
+pages).
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/dmax_4person_prisoner_pod_wave.png
+    (1521x1076), annotated/dmax_4person_prisoner_pod_wave_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn yellow leader-line labels for every "DMAX"/"WPOD" reflective code ->
+    rendered and saved as source_images/dmax_4person_prisoner_pod_wave_p3.png,
+    annotated/dmax_4person_prisoner_pod_wave_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists PASS-5 and PASS-6 as exact duplicates of
+PASS-3 (crest) and PASS-4 (phone text). Independently examined the pass-side render
+and found only ONE instance of each — no second, distinct instance visible. Not tagged
+as separate points, per project rules against guessing a duplicate position.
+
+37 items total (10 main decals tagged + 2 duplicate codes skipped + 27 reflective
+items), all placed/documented, none guessed.
+
+Main page (10 tagged):
+PASS-1 (630,390) WAVE chequerboard, cab door, pass side
+PASS-2 (620,350) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (760,430) AFP crest + "AFP" text, pass side
+PASS-4 (125,335) "131 AFP" phone text, pass-side pod
+DRIVE-1 (480,830) WAVE chequerboard, cab door, drive side
+DRIVE-2 (480,790) "AUSTRALIAN FEDERAL POLICE" text, drive side
+BONNET-1 (1285,245) AFP crest, bonnet
+REAR-1 (1285,695) "AUSTRALIAN FEDERAL POLICE" text, rear pod door
+REAR-2 (1285,650) AFP crest, rear pod door (above text)
+REAR-3 (1285,740) "131 AFP" phone text, rear pod door (below text)
+SKIPPED: PASS-5, PASS-6 (duplicates of PASS-3/PASS-4 — see note above).
+
+Reflective page (27 tagged) — tag positions placed directly on each white strip
+segment at the exact point the source document's own yellow leader-line label points
+to (cross-checked, not estimated):
+Drive side: DMAX D4 (530,300) DMAX D3 (695,300) DMAX D2 (850,300) DMAX D1 (1020,405)
+  WPOD D3 (190,310) WPOD D4 (30,375) WPOD D2 (265,335) WPOD D1 (315,380)
+  WPOD D5 (190,405) WPOD D6 (95,425)
+Front: DMAX F1 (1265,315) DMAX F2 (1265,405) DMAX F3 (1125,400) DMAX F4 (1415,400)
+Pass side: DMAX P1 (80,825) DMAX P2 (250,740) DMAX P3 (410,730) DMAX P4 (615,730)
+  WPOD P3 (910,735) WPOD P2 (805,775) WPOD P1 (760,820) WPOD P5 (900,840)
+  WPOD P6 (1000,845) WPOD P4 (1025,780)
+Rear: WPOD R1 (1130,810) WPOD R2 (1265,835) WPOD R3 (1400,810)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; all 27 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

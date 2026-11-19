@@ -1,0 +1,34 @@
+dmax_butler_toolbox — Isuzu D-Max Dual Cab, Butler Electrical branding w/ toolbox
+Source: source_images/dmax_butler_toolbox.png (1521x1075), 2x2 grid: top-left=profile A,
+bottom-left=profile B, top-right=front/bonnet, bottom-right=rear.
+Note: JSON extraction lists 17 real items for this vehicle (vs 16 stated in the client
+document) — this is a known flagged discrepancy; all 17 extracted items were tagged.
+
+SIDE IDENTIFICATION METHOD: No fuel cap or exhaust tip was visible at the cab/tray junction
+on either profile photo for this vehicle (the toolbox sits flush against the cab on both
+sides), so a definitive asymmetric physical cue could not be found. Top-left profile was
+assigned DRIVER (D) and bottom-left PASSENGER (P) as a working convention consistent with
+document photo order — flagging this honestly rather than asserting certainty. This does NOT
+affect confidence in the actual pixel placements: every coordinate below was independently
+measured on its own photo via zoomed crops and colour sampling, never copied between photos.
+
+PLACED (all 17/17):
+B1  BONNET Green LARGE Decal                        -> (1215,428) top-right (front quadrant)
+B2  BONNET Orange LARGE Decal                       -> (1200,465) top-right (front quadrant)
+D1  DRIVE FRONT DOOR Butler logo + tagline           -> (747,458)  top-left profile (driver)
+D2  DRIVE REAR DOOR Phone/Web text                  -> (573,455)  top-left profile (driver)
+D3  DRIVE REAR TOOLBOX SIDE Orange/Green decal       -> (330,420)  top-left profile (driver)
+D4  DRIVE REAR TOOLBOX SIDE 'ELECTRICAL' text        -> (196,397)  top-left profile (driver)
+D5  DRIVE REAR TOOLBOX SIDE ISO icons                -> (191,447)  top-left profile (driver)
+R1  REAR TOOLBOX Butler logo                         -> (1263,765) bottom-right (rear quadrant)
+R2  REAR TOOLBOX 'SERVICE LINE' text                 -> (1262,800) bottom-right (rear quadrant)
+R3  REAR TOOLBOX Phone/Web text                      -> (1250,822) bottom-right (rear quadrant)
+R4  REAR TOOLBOX ISO icons                           -> (1190,850) bottom-right (rear quadrant)
+R5  REAR TOOLBOX REC LICENSE text                    -> (1340,850) bottom-right (rear quadrant)
+P1  PASS FRONT DOOR Butler logo + tagline            -> (420,855)  bottom-left profile (passenger)
+P2  PASS REAR DOOR Phone/Web text                    -> (588,864)  bottom-left profile (passenger)
+P3  PASS REAR TOOLBOX SIDE Orange/Green decal        -> (780,823)  bottom-left profile (passenger)
+P4  PASS REAR TOOLBOX SIDE 'ELECTRICAL' text         -> (954,806)  bottom-left profile (passenger)
+P5  PASS REAR TOOLBOX SIDE ISO icons                 -> (960,857)  bottom-left profile (passenger)
+
+SKIPPED: none.

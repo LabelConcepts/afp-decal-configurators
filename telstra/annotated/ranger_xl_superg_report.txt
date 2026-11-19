@@ -1,0 +1,34 @@
+Vehicle: ranger_xl_superg — "Ford Ranger Single Cab XL - Supergraphic Livery"
+Annotated file: annotated/ranger_xl_superg_p2_tagged.png
+(p1 is the text-only checklist page — no photo, nothing to tag there)
+All coordinates are (x_px, y_px) on source_images/ranger_xl_superg_p2.png (1521 x 1075 px),
+measured independently by visual inspection + pixel-color sampling of THIS image only.
+
+Photo layout on p2: top-left = driver-side profile, top-right = rear view,
+bottom-left = passenger-side profile, bottom-right = "label concepts" logo (blank, not a photo).
+
+PLACED:
+D1  (215, 230)   Drive rear side Telstra T decal "Ranger Single XL - Side" — top-left (driver) photo.
+                 Tag sits directly on the blue "T" stroke of the decal. Pixel-verified on-decal (RGB ~24,102,156).
+P1  (930, 700)   Pass rear side Telstra T decal — bottom-left (passenger) photo.
+                 Tag on the blue "T" stroke. Pixel-verified on-decal (RGB ~20,106,159).
+T1  (1400, 340)  Rear small Telstra T decal (T + orange swoosh logo, lower-right of rear photo) — top-right (rear) photo.
+T2  (1295, 363)  Rear "telstra.com.au" text decal — top-right (rear) photo, centre of the rear tailgate.
+T3  (1175, 335)  Rear "Safe driving is our priority / GPS monitoring is on board / 1800 800 437" clear decal
+                 (3-line text block, lower-left of rear photo) — top-right (rear) photo.
+T4  (1180, 398)  Rear "Before you dig www.byda.com.au" decal (red/white circular BYDA logo, directly below T3) —
+                 top-right (rear) photo.
+T5  (1422, 388)  Rear "Green Fleet 2.2 Million..." decal (green leaf GreenFleet logo, below T1) — top-right (rear) photo.
+
+SKIPPED:
+W1  Internal windscreen "Parking Brake" decal — SKIPPED. No front/interior windscreen view exists in the
+    supplied photos (only driver-side profile, passenger-side profile, and rear view are provided). Not visible.
+W2  Internal windscreen "GPS" decal — SKIPPED, same reason as W1.
+
+Notes:
+- D1 and P1 were each measured independently from their own respective photo (driver photo for D1, passenger
+  photo for P1) — not copied from one side to the other.
+- T1–T5 were identified as five visually distinct small decals/stickers clustered on the rear tailgate/bumper
+  area of the top-right rear photo, per the fitting-guide checklist, and tagged individually rather than lumped
+  together. T3/T4 and T1/T5 are tightly nudged apart (diagonally offset) to avoid the small pink tags overlapping
+  each other, since those decal pairs sit close together in the photo.

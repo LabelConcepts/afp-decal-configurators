@@ -1,0 +1,47 @@
+Vehicle: byd_shark_vic_service (BYD Shark, VIC Service branding)
+Source image: source_images/byd_shark_vic_service.png (1521x1075), a 2x2 grid of real
+installed-vehicle photos: top-left = drive side (3/4 rear angle, front pointing right),
+bottom-left = passenger side (3/4 front angle, front pointing left), top-right = front view,
+bottom-right = rear view. Same photo convention as the Hilux and D-max jobs in this batch.
+
+Item count: JSON lists 22 items (D1-D8, P1-P8, B1, R1-R5). All 22 placed; none skipped.
+Unlike the Hilux, D and P codes here are NOT duplicated (D8/P8 both exist for the QR/Net-Zero
+decal, one per side) and there is no "tick" icon decal on the sides (only ISO 4-icon cluster +
+Green Building Council leaf logo on D6/D7 and P6/P7) - confirmed by direct visual inspection,
+not assumed from the Hilux layout.
+
+Each coordinate was independently measured on this vehicle's own source image using pixel-grid
+overlays and crop verification against the image - no coordinates were copied from the other
+vehicles in this batch or between the two side photos of this same vehicle.
+
+Drive side (top-left photo):
+- D1 DRIVE AGC 'SERVICE' LOGO (800mm)      -> (690,360)  front door, logo+"Service" text
+- D2 DRIVE 'PH/WEB' VIC (371mm)            -> (500,338)  above D1, phone/website text
+- D3 DRIVE TUB 'AIR CON' (386mm)           -> (100,315)  tub side, "Air Conditioning..." text
+- D4 DRIVE TUB 'GREEN/ORANGE'              -> (320,290)  tub diagonal two-tone panel
+- D5 DRIVE 'ORANGE' FINGERPRINT            -> (450,400)  orange swoosh band continuing onto cab door/body
+- D6 DRIVE TUB 'ISO' STANDARD DECAL        -> (100,350)  tub, 4-icon certification cluster
+- D7 DRIVE TUB 'GREEN' STANDARD DECAL      -> (80,368)   tub, Green Building Council leaf logo
+- D8 DRIVE FRONT 'QR/NET ZERO' DECAL       -> (815,302)  front guard QR decal
+
+Passenger side (bottom-left photo):
+- P1 PASS AGC 'SERVICE' LOGO (800mm)       -> (400,775)  front door, logo+"Service" text
+- P2 PASS 'PH/WEB' VIC (371mm)             -> (590,755)  phone/website text, right of P1
+- P3 PASS TUB 'AIR CON' (386mm)            -> (955,725)  tub side, "Air Conditioning..." text
+- P4 PASS TUB 'GREEN/ORANGE'               -> (760,705)  tub diagonal two-tone panel
+- P5 PASS 'ORANGE' FINGERPRINT             -> (640,800)  orange swoosh band on cab door/body
+- P6 PASS TUB 'ISO' STANDARD DECAL         -> (945,770)  tub, 4-icon certification cluster
+- P7 PASS TUB 'GREEN' STANDARD DECAL       -> (905,785)  tub, Green Building Council leaf logo
+- P8 PASS FRONT 'QR/NET ZERO' DECAL        -> (145,728)  front guard QR decal
+
+Front view (top-right photo):
+- B1 BONNET 'FINGERPRINT'                  -> (1240,290) bonnet swirl graphic
+
+Rear view (bottom-right photo):
+- R1 REAR WINDOW AGC 'SERVICE' (PERF)      -> (1290,650) rear window perforated decal, logo+Service text
+- R2 REAR TUB 'ISO' STANDARD & VIC TICK    -> (1395,740) tailgate, tick+4-icon cluster
+- R3 REAR TUB 'GREEN' STANDARD DECAL       -> (1150,740) tailgate, Green Building Council leaf logo
+- R4 REAR TUB 'AIR CON' (694mm)            -> (1240,703) tailgate, "Air Conditioning..." text
+- R5 REAR TUB 'PH/WEB' VIC (559mm)         -> (1270,785) tailgate, phone/website text
+
+All 22 items placed. None skipped.

@@ -1,0 +1,63 @@
+Vehicle: ranger_toolbox_vic_service (Ford Ranger Dual Cab w/ Custom Toolbox, VIC Service branding)
+Source: source_images/ranger_toolbox_vic_service.png (1521x1075, 2x2 photo grid)
+Output: annotated/ranger_toolbox_vic_service_tagged.png
+
+Quadrant / side determination: top-left and bottom-left are two independently
+photographed side elevations (confirmed genuinely different sides, not a mirrored
+duplicate, because the "A.G.Coombs"/phone-number/"Service" decal order is reversed
+left-to-right between the two quadrants). To determine which quadrant is the Drive
+(D, right-hand-drive/driver) side vs Pass (P) side, the steering wheel was located
+through the windscreen in the top-right front-on quadrant (visible at image-left of
+that quadrant, i.e. vehicle's right/driver side = image-left in a front-on shot).
+Using that as a reference and the direction each side-profile vehicle faces (front
+pointing image-right in the top-left quadrant vs image-left in the bottom-left
+quadrant), the top-left quadrant is the DRIVER (D) side and the bottom-left quadrant
+is the PASSENGER (P) side. Top-right = front/bonnet view. Bottom-right = rear view.
+
+PLACED (all 21 items; every coordinate measured independently on crops of this
+vehicle's own source image and confirmed against the untagged original before
+drawing):
+
+Driver side (top-left quadrant):
+- D1 DRIVE DOOR 'AG COOMBS SERVICE' - (700,400), on "A.G.Coombs"/"Service" door text.
+- D2 DRIVE 'PHONE/WEB' (370mmW) - (535,375), on "1800 985 965 / agcoombs.com.au".
+- D3 DRIVE 'ORANGE' FINGERPRINT - (650,450), on the orange lower-body rocker stripe.
+- D4 DRIVE CUSTOM TOOLBOX 'GREEN/ORANGE' - (260,270), on the diagonal green/orange
+  contour-pattern stripe on the toolbox.
+- D5 DRIVE TOOLBOX 'SERVICES' (400mmW) - (100,300), on "Air Conditioning & Building
+  Services Specialist" text on the toolbox.
+- D6 DRIVE TOOLBOX 'ISO' -CLEAR - (123,347), on the cluster of 4 small circular ISO
+  accreditation badges.
+- D7 DRIVE TOOLBOX 'GREEN BUILDING' -CLEAR - (97,372), on the green leaf "Green
+  Building Council Australia" logo.
+- D8 DRIVE TOOLBOX 'TICK VIC' LOGO -CLEAR - (168,347), on the blue/green triangular
+  tick-mark logo badge beside the ISO cluster.
+
+Passenger side (bottom-left quadrant):
+- P1 PASS DOOR 'AG COOMBS SERVICE' - (360,805), on "A.G.Coombs"/"Service" door text.
+- P2 PASS 'PHONE/WEB' (370mmW) - (525,780), on "1800 985 965 / agcoombs.com.au".
+- P3 PASS 'ORANGE' FINGERPRINT - (490,855), on the orange lower-body rocker stripe.
+- P4 PASS CUSTOM TOOLBOX 'GREEN/ORANGE' - (790,700), on the diagonal green/orange
+  stripe on the toolbox.
+- P5 PASS TOOLBOX 'SERVICES' (400mmW) - (955,715), on the "Air Conditioning &
+  Building Services Specialist" text.
+- P6 PASS TOOLBOX 'ISO' -CLEAR - (958,762), on the 4-badge ISO cluster.
+- P7 PASS TOOLBOX 'GREEN BUILDING' -CLEAR - (925,781), on the green leaf logo.
+- P8 PASS TOOLBOX 'TICK VIC' LOGO -CLEAR - (923,762), on the blue triangle tick logo.
+
+Bonnet (top-right quadrant, front view):
+- B1 BONNET 'GREEN ORANGE' FINGERPRINT - (1270,320), on the green/orange contour
+  stripe pattern across the bonnet.
+
+Rear (bottom-right quadrant):
+- R1 REAR TOOLBOX 'AG COOMBS SERVICE' (813mmW) - (1290,695), on the large rear
+  "A.G.Coombs"/"Service" text.
+- R2 REAR TOOLBOX 'ISO' -CLEAR - (1215,775), on the 4-badge ISO cluster (left side).
+- R3 REAR TOOLBOX 'GREEN BUILDING' -CLEAR - (1390,778), on the green leaf logo
+  (right side).
+- R4 REAR TOOLBOX 'TICK VIC' LOGO -CLEAR - (1150,775), on the blue triangle tick
+  logo (left side, beside R2).
+
+SKIPPED: none - all 21 stated items were located and tagged.
+Item-count check: parts_total_stated=21, parts_extracted_count=21,
+count_mismatch=false. 21 tags placed, consistent.

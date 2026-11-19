@@ -1,0 +1,39 @@
+VEHICLE: liberty_wave_burgundy — AFP Subaru Liberty, Burgundy Vehicle, WAVE design, 000
+
+Source PDF: "AFP_SUBARU LIBERTY - WAVE - FITTING.pdf" (4 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/liberty_wave_burgundy.png (1521x1076),
+    annotated/liberty_wave_burgundy_tagged.png.
+  Page 3 ("VISUAL" — reflective) = same vehicle render with the source document's OWN
+    pre-drawn white leader-line labels for every "LIB" reflective strip code ->
+    rendered and saved as source_images/liberty_wave_burgundy_p3.png,
+    annotated/liberty_wave_burgundy_p3_tagged.png.
+
+34 items total (13 main decals + 21 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-4 (180,415) "000" phone text, pass side
+PASS-1 (440,470) WAVE chequerboard, pass side
+PASS-2 (540,440) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (720,525) AFP crest + "AFP" text, pass side
+DRIVE-1 (630,865) WAVE chequerboard, drive side
+DRIVE-2 (540,835) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (370,905) AFP crest + "AFP" text, drive side
+DRIVE-4 (880,805) "000" phone text, drive side
+BONNET-1 (1265,360) AFP crest, bonnet
+REAR-3 (1145,865) "000" phone text, tailgate
+REAR-1 (1290,865) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-2 (1390,865) AFP crest, tailgate (right)
+REAR-4 (1290,900) navy bumper panel, tailgate (lower)
+
+Reflective page (21) — tag positions placed directly on each white strip segment at the
+exact point the source document's own leader-line label points to (cross-checked, not
+estimated):
+LIB D1 (170,360) LIB D2 (420,375) LIB D3 (620,380) LIB D4 (730,385) LIB D5 (835,405) LIB D6 (1005,485)
+LIB F1 (1265,435) LIB F2 (1145,435) LIB F3 (1380,435) LIB F4 (1120,485) LIB F5 (1425,485) LIB F6 (1165,525) LIB F7 (1375,525)
+LIB P1 (835,765) LIB P2 (645,770) LIB P3 (455,780) LIB P4 (330,770) LIB P5 (210,760) LIB P6 (85,885)
+LIB R1 (1225,810) LIB R2 (1325,810)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 21 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

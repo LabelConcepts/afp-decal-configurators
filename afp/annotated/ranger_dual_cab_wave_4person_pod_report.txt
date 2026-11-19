@@ -1,0 +1,51 @@
+VEHICLE: ranger_dual_cab_wave_4person_pod — AFP Ford Ranger Dual Cab, 4-Person Prisoner
+Pod, WAVE design, 131 AFP
+
+Source PDF: "AFP - FORD RANGER DUAL CAB - WAVE - 131AFP - 4 PERSON - PRISONER POD -
+FITTING.pdf" (12 pages).
+  Page 1 ("4 PERSON POD") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/ranger_dual_cab_wave_4person_pod.png
+    (1521x1076), annotated/ranger_dual_cab_wave_4person_pod_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn yellow leader-line labels for every "FRANW"/"WPOD" reflective strip code
+    -> rendered and saved as source_images/ranger_dual_cab_wave_4person_pod_p3.png,
+    annotated/ranger_dual_cab_wave_4person_pod_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json concatenates each reflective code with its item name
+("FRANW D1 (VC612 WHITE)" = code "FRANW D1"), and two appear as "ITEM-1"/"ITEM-2" with
+extra "WHEEL ARCH" descriptive text ("WPOD D1 WHEEL ARCH" / "WPOD P1 WHEEL ARCH"). All
+confirmed genuine via the source PDF's own pre-drawn short-code labels on page 3 — no
+duplicates or garbled artifacts. All 28 are tagged.
+
+40 items total (12 main decals + 28 reflective strips), all placed, none skipped.
+
+Main page (12):
+PASS-1 (540,395) WAVE chequerboard, pass side
+PASS-2 (630,345) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (690,425) AFP crest + "AFP" text, pass side
+PASS-4 (115,365) "131 AFP" phone text, pass-side pod
+DRIVE-1 (630,825) WAVE chequerboard, drive side
+DRIVE-2 (500,775) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (400,850) AFP crest + "AFP" text, drive side
+DRIVE-4 (985,795) "131 AFP" phone text, drive-side pod
+BONNET-1 (1300,255) AFP crest, bonnet
+REAR-1 (1305,725) "AUSTRALIAN FEDERAL POLICE" text, rear pod door
+REAR-2 (1305,680) AFP crest, rear pod door (above text)
+REAR-3 (1305,770) "131 AFP" phone text, rear pod door (below text)
+
+Reflective page (28) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated):
+Drive side: FRANW D1 (515,300) FRANW D2 (660,300) FRANW D3 (810,300)
+  WPOD D4 (70,325) WPOD D3 (175,325) WPOD D2 (260,330) WPOD D1 (295,385)
+  WPOD D5 (200,385) WPOD D6 (115,415) WPOD D7 (210,420)
+Front: FRANW F2 (1160,335) FRANW F1 (1295,335) FRANW F3 (1435,335)
+  FRANW F4 (1155,405) FRANW F5 (1435,405)
+Pass side: FRANW P3 (295,715) FRANW P2 (435,710) FRANW P1 (610,710)
+  WPOD P3 (995,730) WPOD P4 (1050,775) WPOD P2 (845,775) WPOD P1 (805,815)
+  WPOD P5 (880,840) WPOD P6 (1025,845) WPOD P7 (805,855)
+Rear: WPOD R1 (1170,795) WPOD R2 (1305,815) WPOD R3 (1425,795)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; all 28 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

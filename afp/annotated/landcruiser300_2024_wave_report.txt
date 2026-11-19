@@ -1,0 +1,53 @@
+VEHICLE: landcruiser300_2024_wave — AFP Toyota LandCruiser 300 (2024), WAVE design,
+131 AFP, 2025 Kings Crest
+
+Source PDF: "126362 - AFP - LAND CRUISER 300 2024 - WAVE - FITTING V2.pdf" (9 pages,
+most recent revision of this job — superseding the non-V2 file).
+  Page 1 ("AFP - TOYOTA LAND CRUISER 300 - 2024 - WAVE") = real vehicle render, 2x2
+    grid (pass/front/drive/rear) -> rendered and saved as
+    source_images/landcruiser300_2024_wave.png (1521x1076),
+    annotated/landcruiser300_2024_wave_tagged.png.
+  Page 3 ("REFLECTIVE VC612 SILVER PARTS") = same vehicle render with the source
+    document's OWN pre-drawn yellow labels for every "LC300" reflective strip code ->
+    rendered and saved as source_images/landcruiser300_2024_wave_p3.png,
+    annotated/landcruiser300_2024_wave_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists PASS-4 ("PASS PHONE 000") and REAR-4 ("Rear
+PHONE 000") as alternate-colour-vehicle variants of PASS-3/REAR-3 (the "131 AFP" phone
+text) — this specific render is the dark/charcoal vehicle variant, which only shows
+the "131 AFP" phone text; no "000" phone artwork is independently visible anywhere on
+this render. Not tagged, per project rules against guessing a second instance. "ITEM-1"
+= "LC300 F7 ... Total Number of Parts 18" is the genuine LC300 F7 code plus trailing
+checklist boilerplate text, not a duplicate.
+
+31 items total (13 main decals tagged + 2 alternate-colour duplicates skipped + 18
+reflective strips tagged).
+
+Main page (13 tagged):
+PASS-3 (110,275) "131 AFP" phone text, pass side
+PASS-1 (430,360) WAVE chequerboard, pass side
+PASS-2 (610,350) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-5 (715,430) 2025 Kings Crest + "AFP" text, pass side
+DRIVE-1 (680,835) WAVE chequerboard, drive side
+DRIVE-2 (610,810) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-5 (405,890) 2025 Kings Crest + "AFP" text, drive side
+DRIVE-3 (935,725) "131 AFP" phone text, drive side
+BONNET-1 (1255,255) 2025 Kings Crest, bonnet
+REAR-2 (1210,775) crest, tailgate (left)
+REAR-3 (1430,780) "131 AFP" phone text, tailgate (right)
+REAR-1 (1320,830) "A.F. POLICE" text strip, tailgate (lower)
+REAR-5 (1320,795) navy "BLUE BUMPER WRAP" panel, tailgate
+SKIPPED: PASS-4, REAR-4 (alternate-colour "000" phone variants — see note above).
+
+Reflective page (18 tagged) — tag positions placed directly on each white strip
+segment at the exact point the source document's own yellow leader-line label points
+to (cross-checked, not estimated):
+LC300 D5 (255,250) LC300 D4 (420,260) LC300 D3 (615,275) LC300 D2 (745,280) LC300 D1 (900,290)
+LC300 F1 (1120,255) LC300 F3 (1440,255) LC300 F2 (1265,300) LC300 F4 (1120,355)
+LC300 F6 (1405,355) LC300 F5 (1155,420) LC300 F7 (1320,420)
+LC300 P1 (250,750) LC300 P2 (385,740) LC300 P3 (520,735) LC300 P4 (745,725) LC300 P5 (845,710)
+LC300 R1 (1290,905)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing leader-line labels on page 3.

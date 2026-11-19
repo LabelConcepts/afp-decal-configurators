@@ -1,0 +1,62 @@
+Vehicle: dmax_dual_tray_vic_service (Isuzu D-Max Dual Cab w/ Tray, VIC Service branding)
+Source: source_images/dmax_dual_tray_vic_service.png (1521x1075, 2x2 photo grid)
+Output: annotated/dmax_dual_tray_vic_service_tagged.png
+
+Quadrant / side determination: same methodology as the Ranger in this batch - top-left
+and bottom-left are two independently photographed sides (confirmed by the reversed
+left-to-right decal ordering between quadrants), and the vehicle faces image-right in
+the top-left quadrant vs image-left in the bottom-left quadrant, matching the Ranger's
+geometry. Top-left = DRIVER (D) side, bottom-left = PASSENGER (P) side, top-right =
+front/bonnet view, bottom-right = rear tray view. (Determined independently for this
+vehicle's own photo - not copied from the Ranger job.)
+
+PLACED (all 21 items; every coordinate measured independently on crops of this
+vehicle's own source image and confirmed against the untagged original before
+drawing):
+
+Driver side (top-left quadrant):
+- D1 DRIVE AGC 'SERVICE' LOGO (800mmwide) - (655,365), on "A.G.Coombs"/"Service" door
+  text.
+- D2 DRIVE 'VIC PHONE/WEB' (369mmwide) - (480,340), on "1800 985 965 /
+  agcoombs.com.au".
+- D3 DRIVE TRAY 'AIR CON' (772mmwide) - (150,305), on "Air Conditioning & Building
+  Services Specialist" text on the tray side panel.
+- D4 DRIVE TRAY 'GREEN/ORANGE' TRAY - (255,330), on the diagonal green/orange
+  contour-stripe pattern on the tray side panel.
+- D5 DRIVE 'ORANGE' FINGERPRINT - (600,420), on the orange lower-body rocker stripe.
+- D6 DRIVE TOOLBOX 'ISO' DECAL - (165,353), on the cluster of 4 small circular ISO
+  accreditation badges.
+- D7 DRIVE TOOLBOX 'GREEN' DECAL - (105,333), on the green leaf "Green Building
+  Council Australia" logo.
+- D8 DRIVE TOOLBOX 'VIC TICK' DECAL - (113,352), on the blue/green triangular tick
+  logo badge.
+
+Passenger side (bottom-left quadrant):
+- P1 PASS AGC 'SERVICE' LOGO (800mmwide) - (390,790), on "A.G.Coombs"/"Service" door
+  text.
+- P2 PASS 'VIC PHONE/WEB' (369mmwide) - (575,775), on "1800 985 965 /
+  agcoombs.com.au".
+- P3 PASS TRAY 'AIR CON' (772mmwide) - (960,748), on "Air Conditioning & Building
+  Services Specialist" text.
+- P4 PASS TRAY 'GREEN/ORANGE' TRAY - (765,745), on the diagonal green/orange stripe
+  on the tray.
+- P5 PASS 'ORANGE' FINGERPRINT - (580,850), on the orange lower-body rocker stripe.
+- P6 PASS TOOLBOX 'ISO' DECAL - (895,785), on the 4-badge ISO cluster.
+- P7 PASS TOOLBOX 'GREEN' DECAL - (885,772), on the green leaf logo.
+- P8 PASS TOOLBOX 'VIC TICK' DECAL - (935,783), on the blue triangle tick logo.
+
+Bonnet (top-right quadrant, front view):
+- B1 BONNET 'FINGERPRINT' (STANDARD DMAX BONNET) - (1280,300), on the green/orange
+  contour stripe pattern across the bonnet.
+
+Rear tray (bottom-right quadrant):
+- R1 REAR TRAY AGC 'VIC SERVICE/PH/WEB' (820mmwide) - (1295,752), on the combined
+  rear "A.G.Coombs" logo + "1800 985 965 | agcoombs.com.au" text.
+- R2 REAR TRAY 'ISO' DECAL - (1170,746), on the 4-badge ISO cluster (left side).
+- R3 REAR TRAY 'GREEN' DECAL - (1432,745), on the green leaf logo (right side).
+- R4 REAR TRAY 'VIC TICK' DECAL - (1465,760), on the blue triangle tick logo (right
+  side, below R3).
+
+SKIPPED: none - all 21 stated items were located and tagged.
+Item-count check: parts_total_stated=21, parts_extracted_count=21,
+count_mismatch=false. 21 tags placed, consistent.

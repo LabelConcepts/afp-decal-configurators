@@ -1,0 +1,46 @@
+VEHICLE: outback_pre2025_gd — AFP Subaru Outback (pre-2025 model year), General Duties
+(Victoria Police "Police" Battenburg checker livery)
+
+Source PDF: "SUBARU OUTBACK - GENERAL DUTIES - FITTING GUIDE.pdf" (5 pages).
+  Page 1 ("SUBARU OUTBACK - PRINT PARTS") = real install-photo render, 2x2 grid
+    (pass/front/drive/rear), with the source document's OWN pre-drawn magenta labels
+    for all 22 main decal codes -> rendered and saved as
+    source_images/outback_pre2025_gd.png (1521x1076),
+    annotated/outback_pre2025_gd_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn white/black labels for all 35 numbered reflective strip codes ->
+    rendered and saved as source_images/outback_pre2025_gd_p3.png,
+    annotated/outback_pre2025_gd_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json concatenates each main-decal letter-code with its
+item name under "ITEM-N" entries (e.g. "ITEM-1" = "OUT PA", "ITEM-20" = "OUT DG") —
+confirmed genuine against the source's own clean "OUT PA"/"OUT DG" labels on page 1,
+not duplicates.
+
+57 items total (22 main decals + 35 reflective strips), all placed, none skipped.
+Every single code came with the source document's own pre-drawn leader-line label,
+cross-checked (not blindly copied) against independent visual inspection before
+placing the final coordinate.
+
+Main page (22):
+OUT DA1 (130,350) OUT DA2 (195,390) OUT DB (360,355) OUT DC (575,360) OUT DD (795,370)
+OUT DE (115,485) OUT DF (455,485) OUT DG (870,500)
+OUT FA (1235,330) "Police" text, bonnet
+OUT PD (250,760) OUT PC (495,750) OUT PB (680,750) OUT PA (850,750)
+OUT PG (100,845) OUT PF (555,905) OUT PE (910,905)
+OUT RA (1245,745) OUT RC (1060,800) OUT RB (1225,800) OUT RD (1415,800)
+OUT RF (1155,880) OUT RE (1235,865)
+
+Reflective page (35):
+OUT D1 (195,335) OUT D2 (130,385) OUT D3 (205,385) OUT D4 (250,385)
+OUT D5 (365,340) OUT D6 (360,385) OUT D7 (535,340) OUT D8 (550,400)
+OUT D9 (650,350) OUT D10 (690,410) OUT D11 (755,345) OUT D12 (785,415) OUT D13 (905,420)
+OUT F1 (1230,380) OUT F2 (1125,420) OUT F3 (1350,420) OUT F4 (1110,470) OUT F5 (1410,470)
+OUT F6 (1205,470) OUT F7 (1300,470)
+OUT P9 (245,770) OUT P7 (375,765) OUT P5 (525,765) OUT P3 (705,760) OUT P1 (895,765)
+OUT P11 (130,845) OUT P10 (235,840) OUT P8 (325,840) OUT P6 (480,820) OUT P4 (655,820) OUT P2 (860,815)
+OUT R1 (1205,755) OUT R2 (1285,755) OUT R3 (1140,825) OUT R4 (1355,825)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; every position was cross-checked against (not blindly copied from) the
+source PDF's own pre-existing leader-line labels.

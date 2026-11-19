@@ -1,0 +1,44 @@
+Vehicle: dmax_split_toolbox_vic_service (Isuzu D-Max Split Toolbox, VIC Service branding)
+Source: source_images/dmax_split_toolbox_vic_service.png (1521x1075), 4-quadrant grid:
+  TL = driver-side full profile, BL = passenger-side full profile,
+  TR = front 3/4 (bonnet/grille), BR = rear tailgate close-up.
+All coordinates are pixel (x,y) in the full source image.
+
+D1  (690,318)   PLACED - "A.G.Coombs / Service" door text, TL quadrant (driver door).
+D2  (135,267)   PLACED - "1800 985 965 | agcoombs.com.au" text on toolbox end panel, TL quadrant.
+D3  (140,288)   PLACED - "Air Conditioning & Building Services Specialist" text, below D2, TL quadrant.
+D4  (340,220)   PLACED - large green/orange diagonal toolbox graphic, TL quadrant.
+D5  (505,295)   PLACED - solid orange diagonal "fingerprint" body swoop between toolbox and door, TL quadrant.
+D6  (160,305)   PLACED - cluster of small coloured ring/fingerprint certification icons (interpreted as "ISO" badge cluster), TL quadrant, below D2/D3 text.
+D7  (170,318)   PLACED - small teal triangle "Green Building Council Australia" logo (matches "GREEN" decal), TL quadrant, below D6.
+D8  (102,304)   PLACED - small blue/teal checkmark ("tick") icon to the left of the ring cluster (interpreted as "VIC TICK"), TL quadrant.
+P1  (410,720)   PLACED - "A.G.Coombs / Service" door text, BL quadrant (passenger door).
+P2  (975,702)   PLACED - "1800 985 965 | agcoombs.com.au" text on toolbox end panel, BL quadrant.
+P3  (975,720)   PLACED - "Air Conditioning & Building Services Specialist" text, below P2, BL quadrant.
+P4  (770,650)   PLACED - green/orange diagonal toolbox graphic, BL quadrant.
+P5  (600,720)   PLACED - solid orange diagonal body swoop near door/toolbox junction, BL quadrant.
+P6  (977,737)   PLACED - ring/certification icon cluster ("ISO"), BL quadrant, mirrors D6.
+P7  (980,750)   PLACED - teal "Green Building Council Australia" triangle logo ("GREEN"), BL quadrant, mirrors D7.
+P8  (933,737)   PLACED - blue/teal tick icon ("VIC TICK"), BL quadrant, mirrors D8.
+R1  (1320,703)  PLACED - "A.G.Coombs | Service" text on tailgate, BR quadrant (rear close-up).
+R2  (1320,721)  PLACED - "1800 985 965 | agcoombs.com.au" text on tailgate, below R1, BR quadrant.
+R3  (1295,734)  PLACED - ring/certification icon cluster ("ISO"), BR quadrant, mirrors D6/P6.
+R4  (1355,735)  PLACED - teal "Green Building Council Australia" triangle logo ("GREEN"), BR quadrant, mirrors D7/P7.
+R5  (1250,734)  PLACED - blue/teal tick icon ("VIC TICK"), BR quadrant, mirrors D8/P8.
+B1  (1320,260)  PLACED - orange & green standard D-Max bonnet graphic, TR quadrant (front 3/4 view).
+
+Notes:
+- All 22 items placed; none skipped.
+- The small certification-icon cluster (D6/D7/D8, P6/P7/P8, R3/R4/R5) is genuinely tiny and
+  low-resolution in the source photo (full cluster spans roughly 110x40 px). Individual icon
+  identity for "ISO" vs "VIC TICK" was inferred from shape/content (tick-shaped icon -> VIC TICK;
+  text-legible "green building council australia" triangle -> GREEN; remaining multi-coloured
+  ring badge cluster -> ISO) rather than fully legible text, since the source render does not
+  have enough resolution to read those specific badges. Because the three decals sit only
+  10-60px apart, their tags necessarily overlap somewhat in the final image - this is a
+  resolution/density limitation of the source photo, not a measurement error; each coordinate
+  was independently measured by pixel-sampling the underlying decal colour/content before
+  placement (not copied from another vehicle or side).
+- Driver (D) and passenger (P) side coordinates were independently measured from their own
+  quadrants (TL vs BL) - not mirrored/copied from one another, despite the two sides carrying
+  matching artwork.

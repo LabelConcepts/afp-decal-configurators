@@ -1,0 +1,41 @@
+VEHICLE: landcruiser_76_wagon — AFP Toyota 76 Wagon, White Vehicle, 131AFP, WAVE design
+Source PDF: "AFP - 76 SERIES LANDCRUISER WAGON - 131AFP - FITTING.pdf" (8 pages).
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/landcruiser_76_wagon.png (1521x1076),
+    annotated/landcruiser_76_wagon_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn yellow leader-line labels for every "76 WAG" reflective strip code ->
+    rendered and saved as source_images/landcruiser_76_wagon_p3.png,
+    annotated/landcruiser_76_wagon_p3_tagged.png.
+  (Pages 0/2 are the text-only PART CHECKLIST pages for each set; not tagged.)
+
+30 items total (13 main decals + 17 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-1 (180,400) WAVE chequerboard, pass side
+PASS-2 (590,360) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (660,410) AFP logo + "AFP" text, pass side
+PASS-4 (165,270) "131 AFP" phone text, pass-side rear window
+DRIVE-1 (480,900) WAVE chequerboard, drive side
+DRIVE-2 (540,835) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (415,900) AFP logo + "AFP" text, drive side
+DRIVE-4 (910,725) "131 AFP" phone text, drive-side rear window
+BONNET-1 (1260,295) AFP crest, bonnet
+REAR-1 (1180,845) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-2 (1170,710) AFP crest, tailgate (below rear windscreen)
+REAR-3 (1170,645) "131 AFP" phone text, rear windscreen
+REAR-4 (1350,870) bumper panel, lower tailgate (right side, clear of text)
+
+Reflective page (17) — tag positions placed directly on each white strip segment at
+the exact point the source document's own yellow leader-line label points to (cross-
+checked, not estimated):
+76 WAG D1 (175,330)  76 WAG D2 (435,295)  76 WAG D3 (605,295)  76 WAG D4 (725,295)
+76 WAG D5 (955,320)
+76 WAG P1 (880,775)  76 WAG P2 (705,760)  76 WAG P3 (560,760)  76 WAG P4 (420,760)
+76 WAG P5 (260,780)
+76 WAG F1 (1145,315) 76 WAG F2 (1275,315) 76 WAG F3 (1405,315)
+76 WAG R1 (1145,605) 76 WAG R2 (1330,610) 76 WAG R3 (1145,870) 76 WAG R4 (1330,870)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 17 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

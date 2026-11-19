@@ -1,0 +1,52 @@
+PANTEC TRAILER - "Pantec Trailer - Supergraphic Livery" (127004)
+Source: source_images/pantec_trailer_p1.png (checklist, no photo), pantec_trailer_p2.png (3 photos)
+Annotated output: annotated/pantec_trailer_p2_tagged.png
+
+Page 1: Text-only checklist page. No vehicle photo present. Not tagged.
+
+Page 2: Contains THREE real photographs of the physical trailer:
+  - Top-left photo:    one side of the trailer, T decal visible, hitch/drawbar exits frame at RIGHT (so box rear is screen-left, box front/hitch is screen-right).
+  - Top-right photo:   rear of trailer (license plate, tail lights, small decal cluster).
+  - Bottom-left photo: opposite side of the trailer, T decal visible, hitch/drawbar exits frame at LEFT (confirms this is genuinely the OTHER physical side, not a duplicate/mirrored image of the top-left photo).
+
+All pixel coordinates below were measured independently on THIS trailer's own photo (pantec_trailer_p2.png, 1521x1075px), using direct pixel/color-cluster analysis (not estimated by eye, not copied from any other vehicle or from the other side).
+
+PLACED:
+  D1 - Drive rear side Telstra T decal "Pantec Trailer - Side" (855mm high)
+       Page 2, pixel (328, 294) - top-left photo, on the blue "T".
+       CONFIDENCE CAVEAT: the source PDF does NOT label this photo "Drive" or "Pass"
+       (unlike fn_trailer's page 2/3, which are explicitly titled "DRIVERS SIDE" /
+       "PASSENGER SIDE"). There is no steering wheel or other unambiguous reference on a
+       trailer to confirm which physical side this is. D1 was assigned to this photo by
+       inference only: the checklist on page 1 lists "DRIVE" before "PASS" in the left-hand
+       column, and this photo occupies the first (top) position in the matching photo
+       column on page 2. This is a reasonable but NOT certain inference -- recommend the
+       client confirm which physical side (drive/pass) this photo actually shows before
+       relying on the D1/P1 labels for fitting purposes. The pixel position of the decal
+       itself is accurate regardless of the D1/P1 label.
+
+  P1 - Pass rear side Telstra T decal "Pantec Trailer - Side" (855mm high)
+       Page 2, pixel (499, 758) - bottom-left photo, on the blue "T".
+       Same confidence caveat as D1 above (inferred second-listed/second-position, not
+       explicitly labeled in source).
+
+  T1 - Rear small Telstra T decal
+       Page 2, pixel (1045, 458) - rear photo, T + orange oval logo on tailgate.
+
+  T2 - Rear 'telstra.com.au' decal
+       Page 2, pixel (965, 474) - rear photo, "telstra.com" text decal (text on the
+       decal reads "telstra.com"; matches the checklist item).
+
+  T3 - Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal
+       Page 2, pixel (854, 471) - rear photo, 3-line blue text block.
+
+  T4 - Rear 'Before you dig' decal with QR code
+       Page 2, pixel (842, 497) - rear photo, small square multi-logo sticker directly
+       below the safe-driving text block.
+
+  T5 - Rear 'Green Fleet 2.2 Million...' decal
+       Page 2, pixel (1051, 499) - rear photo, "Greenfleet" logo below the small Telstra
+       T/oval.
+
+SKIPPED: none -- all 7 checklist items had a visible, measurable decal in the page-2
+photos.

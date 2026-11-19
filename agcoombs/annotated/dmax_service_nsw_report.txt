@@ -1,0 +1,37 @@
+Vehicle: dmax_service_nsw — Isuzu D-Max Dual Cab, NSW Service branding w/ toolbox
+Source: source_images/dmax_service_nsw.png (1521x1075), 4-photo grid:
+  top-left = driver side (full profile), top-right = rear, bottom-left = passenger side (full profile), bottom-right = front/bonnet
+Tagged output: annotated/dmax_service_nsw_tagged.png
+
+All 21 items placed (none skipped).
+
+DRIVER SIDE (top-left quadrant)
+D1 (130,262)  — "Air Conditioning & Building Services Specialist" 3-line text, left-justified, on toolbox front panel
+D2 (120,316)  — ISO certification flower-badge cluster (4 icons), toolbox lower panel
+D3 (85,352)   — Green Building Council logo (teal leaf icon), toolbox lower panel, below-left of ISO cluster
+D4 (168,316)  — Tick NSW logo (blue/teal square), toolbox lower panel, right of ISO cluster
+D5 (240,340)  — Orange/green fingerprint swirl graphic, toolbox side panel
+D6 (430,420)  — Orange fingerprint swirl continuing onto lower door/cab panel
+D7 (560,332)  — "1800 994 093 / agcoombs.com.au" phone/web 2-line text, front door
+D8 (690,370)  — "A.G.Coombs" logo + "Service" 2-line decal, front door
+
+PASSENGER SIDE (bottom-left quadrant, mirrored layout, right-justified toolbox text)
+P1 (984,721)  — "Air Conditioning & Building Services Specialist" 3-line text, right-justified, toolbox front panel
+P2 (995,760)  — ISO certification flower-badge cluster, toolbox lower panel
+P3 (952,795)  — Green Building Council logo, toolbox lower panel
+P4 (928,760)  — Tick NSW logo, toolbox lower panel
+P5 (790,720)  — Orange/green fingerprint swirl graphic, toolbox side panel
+P6 (210,735)  — Orange fingerprint swirl on lower door/cab panel (above front wheel arch)
+P7 (555,790)  — "1800 994 093 / agcoombs.com.au" phone/web 2-line text, front door
+P8 (360,798)  — "A.G.Coombs" logo + "Service" 2-line decal, front door
+
+REAR (top-right quadrant)
+R1 (1300,280) — Large "A.G.Coombs | Service" + "Air Conditioning & Building Services Specialist" + phone/web 3-line decal, rear toolbox door
+R2 (1215,372) — ISO certification flower-badge cluster, rear toolbox door lower panel
+R3 (1404,372) — Green Building Council logo, rear toolbox door lower panel
+R4 (1148,372) — Tick NSW logo, rear toolbox door lower panel
+
+BONNET (bottom-right quadrant, front view)
+B1 (1280,760) — Orange/green fingerprint swirl graphic on bonnet
+
+Methodology note: every coordinate above was independently measured by cropping/zooming the untagged source PNG at the target pixel region and visually confirming the decal before placing the tag. Driver and passenger sides were treated as separate measurements (mirrored layout confirmed visually: driver = left-justified toolbox text, passenger = right-justified toolbox text, matching the item list).

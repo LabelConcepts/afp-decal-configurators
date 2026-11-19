@@ -1,0 +1,50 @@
+VEHICLE: ranger_command_pod_wave — AFP Ford Ranger 2025 Model, Command Pod, WAVE design,
+2025 Kings Crest
+
+Source PDF: "AFP - FORD RANGER COMMAND POD 2025 MODEL - WAVE - 000 - FITTING.pdf" (7 pages).
+  Page 1 ("FORD RANGER 2025 MODEL") = real vehicle render, 2x2 grid
+    (pass/front/drive/rear) -> rendered and saved as
+    source_images/ranger_command_pod_wave.png (1521x1076),
+    annotated/ranger_command_pod_wave_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow leader-line labels for every "FRANW" reflective
+    strip code -> rendered and saved as source_images/ranger_command_pod_wave_p3.png,
+    annotated/ranger_command_pod_wave_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists several garbled/duplicate codes for this vehicle
+("F3 FRANW F1" = "FRANW F3 FRANW F1", "F4 FRANW F5" = "FRANW F4 FRANW F4 FRANW F5", and
+"ITEM-1" = "FRANW F5 FORD FRONT CUT 3.ai FILE LOCATION: ..."). These are PDF-text-
+extraction artifacts, not separate decals — confirmed by viewing the reflective PART
+CHECKLIST page (page 2) in the source PDF, which lists exactly 11 real reflective items
+(Drive: FRANW D1-D3, Pass: FRANW P1-P3, Front: FRANW F1-F5) with "Total Number of Parts:
+11", plus an unrelated "FORD FRONT CUT 3.ai / FILE LOCATION: ..." caption block that is
+the source of the garbled text. No "R" reflective codes exist for this vehicle. Only the
+11 genuine FRANW codes are tagged below; the garbled duplicates are not.
+
+24 items total (13 main decals + 11 real reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-1 (400,407) WAVE chequerboard, pass side
+PASS-2 (580,367) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (710,447) 2025 Kings Crest + "AFP" text, pass side
+PASS-4 (130,297) "000" phone text, pass-side command pod
+DRIVE-1 (640,810) WAVE chequerboard, drive side
+DRIVE-2 (520,785) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (405,860) 2025 Kings Crest + "AFP" text, drive side
+DRIVE-4 (960,720) "000" phone text, drive-side command pod
+BONNET-1 (1268,282) 2025 Kings Crest, bonnet/grille guard area
+REAR-1 (1263,710) "AUSTRALIAN FEDERAL POLICE" text, rear pod door
+REAR-2 (1263,675) 2025 Kings Crest, rear pod door (above text)
+REAR-3 (1263,760) "000" phone text, rear pod door (below text)
+REAR-4 (1263,815) bumper/navy panel, below number plate
+
+Reflective page (11) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated):
+FRANW D1 (510,315) FRANW D2 (655,315) FRANW D3 (805,315)
+FRANW F2 (1155,355) FRANW F1 (1290,355) FRANW F3 (1425,355) FRANW F4 (1145,430) FRANW F5 (1425,430)
+FRANW P3 (330,730) FRANW P2 (470,730) FRANW P1 (650,730)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 11 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

@@ -1,0 +1,51 @@
+bmw_x3_m50_road_policing — BMW X3 M50, Road Policing - 2025 Kings Crest
+STATUS: All 14 codes are UNVERIFIABLE — no vehicle photo was available to measure against. Nothing was
+guessed or copied from another vehicle.
+
+Source situation:
+- source_images/bmw_x3_m50_road_policing.png (the only file this project provides for this vehicle) is the
+  fitting-guide PDF's text-only "PART CHECKLIST" page. It contains one small decorative image (the AFP crest
+  artwork reproduced bottom-right as a reference graphic for the "2025 'KINGS CREST' UP-" design, i.e. the
+  decal artwork itself in isolation) but no photo or diagram of the actual vehicle with the decals positioned
+  on it, so no pixel coordinates on the car could be determined from it.
+- The original multi-page fitting-guide PDF ("134405 - AFP - BMW X3 M50 - ROAD POLICING - FITTING GUIDE.pdf")
+  and a "PHOTOS MEASUREMENTS" folder (Unknown.jpeg, Unknown-1.jpeg) exist on the external working-files volume
+  (/Volumes/LabelConcepts/Workspace/AFP/WORKING FILES/BMW/134405 - AFP - BMW X3 M50 - ROAD POLICING /), the
+  same kind of material that let the motorcycle_updated_crest_2024 job in this batch be completed properly via
+  its PDF's own labelled per-side reference pages.
+- Partway through this batch, the entire LabelConcepts volume was unmounted / disappeared from /Volumes
+  (confirmed via diskutil/mount — not a local disk image, and no longer listed as a mounted volume at all)
+  before this vehicle's PDF pages or photos could be rendered/cached locally. Every access attempt after that
+  point returned first "Operation not permitted" then "No such file or directory".
+- Per the instructions ("It is fine and expected to skip an item you genuinely cannot see in the available
+  photo(s) — report it as unverifiable with a reason, rather than guessing"), and the rule against ever
+  copying coordinates between vehicles, no positions were estimated or reused from the other BMW X3 vehicle in
+  this batch (bmw_x3_indigenous_livery) or any other vehicle, even though both are X3s — this is explicitly
+  the mistake the project's methodology notes warn against.
+
+annotated/bmw_x3_m50_road_policing_tagged.png is an untouched copy of the source (no tags could be placed).
+
+Items — all skipped, reason "no vehicle photo available in accessible source material":
+  PASS-1   PASS POLICE CHEQUERS (1105/1460LAM) (3M 680) (NEW FILE)
+  REAR-1   REAR POLICE CHEQUERS (3M 680)
+  PASS-2   PASS AFP PHONE 131 444 308mm WIDE (3M 680)
+  REAR-2   REAR AFP PHONE 131 444 250mm WIDE x 45mmHIGH (3M 680) (NEW FILE)
+  PASS-3   PASS AFP 'KINGS' CREST 310mm HIGH (3M 680)
+  REAR-3   REAR AFP 117mm WIDE x 45mm HIGH (3M 680) (NEW FILE)
+  REAR-4   REAR POLICE 510mm WIDE x 100 HIGH (3M 680)
+  DRIVE-1  DRIVE POLICE CHEQUERS (1105/1460LAM) (3M 680) (NEW FILE)
+  REAR-5   REAR ROAD POLICING TEXT 340mm WIDE (3M 680) (NEW FILE)
+  DRIVE-2  DRIVE AFP PHONE 131 444 308mm WIDE (3M 680)
+  REAR-6   REAR YELLOW BUMPER (3200mm wide x 680mm high (1105/1460LAM)
+  DRIVE-3  DRIVE AFP 'KINGS' CREST 310mm HIGH (3M 680)
+  REAR-7   REAR YELLOW BOOT (1600mm wide x 300mm high (1105/1460LAM)
+  SIDE-1   2x SIDE 2200mm x 80mm Thick REFLECTIVE STRIPS (VC612 LIME) 2025 'KINGS CREST' UP-
+
+Re: count_mismatch flag — the checklist's stated total "17 (INCLUDES REFLECTIVE STRIPS)" does not cleanly
+match the 14 extracted rows (SIDE-1 alone represents "2x" strips, and the stated total appears to count some
+items individually that were extracted as combined/grouped rows), consistent with the flag; this was not
+"fixed" — all 14 extracted rows are listed above untouched per instructions.
+
+RECOMMENDATION: re-run this vehicle once /Volumes/LabelConcepts is remounted and the "134405 - AFP - BMW X3
+M50 - ROAD POLICING" folder is readable again — render the fitting PDF's visual/diagram pages (same method as
+motorcycle_updated_crest_2024) or use the PHOTOS MEASUREMENTS folder's Unknown.jpeg / Unknown-1.jpeg directly.

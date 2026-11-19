@@ -1,0 +1,91 @@
+fn_landcruiser_300 — First Nations Toyota Landcruiser 300 — Tag Report
+========================================================================
+
+IMPORTANT CORRECTION TO INITIAL BRIEF: The brief assumed D1, P1, T1-T5, W1,
+W2 would likely be unverifiable because fn_landcruiser_300's own pages were
+expected to show only close-up artwork crops. On actual inspection, page 2
+(fn_landcruiser_300_p2.png) is NOT just a dimension diagram — it contains
+full side, front and REAR photographs of this exact vehicle, including a
+rear-photo with all 5 rear decals visible, and a driver-side photo with the
+source document's own pointer lines marking the two internal windscreen
+decal positions. Page 3 and page 4 also clearly show the large Telstra "T"
+side decal (D1/P1), not just the First Nations artwork. As a result, nearly
+every item was independently verifiable from this vehicle's own documents.
+All coordinates below were measured individually on each page using a
+pixel-grid overlay — none were copied from another vehicle or the opposite
+side.
+
+PAGE 1 (fn_landcruiser_300_p1.png) — text-only part checklist, no photos.
+No tags placed.
+
+PAGE 2 (fn_landcruiser_300_p2.png) — saved as annotated/fn_landcruiser_300_p2_tagged.png
+  W1  Internal windscreen 'Parking Brake' decal — PLACED at (702, 358).
+      Position taken directly from this document's own pointer line/dot
+      ("Handbrake Decal, installed internally to face the driver"),
+      landing on the lower driver-side windscreen/A-pillar glass in the
+      top driver-side photo.
+  W2  Internal windscreen 'GPS' decal — PLACED at (750, 325).
+      Position taken directly from this document's own pointer line/dot
+      ("GPS Decal, installed internally on windscreen to face the
+      driver"), landing on the upper driver-side windscreen glass, same
+      photo as W1.
+  T1  Rear small Telstra T decal — PLACED at (1290, 790).
+      Visible on the rear-view photo (bottom-right of page), the small
+      blue/orange T logo to the right of the "LAND CRUISER" badge.
+  T2  Rear 'telstra.com.au' decal — PLACED at (1245, 867).
+      Visible on the rear-view photo as blue "telstra.com" text below the
+      number plate (document's photo shows it rendered as "telstra.com").
+  T3  Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal —
+      PLACED at (1135, 786).
+      Visible on the rear-view photo as the 3-line blue/red text block on
+      the tailgate glass, left of the Toyota badge.
+  T4  Rear 'Before you dig www.byda.com.au' decal — PLACED at (1145, 858).
+      Visible on the rear-view photo as the small square red/white sticker
+      on the lower bumper, left of the number plate.
+  T5  Rear 'Green Fleet 2.2 Million...' decal — PLACED at (1348, 855).
+      Visible on the rear-view photo as the small green circular logo on
+      the lower bumper, right of the number plate.
+  (D4 is also visible in this page's top driver-side photo at the same
+   in-situ location documented on page 3 below; it was tagged on page 3
+   only, to keep one authoritative tag per decal.)
+
+PAGE 3 (fn_landcruiser_300_p3.png) — "DRIVERS SIDE 'FIRST NATIONS' DECALS"
+  saved as annotated/fn_landcruiser_300_p3_tagged.png
+  D1  Drive rear side Telstra T decal ("Landcruiser - Side", 532mm high) —
+      PLACED at (700, 590). This is the large blue/orange Telstra "T"
+      logo graphic clearly visible mid-door in this photo.
+  D2  Drive door 'First Nations' decal — PLACED at (1125, 590).
+      The rosette/medallion artwork positioned forward, adjacent to the
+      wing mirror (mirror visible top-right of the medallion), i.e. on
+      the door.
+  D3  Drive rear qtr 'First Nations' decal — PLACED at (140, 520).
+      The rosette/medallion artwork positioned at the rear, adjacent to
+      the tail-light (visible top-left of the medallion), i.e. on the
+      rear quarter panel.
+  D4  Drive 'Connection....' clear decal (artist credit, driver side
+      only) — PLACED at (1175, 772).
+      Small italic credit text "Connection, © Bobbi Lockyer/Copyright
+      Agency" on the rocker panel/sill below the rear door, exactly where
+      the source document's own pink pointer line and dot land (the
+      document includes its own zoomed inset of this text at the bottom
+      of the page for legibility, confirming the artwork).
+
+PAGE 4 (fn_landcruiser_300_p4.png) — "PASSENGER SIDE 'FIRST NATIONS' DECALS"
+  saved as annotated/fn_landcruiser_300_p4_tagged.png
+  P1  Pass rear side Telstra T decal (532mm high) — PLACED at (750, 640).
+      The large blue/orange Telstra "T" logo graphic mid-door, mirrored
+      counterpart to D1.
+  P2  Pass door 'First Nations' decal — PLACED at (370, 655).
+      Rosette/medallion adjacent to the wing mirror (mirror visible
+      top-left), i.e. on the door.
+  P3  Pass rear qtr 'First Nations' decal — PLACED at (1350, 585).
+      Rosette/medallion adjacent to the tail-light (visible right edge of
+      frame), i.e. on the rear quarter panel.
+
+UNVERIFIABLE — no photo reference available in this document set
+  (none — every checklist item for this vehicle had a usable photo
+  reference somewhere across pages 2-4.)
+
+Summary: 14/14 checklist items tagged. 7 tags on page 2 (W1, W2, T1-T5),
+4 tags on page 3 (D1-D4), 3 tags on page 4 (P1-P3). Page 1 has no photo
+content and was left untagged.

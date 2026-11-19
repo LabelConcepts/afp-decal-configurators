@@ -1,0 +1,79 @@
+Vehicle: ranger_single_cab_tray — "Ford Ranger Single Cab w/ Tray - Supergraphic Livery"
+Source document: TELSTRA - SUPERG - RANGER SINGLE CAB TRAY - 2024 JULY - FITTING.pdf (3 pages)
+
+PAGE SUMMARY
+- p1: text-only part checklist (no photos). Not tagged.
+- p2: photo page ("PART CHECKLIST") containing 4 photos: driver-side (top-left), front (top-right),
+  passenger-side (bottom-left), rear (bottom-right). Also contains an instructional inset/callout
+  (magenta arrow + reference artwork) describing the internal windscreen "Parking Brake" and "GPS"
+  decals. Tagged -> annotated/ranger_single_cab_tray_p2_tagged.png
+- p3: photo page titled "INSTALLED:" containing 3 photos of the same physical vehicle (rego 1ZL 3FE,
+  confirmed matching plate across p2 and p3): driver-side (top-left), passenger-side (bottom-left),
+  rear (right). Tagged -> annotated/ranger_single_cab_tray_p3_tagged.png
+
+METHOD NOTE ON D1 vs P1 (driver vs passenger side identification)
+Both side-on photos show a large blue/red Telstra T decal on the front door, so the two sides could not
+be told apart by the decal alone. Independently verified via the Ford Ranger keyless-entry SecuriCode
+keypad, which Ford fits ONLY to the driver's door, on the B-pillar edge behind the front door glass:
+ - The photo showing this black raised-button keypad on the B-pillar = DRIVER side = D1.
+ - The photo showing a plain door handle with NO keypad in that position = PASSENGER side = P1.
+This was confirmed independently on both p2 and p3 (same physical keypad visible/absent in the
+corresponding photos on each page), and cross-checked against the rear photo (RHD AU vehicle: standing
+behind the vehicle, the driver's side appears on the right of the rear photo, matching the side where
+the keypad-equipped door photo was taken from).
+
+ITEMS PLACED
+
+D1 — Drive rear side Telstra T decal (458mm high)
+  p2: (671, 405)  — top-left photo, door T logo. Driver side confirmed by SecuriCode keypad on B-pillar.
+  p3: (529, 398)  — top-left photo, door T logo. Driver side confirmed by SecuriCode keypad on B-pillar.
+
+P1 — Pass rear side Telstra T decal (458mm high)
+  p2: (399, 813)  — bottom-left photo, door T logo. Passenger side confirmed by absence of keypad (plain handle only).
+  p3: (400, 813)  — bottom-left photo, door T logo. Passenger side confirmed by absence of keypad (plain handle only).
+
+T1 — Rear small Telstra T decal
+  p2: (1402, 757) — rear photo, right side of tray rail, small blue/red T logo.
+  p3: (1366, 594) — rear photo, right side of tray rail, small blue/red T logo.
+
+T2 — Rear 'telstra.com.au' decal
+  p2: (1270, 807) — rear photo, "telstra.com" text centred below "RANGER" lettering.
+  p3: (1168, 641) — rear photo, "telstra.com" text centred below "RANGER" lettering.
+  Note: only "telstra.com" is legibly resolvable at source image resolution; the ".au" suffix is present
+  on the physical decal per the checklist but is below the photo's resolvable detail. Same decal as item T2.
+
+T3 — Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal
+  p2: (1141, 753) — rear photo, left side of tray rail, blue multi-line text block.
+  p3: (972, 593)  — rear photo, left side of tray rail, blue multi-line text block.
+
+T4 — Rear 'Before you dig www.byda.com.au' decal
+  p2: (1131, 815) — rear photo, left side of tray rail, "BEFORE YOU DIG" logo, directly below T3.
+  p3: (954, 640)  — rear photo, left side of tray rail, "BEFORE YOU DIG" logo, directly below T3.
+
+T5 — Rear 'Green Fleet 2.2 Million...' decal
+  p2: (1413, 822) — rear photo, right side of tray rail, "GreenFleet" logo/text, directly below T1.
+  p3: (1375, 641) — rear photo, right side of tray rail, "GreenFleet" logo/text, directly below T1.
+  Note: visually confirmed as a distinct small green leaf-mark "GreenFleet" decal, separate from T1 —
+  not guessed as a shared point with T1 despite being tightly stacked beneath it.
+
+ITEMS SKIPPED / UNVERIFIABLE
+
+W1 — Internal windscreen 'Parking Brake' decal: SKIPPED, unverifiable in a photo.
+  p2 contains only an instructional callout/inset (magenta line pointing from the vehicle's A-pillar/
+  windscreen corner to a separate reference graphic of the decal artwork, with explanatory text
+  "Handbrake Decal, installed internally to face the driver"). The actual windscreen area the arrow
+  points to was zoomed in at full resolution and shows only glass/reflection — no decal is physically
+  visible on it in this photo. The inset is reference artwork + instructions, not a photograph of the
+  decal in place on the vehicle. Per instructions to only tag genuinely visible photo evidence, this
+  was left untagged rather than guessed.
+
+W2 — Internal windscreen 'GPS' decal: SKIPPED, unverifiable in a photo.
+  Same reasoning as W1 — same callout/inset on p2 shows only the reference decal artwork ("GPS Decal,
+  installed internally on windscreen to face the driver") with explanatory text, not an actual
+  photographed view of the decal applied to the glass. No other photo on p1-p3 shows the interior of
+  the windscreen. Left untagged.
+
+FILES
+  annotated/ranger_single_cab_tray_p2_tagged.png
+  annotated/ranger_single_cab_tray_p3_tagged.png
+  annotated/ranger_single_cab_tray_report.txt (this file)

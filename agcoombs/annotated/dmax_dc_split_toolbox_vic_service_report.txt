@@ -1,0 +1,24 @@
+Vehicle: dmax_dc_split_toolbox_vic_service
+Isuzu D-Max Dual Cab w/ Split Toolbox, VIC Service branding
+Source: source_images/dmax_dc_split_toolbox_vic_service.png (1521x1075, 2x2 grid of real photos)
+Quadrants: TL = driver side (full, angle 1), TR = front/bonnet, BL = driver side (full, angle 2, mirrored), BR = rear tailgate close-up.
+NOTE: No passenger-side photo exists anywhere in this image. All P-codes (P1-P8) are SKIPPED for this reason (genuinely not visible in the supplied photo set), not guessed/copied from the driver side.
+
+PLACED (pixel coords are in the full 1521x1075 source image):
+D1  (710,355)   TL quadrant - driver door "A.G.Coombs / Service" decal text
+D2  (545,345)   TL quadrant - driver "1800 985 965 / agcoombs.com.au" phone/web decal
+D3  (220,268)   TL quadrant - toolbox "Air Conditioning & Building Services Specialist" text
+D4  (270,230)   TL quadrant - toolbox green/orange diagonal "fingerprint" swoosh graphic
+D5  (430,330)   TL quadrant - driver A-pillar/front door orange "fingerprint" wave-pattern graphic
+D6  (215,305)   TL quadrant - toolbox row of 4 circular ISO certification-mark icons
+D7  (170,320)   TL quadrant - toolbox Green Building Council Australia leaf logo ("GREEN" decal)
+D8  (348,305)   TL quadrant - toolbox blue/teal tick-in-square logo ("VIC TICK" decal)
+B1  (1280,310)  TR quadrant - bonnet orange & green "fingerprint" graphic
+R1  (1295,715)  BR quadrant - rear tailgate "A.G.Coombs | Service" decal text
+R2  (1272,751)  BR quadrant - rear tailgate "1800 985 965 | agcoombs.com.au" decal
+R3  (1122,752)  BR quadrant - rear tailgate row of circular ISO certification-mark icons
+R4  (1378,748)  BR quadrant - rear tailgate Green Building Council Australia logo ("GREEN" decal)
+R5  (1172,750)  BR quadrant - rear tailgate blue/teal tick-in-square logo ("VIC TICK" decal)
+
+SKIPPED:
+P1-P8 (all 8 passenger-side items) - no passenger-side photo is present in source_images/dmax_dc_split_toolbox_vic_service.png. Both left-hand quadrants (TL, BL) show the DRIVER side only (same side photographed from two angles/directions); TR is the front bonnet and BR is the rear tailgate. There is no quadrant showing the passenger side, so these could not be verified and were not guessed or copied from driver-side coordinates.

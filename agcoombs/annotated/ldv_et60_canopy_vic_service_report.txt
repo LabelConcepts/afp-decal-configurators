@@ -1,0 +1,18 @@
+Vehicle: ldv_et60_canopy_vic_service
+LDV eT60 w/ Canopy, VIC Service branding (electric vehicle)
+Source: source_images/ldv_et60_canopy_vic_service.png (1521x1075)
+This source image shows the passenger side only (top = clean photo, bottom = manufacturer markup/reference copy of the same photo). All 10 items are P-codes (passenger side), consistent with the photo. Tags were placed on the TOP clean photo only; the bottom annotated copy was used only as a reference to confirm decal boundaries.
+
+PLACED (pixel coords are in the full 1521x1075 source image):
+P1  (695,320)   Passenger door "A.G.Coombs / Service" decal text
+P2  (940,308)   Passenger "1800 985 965 / agcoombs.com.au" phone/web decal
+P3  (1285,150)  Canopy blue "ELECTRIC VEHICLE" badge decal
+P4  (1400,273)  Rear tub/canopy panel "Air Conditioning & Building Services Specialist" text
+P5  (950,380)   Passenger door/lower-body orange "Electric Strips" graphic (flame-style gradient on the cab/door section)
+P6  (445,273)   Front guard "NET ZERO" QR-code decal
+P7  (1250,210)  Tub/canopy yellow-toned "Electric Strips" graphic (continuation of the flame gradient onto the tub and canopy)
+P8  (1385,275)  Rear panel row of 4 circular ISO certification-mark icons
+P9  (1337,302)  Rear panel Green Building Council Australia leaf logo ("GREEN" decal)
+P10 (1337,270)  Rear panel blue/teal tick-in-square logo ("VIC TICK" AU10651 decal)
+
+SKIPPED: none - all 10 items were visible and placed. Note: P8, P9, P10 sit very close together (within ~40px) because the three small certification icons are genuinely printed immediately adjacent to each other on the real decal; this is a tight but accurate placement, not a copy/guess.

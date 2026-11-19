@@ -1,0 +1,35 @@
+Vehicle: dmax_indigenous_act_toolbox — Isuzu D-Max Dual Cab, Indigenous ACT branding w/ toolbox
+Source: source_images/dmax_indigenous_act_toolbox.png (1521x1075), 4-photo grid:
+  top-left = driver side (full profile, nose right), top-right = front/bonnet,
+  bottom-left = passenger side (full profile, nose left), bottom-right = rear toolbox door
+Tagged output: annotated/dmax_indigenous_act_toolbox_tagged.png
+
+All 18 items placed (none skipped).
+
+DRIVER SIDE (top-left quadrant)
+D1 (150,277)  — "Air Conditioning & Building Services Specialist" 3-line text, left-justified, toolbox front panel
+D2 (280,250)  — Indigenous artwork panel, toolbox side (dot/swirl design)
+D3 (480,300)  — Indigenous artwork continuing onto cab/door pillar edge
+D4 (550,460)  — Indigenous artwork strip along door base/rocker panel
+D5 (730,330)  — "A.G.Coombs" logo + "1300 011 421 | agcoombs.com.au" ACT 2-line decal, front door
+D6 (150,320)  — Combined ISO/Tick(ACT)/Green Building Council icon cluster, toolbox lower panel (below D1 text)
+
+BONNET/FRONT (top-right quadrant)
+B1 (1275,320)  — "A.G.Coombs" logo decal on bonnet
+BU1 (1300,460) — Indigenous artwork panel on front bumper
+
+REAR (bottom-right quadrant, toolbox door)
+R1 (1285,715) — "A.G.Coombs" + "Air Conditioning & Building Services Specialist" + phone/web 3-line decal, rear toolbox door
+R2 (1172,793) — Combined Tick(ACT)/ISO icon cluster, lower rear panel
+R3 (1368,790) — Green Building Council logo, lower rear panel
+R4 (1400,700) — Indigenous artwork panel framing rear toolbox door (right-side border pattern)
+
+PASSENGER SIDE (bottom-left quadrant, mirrored layout, right-justified toolbox text)
+P1 (965,740)  — "Air Conditioning & Building Services Specialist" 3-line text, right-justified, toolbox front panel
+P2 (770,730)  — Indigenous artwork panel, toolbox side
+P3 (600,820)  — Indigenous artwork continuing onto cab/door pillar edge
+P4 (410,890)  — Indigenous artwork strip along door base/rocker panel
+P5 (400,815)  — "A.G.Coombs" logo + "1300 011 421 | agcoombs.com.au" ACT 2-line decal, front door
+P6 (955,782)  — Combined ISO/Tick(ACT)/Green Building Council icon cluster, toolbox lower panel
+
+Methodology note: every coordinate above was independently measured by cropping/zooming the untagged source PNG at the target pixel region and visually confirming the decal before placing the tag. Driver and passenger sides were measured separately (mirrored layout confirmed visually: driver = left-justified toolbox text, passenger = right-justified). The large Indigenous dot/swirl artwork is one continuous design across toolbox, cab-door edge and door-base, so it was tagged at three distinct, visually-confirmed panel locations (toolbox / door pillar / door base) per the item list's own panel breakdown (D2/D3/D4 and P2/P3/P4), rather than reusing one coordinate.

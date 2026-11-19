@@ -1,0 +1,48 @@
+Vehicle: dmax_dc_canopy_vic_service — Isuzu D-Max Dual Cab w/ Canopy, VIC Service branding
+Source: source_images/dmax_dc_canopy_vic_service.png (1521x1075)
+Quadrants: top-left = driver side (nose pointing right), bottom-left = passenger side (nose pointing left),
+top-right = front/bonnet, bottom-right = rear.
+
+Cross-referenced against the original fitting-guide PDF (page 3, measurement/placement diagram) at
+/Volumes/LabelConcepts/Workspace/AG. COOMBS/133248 - AG COOMBS - DMAX DUAL CAB w CANOPY/133248 - AGC -
+DMAX DUAL w CANOPY - VIC SERVICE - APRIL 2026 FITTING.pdf to confirm which decal cluster is which
+(the PDF's "CLEAR DECALS" bracket and "50mm from each side / 50mm up" callouts resolved the otherwise
+ambiguous small icon clusters). All coordinates below were still independently measured and pixel-verified
+against the plain (unannotated) source PNG before tagging.
+
+All 21 items placed. None skipped.
+
+D1 (690,385) — driver door, "A.G.Coombs / Service" logo decal (740mm)
+D2 (492,380) — driver door, "1800 985 965 / agcoombs.com.au" text (PHONE/WEB, 372mm)
+D3 (150,357) — driver-side canopy front corner, "Air Conditioning & Building Services Specialist" text (AIR CON SERVICES, 386mm)
+D4 (652,455) — driver door, lower orange fingerprint rocker-panel strip
+D5 (262,307) — driver-side canopy, green/orange two-tone fingerprint diagonal panel
+D6 (120,397) — driver-side canopy front corner, 'ISO' certification icon cluster (clear decal)
+D7 (120,417) — driver-side canopy front corner, green building council leaf logo + text (clear decal), below D6
+D8 (167,398) — driver-side canopy front corner, blue/green "VIC TICK" checkmark icon (clear decal), beside D6
+
+P1 (462,800) — passenger door, "A.G.Coombs / Service" logo decal
+P2 (567,795) — passenger door, "1800 985 965 / agcoombs.com.au" text
+P3 (962,764) — passenger-side canopy rear corner, "Air Conditioning & Building Services Specialist" text
+P4 (527,845) — passenger door, lower orange fingerprint rocker-panel strip
+P5 (782,685) — passenger-side canopy, green/orange two-tone fingerprint diagonal panel
+P6 (957,792) — passenger-side canopy rear corner, 'ISO' icon cluster
+P7 (960,815) — passenger-side canopy rear corner, green building council leaf logo + text, below P6
+P8 (918,792) — passenger-side canopy rear corner, "VIC TICK" checkmark icon, beside P6
+
+B1 (1270,355) — bonnet, orange/green fingerprint swoosh decal (standard D-Max bonnet)
+
+R1 (1280,655) — rear windscreen, "A.G.Coombs | Service" + "Air Conditioning & Building Services Specialist" +
+     phone/web text (1044mm wide decal)
+D9 (1188,795) — rear tailgate, second 'ISO' icon cluster (centered on tailgate per PDF "50mm from each
+     side / 50mm up" spec — coded "DRIVE" in the parts list but is a single centered tailgate decal, not a
+     per-side item; confirmed from the PDF's own fitting diagram)
+D10 (1243,795) — rear tailgate, second "VIC TICK" icon, beside D9
+D11 (1389,796) — rear tailgate, second green building council leaf logo + text
+
+Skipped items: none — all 21 codes from the JSON item list were located and tagged.
+
+Note: D6/D7/D8 (driver) and P6/P7/P8 (passenger) each form a tightly-packed 3-decal cluster (icons +
+leaf logo + tick, within ~50px of each other) on the canopy near the cab, so their tags necessarily sit
+close together in the output image — each position was individually verified against the untagged source
+crop before tagging, not assumed from spacing.

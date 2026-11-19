@@ -1,0 +1,77 @@
+vw_transporter_red_wave — AFP VW Transporter (LWB), 2021 WAVE design, Red vehicle, 16 items
+=============================================================================================
+
+SOURCE IMAGE NOTE: as with vw_passat_fitting, the original source_images png was
+the checklist text page, not a photo. Rebuilt from the PDF's real photos
+(124562 - AFP - 2021 LWB VW TRANSPORTER RED - WAVE - FITTING.pdf): the "VISUAL"
+2x2 photo grid (page 2: driver side, passenger side, front, rear of an actual
+red-liveried van) was used directly — it is a clean, well-lit studio shot with
+no cropping needed, and a separate "REFLECTIVE PARTS" page (page 4) in the same
+PDF carries pre-existing leader-line labels ("TRANS24 F1/F2/F3", "TRANS24 R1")
+confirming exactly where those reflective strip codes belong — I cross-checked
+every F1/F2/F3/R1 placement against that labelled diagram before tagging the
+unlabelled photo.
+
+DRIVE/PASS SIDE ASSIGNMENT CAVEAT: same as noted for vw_passat_fitting — both
+side photos are mirror-symmetric in content and no asymmetric cue was visible
+to independently confirm driver vs passenger. Side 1 (nose right in photo) =
+DRIVE, Side 2 (nose left) = PASS, by convention, consistent with the other two
+vehicles in this batch. Measured independently on each side photo regardless.
+
+RESULT: All 16 items placed with photo verification. No items skipped.
+
+Side 1 ("DRIVE"):
+  DRIVE-1  "DRIVE AFP WAVE - NEW - 5500mm LONG (3M 680)"      -> PLACED (500,290)
+           The navy/white wave-chequers graphic along the lower body.
+  DRIVE-2  "DRIVE AUSTRALIAN FEDERAL POLICE TEXT 1663mm WIDE" -> PLACED (550,235)
+           Wordmark text across the mid-body panel.
+  DRIVE-3  "DRIVE WHITE PHONE 000 363mm WIDE"                 -> PLACED (95,140)
+           "000" + phone icon, rear quarter panel near D-pillar.
+
+Side 2 ("PASS"):
+  PASS-1   "PASS AFP WAVE - NEW - 5500mm LONG (3M 680)"       -> PLACED (800,680)
+           Wave-chequers graphic along the lower body.
+  PASS-2   "PASS AUSTRALIAN FEDERAL POLICE TEXT 1663mm WIDE"  -> PLACED (500,665)
+           Wordmark text across the mid-body panel.
+  PASS-3   "PASS WHITE PHONE 000 363mm WIDE"                  -> PLACED (975,575)
+           "000" + phone icon, rear quarter panel near D-pillar.
+
+Front / bonnet:
+  BONNET-1 "Bonnet AFP CREST 420mm High (3M 680)"             -> PLACED (218,998)
+           AFP crest centred on the bonnet, above the white strip.
+  F1       "TRANS24 F1 (VC612 SILVER)"                        -> PLACED (60,1052)
+           Left end of the thin reflective strip running along the base of
+           the bonnet, above the left headlight. Position cross-checked
+           against the PDF's own "TRANS24 F1" leader-line label.
+  F2       "TRANS24 F2 (VC612 SILVER)"                        -> PLACED (218,1052)
+           Centre of same strip, directly above the VW badge/grille.
+  F3       "TRANS24 F3 (VC612 SILVER)"                        -> PLACED (370,1045)
+           Right end of same strip, above the right headlight.
+
+Rear:
+  R1       "TRANS24 R1 (VC612 SILVER)"                        -> PLACED (636,990)
+           Reflective strip along the top edge of the tailgate, below the
+           rear window. Cross-checked against the PDF's "TRANS24 R1" label.
+  REAR-3   "Rear WHITE PHONE 000 363mm WIDE"                  -> PLACED (536,1030)
+           "000" + phone icon, left side of tailgate.
+  REAR-2   "Rear AFP CREST 170mmWide"                         -> PLACED (786,1025)
+           AFP crest, right side of tailgate (below rear-window strip).
+  REAR-1   "Rear AUSTRALIAN FEDERAL POLICE TEXT 1060mm Wide"  -> PLACED (651,1160)
+           Wordmark text across lower tailgate, above bumper.
+  REAR-4   "Rear BLUE TAILGATE 2000mm WIDE X 1100mm (1105x1460)" -> PLACED (791,1110)
+           Plain navy-blue tailgate background panel (clear area right of
+           centre, between the crest and the text row).
+
+Reflective side strip:
+  ITEM-1   "14x 23mm Thick Reflective Strips VC612 SILVER @ 1800mm LONG" -> PLACED (488,174)
+           Thin white/silver reflective pinstripe running the length of the
+           body above the wave graphic — visibly segmented at each door gap,
+           consistent with being built from multiple 1800mm lengths. Tagged
+           once on Side 1's mid-body straight section as the representative
+           instance (checklist lists this as a single code for the full set
+           of 14 pieces, not split per side/section).
+
+Files:
+  annotated/vw_transporter_red_wave_tagged.png  (1065x1260 composite: Side 1 /
+    Side 2 / Front+Rear, replaces the checklist-page render)
+  source_images/vw_transporter_red_wave.png     (same composite, untagged)

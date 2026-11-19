@@ -1,0 +1,67 @@
+Vehicle: mazda_cx80_gd (Mazda CX-80 - General Duties 'Kings Crest')
+Source image used: source_images/mazda_cx80_gd.png
+NOTE: The file originally at this path (auto-selected by the extraction script as the
+page with the most text) was the text-only "PART CHECKLIST" page with no vehicle photo.
+The PDF's page 2 ("MAZDA CX-80 - GENERAL DUTIES", a 4-photo/render grid: one side view,
+front face, second side view, rear face) is the vehicle reference image and was
+substituted in as source_images/mazda_cx80_gd.png before annotating.
+
+Side identification (DRIVE vs PASS): the two side photos are NOT labelled "driver" /
+"passenger" directly, so side identity was confirmed using the PDF's own page 4
+("REFLECTIVE" diagram), which overlays the same two side photos with explicit
+"MAZ CX80 D1" (top photo, nose pointing right) and "MAZ CX80 P1" (bottom photo, nose
+pointing left) tags. This confirms: top-row photo = DRIVE side, bottom-row photo = PASS
+side, matching the orientation of page 2 used here. (Page 5/6, "APPROVED POC INSTALL",
+real installed-vehicle photos, were also checked and are consistent with this layout —
+used only as cross-reference, not as the final source.)
+
+Items (11 total, all visually confirmed):
+
+1. DRIVE-1 — "DRIVE MIDDLE CHEQUERS (GD 4500 LONG) (3M680)"
+   PLACED: (320, 358) — clear checker-pattern section of the driver-side middle stripe,
+   between the mirror and the door handle.
+
+2. BONNET-1 — "BONNET POLICE 850mm Wide (3M680)"
+   PLACED: (1280, 315) — "Police" text decal centered on the bonnet, front-face photo,
+   above the yellow reflective strip.
+
+3. DRIVE-2 — "DRIVE MAZDA CX-80 POLICE STRIPS 'KINGS CREST' (3M680)"
+   PLACED: (670, 430) — AFP/Norfolk-style police crest badge at the rear end of the
+   "Police" text on the driver-side door, before the rear wheel arch.
+
+4. DRIVE-3 — "DRIVE BOTTOM 131 444 END"
+   PLACED: (110, 405) — "131 444" phone-number text under the front of the checker
+   stripe, driver side, near the front wheel arch.
+
+5. REAR-1 — "REAR POLICE TEXT (3M680) (3M680)"
+   PLACED: (1290, 795) — "Police" text decal on the lower white band of the rear-face
+   photo, right of center.
+
+6. REAR-2 — "REAR AFP TEXT (3M680)"
+   PLACED: (1190, 785) — "AFP" text decal on the lower white band of the rear-face
+   photo, left of the number plate.
+
+7. REAR-3 — "REAR PHONE 131444 (3M680)"
+   PLACED: (1385, 780) — "131 444" phone-number text on the lower white band of the
+   rear-face photo, right of the number plate.
+
+8. PASS-1 — "PASS MIDDLE CHEQUERS (GD 4500 LONG) (3M680)"
+   PLACED: (695, 720) — clear checker-pattern section of the passenger-side middle
+   stripe, between the two door handles.
+
+9. REAR-4 — "REAR CHEQUERS 1650mm Long (3M680)"
+   PLACED: (1275, 725) — checker-pattern band across the tailgate, above the number
+   plate, in the rear-face photo.
+
+10. PASS-2 — "PASS MAZDA CX-80 POLICE STRIPS 'KINGS CREST' (3M680)"
+    PLACED: (390, 790) — police crest badge at the start of the "Police" text on the
+    passenger-side door, after the front door.
+
+11. PASS-3 — "PASS BOTTOM 131 444 END (3M680)"
+    PLACED: (950, 790) — "131 444" phone-number text under the rear of the checker
+    stripe, passenger side, near the rear wheel arch.
+
+Summary: all 11 codes placed with pixel coordinates. No items skipped. Side identity
+(driver vs passenger) was confirmed from the document's own labelled reflective-parts
+diagram rather than assumed from photo order, and every decal location was
+independently cropped and visually verified on the untagged source before drawing.

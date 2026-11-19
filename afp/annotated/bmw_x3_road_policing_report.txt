@@ -1,0 +1,46 @@
+AFP BMW X3 - Road Policing
+Source: source_images/bmw_x3_road_policing.png (2573x1819) - page 2 "VISUAL"
+of 101956 - AFP - BMW X3 - ROAD POLICING - FITTING.pdf (2x2 grid: top-left =
+Pass side, top-right = front, bottom-left = Drive side, bottom-right = rear).
+NOTE: afp_vehicles.json's source_images/bmw_x3_road_policing.png originally
+pointed at page 1 (the text-only PART CHECKLIST page). Re-extracted page 2
+(the VISUAL page) from the same source PDF and overwrote the file so there
+is an actual render to measure against.
+
+count_mismatch flag: the checklist page states "Total Number of Parts: 13 +
+REFLECTIVE STRIPS" while extraction produced 15 json items (13 core decals +
+SIDE-1 + SIDE-2). Having now looked at the actual checklist text, this is
+explained, not an extraction error: the checklist lists "2x SIDE 2200mm x
+80mm..." and "2x SIDE 3450mm x 33mm..." as its own two reflective-strip line
+items (quantity 2 = fitted once per side, pass+drive), on top of the 13 core
+decal lines (3 Pass + 3 Drive + 7 Rear = 13). So 13 "core" + 2 "reflective
+strip" line items = 15 json entries, which is internally consistent; the
+doc's own "13 + REFLECTIVE STRIPS" total just doesn't spell out the +2.
+Visually confirmed both SIDE-1 and SIDE-2 are real, distinct decals (two
+parallel yellow stripes of different thickness running the length of each
+side - see SIDE-1/SIDE-2 below) - so nothing was mis-extracted.
+
+All 15 items placed and visually confirmed by cropping the exact pixel box
+before tagging. Coordinates are (x,y) pixel centers on the 2573x1819 image.
+
+PASS-1  Pass POLICE CHEQUERS (3M 680)                 (480,650)   placed: on the navy/white chequerboard pattern, pass-side front door.
+PASS-2  Pass AFP PHONE 131 444 (3M 680) 308mm WIDE     (155,730)   placed: on the "131 444" phone-icon text, pass-side rear quarter (yellow panel).
+PASS-3  Pass AFP CREST (3M 680) 360mm HIGH             (285,600)   placed: on the AFP crest badge, pass-side rear quarter near taillight.
+REAR-1  Rear POLICE CHEQUERS (3M 680)                 (1950,1310) placed: on the navy/white chequerboard pattern, rear tailgate, left of the numberplate.
+REAR-2  Rear AFP PHONE 131 444 (3M 680) 316mm WIDE     (1995,1245) placed: on the "131 444" phone-icon text, upper rear yellow band.
+REAR-3  Rear AFP (3M 680) 135mm WIDE                   (2195,1245) placed: on the "AFP" text (next to the BMW roundel), upper rear yellow band.
+REAR-4  Rear POLICE (3M 680) 510mm WIDE x 100 HIGH     (2110,1355) placed: on the white "Police" text box, centre of tailgate above the numberplate.
+REAR-5  Rear ROAD POLICING TEXT (3M 680) 35mm HIGH     (2110,1425) placed: on the "ROAD POLICING" text, lower rear band.
+REAR-6  Rear YELLOW BUMPER 3200x680mm (1105w1460Z)     (1850,1420) placed: on the lower/wider yellow panel that wraps the tailgate base and side corners, left side (distinct wider panel below the chequers).
+REAR-7  Rear YELLOW BOOT 1400x300mm (1105w1460Z)       (1850,1235) placed: on the narrower upper yellow tailgate-lid band (behind the "131 444"/"AFP" text), left side.
+         NOTE on REAR-6/REAR-7: both are genuinely yellow retro-reflective panels on the tailgate but the exact design-file boundary between the "BOOT" panel and the "BUMPER" panel is not drawn/labelled anywhere in the source doc; I placed REAR-7 on the narrower upper band (more consistent with "1400mm wide x 300mm high") and REAR-6 on the wider band that continues down the sides and across the lower tailgate (more consistent with "3200mm wide x 680mm high"). Confidence: medium - both decals clearly exist and are yellow, the split between the two is inferred from relative size, not an explicit boundary line in the image.
+DRIVE-1 Drive POLICE CHEQUERS (3M 680)                 (560,1390)  placed: on the navy/white chequerboard pattern, drive-side front door.
+DRIVE-2 Drive AFP PHONE 131 444 (3M 680) 308mm WIDE     (1570,1440) placed: on the "131 444" phone-icon text, drive-side rear quarter (yellow panel).
+DRIVE-3 Drive AFP CREST (3M 680) 360mm HIGH             (1455,1295) placed: on the AFP crest badge, drive-side rear quarter near taillight.
+SIDE-1  2x SIDE 2200x80mm REFLECTIVE STRIPS (VC612 LIME) (950,815)  placed: on the thicker (80mm) yellow reflective stripe that runs along the lower rocker panel, below the chequers (pass side shown; same stripe recurs identically on the drive side per the "2x" quantity - not re-measured separately as it is one json line item for a strip fitted once per side).
+SIDE-2  2x SIDE 3450x33mm REFLECTIVE STRIPS (VC612 LIME) (950,670)  placed: on the thinner (33mm) yellow reflective stripe running along the upper beltline, just above the chequers (pass side shown; recurs on drive side, same reasoning as SIDE-1).
+
+All 15/15 items placed; none skipped. Pass-side and Drive-side coordinates
+were measured independently from their own respective photos (top vs bottom
+car in the grid) - no coordinate reuse between sides, and no reuse from any
+other vehicle in this batch.

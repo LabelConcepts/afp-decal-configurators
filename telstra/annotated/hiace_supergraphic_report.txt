@@ -1,0 +1,69 @@
+hiace_supergraphic — Toyota Hiace - Supergraphic Livery
+Annotation report
+=========================================================
+
+Source used: source_images/hiace_supergraphic_p2.png (1521x1075px).
+  - p1 is the checklist page only (no vehicle photo) — confirmed, not used for tagging.
+  - p2 is a 2x2 photo grid: top-left = driver-side profile, bottom-left = passenger-side
+    profile, top-right = front 3/4, bottom-right = rear elevation. All 8 checklist items
+    were visible somewhere on this single page, so only one tagged output was produced:
+    annotated/hiace_supergraphic_p2_tagged.png
+
+Driver vs. passenger side determination (done carefully, not assumed):
+  The top-left profile image is the only one of the two side images that the source
+  document itself draws pointer lines on for the internal "Handbrake Decal ... installed
+  internally to face the driver" and "GPS Decal ... installed internally on windscreen to
+  face the driver" callouts. Since both internal decals are explicitly described as facing
+  the driver, the side the artwork illustrates them on is the driver's side. Therefore:
+    top-left image    = DRIVER side  -> D1 placed here
+    bottom-left image  = PASSENGER side -> P1 placed here
+  (Cross-checked against fn_hiace_lwb's own page 2/3/4, which are explicitly labelled
+  "DRIVERS SIDE ONLY" / "PASSENGER SIDE" in the source document and use the identical
+  top=driver / bottom=passenger convention — consistent, not coincidental.)
+
+Items placed:
+  D1  Drive rear side Telstra T decal (1030mm high)
+      Placed at pixel (225, 320) on hiace_supergraphic_p2.png — center of the big blue
+      "T" letterform on the top-left (driver) profile image. Verified directly: this is a
+      large, solid, high-contrast blue cluster found only on that one image.
+
+  P1  Pass rear side Telstra T decal (1030mm high)
+      Placed at pixel (887, 760) — center of the big blue "T" on the bottom-left
+      (passenger) profile image. Verified independently on this image, not copied from D1
+      (different pixel region, confirmed via direct color-cluster detection on this photo).
+
+  T1  Rear small Telstra T decal (the round orange/blue Telstra "swirl" logo mark, distinct
+      from the big "T" wordmark used for D1/P1)
+      Placed at pixel (1387, 815), on the rear-elevation photo (bottom-right quadrant),
+      next to the right tail-light.
+
+  T2  Rear 'telstra.com.au' decal
+      Placed at pixel (1377, 775) — the "telstra.com" text above the T1 logo on the rear
+      photo. (Text as printed on the actual decal reads "telstra.com"; checklist calls it
+      "telstra.com.au" — same decal, noting the discrepancy for the record.)
+
+  T3  Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal
+      Placed at pixel (1152, 780) — the 3-line blue text block on the left side of the
+      rear doors, above the "HIACE" badge.
+
+  T4  Rear 'Before you dig www.byda.com.au' decal
+      Placed at pixel (1117, 880) — the small red/yellow circular badge on the lower-left
+      of the rear bumper area.
+
+  W1  Internal windscreen 'Parking Brake' decal
+      Placed at pixel (624, 318) — this is the exact tip of the magenta pointer line the
+      source document itself draws from the "Handbrake Decal, installed internally to face
+      the driver" label down to the window, on the driver-side (top-left) profile image.
+      Not guessed — measured directly from the document's own callout line.
+
+  W2  Internal windscreen 'GPS' decal
+      Placed at pixel (711, 255) — the exact tip of the magenta pointer line from the "GPS
+      Decal, installed internally on windscreen to face the driver" label, on the same
+      driver-side image. Measured directly from the document's own callout line.
+
+Items NOT applicable to this vehicle: none skipped — all 8 checklist items (D1, P1, T1-T4,
+W1, W2) were found and tagged. Note: a "GreenFleet" logo is also visible on the rear bumper
+(bottom-right, opposite side from T4) but it is NOT on this vehicle's checklist (hiace_
+supergraphic.txt only lists T1-T4, no Green Fleet item) — correctly left untagged.
+
+Output file: annotated/hiace_supergraphic_p2_tagged.png

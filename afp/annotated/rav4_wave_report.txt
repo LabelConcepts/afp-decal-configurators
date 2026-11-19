@@ -1,0 +1,33 @@
+AFP Toyota RAV4 (2026 Model) - WAVE design, 131 AFP phone text
+Source: source_images/rav4_wave.png (2573x1819) - page 2 "VISUAL" of
+140864 - AFP - RAV 4 WAVE 131AFP - FITTING.pdf (2x2 render grid: top-left =
+Pass side, top-right = front, bottom-left = Drive side, bottom-right = rear).
+NOTE: afp_vehicles.json's source_images/rav4_wave.png originally pointed at
+page 1 (the text-only PART CHECKLIST page, no vehicle visible). Re-extracted
+page 2 of the same source PDF (the VISUAL page) and overwrote the file so
+there is an actual photo/render to measure against, per the instructions.
+
+All 14 items placed and visually confirmed by cropping the exact pixel box
+before tagging. Coordinates are (x,y) pixel centers on the 2573x1819 image.
+
+PASS-1  PASS WAVE NEW (RAV 4 CUT)                         (650,670)   placed: on the wavy navy/white two-tone cut-line boundary, pass-side front door/guard area, below the "AUSTRALIAN FEDERAL POLICE" text.
+PASS-2  PASS AUSTRALIAN FEDERAL POLICE TEXT 1663mm WIDE    (970,615)   placed: centered on the "AUSTRALIAN FEDERAL POLICE" text, pass side.
+PASS-3  PASS AFP 2025 KINGS CREST + AFP 170mm HIGH         (1285,745) placed: on the small AFP crest badge + "AFP" text, pass side rear door.
+PASS-4  PASS 131 AFP 465mm Wide                            (335,500)   placed: on the "131 AFP" phone-icon text, pass side rear quarter near taillight.
+PASS-5  PASS BLUE 1370mm x 1000mm (1105 W 1460)            (250,645)   placed: on the solid navy-blue rear-quarter colour panel (no chequers), pass side, below the "131 AFP" text.
+BONNET-1 BONNET AFP KINGS CREST 550mmHIGH                  (2140,560) placed: on the AFP Kings Crest badge centered on the bonnet, front view.
+REAR-1  REAR AUSTRALIAN FEDERAL POLICE TEXT 880mm WIDE     (2145,1383) placed: on the "AUSTRALIAN FEDERAL POLICE" text, rear tailgate.
+REAR-2  REAR AFP KINGS CREST 190mm HIGH                    (2375,1315) placed: on the AFP Kings Crest badge, rear tailgate (passenger side of tailgate).
+REAR-3  REAR 131 AFP 270mm WIDE                             (1915,1315) placed: on the "131 AFP" phone-icon text, rear tailgate (driver side of tailgate).
+DRIVE-1 DRIVE WAVE NEW (RAV 4 CUT)                          (700,1300) placed: on the wavy navy/white two-tone cut-line boundary, drive side, below the "AUSTRALIAN FEDERAL POLICE" text.
+DRIVE-2 DRIVE AUSTRALIAN FEDERAL POLICE TEXT 1663mm WIDE    (890,1320) placed: centered on the "AUSTRALIAN FEDERAL POLICE" text, drive side.
+DRIVE-3 DRIVE AFP 2025 KINGS CREST + AFP 170mm HIGH         (585,1440) placed: on the AFP crest badge + "AFP" text, drive side, front of rear door.
+DRIVE-4 DRIVE 131 AFP 465mm WIDE                            (1560,1215) placed: on the "131 AFP" phone-icon text, drive side rear quarter near taillight.
+DRIVE-5 DRIVE BLUE 1370mm x 1000mm (1105 W 1460) 'KINGS CREST' (1720,1340) placed: on the solid navy-blue rear-quarter colour panel (no chequers), drive side.
+
+All 14/14 items placed; none skipped. Every coordinate was independently
+measured by cropping the source PNG at that exact box and visually
+confirming the decal before drawing (see methodology note in
+ANNOTATION_INSTRUCTIONS.md). Pass-side and Drive-side coordinates were
+measured separately from their own respective photos (top vs bottom car in
+the grid) - no coordinate reuse between sides.

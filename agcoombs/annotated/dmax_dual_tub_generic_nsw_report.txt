@@ -1,0 +1,34 @@
+Vehicle: dmax_dual_tub_generic_nsw (Isuzu D-Max Dual Cab w/ Tub, generic NSW branding)
+Source: source_images/dmax_dual_tub_generic_nsw.png (1521x1075), 4-quadrant grid:
+  TL = driver-side full profile, BL = passenger-side full profile,
+  TR = front 3/4 (bonnet/grille), BR = rear tailgate close-up.
+All coordinates are pixel (x,y) in the full source image.
+
+D1  (630,392)   PLACED - "A.G.Coombs" logo text, TL quadrant (driver door).
+D2  (485,385)   PLACED - "02 9248 7400 / agcoombs.com.au" text, TL quadrant.
+D3  (150,342)   PLACED - "Air Conditioning & Building Services Specialist" text on tub rear quarter, TL quadrant.
+D4  (250,330)   PLACED - green/orange diagonal tub graphic (upper panel), TL quadrant; pixel-verified olive green.
+D5  (440,425)   PLACED - solid orange "fingerprint" rocker/sill stripe, separate from D4, TL quadrant; pixel-verified orange, distinct location from the tub graphic.
+D6  (130,396)   PLACED - small coloured ring certification-icon cluster ("ISO"), TL quadrant.
+D7  (150,412)   PLACED - teal "Green Building Council Australia" triangle logo ("GREEN"), TL quadrant, below D6.
+P1  (450,782)   PLACED - "A.G.Coombs" logo text, BL quadrant (passenger door).
+P2  (605,785)   PLACED - "02 9248 7400 / agcoombs.com.au" text, BL quadrant.
+P3  (970,747)   PLACED - "Air Conditioning & Building Services Specialist" text, BL quadrant.
+P4  (820,750)   PLACED - green/orange diagonal tub graphic, BL quadrant; pixel-verified olive green, independently measured from D4.
+P5  (680,800)   PLACED - solid orange rocker/sill stripe, BL quadrant; pixel-verified orange, independently measured from D5.
+P6  (935,799)   PLACED - ring certification-icon cluster ("ISO"), BL quadrant.
+P7  (925,818)   PLACED - teal "Green Building Council Australia" triangle logo ("GREEN"), BL quadrant, below P6.
+R1  (1300,735)  PLACED - rear tub decal panel top line ("A.G.Coombs" logo + Air Con text + phone/web, single panel), BR quadrant.
+R2  (1385,800)  PLACED - ring certification-icon cluster ("ISO"), BR quadrant, right of the green triangle, near the taillight.
+R3  (1155,800)  PLACED - teal "Green Building Council Australia" triangle logo ("GREEN"), BR quadrant, left side of the panel below the phone/web line.
+B1  (1330,310)  PLACED - orange & green "fingerprint" bonnet graphic (standard D-Max bonnet), TR quadrant (front view).
+
+Notes:
+- All 18 items placed; none skipped.
+- Driver (D) and passenger (P) side coordinates were independently pixel-sampled from their own
+  quadrants (TL vs BL) to confirm each tag sits on the correct colour (green vs orange vs white
+  background) rather than being mirrored/copied between sides.
+- On the rear tailgate (BR), the ISO ring-icon cluster (R2) is positioned noticeably to the right
+  of the Green Building Council logo (R3) - confirmed by close-up pixel inspection after an
+  initial wider crop missed it near the right taillight; this asymmetric layout differs from the
+  side-panel icon order (ISO above GREEN) and was verified directly rather than assumed.

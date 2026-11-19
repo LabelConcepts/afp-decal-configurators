@@ -1,0 +1,103 @@
+landcruiser300_2024_gd — AFP Toyota LandCruiser 300 General Duties
+====================================================================
+
+IMPORTANT METHODOLOGY NOTE (read first)
+----------------------------------------
+The pipeline's auto-picked reference image (source_images/landcruiser300_2024_gd.png) is
+page 1 of the source PDF ("138572 - AFP - LAND CRUISER 300 - GENERAL DUTIES - FITTING.pdf"),
+a TEXT-ONLY checklist page with zero embedded images. No vehicle photo exists on that page,
+so no tag position could ever be measured against it.
+
+I opened the original PDF (5 pages total) and found:
+  - Page 2: a 2x2 clean studio "design mock-up" render (drive side / pass side / front / rear)
+  - Page 4: the same mock-up re-rendered darker with the manufacturer's OWN pre-drawn
+    reference callouts for the small VC612 lime parts (F1-F5, R1) — used as a cross-check
+  - Page 5: REAL installed-vehicle photographs (phone photos, in a warehouse, different
+    numberplate "2DN 10F") of drive side, pass side, front bumper, bonnet, and rear — the
+    actual "install photos are the bible" page the document itself calls out.
+
+Per the instructions' own priority (actual installed-vehicle photos over a mock-up), I
+built my working image entirely from the page-5 REAL photos: I cropped the four panels
+(drive / pass / front+bonnet / rear) out of page 5 and reassembled them into one 1521x850
+canvas, saved as source_images/landcruiser300_2024_gd_vehicle.png. All coordinates below
+are pixel x,y on THAT reassembled image. annotated/landcruiser300_2024_gd_tagged.png is
+built on top of it. (Page 4's pre-existing F1-F5/R1 callouts were used only to confirm the
+correct numbering order before I independently re-measured each point in the real photo.)
+
+COUNT-MISMATCH FINDING — CONFIRMED TEXT-EXTRACTION ARTIFACT
+-------------------------------------------------------------
+afp_vehicles.json flags parts_total_stated=216 vs parts_extracted_count=24 for this
+vehicle. 216 is almost certainly a parsing artifact — the real PDF has TWO separate
+checklists on two different pages, each with its own stated total: page 1 ("PART
+CHECKLIST - PRINT PARTS") states "10", and page 3 ("PART CHECKLIST - VC612 LIME PARTS")
+states "14". 10 + 14 = 24, which matches parts_extracted_count exactly, so the real
+combined total is 24, not 216. There is no sensible reading of the source document that
+produces "216" — I could not find a 216 anywhere in either page's text, so I'm confident
+this is a corrupted/concatenated digit sequence from automated text extraction, not a real
+total. I did not alter the given 17-item list; I just confirm it undercounts physical
+quantity (10 decals + 7 line-items representing 14 physical VC612-lime pieces = 17 line
+items / 24 physical parts), consistent with parts_extracted_count=24.
+
+KEY VISUAL FINDING: Kings Crest appears placed differently than the checklist implies
+----------------------------------------------------------------------------------------
+Both DRIVE-2 and PASS-2 are listed as the same "Kings Crest" badge (one per side). I found
+it on BOTH sides when I looked at the complete real photo, so no discrepancy after all —
+see placements below (I initially missed the pass-side crest and phone-number because my
+first measurement crop didn't extend far enough down the pass-side photo; re-checking the
+full pass panel located both).
+
+FRONT TRIANGLE: only confirmed on drive side
+----------------------------------------------
+DRIVE-4 "FRONT TRIANGLE" is a small yellow wedge/chevron decal where the chequer band
+meets the front bumper — clearly visible in the real drive-side photo. The real pass-side
+photo, however, is framed tighter and simply ends at the front wheel arch, before the
+front bumper corner is reached — the corresponding area for PASS-4 is not in the
+photograph at all (background warehouse shelving, not vehicle). Per the instructions'
+guidance to skip rather than guess, PASS-4 is reported unverifiable below, not placed.
+
+PLACEMENTS (coords are pixel x,y on source_images/landcruiser300_2024_gd_vehicle.png, 1521x850)
+---------------------------------------------------------------------------------------------------
+DRIVE-1   (500, 217) — navy/white chequerboard "GENERAL DUTIES CHEQUERS" band, drive-side
+                       real photo, mid-body.
+DRIVE-2   (645, 310) — AFP crest/"Kings Crest" badge, drive side, positioned between the
+                       "Police" lettering and the front wheel arch (lower body panel).
+DRIVE-3   (70, 290)  — "131 444" phone-number decal, drive side, toward the rear of the
+                       lower white panel.
+DRIVE-4   (950, 240) — small yellow "front triangle" wedge decal where the chequer band's
+                       yellow borders meet the front bumper, drive side.
+SIDE-1    (500, 172) — representative tag for the "8x SIDE STRIPES 23mm x 1150mm lime"
+                       item: the thin solid yellow/lime stripe running along the top edge
+                       of the chequer band (a matching stripe also runs along the bottom
+                       edge — both visible in-frame; one tag covers the pair per side as
+                       allowed by the brief).
+PASS-1    (500, 622) — chequerboard band, pass-side real photo.
+PASS-2    (200, 775) — AFP crest badge, pass side, found near the front wheel arch, just
+                       before the start of the "Police" lettering (re-verified after an
+                       initial miss — confirmed genuinely present, not guessed).
+PASS-3    (865, 810) — "131 444" phone-number decal, pass side, toward the rear of the
+                       lower white panel (confirmed present on re-check; partially runs
+                       to the edge of the photo frame but is clearly legible).
+BONNET-2  (1230, 360) — bold "RP 60" hood decal, front/bonnet real photo.
+BONNET-1  (1240, 445) — white "Police" rectangle decal on the hood, directly below RP60.
+F1        (1035, 55)  — left end of the thin yellow strip across the top of the front
+                       grille/bumper (matches page 4's own "LCGD300 F1" callout position).
+F2        (1250, 45)  — center of that same top yellow strip.
+F3        (1465, 55)  — right end of the top yellow strip.
+F4        (1070, 205) — small yellow corner triangle, lower-left of the front bumper.
+ITEM-1    (1450, 205) — small yellow corner triangle, lower-right of the front bumper
+                       (this is "LCGD300 F5" in the source document; the given item code
+                       for this one is "ITEM-1" in afp_vehicles.json).
+REAR-1    (1250, 738) — yellow reflective strip across the rear bumper, above the
+                       numberplate (document code "LCGD300 R1").
+
+UNVERIFIABLE / SKIPPED
+-----------------------
+PASS-4 "FRONT TRIANGLE" — NOT placed. The real pass-side install photo is framed from the
+front wheel arch backward; the front bumper corner where this decal would sit (mirroring
+DRIVE-4) is outside the photographed area (only warehouse background is visible there).
+I did not guess a position by mirroring DRIVE-4's coordinates, per the "no coordinate
+copying between sides" rule — flagging this one for a human to confirm against a wider
+photo or the physical vehicle.
+
+16 of 17 items placed and visually confirmed; 1 of 17 (PASS-4) skipped as unverifiable in
+the available photography, with reason given.

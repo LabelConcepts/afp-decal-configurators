@@ -1,0 +1,35 @@
+Vehicle: hiace_lwb_vic_service — Toyota HiAce LWB, VIC Service branding
+Source: source_images/hiace_lwb_vic_service.png (1521x1075), 4-photo grid:
+  top-left = driver side (full profile, nose right), top-right = front/bonnet,
+  bottom-left = passenger side (full profile, nose left), bottom-right = rear (barn doors)
+Tagged output: annotated/hiace_lwb_vic_service_tagged.png
+
+All 18 items placed (none skipped).
+
+DRIVER SIDE (top-left quadrant)
+D1 (150,377)  — "Air Conditioning & Building Services Specialist" 3-line text, left-justified, rear quarter panel
+D2 (120,408)  — Combined Tick(VIC)/ISO/Green Building Council icon cluster, below D1 text
+D3 (510,360)  — "1800 985 965 / agcoombs.com.au" phone/web 2-line text, sliding door
+D4 (675,372)  — "A.G.Coombs" logo + "Service" 2-line decal, front door
+D5 (180,270)  — Green fingerprint swirl stripe (rearmost diagonal band)
+D6 (325,275)  — Orange fingerprint swirl stripe 1 (main/large diagonal band)
+D7 (470,460)  — Orange fingerprint swirl stripe 2 (secondary curved band, lower, nearer cab)
+
+BONNET (top-right quadrant, front view)
+B1 (1300,310) — Orange/green fingerprint swirl graphic on bonnet
+
+REAR (bottom-right quadrant, barn doors)
+R1 (1215,660) — "A.G.Coombs | Service" + "Air Conditioning & Building Services Specialist" + phone/web 3-line PERF window decal
+R2 (1131,740) — Combined ISO/VIC Tick icon cluster, lower rear panel
+R3 (1355,739) — Green Building Council logo, lower rear panel (right of R2)
+
+PASSENGER SIDE (bottom-left quadrant, mirrored layout, right-justified toolbox text)
+P1 (955,770)  — "Air Conditioning & Building Services Specialist" 3-line text, rear quarter panel
+P2 (950,815)  — Combined Tick(VIC)/ISO/Green Building Council icon cluster, below P1 text
+P3 (575,765)  — "1800 985 965 / agcoombs.com.au" phone/web 2-line text, sliding door
+P4 (365,785)  — "A.G.Coombs" logo + "Service" 2-line decal, front door
+P5 (860,680)  — Green fingerprint swirl stripe
+P6 (770,620)  — Orange fingerprint swirl stripe 1 (main/large diagonal band)
+P7 (680,900)  — Orange fingerprint swirl stripe 2 (secondary curved band, lower, nearer cab)
+
+Methodology note: every coordinate above was independently measured by cropping/zooming the untagged source PNG at the target pixel region and visually confirming the decal before placing the tag. Driver and passenger sides were measured separately (mirrored layout confirmed visually). The two orange fingerprint stripes (1 vs 2) were distinguished by zooming closely — stripe 1 is the large diagonal band spanning most of the cargo-area height, stripe 2 is a smaller curved band lower on the body nearer the cab/front wheel arch, visually distinct and separate on both sides.

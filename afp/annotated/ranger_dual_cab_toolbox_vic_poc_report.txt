@@ -1,0 +1,45 @@
+VEHICLE: ranger_dual_cab_toolbox_vic_poc — AFP Ford Ranger Dual Cab with Toolbox,
+Victoria Police "Road Policing" livery (POC), Battenburg checker pattern
+
+Source PDF: "AFP - FORD RANGER WITH TOOLBOX - FITTING.pdf" (17 pages: 2 VISUAL renders,
+2 PART CHECKLIST pages, 13 real install photographs).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/ranger_dual_cab_toolbox_vic_poc.png (1521x1076),
+    annotated/ranger_dual_cab_toolbox_vic_poc_tagged.png.
+
+13 main items placed (PASS-1-4, DRIVE-1-4, REAR-1-4, BONNET-1):
+PASS-1 (540,417) "FRONT SIDE CHEQUERS" — Battenburg checker pattern, cab door, pass side
+PASS-2 (270,407) "REAR SIDE CHEQUERS" — Battenburg checker pattern, toolbox, pass side
+PASS-3 (100,337) AFP crest, toolbox front panel, pass side
+PASS-4 (280,287) "131 444" phone text, toolbox, pass side
+DRIVE-1 (470,860) "FRONT SIDE CHEQUERS" — checker pattern, cab door, drive side
+DRIVE-2 (830,830) "REAR SIDE CHEQUERS" — checker pattern, toolbox, drive side
+DRIVE-3 (990,760) AFP crest, toolbox front panel, drive side
+DRIVE-4 (775,710) "131 444" phone text, toolbox, drive side
+BONNET-1 (1255,287) "POLICE" text, front windscreen visor/header
+REAR-1 (1230,800) checker pattern, rear toolbox door
+REAR-2 (1270,665) "ROAD POLICING" text, rear toolbox door (top)
+REAR-3 (1190,720) "131 444" phone text, rear toolbox door
+REAR-4 (1380,720) "AFP" text, rear toolbox door (right of crest-less side)
+
+SKIPPED (not tagged) — all remaining items in afp_vehicles.json for this vehicle:
+PASS-1..PASS-6 / DRIVE-1..DRIVE-6 / REAR-1 / ITEM-1..ITEM-5 ("FRANW F1-F5 VC612") under
+the second half of the item list (described as "CABIN TOP/BOTTOM 33mm/45mm @ Xmm VC612
+STRIPS" and "TOOLBOX TOP/BOTTOM ... STRIPS").
+Reason: these are continuous reflective tape strips applied at specified heights along
+the cabin and toolbox (visible as the diagonal yellow stripe already present in the main
+VISUAL render on both sides and around the rear/toolbox), not discrete, individually-
+positioned decals with their own distinct artwork. The source PDF contains no dedicated
+"REFLECTIVE PARTS" page with pre-drawn per-code leader-line labels for this vehicle
+(unlike e.g. landcruiser_76_wagon or ford_everest_wave_2025) — only two identical 13-item
+main PART CHECKLIST pages and real install photographs showing the continuous tape, with
+no way to independently verify 12 distinct point-coordinates for strip segments that
+don't visually separate into 12 discrete points. The item list itself reuses the main
+decal code names (PASS-1, DRIVE-1, REAR-1, etc.) for this second group, which would
+collide with the main-page tags already placed above if forced onto the same image.
+Tagging any of these without a distinguishable visual reference would mean guessing —
+not done, per project rules against guessing. Only the 13 genuine, independently
+measured main-page items are tagged.
+
+All 13 main-page placements independently measured via zoomed crops of the real install
+photograph on page 1 (not copied from any other vehicle's coordinates).

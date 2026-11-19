@@ -1,0 +1,62 @@
+VEHICLE: liberty_gd — AFP Subaru Liberty, General Duties (Victoria Police "Police"
+Battenburg checker livery)
+
+Source PDF: "SUBARU LIBERTY - GENERAL DUTIES - FITTING.pdf" (5 pages).
+  Page 1 ("SUBARU LIBERTY - PRINT PARTS") = real install-photo render, 2x2 grid, with
+    the source document's OWN pre-drawn magenta labels for all 23 main decal codes ->
+    rendered and saved as source_images/liberty_gd.png (1521x1076),
+    annotated/liberty_gd_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn labels for all 34 numbered "LIB" reflective strip codes -> rendered and
+    saved as source_images/liberty_gd_p3.png, annotated/liberty_gd_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json concatenates each main-decal letter-code with its
+item name under "ITEM-N" entries (e.g. "ITEM-1" = "LIB PA", "ITEM-13" = "LIB PE") —
+confirmed genuine against the source's own clean "LIB PA"/"LIB PE" etc. labels on
+page 1, not garbled duplicates.
+
+57 items total (23 main decals + 34 reflective strips), all placed, none skipped. This
+is the most complex AFP vehicle annotated — every single code (both main and
+reflective) came with the source document's own pre-drawn leader-line label, which
+was cross-checked (not blindly copied) against independent visual inspection of each
+decal position before placing the final coordinate.
+
+Main page (23) — one side's view (labelled D-codes, A-G lettering) and the opposite
+side's view (P-codes) plus front (F) and rear (R):
+LIB DA1 (165,315) front wing-mirror-area red marker piece
+LIB DA2 (225,360) front door chequers corner
+LIB DB (375,330) mid-door chequers
+LIB DC (590,330) rear-door chequers
+LIB DD (820,330) rear-quarter chequers
+LIB DE (125,420) "131 444" phone text
+LIB DF (510,435) "Police" text
+LIB DG (930,420) yellow wedge, rear wheel arch
+LIB FA (1255,285) "Police" text, bonnet
+LIB PA (860,755) rear-quarter chequers, opposite side
+LIB PB (680,755) mid-rear-door chequers, opposite side
+LIB PC (490,755) mid-front-door chequers, opposite side
+LIB PD (270,755) front-corner chequers, opposite side
+LIB PE (925,860) "131 444" phone text, opposite side
+LIB PF (600,880) "Police" text, opposite side
+LIB PG (140,880) yellow wedge, front wheel arch, opposite side
+LIB RA (1190,715) left chequers, tailgate
+LIB RB (1340,715) right chequers, tailgate
+LIB RC (1265,770) centre chequers/plate area, tailgate
+LIB RD (1170,795) left yellow wedge, tailgate
+LIB RE (1360,795) right yellow wedge, tailgate
+LIB RF (1320,860) "Police"/phone text, tailgate
+LIB RG (1160,860) "AFP" text, tailgate
+
+Reflective page (34):
+LIB D1 (165,300) LIB D2 (130,360) LIB D3 (200,345) LIB D4 (225,370)
+LIB D5 (395,300) LIB D6 (400,385) LIB D7 (585,300) LIB D8 (585,385)
+LIB D9 (710,300) LIB D10 (745,400) LIB D11 (870,300) LIB D12 (830,390) LIB D13 (940,405)
+LIB F1 (1255,370) LIB F2 (1150,385) LIB F3 (1360,385) LIB F4 (1120,435) LIB F5 (1395,435) LIB F6 (1255,480)
+LIB P1 (880,740) LIB P2 (880,820) LIB P3 (715,740) LIB P4 (715,825)
+LIB P5 (490,740) LIB P6 (490,825) LIB P7 (390,740) LIB P8 (305,830)
+LIB P9 (260,740) LIB P10 (250,815) LIB P11 (150,845)
+LIB R1 (1205,740) LIB R2 (1320,740) LIB R3 (1140,820) LIB R4 (1360,820)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; every position was cross-checked against (not blindly copied from) the source
+PDF's own pre-existing leader-line labels.

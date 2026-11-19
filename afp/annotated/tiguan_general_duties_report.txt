@@ -1,0 +1,46 @@
+VEHICLE: tiguan_general_duties — AFP VW Tiguan, General Duties (Victoria Police
+"Police" Battenburg checker livery)
+
+Source PDF: "105792 - AFP - VW TIGUAN - GENERAL DUTIES - FITTING.pdf" (9 pages).
+  Page 1 ("PRINT PARTS") = real install-photo render, 2x2 grid (pass/front/drive/rear)
+    -> rendered and saved as source_images/tiguan_general_duties.png (1521x1076),
+    annotated/tiguan_general_duties_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn labels for every "TIG" lime/yellow reflective strip code -> rendered and
+    saved as source_images/tiguan_general_duties_p3.png,
+    annotated/tiguan_general_duties_p3_tagged.png.
+
+Note: a "131 444" phone text is visibly repeated on the pass and drive side front
+guards in the install photo, but afp_vehicles.json has no PASS/DRIVE phone-text code
+for this vehicle (only REAR-3 "Rear PHONE 131444"). Not tagged on the side panels,
+since no corresponding code exists to assign it to — tagging it would mean inventing
+a code not in the source data.
+
+22 items total (15 main decals + 7 reflective strips), all placed, none skipped.
+
+Main page (15):
+PASS-3 (120,335) "SIDE REAR QUARTER CHEQUERS", pass side (near rear bumper)
+PASS-1 (430,335) "SIDE DOORS CHEQUERS", pass side (middle)
+PASS-2 (930,350) "SIDE FRONT QUARTER CHEQUERS", pass side (near front wheel)
+PASS-4 (530,420) "Police" text (POLICE STRIPS), pass side
+PASS-5 (980,390) "POLICE STRIP END", pass side (front tip of checker/stripe)
+DRIVE-1 (580,750) "SIDE CABIN CHEQUERS", drive side (middle)
+DRIVE-2 (160,765) "SIDE FRONT QUARTER CHEQUERS", drive side (near front wheel)
+DRIVE-3 (930,745) "SIDE REAR QUARTER CHEQUERS", drive side (near rear bumper)
+DRIVE-4 (510,840) "Police" text (POLICE STRIPS), drive side
+DRIVE-5 (170,810) "POLICE STRIP END", drive side (front tip)
+BONNET-1 (1235,315) "Police" text, bonnet
+REAR-2 (1125,815) "AFP" text, tailgate (left)
+REAR-3 (1370,815) "131 444" phone text, tailgate (right)
+REAR-1 (1255,855) "Police" text, tailgate (lower band)
+REAR-4 (1255,760) Battenburg chequers, tailgate (upper band)
+
+Reflective page (7) — tag positions placed directly on each yellow/lime strip segment
+at the exact point the source document's own label points to (cross-checked, not
+estimated):
+TIG D1 (880,400) TIG F2 (1105,400) TIG F1 (1255,400) TIG F3 (1405,400)
+TIG P1 (195,790) TIG R1 (1255,735) TIG R2 (1255,845)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 7 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing labels on page 3.

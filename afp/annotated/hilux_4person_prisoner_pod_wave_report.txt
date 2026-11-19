@@ -1,0 +1,57 @@
+VEHICLE: hilux_4person_prisoner_pod_wave — AFP Toyota Hilux Dual Cab, 4-Person
+Prisoner Pod, WAVE design, 131 AFP
+
+Source PDF: "AFP - TOYOTA HILUX - 4 PERSON PRISONER POD - WAVE - FITTING.pdf" (8
+pages).
+  Page 1 ("PRINT PARTS") = real install-photo render, 2x2 grid (pass/front/drive/rear)
+    -> rendered and saved as source_images/hilux_4person_prisoner_pod_wave.png
+    (1521x1076), annotated/hilux_4person_prisoner_pod_wave_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn yellow labels for every "W HILUX"/"WPOD" reflective code -> rendered
+    and saved as source_images/hilux_4person_prisoner_pod_wave_p3.png,
+    annotated/hilux_4person_prisoner_pod_wave_p3_tagged.png.
+
+ITEM LIST NOTE 1: afp_vehicles.json concatenates "W HILUX D2-D3-D4" and "W HILUX
+P2-P3-P4 SUPPLY" under "ITEM-1"/"ITEM-2" — confirmed these are 3 separately-labelled
+codes each on the source page, tagged individually, not merged.
+ITEM LIST NOTE 2: the source document's own page 3 clearly shows "WPOD D7" and "WPOD
+P7" labels on both the drive-side and pass-side pod wheel-arch strips, but
+afp_vehicles.json's extracted item list only goes up to WPOD D6 / WPOD P6 — it appears
+the extraction missed these two codes (likely a table-row drop during PDF text
+extraction, similar to other garbling issues found elsewhere in this dataset). Since
+both are genuinely, independently visible with their own clean labels in the source
+image, they are tagged here for completeness even though absent from the JSON list.
+
+44 items placed (12 main decals + 32 reflective strips, including the 2 extra WPOD D7
+/ WPOD P7 codes found directly in the source but missing from afp_vehicles.json).
+
+Main page (12):
+PASS-4 (130,355) "131 AFP" phone text, pass-side pod
+PASS-1 (560,400) WAVE chequerboard, pass side
+PASS-2 (630,330) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (755,425) AFP logo, pass side
+DRIVE-1 (410,810) WAVE chequerboard, drive side
+DRIVE-2 (520,770) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (370,860) AFP logo, drive side
+DRIVE-4 (945,795) "131 AFP" phone text, drive-side pod
+BONNET-1 (1290,255) AFP crest, bonnet
+REAR-2 (1305,650) AFP crest, rear pod door
+REAR-1 (1300,690) "AUSTRALIAN FEDERAL POLICE" text, rear pod door
+REAR-3 (1300,730) "131 AFP" phone text, rear pod door
+
+Reflective page (32 tagged) — tag positions placed directly on each white strip
+segment at the exact point the source document's own yellow leader-line label points
+to (cross-checked, not estimated):
+Drive side: W HILUX D4 (500,280) W HILUX D3 (720,280) W HILUX D2 (900,280) W HILUX D1 (960,380)
+  WPOD D3 (155,305) WPOD D2 (240,350) WPOD D1 (320,370) WPOD D4 (10,390)
+  WPOD D5 (75,415) WPOD D6 (155,405) WPOD D7 (225,425) [D7: see note above]
+Front: W HILUX F1 (1145,335) W HILUX F2 (1375,335) W HILUX F3 (1250,355) W HILUX F4 (1080,390)
+  W HILUX F5 (1445,390) W HILUX F6 (1170,485) W HILUX F7 (1340,485)
+Pass side: W HILUX P2 (230,745) W HILUX P3 (420,745) W HILUX P4 (595,745) W HILUX P1 (30,820)
+  WPOD P3 (940,780) WPOD P2 (850,805) WPOD P1 (780,840) WPOD P6 (910,860)
+  WPOD P7 (850,880) [P7: see note above] WPOD P5 (1035,860) WPOD P4 (1140,830)
+Rear: WPOD R1 (1155,850) WPOD R3 (1440,850) WPOD R2 (1295,865)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing leader-line labels on page 3.

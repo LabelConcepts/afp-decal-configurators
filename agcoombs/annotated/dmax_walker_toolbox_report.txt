@@ -1,0 +1,28 @@
+dmax_walker_toolbox — Isuzu D-Max Dual Cab, Walker Fire branding w/ toolbox
+Source: source_images/dmax_walker_toolbox.png (1521x1075), 2x2 grid: top-left=profile A,
+bottom-left=profile B, top-right=rear, bottom-right=front/bonnet.
+
+SIDE IDENTIFICATION METHOD: A fuel-filler cap is visible between the cab and tray in the
+top-left profile photo only (not visible in bottom-left profile at the equivalent position,
+confirming these are genuinely two different sides, not a duplicate crop). Top-left profile
+was assigned DRIVER (D) and bottom-left PASSENGER (P) on this basis. Every decal location
+below was independently measured on its own photo (pixel-sampled/zoom-cropped, never copied
+across sides) — all 14 listed items were visible and placed.
+
+PLACED (all 14/14):
+D1  DRIVE Front Guard "An AG Coombs Co." text      -> (260,372)  top-left profile (driver)
+D2  DRIVE DOOR Lrg WALKER FIRE Decal               -> (375,358)  top-left profile (driver)
+D3  DRIVE DOOR 2-line text decal                   -> (405,412)  top-left profile (driver)
+D4  DRIVE REAR DOOR/TOOLBOX Orange/Green Decal     -> (817,368)  top-left profile (driver)
+D5  DRIVE TOOLBOX ISO/FPAS icon decals             -> (972,347)  top-left profile (driver)
+B1  BONNET Orange/Green Decal                      -> (1360,750) bottom-right (front quadrant)
+P1  PASS Front Guard "An AG Coombs Co." text       -> (815,787)  bottom-left profile (passenger)
+P2  PASS DOOR Lrg WALKER FIRE Decal                -> (720,778)  bottom-left profile (passenger)
+P3  PASS DOOR 2-line text decal                    -> (700,812)  bottom-left profile (passenger)
+P4  PASS REAR DOOR/TOOLBOX Orange/Green Decal      -> (290,750)  bottom-left profile (passenger)
+P5  PASS TOOLBOX ISO/FPAS icon decals              -> (108,756)  bottom-left profile (passenger)
+R1  REAR Large WALKER FIRE Decal                   -> (1308,266) top-right (rear quadrant)
+R2  REAR 2-line text decal (centred)                -> (1300,320) top-right (rear quadrant)
+R3  REAR TOOLBOX ISO/FPAS icon decals              -> (1195,360) top-right (rear quadrant)
+
+SKIPPED: none.

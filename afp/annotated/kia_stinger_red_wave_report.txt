@@ -1,0 +1,64 @@
+Vehicle: kia_stinger_red_wave — Kia Stinger Red vehicle, WAVE design
+Source image used: source_images/kia_stinger_red_wave.png (1521x1075), rendered from page 2
+("PRINT PARTS" vehicle-visual diagram page, 2x2 grid: driver side TL, front TR, passenger
+side BL, rear BR) of
+AFP - KIA STINGER - RED - FITTING GUIDE.pdf
+(page 1, the part checklist, has no vehicle image; pages 2/3 "PRINT PARTS"/"REFLECTIVE PARTS"
+were checked — page 2 is the usable vehicle visual, used here).
+
+All 13 items placed — none skipped.
+
+PASS-1   "Pass WAVE (NEW) USE STINGER CUT FILE"           -> tag P1 at (280,810)
+  On the navy wave checker-pattern graphic on the passenger-side lower body,
+  between the front wheel arch and the AFP crest.
+
+BONNET-1 "Bonnet AFP CREST 450mmWide"                     -> tag B1 at (1210,310)
+  On the AFP crest badge centred on the bonnet, front view.
+
+PASS-2   "Pass AUSTRALIAN FEDERAL POLICE TEXT 1663mmWide" -> tag P2 at (600,790)
+  On the "AUSTRALIAN FEDERAL POLICE" text on the passenger-side doors.
+
+PASS-3   "Pass AFP & CREST LOGO 145mmHigh"                -> tag P3 at (390,865)
+  On the small AFP crest + "AFP" text near the passenger-side front door,
+  below the main text line.
+
+REAR-1   "Rear AUSTRALIAN FEDERAL POLICE TEXT 880mmWide"  -> tag R1 at (1280,845)
+  On the "AUSTRALIAN FEDERAL POLICE" text across the rear bumper, above the
+  exhaust tips.
+
+PASS-4   "Pass PHONE 000 285mmWide"                        -> tag P4 at (910,765)
+  On the "000" phone-number text near the passenger-side rear quarter
+  panel/boot line.
+
+REAR-2   "Rear AFP CREST 190mmHigh"                        -> tag R2 at (1440,790)
+  On the AFP crest badge to the right of the number plate on the rear
+  bumper.
+
+REAR-3   "Rear PHONE 000 248mmWide"                        -> tag R3 at (1130,790)
+  On the "000" phone-number text to the left of the number plate on the
+  rear bumper.
+
+DRIVE-1  "Drive WAVE NEW USE STINGER CUT FILE"             -> tag D1 at (400,430)
+  On the navy wave checker-pattern graphic on the driver-side lower body,
+  below the "AUSTRALIAN FEDERAL POLICE" text.
+
+REAR-4   "Rear BUMPER 850mmHigh"                            -> tag R4 at (1280,890)
+  On the dark-navy lower bumper panel itself, between the exhaust tips,
+  below the main text row.
+
+DRIVE-2  "Drive AUSTRALIAN FEDERAL POLICE TEXT 1663mmWide" -> tag D2 at (430,370)
+  On the "AUSTRALIAN FEDERAL POLICE" text on the driver-side doors.
+
+DRIVE-3  "Drive AFP & CREST LOGO 145mmHigh"                -> tag D3 at (690,455)
+  On the small AFP crest + "AFP" text near the driver-side rear door, below
+  the main text line.
+
+DRIVE-4  "Drive PHONE 000 285mmWide"                        -> tag D4 at (170,340)
+  On the "000" phone-number text near the driver-side front quarter
+  panel/boot line (nose of car faces right in this photo).
+
+Verification method: each coordinate was checked by cropping the original
+untagged render at the intended pixel location (with a reference grid overlay)
+to confirm the actual decal/text was present before the tag was drawn. Driver
+and passenger sides were measured independently from their own halves of the
+image, not mirrored/copied from one another.

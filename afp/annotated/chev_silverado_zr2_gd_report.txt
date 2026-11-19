@@ -1,0 +1,43 @@
+AFP Chevrolet Silverado ZR2 - General Duties
+Source: source_images/chev_silverado_zr2_gd.png (2573x1819) - page 2 "VISUAL"
+of 138664 - AFP - CHEV SILVERADO ZR2 - GD - FITTING.pdf (2x2 grid: top-left =
+Drive side, top-right = front/bonnet, bottom-left = Pass side, bottom-right =
+rear/toolbox).
+NOTE: afp_vehicles.json's source_images/chev_silverado_zr2_gd.png originally
+pointed at page 1 (the text-only PART CHECKLIST page). Re-extracted page 2
+(the VISUAL page) from the same source PDF and overwrote the file so there
+is an actual photo to measure against.
+Side identification: the checklist text lists the Drive items (5) before the
+Pass items (5), left column; Bonnet (1) and Rear-toolbox items (4) are the
+right column. Following the same top=first-listed-side / bottom=second-
+listed-side convention already used for rav4_wave and bmw_x3_road_policing,
+top-left = Drive, bottom-left = Pass.
+
+All 15 items placed and visually confirmed by cropping the exact pixel box
+before tagging. Coordinates are (x,y) pixel centers on the 2573x1819 image.
+This vehicle has a chequered canopy/toolbox body behind the cab as well as
+the cab doors themselves, so most codes come in cab vs toolbox pairs per
+side.
+
+DRIVE-1 DRIVE 'POLICE' STRIP                  (1010,660)  placed: on the "Police" text strip, drive-side cab door.
+DRIVE-2 DRIVE 'POLICE' CHEQUERS               (1000,550)  placed: on the navy/white chequerboard pattern, drive-side cab door (above the Police strip).
+DRIVE-3 DRIVE TOOLBOX 'CHEQUERS'               (350,555)  placed: on the chequerboard pattern on the aluminium toolbox/canopy body, drive side (forward section, below the yellow line).
+DRIVE-4 DRIVE TOOLBOX '131 444' 485mm WIDE     (545,480)  placed: on the "131 444" phone-icon text, drive-side toolbox.
+DRIVE-5 DRIVE TOOLBOX 'KINGS CREST' 550mm HIGH (195,430)  placed: on the AFP Kings Crest badge, drive-side toolbox (nearest the spare wheel).
+BONNET-1 BONNET 'POLICE' LOGO 850mm WIDE      (2160,560)  placed: on the "Police" text on the bonnet, front view.
+PASS-1  PASS 'POLICE' STRIP                    (755,1405) placed: on the "Police" text strip, pass-side cab door.
+PASS-2  PASS 'POLICE' CHEQUERS                 (260,1255) placed: on the navy/white chequerboard pattern, pass-side cab door (above the Police strip).
+PASS-3  PASS TOOLBOX 'CHEQUERS'                (1300,1255) placed: on the chequerboard pattern on the toolbox/canopy body, pass side.
+PASS-4  PASS TOOLBOX '131 444' 485mm WIDE      (1185,1190) placed: on the "131 444" phone-icon text, pass-side toolbox.
+PASS-5  PASS TOOLBOX 'KINGS CREST' 550mm HIGH  (1600,1150) placed: on the AFP Kings Crest badge, pass-side toolbox (nearest the spare wheel).
+REAR-1  REAR TOOLBOX '131 444' 320mm WIDE      (2070,1105) placed: on the "131 444" phone-icon text, rear face of the toolbox/canopy.
+REAR-2  REAR TOOLBOX 'AFP' 180mm WIDE          (1935,1105) placed: on the "AFP" text, rear face of the toolbox, left of "131 444".
+REAR-3  REAR TOOLBOX 'POLICE' 680mm WIDE       (2015,1160) placed: on the "Police" text, rear face of the toolbox, below "AFP"/"131 444".
+REAR-4  REAR TOOLBOX 'CHEQUERS'                (2020,1270) placed: on the chequerboard pattern, rear face of the toolbox, below the "Police" text.
+
+All 15/15 items placed; none skipped. Drive-side and Pass-side coordinates
+were measured independently from their own respective photos (top vs bottom
+truck in the grid) - no coordinate reuse between sides, and no reuse from
+any other vehicle in this batch. Note two decorative elements visible in the
+photo (an AFP crest badge beside each cab-door "Police" strip) have no
+corresponding checklist line item and were left untagged accordingly.

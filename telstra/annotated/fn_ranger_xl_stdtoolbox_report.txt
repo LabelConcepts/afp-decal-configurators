@@ -1,0 +1,82 @@
+Vehicle: fn_ranger_xl_stdtoolbox — "First Nations - Ford Ranger XL Single Cab"
+Annotated file: annotated/fn_ranger_xl_stdtoolbox_p2_tagged.png
+(p1 is the text-only checklist page — no photo, nothing to tag there)
+All coordinates are (x_px, y_px) on source_images/fn_ranger_xl_stdtoolbox_p2.png (1521 x 1075 px).
+
+p2 content check: p2 is NOT FN-artwork close-ups (unlike some other FN vehicles) — it is a
+photo page with the same 4-quadrant layout as ranger_xl_superg_p2: top-left = driver-side
+profile, top-right = rear view, bottom-left = passenger-side profile. The bottom-right
+quadrant (which is the blank "label concepts" logo panel on ranger_xl_superg) is instead
+used here for a "T IN SIDE LOGO MEASURES 900mm HIGH" callout + a pink leader line/circle
+pointing from a "CLEAR DECAL" box (top-right of page) down to the small "Connection, (c)
+Bobbi Lockyer/Copyright Agency" text on the driver door — this is the D4 clear decal.
+
+METHODOLOGY NOTE ON REAR CLUSTER (T1-T5): the rear-view photo on this vehicle's p2 LOOKS
+visually identical at a glance to ranger_xl_superg's rear photo (same canopy box, same
+window, same "1MP 6JL" numberplate — almost certainly the same physical rear box/vehicle,
+since the FN livery is applied to the cab doors/toolbox only, not the rear canopy).
+However, per instructions I did NOT assume this and copy superg's T1-T5 pixel coordinates.
+I pixel-diffed the two full source images in the shared rear-photo region (box
+1090,160-1521,545) with ImageChops.difference and got a non-trivial mean difference
+(~60/255, bbox covering most of the crop) — i.e. the photo placement/scale on the page is
+NOT pixel-identical between the two PDFs (slightly different vertical position/crop), even
+though the content is the same vehicle. Using superg's raw coordinates on this image would
+have been WRONG (this is exactly the kind of mistake flagged for this project). Instead I
+independently re-measured every T-code directly on fn_ranger_xl_stdtoolbox_p2.png by cropping
+box (1090,280)-(1521,470), zooming 3x, visually locating each of the 5 decals, converting
+zoomed coordinates back to full-image pixels, then re-cropping at the final candidate point
+with a drawn crosshair and visually confirming the crosshair sits on the decal before
+accepting it (see crops/fn_rear_check_final.png, crops/fn_check_d_points2.png,
+crops/fn_check_p_points.png — all generated during this pass).
+
+PLACED:
+D1  (195, 240)   Drive rear side Telstra T decal "Ranger S/Cab - Side" (900mm high) —
+                 top-left (driver) photo. Tag on the blue T stroke, pixel-sampled
+                 RGB (24,102,156) — matches known Telstra-blue decal color.
+D2  (722, 388)   Drive door "First Nations" decal — top-left (driver) photo. Tag centered
+                 on the circular First-Nations medallion artwork on the cab door.
+D3  (428, 278)   Drive toolbox large "First Nations" decal — top-left (driver) photo. Tag
+                 centered on the circular medallion artwork on the toolbox/canopy body.
+D4  (706, 487)   Drive "Connection...." clear decal (driver side only, artist credit) —
+                 top-left (driver) photo. Tag placed directly on the small italic credit
+                 text "Connection, (c) Bobbi Lockyer/Copyright Agency" on the lower door,
+                 which is exactly what the page's own pink leader-line/arrow points to.
+P1  (950, 765)   Pass rear side Telstra T decal (900mm high) — bottom-left (passenger)
+                 photo. Tag on the blue T stroke, pixel-sampled RGB (22,104,156).
+P2  (395, 865)   Pass door "First Nations" decal — bottom-left (passenger) photo. Tag
+                 centered on the circular medallion artwork on the passenger door.
+P3  (695, 785)   Pass toolbox large "First Nations" decal — bottom-left (passenger) photo.
+                 Tag centered on the circular medallion artwork on the toolbox/canopy body
+                 (to the left of the black access-panel cover and the T decal).
+T1  (1415, 403)  Rear small Telstra T decal (T + orange swoosh) — top-right (rear) photo,
+                 right side of tailgate, above T5.
+T2  (1293, 415)  Rear "telstra.com" text decal — top-right (rear) photo, bottom-center of
+                 tailgate.
+T3  (1178, 407)  Rear "Safe driving is our priority / GPS monitoring is on board /
+                 1800 800 437" clear 3-line text decal — top-right (rear) photo, lower-left
+                 of tailgate, above T4.
+T4  (1167, 434)  Rear "Before you dig www.byda.com.au" decal (red/white circular BYDA logo)
+                 — top-right (rear) photo, directly below T3.
+T5  (1415, 434)  Rear "Green Fleet 2.2 Million..." decal (green leaf GreenFleet logo) — top-
+                 right (rear) photo, directly below T1.
+                 Independently verified: YES — measured directly from this vehicle's own
+                 rear photo (not cross-referenced/copied from ranger_xl_superg), per the
+                 methodology note above.
+
+SKIPPED:
+W1  Internal windscreen "Parking Brake" decal — SKIPPED. No front/interior windscreen view
+    exists in the supplied p2 photos (only driver-side profile, passenger-side profile, and
+    rear view are provided). Not visible on this vehicle's own photos, and not fabricated
+    from ranger_xl_superg either (which also has no windscreen shot).
+W2  Internal windscreen "GPS" decal — SKIPPED, same reason as W1.
+
+Notes:
+- D1/D2/D3/D4 were measured solely from the top-left (driver) photo; P1/P2/P3 were measured
+  solely from the bottom-left (passenger) photo. Neither side's coordinates were copied from
+  the other.
+- T1-T5 were measured directly and independently from THIS vehicle's own rear photo, not
+  copied from ranger_xl_superg, despite the two vehicles' rear boxes appearing to be the same
+  physical unit — see methodology note above for the pixel-diff check that justified
+  re-measuring rather than reusing coordinates.
+- Every coordinate was checked by cropping the ORIGINAL untagged source PNG at that exact
+  pixel and visually confirming the decal was present there, before the tag was drawn.

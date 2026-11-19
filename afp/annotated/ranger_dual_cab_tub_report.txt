@@ -1,0 +1,45 @@
+VEHICLE: ranger_dual_cab_tub — AFP Ford Ranger Dual Cab with Tub, WAVE design, 131 AFP
+
+Source PDF: "104539 - AFP - FORD RANGER DUAL CAB - WAVE - FITTING.pdf" (7 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/ranger_dual_cab_tub.png (1521x1076),
+    annotated/ranger_dual_cab_tub_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow leader-line labels for every "FRANW" reflective
+    strip code -> rendered and saved as source_images/ranger_dual_cab_tub_p3.png,
+    annotated/ranger_dual_cab_tub_p3_tagged.png.
+  (Page 0 is the main 13-item PART CHECKLIST, page 2 is a separate 14-item "FRANW"
+  reflective PART CHECKLIST confirming these ARE genuine distinct reflective-strip
+  decals for this vehicle — unlike the unrelated "FRANW" duplicate-code artifact found
+  on hilux_dual_cab_wave_poc_2022, which was a different vehicle's garbled PDF-text
+  extraction. Here FRANW is a real, intentional code prefix with its own checklist page
+  and pre-drawn leader-line labels.)
+
+27 items total (13 main decals + 14 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-1 (205,407) WAVE chequerboard, pass side
+PASS-2 (580,382) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (700,457) AFP logo + "AFP" text, pass side
+PASS-4 (150,352) "131 AFP" phone text, pass-side tub/tray
+DRIVE-1 (620,820) WAVE chequerboard, drive side
+DRIVE-2 (500,780) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (400,855) AFP logo + "AFP" text, drive side
+DRIVE-4 (960,765) "131 AFP" phone text, drive-side tub/tray
+BONNET-1 (1293,297) AFP crest, bonnet/windscreen area
+REAR-1 (1258,805) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-2 (1373,772) AFP crest, tailgate (right, beside "131 AFP"/Ford badge)
+REAR-3 (1203,778) "131 AFP" phone text, tailgate (left)
+REAR-4 (1258,850) bumper panel, lower tailgate white area
+
+Reflective page (14) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated):
+FRANW D4 (265,350) FRANW D1 (505,350) FRANW D2 (670,350) FRANW D3 (815,355)
+FRANW F2 (1180,395) FRANW F1 (1300,390) FRANW F3 (1425,395) FRANW F4 (1170,455) FRANW F5 (1435,455)
+FRANW P3 (315,755) FRANW P2 (485,755) FRANW P1 (665,755) FRANW P4 (890,755)
+FRANW R1 (1300,745)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 14 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

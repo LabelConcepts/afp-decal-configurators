@@ -1,0 +1,47 @@
+VEHICLE: colorado_prison_pod_gen_duties — AFP Holden Colorado Crew Cab Prisoner Pod,
+General Duties (Victoria Police "Police" Battenburg checker livery)
+
+Source PDF: "AFP - COLORADO - PRISONER POD - GEN DUTIES - FITTING.pdf" (8 pages).
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/colorado_prison_pod_gen_duties.png
+    (1521x1076), annotated/colorado_prison_pod_gen_duties_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn labels for the 5 "COL F" lime reflective front strips (confirmed via
+    the reflective checklist page, which lists FRONT only: COL F1-F5, "23mm Thick
+    Reflective Strips VC612 LiME") -> rendered and saved as
+    source_images/colorado_prison_pod_gen_duties_p3.png,
+    annotated/colorado_prison_pod_gen_duties_p3_tagged.png.
+
+22 items total (17 main decals + 5 reflective strips), all placed, none skipped.
+
+Main page (17):
+PASS-6 (135,230) "131 444" phone text, pass-side pod
+PASS-5 (600,385) "Police" text, pass side
+PASS-1 (590,310) "SIDE CABIN CHEQUERS", cab door, pass side
+PASS-2 (980,315) "SIDE FRONT QUARTER CHEQUERS", pass-side front guard
+PASS-3 (210,315) "SIDE POD CHEQUERS", pass-side pod
+PASS-4 (55,345) "SIDE REAR WHITE" filler piece, far left edge of pod band, pass side
+DRIVE-5 (450,815) "Police" text, drive side
+DRIVE-1 (270,740) "SIDE CABIN CHEQUERS", cab door, drive side
+DRIVE-2 (90,745) "SIDE FRONT QUARTER CHEQUERS", drive-side front guard
+DRIVE-3 (840,745) "SIDE POD CHEQUERS", drive-side pod
+DRIVE-4 (1010,775) "SIDE REAR WHITE" filler piece, right edge of pod band, drive side
+DRIVE-6 (940,660) "131 444" phone text, drive-side pod
+BONNET-1 (1300,255) "Police" text, front windscreen visor/header
+REAR-1 (1300,665) "Police" text, rear pod door
+REAR-2 (1170,665) "AFP" text, rear pod door (left of "Police")
+REAR-3 (1425,665) "131 444" phone text, rear pod door (right of "Police")
+REAR-4 (1300,760) Battenburg chequers, rear pod door (lower band)
+
+Reflective page (5) — tag positions placed directly on each lime strip segment at the
+exact point the source document's own black-and-white leader-line label points to
+(cross-checked, not estimated). No side/rear reflective codes exist for this vehicle —
+confirmed by both the reflective checklist (FRONT only, 5 items, "Total Number of
+Parts: N/A" shown blank elsewhere but FRONT section lists exactly 5) and the pass/drive/
+rear quadrants on page 3 having no pre-drawn reflective labels, only the main decals
+rendered dimmed:
+COL F1 (1180,340) COL F2 (1285,340) COL F3 (1420,340) COL F4 (1150,385) COL F5 (1445,385)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 5 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

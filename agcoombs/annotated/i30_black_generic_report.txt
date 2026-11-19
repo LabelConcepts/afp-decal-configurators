@@ -1,0 +1,32 @@
+Vehicle: i30_black_generic — Hyundai i30 Black, generic branding
+Source: source_images/i30_black_generic.png (1521x1075), 4-photo grid:
+  top-left = driver side (full profile, nose right), top-right = front/bonnet,
+  bottom-left = passenger side (full profile, nose left), bottom-right = rear
+Tagged output: annotated/i30_black_generic_tagged.png
+
+All 15 items placed (none skipped).
+
+DRIVER SIDE (top-left quadrant)
+D1 (405,360)  — "Air Conditioning & Building Services Specialist" 3-line text, right-justified, front door
+D2 (150,350)  — Green fingerprint diagonal strip, rear quarter panel
+D3 (210,210)  — Orange fingerprint top strip/wedge, upper rear quarter panel (near D-pillar)
+D4 (280,380)  — Orange fingerprint strip, front-door/large diagonal panel
+D5 (600,375)  — "A.G.Coombs" logo + "03 9248 2700 | agcoombs.com.au" 2-line decal, front door
+
+BONNET (top-right quadrant, front view)
+B1 (1310,335) — Orange/green fingerprint swirl graphic on bonnet
+
+REAR (bottom-right quadrant)
+R1 (1310,622) — "A.G.Coombs" + "Air Conditioning & Building Services Specialist" 2-line decal, rear window
+R2 (1320,718) — "03 9248 2700 | agcoombs.com.au" phone/web decal, tailgate
+R3 (1125,800) — ISO certification flower-badge cluster, lower tailgate (clear/white-ink decal)
+R4 (1420,800) — Green Building Council logo (generic branding variant), lower tailgate, right side
+
+PASSENGER SIDE (bottom-left quadrant, mirrored layout, left-justified toolbox-style text)
+P1 (665,750)  — "Air Conditioning & Building Services Specialist" 3-line text, left-justified, front door
+P2 (920,780)  — Green fingerprint diagonal strip, rear quarter panel
+P3 (870,615)  — Orange fingerprint top strip/wedge, upper rear quarter panel
+P4 (800,760)  — Orange fingerprint strip, front-door/large diagonal panel
+P5 (495,770)  — "A.G.Coombs" logo + "03 9248 2700 | agcoombs.com.au" 2-line decal, front door
+
+Methodology note: every coordinate above was independently measured by cropping/zooming the untagged source PNG at the target pixel region and visually confirming the decal before placing the tag. Driver and passenger sides were measured separately. Note this vehicle's text justification is reversed vs. the other vehicles in this batch (driver = right-justified, passenger = left-justified) — confirmed directly from the item list text and matched to the visible decal alignment in each photo rather than assumed from convention.

@@ -1,0 +1,44 @@
+VEHICLE: outback_2024_gd — AFP Subaru 2024 Outback XT, General Duties (Victoria Police
+"Police" Battenburg checker livery)
+
+Source PDF: "SUBARU 2024 OUTBACK - GENERAL DUTIES - FITTING.pdf" (9 pages).
+  Page 1 ("PRINT PARTS") = real install-photo render, 2x2 grid (pass/front/drive/rear),
+    with the source document's OWN pre-drawn magenta labels for all 19 main decal
+    codes -> rendered and saved as source_images/outback_2024_gd.png (1521x1076),
+    annotated/outback_2024_gd_tagged.png.
+  Page 3 ("REFLECTIVE VC LIME PARTS") = same vehicle render with the source document's
+    OWN pre-drawn magenta labels for all 24 numbered reflective strip codes ->
+    rendered and saved as source_images/outback_2024_gd_p3.png,
+    annotated/outback_2024_gd_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json concatenates each main-decal letter-code with its
+item name under "ITEM-N" entries (e.g. "ITEM-13" = "24OUT RF COLOURS", "ITEM-19" =
+"24OUT PG CMYK APPROVAL Job Ref#:") — confirmed genuine against the source's own clean
+"240UT RF"/"240UT PG" labels on page 1, not duplicates. Note the reflective-page codes
+drop the "24" prefix used on the main page (e.g. "OUT P7" not "240UT P7") — this
+matches the source PDF's own labelling exactly on page 3.
+
+43 items total (19 main decals + 24 reflective strips), all placed, none skipped.
+Every single code came with the source document's own pre-drawn leader-line label,
+cross-checked (not blindly copied) against independent visual inspection before
+placing the final coordinate.
+
+Main page (19):
+24OUT DA (145,355) 24OUT DB (360,355) 24OUT DC (560,355) 24OUT DD (745,365)
+24OUT DE (110,450) 24OUT DF (475,505) 24OUT DG (805,490)
+24OUT FA (1240,315) "Police" + yellow chevron, bonnet
+24OUT PD (260,755) 24OUT PC (485,740) 24OUT PB (705,745) 24OUT PA (865,765)
+24OUT PG (115,890) 24OUT PF (570,910) 24OUT PE (945,890)
+24OUT RA (1245,710) 24OUT RB (1245,805) 24OUT RE (1270,840) 24OUT RF (1150,880)
+
+Reflective page (24):
+24OUT D1 (200,320) 24OUT D2 (160,360) 24OUT D3 (415,335) 24OUT D4 (375,370)
+24OUT D5 (620,345) 24OUT D6 (575,375) 24OUT D7 (790,360) 24OUT D8 (680,415) 24OUT D9 (925,380)
+OUT F1 (1225,365) OUT F2 (1125,365) OUT F3 (1335,365)
+OUT P7 (300,750) OUT P5 (520,735) OUT P3 (720,740) OUT P1 (920,740)
+OUT P9 (115,825) OUT P8 (250,815) OUT P6 (460,790) OUT P4 (665,775) OUT P2 (885,775)
+OUT R1 (1255,710) OUT R3 (1135,755) OUT R2 (1370,755)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; every position was cross-checked against (not blindly copied from) the
+source PDF's own pre-existing leader-line labels.

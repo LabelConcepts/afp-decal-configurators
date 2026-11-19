@@ -1,0 +1,51 @@
+VEHICLE: hiace_roof_id_fed2 — AFP Toyota HiAce 2019/2020, WAVE design, 131 AFP, Roof
+ID "FED2" (50 Series Black)
+
+Source PDF: "AFP - TOYOTA HIACE 2020 - WAVE - ROOF ID FED2 - FITTING GUIDE.pdf" (7
+pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear), plus a
+    separate top-down roof diagram showing the "FED2" roof ID -> rendered and saved
+    as source_images/hiace_roof_id_fed2.png (1521x1076),
+    annotated/hiace_roof_id_fed2_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow labels for every "HIACE" reflective strip code ->
+    rendered and saved as source_images/hiace_roof_id_fed2_p3.png,
+    annotated/hiace_roof_id_fed2_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists "ITEM-1" = "Drive131 AFP 551mmWide" — confirmed
+genuine, same as DRIVE-4 position/description, just a concatenated extraction
+artifact, not a duplicate; tagged as DRIVE-4.
+
+39 items total (15 main decals, including ROOF-1 + 24 reflective strips), all placed,
+none skipped.
+
+Main page (15):
+PASS-4 (175,303) "131 AFP" phone text, pass side
+PASS-1 (680,395) WAVE chequerboard, pass side
+PASS-2 (530,380) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (670,475) AFP crest + "AFP" text, pass side
+PASS-5 (95,380) navy "SIDE REAR BLUE" panel, pass-side rear corner
+DRIVE-1 (680,865) WAVE chequerboard, drive side
+DRIVE-2 (530,825) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (375,900) AFP crest + "AFP" text, drive side
+DRIVE-4 (910,725) "131 AFP" phone text, drive side
+BONNET-1 (1265,330) AFP crest, bonnet
+REAR-3 (1150,800) "131 AFP" phone text, tailgate
+REAR-2 (1365,800) AFP crest, tailgate (right)
+REAR-1 (1270,865) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-4 (1270,920) navy bumper panel, lower tailgate
+ROOF-1 (1250,105) "FED2" roof ID callout, on the separate top-down roof diagram
+
+Reflective page (24) — tag positions placed directly on each white strip segment at
+the exact point the source document's own yellow leader-line label points to
+(cross-checked, not estimated):
+HIACE D1 (225,200) HIACE D2 (450,200) HIACE D3 (225,330) HIACE D4 (440,330)
+HIACE D5 (560,320) HIACE D6 (615,335) HIACE D7 (715,350) HIACE D8 (895,365) HIACE D9 (870,305)
+HIACE F1 (1125,310) HIACE F4 (1400,310) HIACE F2 (1190,365) HIACE F3 (1335,365)
+HIACE P2 (615,635) HIACE P1 (815,635) HIACE P9 (220,715) HIACE P6 (470,735) HIACE P5 (525,735)
+HIACE P8 (220,780) HIACE P7 (370,765) HIACE P4 (635,755) HIACE P3 (865,755)
+HIACE R1 (1295,650) HIACE R2 (1295,895)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 24 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

@@ -1,0 +1,50 @@
+VEHICLE: nissan_xtrail_2024_wave_scarlet_red — AFP Nissan X-Trail 2024, Scarlet Ember
+(Red) Vehicle, WAVE design, 131 AFP
+
+Source PDF: "AFP - NISSAN X-Trail SCARLET EMBER RED - 131AFP - WAVE - FITTING
+GUIDE.pdf" (9 pages). Same design/layout as nissan_xtrail_2024_wave_white, on a red-
+bodied vehicle — independently re-measured from this vehicle's own render, not copied
+from the white version's report.
+  Page 1 ("NISSAN X TRAIL") = real vehicle render/install photos, 2x2 grid
+    (pass/front/drive/rear) -> rendered and saved as
+    source_images/nissan_xtrail_2024_wave_scarlet_red.png (1521x1076),
+    annotated/nissan_xtrail_2024_wave_scarlet_red_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - 131AFP") = same vehicle render with the source
+    document's OWN pre-drawn yellow labels for every "24XTRL" reflective strip code ->
+    rendered and saved as source_images/nissan_xtrail_2024_wave_scarlet_red_p3.png,
+    annotated/nissan_xtrail_2024_wave_scarlet_red_p3_tagged.png.
+
+28 items total (11 main decals tagged + 17 reflective strips tagged). 1 main-page item
+skipped — see note.
+
+Main page (11 tagged):
+PASS-4 (185,300) "131 AFP" phone text, pass side
+PASS-1 (480,385) WAVE chequerboard, pass side
+PASS-2 (560,385) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (650,455) 2025 Kings Crest + "AFP" text, pass side
+DRIVE-1 (580,805) WAVE chequerboard, drive side
+DRIVE-2 (540,785) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (350,860) 2025 Kings Crest + "AFP" text, drive side
+DRIVE-4 (850,705) "131 AFP" phone text, drive side
+BONNET-1 (1200,325) 2025 Kings Crest, bonnet
+REAR-2 (1070,755) "131 AFP" phone text, tailgate (left)
+REAR-1 (1310,755) 2025 Kings Crest, tailgate (right)
+
+SKIPPED: REAR-3 ("2x Rear QTR - QUARTER BLUE 900mm x 800mm"). Independently examined
+the rear-quadrant install photo at full zoom — unlike the white-vehicle version, no
+navy quarter panel graphic is visible anywhere on this red vehicle's tailgate; the
+rear bumper/tailgate area is uniform body colour apart from the already-tagged crest,
+phone text and lower chrome/silver trim. Tagging it would mean guessing a position for
+artwork not visible in this photo — not done, per project rules against guessing.
+
+Reflective page (17 tagged) — tag positions placed directly on each white strip
+segment at the exact point the source document's own yellow label points to
+(cross-checked, not estimated):
+24XTRL D5 (290,320) 24XTRL D4 (435,325) 24XTRL D3 (600,325) 24XTRL D2 (730,325) 24XTRL D1 (850,330)
+24XTRL F1 (1050,350) 24XTRL F3 (1315,350) 24XTRL F2 (1225,415) 24XTRL F4 (1030,455) 24XTRL F6 (1340,455) 24XTRL F5 (1225,490)
+24XTRL P1 (270,715) 24XTRL P2 (415,715) 24XTRL P3 (540,715) 24XTRL P4 (700,715) 24XTRL P5 (835,715)
+24XTRL R1 (1190,840)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 17 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

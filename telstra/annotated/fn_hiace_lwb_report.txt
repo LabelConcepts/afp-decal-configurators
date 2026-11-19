@@ -1,0 +1,135 @@
+fn_hiace_lwb — First Nations - Toyota Hiace LWB
+Annotation report
+=========================================================
+
+Source pages: p1 = checklist (not used for tagging). p2 = full vehicle photo set
+(2x2 grid: top-left driver profile, bottom-left passenger profile, top-right front 3/4,
+bottom-right rear elevation — same layout convention as hiace_supergraphic, and in fact
+page 2 of this document is explicitly titled "DRIVERS SIDE ONLY" for the Connection decal
+callout at top, confirming top=driver). p3 = close-up photo explicitly labelled "DRIVERS
+SIDE 'FIRST NATIONS' DECALS". p4 = close-up photo explicitly labelled "PASSENGER SIDE
+'FIRST NATIONS' DECALS". These explicit labels on p3/p4 remove any doubt about which side
+is which (no guessing required), and they corroborate the driver=top / passenger=bottom
+convention used for p2 and for hiace_supergraphic.
+
+Three annotated pages were produced:
+  annotated/fn_hiace_lwb_p2_tagged.png  (D1, P1, W1, W2, T1-T5)
+  annotated/fn_hiace_lwb_p3_tagged.png  (D2, D3, D4)
+  annotated/fn_hiace_lwb_p4_tagged.png  (P2, P3)
+
+--- Items on fn_hiace_lwb_p2.png ---
+
+  D1  Drive rear side Telstra T decal (1030mm high)
+      Placed at pixel (271, 370) — center of the big blue "T" on the top-left (driver)
+      profile image on THIS document's own page 2. Measured independently on this image
+      (not copied from hiace_supergraphic), though it is — as expected, since it's the same
+      physical vehicle body — in essentially the same relative position/size as
+      hiace_supergraphic's D1. Visually confirmed nothing has shifted due to the added FN
+      artwork.
+
+  P1  Pass rear side Telstra T decal (1030mm high)
+      Placed at pixel (874, 771) — center of the big blue "T" on the bottom-left
+      (passenger) profile image, measured independently on this document's own page.
+
+  W1  Internal windscreen 'Parking Brake' decal
+      Placed at pixel (633, 369) — tip of this document's own magenta pointer line from
+      the "Handbrake Decal ... face the driver" callout, measured directly (same style
+      diagram as hiace_supergraphic, redrawn on this document's own page 2).
+
+  W2  Internal windscreen 'GPS' decal
+      Placed at pixel (712, 310) — tip of this document's own magenta "GPS Decal" pointer
+      line, measured directly.
+
+  T1  Rear small Telstra T decal (round swirl logo)
+      Placed at pixel (1330, 826), on this document's own rear-elevation photo (bottom-
+      right quadrant of p2). Measured directly on fn_hiace_lwb's own rear photo — not
+      borrowed from hiace_supergraphic, although the two happen to be the same stock photo
+      and the positions are nearly identical (expected, same vehicle/photo set).
+
+  T2  Rear 'telstra.com.au' decal ("telstra.com" as printed)
+      Placed at pixel (1331, 787).
+
+  T3  Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal
+      Placed at pixel (1116, 796).
+
+  T4  Rear 'Before you dig www.byda.com.au' decal
+      Placed at pixel (1104, 895).
+
+  T5  Rear 'Green Fleet 2.2 Million...' decal
+      Placed at pixel (1331, 893) — the green leaf "GreenFleet" logo on the lower-right of
+      the rear bumper. This decal is NOT present on hiace_supergraphic's checklist (that
+      vehicle's part list only has T1-T4) but IS present on fn_hiace_lwb's checklist, which
+      matches what's visible: the GreenFleet logo is physically on the rear bumper in both
+      photos, it's just only a counted/numbered part for this vehicle's fitout.
+
+--- Items on fn_hiace_lwb_p3.png (driver-side First Nations artwork close-up) ---
+
+  D2  Drive door 'First Nations' decal (defined by the checklist as "the SMALLER of the
+      two" driver-side FN artwork panels)
+      Placed at pixel (1015, 715) — the smaller circular motif, positioned further aft,
+      near the rear wheel arch / sliding-door area.
+
+  D3  Drive side large 'First Nations' decal (defined by the checklist as "the LARGER" of
+      the two, "likely on a side panel/toolbox")
+      Placed at pixel (400, 505) — the larger circular motif, positioned further forward,
+      spanning the front door / fender area.
+
+      IMPORTANT NOTE on D2 vs D3: the checklist's own location hints ("door" for D2,
+      "side panel/toolbox" for D3) do not cleanly match the geometry actually seen in the
+      photo — the LARGER circle sits closer to the front door, and the SMALLER circle sits
+      further back near the rear wheel/sliding-door area, i.e. the reverse of what the
+      "door"/"side panel" wording alone might suggest. Since the task defines D2 and D3
+      primarily by relative SIZE ("the smaller" / "the larger") and only secondarily and
+      tentatively by location ("likely"), size was used as the deciding factor: D2 =
+      smaller circle, D3 = larger circle, exactly as the two codes' own descriptions
+      state. Flagging this explicitly so it can be double-checked against the physical
+      decal set if the door/panel wording matters more than size for install purposes.
+
+  D4  Drive 'Connection....' clear decal (driver side only, artist credit)
+      Placed at pixel (1030, 927) — this is the small on-vehicle text decal itself
+      ("Connection, © Bobbi Lockyer/Copyright Agency"), found by following the document's
+      own magenta pointer line from the "ARTIST CREDIT DRIVE SIDE ONLY" label to its tip
+      (measured directly, not guessed), which lands exactly on this small text decal
+      low on the door, near the rocker panel.
+
+--- Items on fn_hiace_lwb_p4.png (passenger-side First Nations artwork close-up) ---
+
+  P2  Pass door 'First Nations' decal (smaller of the two passenger-side panels, mirroring
+      D2's size-based rule)
+      Placed at pixel (497, 702) — smaller circular motif, near the front door/fender,
+      mirrored layout vs. the driver side.
+
+  P3  Pass side large 'First Nations' decal (larger of the two)
+      Placed at pixel (1145, 530) — larger circular motif, further aft.
+
+  P4  Pass rear qtr 'First Nations' decal — NOT PLACED / UNVERIFIABLE.
+      This is the one asymmetric item (driver side has no equivalent "rear qtr" code).
+      I examined fn_hiace_lwb_p4.png (passenger close-up) AND the full passenger-side
+      overview photo on fn_hiace_lwb_p2.png (bottom-left quadrant) AND the rear-elevation
+      photo on fn_hiace_lwb_p2.png (bottom-right quadrant). In all three, only the two FN
+      artwork circles already tagged as P2/P3 are visible; the body area between the large
+      circle (P3) and the rear doors/tail-lights (where the big Telstra "T"/orange swoosh
+      decal sits) shows no additional, separate First Nations design element, and the rear
+      elevation photo shows no FN artwork at all (only the Telstra/byda/GreenFleet rear
+      decals). I am therefore NOT guessing a position for P4 — it could not be confirmed in
+      any of the photos available in this document. This should be checked against the
+      actual physical decal set or a higher-resolution/alternate photo before fitting, in
+      case it exists but simply isn't rendered in this particular artwork mockup.
+
+Summary of codes and status:
+  D1 - placed (fn_hiace_lwb_p2_tagged.png, 271,370)
+  P1 - placed (fn_hiace_lwb_p2_tagged.png, 874,771)
+  D2 - placed (fn_hiace_lwb_p3_tagged.png, 1015,715) [smaller FN panel]
+  D3 - placed (fn_hiace_lwb_p3_tagged.png, 400,505) [larger FN panel]
+  D4 - placed (fn_hiace_lwb_p3_tagged.png, 1030,927)
+  P2 - placed (fn_hiace_lwb_p4_tagged.png, 497,702) [smaller FN panel]
+  P3 - placed (fn_hiace_lwb_p4_tagged.png, 1145,530) [larger FN panel]
+  P4 - NOT placed: no third FN design element visible on passenger side in any available
+       photo (p2, p3-equivalent overview, or p4 close-up) — flagged, not guessed.
+  T1 - placed (fn_hiace_lwb_p2_tagged.png, 1330,826)
+  T2 - placed (fn_hiace_lwb_p2_tagged.png, 1331,787)
+  T3 - placed (fn_hiace_lwb_p2_tagged.png, 1116,796)
+  T4 - placed (fn_hiace_lwb_p2_tagged.png, 1104,895)
+  T5 - placed (fn_hiace_lwb_p2_tagged.png, 1331,893)
+  W1 - placed (fn_hiace_lwb_p2_tagged.png, 633,369)
+  W2 - placed (fn_hiace_lwb_p2_tagged.png, 712,310)

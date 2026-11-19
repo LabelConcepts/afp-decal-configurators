@@ -1,0 +1,48 @@
+bmw_x3_indigenous_livery — BMW X3, POC ACT Policing Indigenous livery
+STATUS: All 14 codes are UNVERIFIABLE — no vehicle photo was available to measure against. Nothing was
+guessed or copied from another vehicle.
+
+Source situation:
+- source_images/bmw_x3_indigenous_livery.png (the only file this project provides for this vehicle) is the
+  fitting-guide PDF's text-only "PART CHECKLIST" page — it contains no photo, diagram, or drawing of the
+  vehicle at all.
+- The original multi-page fitting-guide PDF ("104884 - AFP - BMW INDIGINOUS LIVERY - FITTING.pdf") and photo
+  folders (INSTALL PHOTOS, PHOTOS, including "Resized_20210211_*.jpg" install shots and a
+  "LOGO PLACED WRONG" subfolder) exist on the external working-files volume
+  (/Volumes/LabelConcepts/Workspace/AFP/WORKING FILES/BMW/104884 - AFP - POC ACT POLICING INDIGNOUS LIVERY BMW/),
+  the same kind of material that let the motorcycle_updated_crest_2024 job in this batch be completed properly
+  via its PDF's own labelled per-side reference pages.
+- Partway through this batch, the entire LabelConcepts volume was unmounted / disappeared from /Volumes
+  (confirmed via diskutil/mount — not a local disk image, and no longer listed as a mounted volume at all)
+  before this vehicle's PDF pages could be rendered and cached locally. Every access attempt after that point
+  returned first "Operation not permitted" then "No such file or directory".
+- Per the instructions ("It is fine and expected to skip an item you genuinely cannot see in the available
+  photo(s) — report it as unverifiable with a reason, rather than guessing"), and the rule against ever
+  copying coordinates between vehicles, no positions were estimated or reused from any other vehicle (this is
+  a completely different vehicle type — a car, not a motorcycle — with its own distinct decal layout).
+
+annotated/bmw_x3_indigenous_livery_tagged.png is an untouched copy of the source (no tags could be placed).
+
+Items — all skipped, reason "no vehicle photo available in accessible source material":
+  PASS-1   Pass INDIGINOUS PRINT (3M 680)
+  REAR-1   Rear INDIGINOUS PRINT (3M 680)
+  PASS-2   Pass AFP PHONE 131 444 (3M 680) 308mm WIDE
+  REAR-2   Rear AFP PHONE 131 444 (3M 680) 316mm WIDE
+  PASS-3   Pass AFP CREST (3M 680) 360mm HIGH
+  REAR-3   Rear AFP (3M 680) 135mm WIDE
+  REAR-4   Rear ROAD POLICING TEXT (3M 680) 35mm HIGH
+  DRIVE-1  Drive INDIGINOUS PRINT (3M 680)
+  REAR-5   Rear YELLOW BUMPER (3200mm wide x 680mm high (1105w1460Z)
+  DRIVE-2  Drive AFP PHONE 131 444 (3M 680) 308mm WIDE
+  REAR-6   Rear YELLOW BOOT (1400mm wide x 300mm high (1105w1460Z)
+  DRIVE-3  Drive AFP CREST (3M 680) 360mm HIGH
+  SIDE-1   2x SIDE 2200mm x 80mm Thick REFLECTIVE STRIPS (VC612 LIME)
+  SIDE-2   2x SIDE 3450mm x 23mm Thick REFLECTIVE STRIPS (VC612 LIME)
+
+Re: count_mismatch flag — the checklist's stated "13 + REFLECTIVE STRIPS" total does not cleanly match the
+14 extracted rows (2 of which, SIDE-1/SIDE-2, each represent "2x" strips), consistent with the flag; this
+was not "fixed" — all 14 extracted rows are listed above untouched per instructions.
+
+RECOMMENDATION: re-run this vehicle once /Volumes/LabelConcepts is remounted and the "104884 - AFP - POC ACT
+POLICING INDIGNOUS LIVERY BMW" folder is readable again — render the fitting PDF's visual/diagram pages (same
+method as motorcycle_updated_crest_2024) or use the INSTALL PHOTOS / PHOTOS folders directly.

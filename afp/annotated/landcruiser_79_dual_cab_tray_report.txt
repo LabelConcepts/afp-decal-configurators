@@ -1,0 +1,50 @@
+VEHICLE: landcruiser_79_dual_cab_tray — AFP Toyota 79 Series Dual Cab Tray
+
+Source PDF: "AFP - 79 SERIES DUAL CAB LANDCRUISER TRAY - FITTING.pdf"
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/landcruiser_79_dual_cab_tray.png (1521x1076),
+    annotated/landcruiser_79_dual_cab_tray_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") is explicitly stamped "NOT FINISHED" in red on the page
+    itself -> NOT tagged (see below).
+
+13 main items listed; 12 placed, 1 skipped:
+PASS-1 (480,420) WAVE chequerboard, pass side
+PASS-2 (680,365) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (760,420) AFP logo + "AFP" text, pass side
+PASS-4 (140,340) "000" phone text, pass-side tray rail
+DRIVE-1 (600,860) WAVE chequerboard, drive side
+DRIVE-2 (460,820) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (335,875) AFP logo + "AFP" text, drive side
+DRIVE-4 (965,790) "000" phone text, drive-side tray rail
+BONNET-1 (1275,320) AFP crest, bonnet
+REAR-1 (1270,760) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-3 (1295,805) "000" phone text, below REAR-1 text
+REAR-4 (1450,770) bumper/tray panel, right side of tailgate
+
+SKIPPED: REAR-2 ("Rear AFP CREST 146mmHigh" per checklist) — independently verified by
+viewing the full-resolution rear-view render: no crest graphic is present anywhere on the
+tailgate/rear panel, only the "AUSTRALIAN FEDERAL POLICE" text band and the "000" phone
+text. Tagging this would mean guessing a position for artwork that isn't in the source —
+not done, per project rules against guessing.
+
+SKIPPED (all 17): 76 WAG D1-D5, P1-P5, F1-F3, R1-R4 (reflective strip codes).
+Reason: page 3 ("REFLECTIVE PARTS") is explicitly marked "NOT FINISHED" in red text by
+the source document itself. Visually confirmed the artwork is incomplete/unindividuated —
+checked all four views:
+  - Pass side: only 3 blended white strip segments visible (tray rail + 2 door strips)
+    against 5 expected codes (P1-P5) — no way to tell which 2 codes are missing or where
+    they'd go without guessing.
+  - Drive side: only 2 segments visible (1 long door strip + 1 tray rail strip) against
+    5 expected codes (D1-D5).
+  - Rear: only 1 segment visible against 4 expected codes (R1-R4).
+  - Front: 1 segment visible (bonnet strip) against 3 expected codes (F1-F3).
+Unlike landcruiser_76_wagon's reflective page (which had the source's own pre-drawn
+leader-line labels pinpointing all 17 individual codes), this page has no such labels and
+the strip artwork itself is not divided into 17 distinguishable segments — consistent
+with the page being flagged incomplete. Tagging individual 76-WAG-prefixed codes here
+would require guessing which physical segment each code refers to. Per project rules,
+none of these 17 are tagged; only the 12 genuine, independently verified main-page items
+above are placed.
+
+All 12 placements independently measured via zoomed crops of the fresh render (not
+copied from any other vehicle's coordinates).

@@ -1,0 +1,35 @@
+Vehicle: kia_k4_walker (Kia K4 Hatch, Walker Fire Protection branding)
+Source: source_images/kia_k4_walker.png (1521x1075), 4-quadrant grid:
+  TL = driver-side full profile, BL = passenger-side full profile,
+  TR-top = bonnet/front 3/4, BR = rear tailgate close-up.
+All coordinates are pixel (x,y) in the full source image.
+
+D1  (260,350)   PLACED - large green/orange diagonal body graphic (C-pillar/rear quarter), TL quadrant.
+B1  (1290,350)  PLACED - orange & olive-green bonnet stripe graphic, TR quadrant (front view). Single
+                tag used to represent the bonnet stripe set (orange stripe sampled).
+D2  (835,395)   PLACED - "An A.G.Coombs Company" tagline text near front guard, TL quadrant.
+D3  (680,400)   PLACED - "Walker / FIRE PROTECTION" logo+wordmark, TL quadrant.
+D4  (670,448)   PLACED - "Design & Installation | Testing & 24hr Maintenance" + phone/web text, TL quadrant.
+D5  (470,424)   PLACED - small coloured ring certification-icon cluster ("ISO"), TL quadrant.
+D6  (480,440)   PLACED - small red/white round "FPAS" badge, directly below D5, TL quadrant.
+P1  (900,750)   PLACED - green/orange diagonal body graphic (rear quarter), BL quadrant, independently
+                measured (olive-green sample point verified, not copied from D1).
+R1  (1280,782)  PLACED - "1300 946 495 | walkerfire.com.au" + "Design & Installation..." text, BR quadrant.
+P2  (250,802)   PLACED - "An A.G.Coombs Company" tagline text, BL quadrant.
+R2  (1280,695)  PLACED - "Walker / FIRE PROTECTION" logo on rear window, BR quadrant.
+P3  (400,810)   PLACED - "Walker / FIRE PROTECTION" logo+wordmark, BL quadrant.
+R3  (1140,752)  PLACED - ring certification-icon cluster ("ISO"), BR quadrant (tailgate, left of centre).
+P4  (440,852)   PLACED - "Design & Installation..." + phone/web text, BL quadrant.
+R4  (1420,753)  PLACED - "FPAS" round badge, BR quadrant (tailgate, right side near taillight).
+P5  (620,841)   PLACED - ring certification-icon cluster ("ISO"), BL quadrant.
+P6  (610,858)   PLACED - "FPAS" round badge, directly below P5, BL quadrant.
+
+Notes:
+- All 17 items placed; none skipped.
+- Driver (D) and passenger (P) side body-graphic coordinates (D1/P1) were independently sampled
+  and pixel-verified (not mirrored) even though the artwork is visually similar front-to-back.
+- ISO/FPAS icon pairs (D5/D6, P5/P6, R3/R4) sit close together on the real decal (a small
+  certification-badge row); tags are necessarily close/slightly tight there, reflecting actual
+  decal spacing rather than mis-measurement.
+- R4 (FPAS, rear) sits near the right taillight edge of the tailgate photo; nudged slightly to
+  stay on-canvas per draw_tag's edge handling, but still anchored at the measured badge location.

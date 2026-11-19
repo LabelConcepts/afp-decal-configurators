@@ -1,0 +1,61 @@
+AFP Toyota LandCruiser Sahara - Tailgate design, Kings Crest
+Source PDF: "AFP - SAHARA LANDCRUISER - TAIL GATE - KINGS CREST - FITTING.pdf"
+(8 pages). This single PDF actually contains TWO distinct checklists bundled
+together, and afp_vehicles.json's "landcruiser_sahara_tailgate" entry merges
+both into one 15-item list:
+  - Page 1 (checklist) + Page 2 (VISUAL render) = "SAHARA - GENERAL DUTIES /
+    KINGS CREST" design: FLEET NUMBER RP60, PASS-1..4, FRONT-1..4 (9 items,
+    matches that page's own "Total Number of Parts: 9").
+  - Page 3 (checklist) + Page 4 (VISUAL render, with the doc's OWN pre-drawn
+    leader-line labels "LAND F1"/"LAND F2"/"LAND F3"/"LAND F4"/"LAND R1") =
+    plain "GENERAL DUTIES" reflective-tape design: SIDE-1, REAR-1, LAND F1-4
+    (6 items, matches that page's "Total Number of Parts: 13" once the "8x"
+    SIDE-1 quantity is expanded).
+  - Pages 5-8 are real "INSTALL PHOTO" shots of the finished vehicle (side,
+    rear-3/4, front, rear) showing both decal sets already combined on one
+    real car - used only to visually confirm the designs are genuinely
+    fitted together on one vehicle, not to pull coordinates from (no second
+    side/angle photo exists for those real photos, so they were not usable
+    for per-item pixel measurement).
+
+afp_vehicles.json's source_images/landcruiser_sahara_tailgate.png originally
+pointed at page 1 (a text-only PART CHECKLIST page, no vehicle visible).
+Rebuilt the source image as a composite: page 2 (Sahara VISUAL render,
+2x2 grid) stacked on top of page 4 (General Duties VISUAL render, 2x2 grid,
+with the source doc's own pre-existing LAND F1-4/LAND R1 labels) - giving a
+2573-independent, 1754x2502 px canvas with real photographic/render basis
+for every one of the 15 items. Top block occupies y=0-1241, bottom block
+y=1261-2502 of the final image.
+
+Side identification (top block): checklist lists PASS items before FRONT
+items (left column, "Pass" then "Front" - this document's own two side
+labels, not the usual "Pass"/"Drive"). Following the established top=first-
+listed-side convention, top-left car = Pass, bottom-left car = Front.
+
+All 15 items placed and visually confirmed by cropping the exact pixel box
+before tagging. Coordinates are (x,y) pixel centers on the 1754x2502
+composite image.
+
+FLEET NUMBER RP60  BONNET FLEET NUMBER RP60 (50 SERIES BLACK) (1470,275)  placed: on the "RP60" fleet-number text, bonnet, front view (tag shortened to "FLEET RP60" on-image for space; code is FLEET NUMBER RP60).
+PASS-1  Pass SIDE CHEQUERS                      (400,330)   placed: on the navy/white chequerboard pattern, pass side.
+PASS-2  Pass SIDE FRONT TRIANGLE                (1130,345)  placed: on the tapered/pointed front tip of the chequerboard band nearest the headlight, pass side (the "triangle" shaped leading edge of the strip).
+PASS-3  Pass SIDE MIDDLE POLICE KINGS CREST     (840,420)   placed: on the AFP Kings Crest badge beside "Police" text, pass side.
+PASS-4  Pass SIDE REAR 131 444                  (130,420)   placed: on the "131 444" phone-icon text, pass side rear quarter.
+FRONT-1 Front SIDE CHEQUERS                     (400,850)   placed: on the navy/white chequerboard pattern, front(=opposite/driver) side.
+FRONT-2 Front SIDE FRONT TRIANGLE                (100,870)   placed: on the tapered front tip of the chequerboard band nearest the headlight, front side.
+FRONT-3 Front SIDE MIDDLE POLICE KINGS CREST    (430,965)   placed: on the AFP Kings Crest badge beside "Police" text, front side.
+FRONT-4 Front SIDE REAR 131 444                 (1090,960)  placed: on the "131 444" phone-icon text, front side rear quarter.
+SIDE-1  8x SIDE STRIPE 23mm Thick x 1150 Long   (600,315)   placed: on one of the two thin yellow accent lines that run above/below the chequerboard band (pass side shown; the "8x" quantity = this stripe design repeated at 2 positions (above+below chequers) x 2 sides x front/rear chequers sections - not individually re-measured 8 times since it is one json line item for a single repeated stripe product).
+REAR-1  Rear LAND R1 40mm Thick @ 1470 Long (VC162 LIME) (1360,2265) placed: on the yellow reflective stripe across the rear bumper, directly cross-checked against the source document's own "LAND R1" leader-line label at the same spot.
+LAND F1 FRONT LAND F1                           (1305,1670) placed: on the yellow reflective flash, front bonnet/guard, left-outer position - matches the source document's own pre-drawn "LAND F1" label exactly.
+LAND F2 FRONT LAND F2                           (1670,1665) placed: on the yellow reflective flash, front bonnet/guard, right-outer position - matches the source document's own pre-drawn "LAND F2" label exactly.
+LAND F3 FRONT LAND F3                           (1300,1760) placed: on the yellow reflective flash, front bumper, left-inner/lower position - matches the source document's own pre-drawn "LAND F3" label exactly.
+LAND F4 FRONT LAND F4                           (1670,1760) placed: on the yellow reflective flash, front bumper, right-inner/lower position - matches the source document's own pre-drawn "LAND F4" label exactly.
+
+All 15/15 items placed; none skipped. Pass-side and Front-side coordinates
+were measured independently from their own respective photos (top vs bottom
+car in the top block) - no coordinate reuse between sides, and no reuse
+from any other vehicle in this batch. The LAND F1-4/R1 placements benefit
+from a genuine source-drawn cross-check (the document's own leader-line
+diagram), per the project methodology notes on using pre-existing callouts
+where available.

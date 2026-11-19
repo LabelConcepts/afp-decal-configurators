@@ -1,0 +1,45 @@
+VEHICLE: prado_wave_red — AFP Toyota Prado, Red Vehicle, WAVE design, 000 phone
+
+Source PDF: "AFP WAVE - RED TOYOTA PRADO - (000) FITTING.pdf" (5 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/prado_wave_red.png (1521x1076),
+    annotated/prado_wave_red_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn black labels for every "PRA" reflective strip code -> rendered and
+    saved as source_images/prado_wave_red_p3.png,
+    annotated/prado_wave_red_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists "PRA R2" as "2x PRA R2" — confirmed genuine:
+the source document's own page 3 shows TWO separate "PRA R2" labelled strips (one on
+each side of the rear bumper), both independently measured and tagged below as
+distinct points under the same code name.
+
+28 items total (13 main decals + 15 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-4 (170,255) "000" phone text, pass side
+PASS-1 (210,335) WAVE chequerboard, pass side
+PASS-2 (540,335) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (650,415) AFP crest + "AFP" text, pass side
+DRIVE-1 (590,785) WAVE chequerboard, drive side
+DRIVE-2 (540,775) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (385,855) AFP crest + "AFP" text, drive side
+DRIVE-4 (870,680) "000" phone text, drive side
+BONNET-1 (1215,250) AFP crest, bonnet
+REAR-1 (1215,655) "AUSTRALIAN FEDERAL POLICE" text, tailgate
+REAR-2 (1215,710) AFP crest, tailgate (on spare wheel cover)
+REAR-3 (1225,820) "000" phone text, tailgate (on spare wheel cover)
+REAR-4 (1215,865) navy bumper panel, lower tailgate
+
+Reflective page (15) — tag positions placed directly on each white strip segment at
+the exact point the source document's own black leader-line label points to
+(cross-checked, not estimated):
+PRA D4 (305,280) PRA D3 (430,280) PRA D2 (635,275) PRA D1 (820,290)
+PRA F4 (1150,320) PRA F1 (1260,305) PRA F6 (1370,320) PRA F2 (1105,350) PRA F3 (1395,350)
+PRA P1 (295,765) PRA P2 (480,750) PRA P3 (705,745) PRA P4 (835,725)
+PRA R2 (1145,860) — left-side rear bumper strip
+PRA R2 (1310,860) — right-side rear bumper strip
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; cross-checked against (not blindly copied from) the source PDF's own
+pre-existing leader-line labels on page 3.

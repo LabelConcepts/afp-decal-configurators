@@ -1,0 +1,48 @@
+VEHICLE: kia_sorrento_wave_2020_white — AFP Kia Sorrento, White Vehicle, WAVE design,
+131 AFP
+
+Source PDF: "AFP - WAVE - KIA SORRENTO - 131 AFP - WHITE - FITTING.pdf" (9 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/kia_sorrento_wave_2020_white.png
+    (1521x1076), annotated/kia_sorrento_wave_2020_white_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow leader-line labels for every "KIA" reflective
+    strip code -> rendered and saved as
+    source_images/kia_sorrento_wave_2020_white_p3.png,
+    annotated/kia_sorrento_wave_2020_white_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists "KIA D54" (garbled extraction of "KIA D5",
+confirmed against the source's own clean "KIA D5" label on page 3) and two codes as
+"ITEM-1"/"ITEM-2" with extra "COLOURS"/"CMYK APPROVAL..." suffix text ("KIA F4
+COLOURS" = KIA F4; "KIA P5 CMYK APPROVAL..." = KIA P5) — these are the same genuine
+codes visible on page 3, just with print-production annotations appended by the PDF
+text extraction, not separate or duplicate decals.
+
+30 items total (13 main decals + 17 reflective strips), all placed, none skipped.
+
+Main page (13):
+PASS-4 (130,350) "131 AFP" phone text, pass side
+PASS-1 (480,430) WAVE chequerboard, pass side
+PASS-2 (530,390) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (680,480) AFP crest + "AFP" text, pass side
+DRIVE-1 (650,850) WAVE chequerboard, drive side
+DRIVE-2 (590,800) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (375,890) AFP crest + "AFP" text, drive side
+DRIVE-4 (925,760) "131 AFP" phone text, drive side
+BONNET-1 (1245,340) AFP crest, bonnet
+REAR-3 (1150,770) "131 AFP" phone text, tailgate
+REAR-2 (1360,770) AFP crest, tailgate (right of phone text)
+REAR-1 (1255,875) "AUSTRALIAN FEDERAL POLICE" text, tailgate (lower band)
+REAR-4 (1255,835) navy bumper panel, tailgate (above text)
+
+Reflective page (17) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated):
+KIA D1 (225,330) KIA D2 (400,330) KIA D3 (590,330) KIA D4 (690,345) KIA D5 (815,340)
+KIA F2 (1120,315) KIA F3 (1380,315) KIA F1 (1255,360) KIA F4 (1100,430) KIA F5 (1430,430)
+KIA P5 (210,730) KIA P4 (365,730) KIA P3 (530,725) KIA P2 (715,725) KIA P1 (910,740)
+KIA R1 (1180,750) KIA R2 (1325,750)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 17 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

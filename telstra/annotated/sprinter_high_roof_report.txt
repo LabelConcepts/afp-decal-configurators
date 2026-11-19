@@ -1,0 +1,26 @@
+Vehicle: sprinter_high_roof - "Mercedes Sprinter Hi Roof - Supergraphic Livery"
+Source: source_images/sprinter_high_roof_p1.png (checklist, text only), sprinter_high_roof_p2.png (1521x1075, "POSITIONING" page with 4 photo crops in a 2x2 grid: top-left = drive-side profile, top-right = front grille, bottom-left = pass-side profile, bottom-right = rear/barn-doors)
+Output: annotated/sprinter_high_roof_p2_tagged.png
+
+Method notes:
+- Page 1 is a pure text "PART CHECKLIST" (no photos at all) - nothing to tag there, so no p1_tagged.png was produced.
+- Page 2 actually contains real vehicle photos (not just text), contrary to the initial concern that it might be text-only brand-tagline content. All 9 checklist items ARE visible/locatable on page 2.
+- Side identification (drive vs pass) was NOT assumed from layout alone. Two independent visual checks were made on the actual pixels:
+  1. The GPS windscreen decal ("installed internally ... to face the driver") is directly visible, non-mirrored/legible, through the windscreen in the TOP-LEFT photo only - consistent with that photo being taken from the driver's side (AU/RHD => driver = vehicle's right side).
+  2. Body/glazing check: the TOP-LEFT photo shows a blank windowless cargo panel (no quarter window, no sliding door hardware) = driver side of an RHD cargo van; the BOTTOM-LEFT photo shows a rear quarter window + sliding door rail = kerb/passenger side. Both checks agree, so top-left = DRIVE, bottom-left = PASS.
+  3. Rear (bottom-right) photo: viewer-left door = vehicle's right/DRIVE side (viewer faces the van, so left/right are mirrored vs the van's own left/right); viewer-right door = vehicle's left/PASS side. Confirmed by the pre-existing source leader line for the Greenfleet decal landing on the viewer-right door together with the other Telstra-side-door branding (small T, telstra.com).
+- Coordinates were measured by cropping/zooming into each region of sprinter_high_roof_p2.png and reading pixel positions directly off the zoomed crops (plus a color-mask centroid check for the two large orange/blue "T" decals and connected-component analysis of the source document's own pre-existing magenta leader lines/dots for W1 and T5), never guessed from the thumbnail.
+
+Items placed (all on sprinter_high_roof_p2.png, pixel coords in the 1521x1075 source):
+
+- D1 - Drive rear side Telstra T decal (1251mm high) -> PLACED at (245, 300). Top-left photo, big blue/orange "T" decal on the blank (driver-side) cargo panel.
+- P1 - Pass rear side Telstra T decal (1251mm high) -> PLACED at (830, 800). Bottom-left photo, big blue/orange "T" decal, on the side with the rear quarter window + sliding door (passenger side).
+- T1 - Rear small Telstra T decal -> PLACED at (1385, 891). Rear (bottom-right) photo, viewer-right/pass-side door, small Telstra "T" logo above the Greenfleet decal.
+- T2 - Rear 'telstra.com.au' decal -> PLACED at (1385, 834). Rear photo, viewer-right/pass-side door, "telstra.com" text (actual decal text reads "telstra.com", matching the checklist's "telstra.com.au" item).
+- T3 - Rear 'Safe driving / GPS monitoring / 1800 800 437' clear decal -> PLACED at (1138, 835). Rear photo, viewer-left/drive-side door, small blue text block ("Safe driving is our priority / GPS monitoring is on board / 1800 800 437") visible above the SPRINTER badge.
+- T4 - Rear 'Before you dig www.byda.com.au' decal -> PLACED at (1148, 900). Rear photo, viewer-left/drive-side door, small "before you dig" logo badge below the SPRINTER badge (confirmed by 6x zoom crop reading "...YOU DIG" text).
+- T5 - Rear 'Green Fleet 2.2 Million...' decal -> PLACED at (1388, 930). Rear photo, viewer-right/pass-side door, "Greenfleet" logo - location corroborated by the source document's own pre-existing magenta leader line/dot pointing to this exact spot from the "Greenfleet" legend box at bottom-left of the page.
+- W1 - Internal windscreen 'Parking Brake' decal -> PLACED at (732, 281). Top-left photo; decal itself is not legible from outside (view through tinted glass near the A-pillar/mirror base), so tag placed at the exact dot the source document's own magenta leader line points to (confirmed via connected-component analysis of that pre-existing magenta line, endpoint at (730,287)).
+- W2 - Internal windscreen 'GPS' decal -> PLACED at (987, 188). Top-left photo; this decal IS directly visible/legible through the windscreen glass near the top, confirmed by direct 5x zoom crop of that exact location.
+
+Items skipped: none - all 9 checklist items were located and tagged on page 2.

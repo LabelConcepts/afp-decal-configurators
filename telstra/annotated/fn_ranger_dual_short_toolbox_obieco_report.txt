@@ -1,0 +1,74 @@
+Vehicle: fn_ranger_dual_short_toolbox_obieco — "First Nations - Ford Ranger Obieco Box Body"
+Source set: source_images/fn_ranger_dual_short_toolbox_obieco_p1..p4.png (4 pages)
+
+Method notes:
+- p1 = checklist (text only, no photo — not annotated).
+- p2 = real vehicle photo, 4-up (drive side / pass side / front / rear). Used to confirm drive-vs-passenger
+  side orientation and cross-check decal layout.
+- p3 = reference photo, also 3-up (drive side / pass side / rear), and the SOURCE FILE ITSELF already carries
+  its own magenta text callouts with leader lines ("FIRST NATIONS DRIVE CAB", "FIRST NATIONS DRIVE OBIECO BODY",
+  "CONNECTION ARTIST CREDIT DRIVERS SIDE ONLY", "FIRST NATIONS PASS CAB", "FIRST NATIONS PASS OBIECO BODY",
+  "TELSTRA T 480mm HIGH", "SAFE DRIVING / WEB / BYDA - STANDARD SIZES"). I zoomed into each labelled region at
+  high magnification, traced each leader line to its actual decal in the pixels, and only then placed our own
+  tag at the measured decal location (never at the source label's text-box position). This page shows every
+  checklist item clearly in one place, so ALL tags were placed on p3.
+- p4 = separate real-world install photo (driver side, pass side, rear). Visually cross-checked against p3 —
+  same decal layout, positions, and drive/pass assignment confirmed independently. Not separately tagged
+  (p3 already gives full, clearer coverage of every item with source-confirmed positions).
+- Side identification: p3's left-hand photo (front pointing right) is explicitly labelled by the source as
+  "FIRST NATIONS DRIVE CAB" / "FIRST NATIONS DRIVE OBIECO BODY" = DRIVE side. The right-hand photo (front
+  pointing left) is labelled "FIRST NATIONS PASS CAB" / "FIRST NATIONS PASS OBIECO BODY" = PASS side. This
+  matches the equivalent photo in p2 and p4 (box-at-rear-of-cab layout, same T/First-Nations decal arrangement).
+
+Tags placed — all on annotated/fn_ranger_dual_short_toolbox_obieco_p3_tagged.png (source image 1521x1075 px):
+
+D1 — Drive 'Telstra T' decal, 1000mm high (T 720mm) — PLACED at (100, 135)
+  On the Obieco box, drive (left-hand photo) side — large blue T / orange oval, directly behind cab.
+
+D2 — Drive cab 'Connection' artist credit decal, clear, driver side only — PLACED at (470, 245)
+  Small clear/faint decal with fine print text, on the door just below the First Nations dot-art medallion.
+  Confirmed via the source's own "CONNECTION ARTIST CREDIT DRIVERS SIDE ONLY" leader line, then verified the
+  actual faint rectangular decal in a 4x zoom crop before placing the tag.
+
+D3 — Drive cab 'First Nations' decal — PLACED at (475, 195)
+  First Nations dot-art medallion/line-work decal on the drive-side cab door.
+
+D4 — Drive Obieco large 'First Nations' decal — PLACED at (225, 150)
+  Larger First Nations dot-art decal on the drive-side Obieco box panel (behind the T decal).
+
+T1 — Rear 'Telstra T' decal, 480mm high (T 345mm) — PLACED at (833, 613)
+  Blue T / orange oval on the rear door of the Obieco box.
+
+T2 — Rear 'Web' decal (standard) — PLACED at (900, 792)
+  Rear door, lower-right: blue "telstra.com" text (this vehicle's checklist calls this item "WEB" rather than
+  "telstra.com", but the physical decal is the website-address text block).
+
+T3 — Rear 'Safe Driving' decal, 302mm wide (standard) — PLACED at (790, 745)
+  Rear door, blue text block reading "Safe driving is our priority / GPS monitoring is on board / 1800 800 437".
+
+T4 — Rear 'BYDA' decal (standard) — PLACED at (768, 792)
+  Rear door, small white sticker with "Before You Dig Australia" logo + QR code, left of the telstra.com text.
+
+P1 — Pass 'Telstra T' decal, 1000mm high (T 710mm) — PLACED at (1400, 120)
+  On the Obieco box, passenger (right-hand photo) side — large blue T / orange oval.
+
+P2 — Pass cab 'First Nations' decal — PLACED at (1015, 185)
+  First Nations dot-art medallion decal on the passenger-side cab door.
+
+P3 — Pass Obieco large 'First Nations' decal — PLACED at (1267, 195)
+  Larger First Nations dot-art decal on the passenger-side Obieco box panel.
+
+W1 — Internal windscreen 'Parking Brake' decal — SKIPPED, unverifiable
+  No clear interior windscreen view exists in any of the 4 source pages. The only front-on view (p2, top-right
+  quadrant) shows the windscreen heavily glared/reflective with no interior decals visible; p4 has no front
+  view at all. Cannot confirm position without guessing — flagged for the client to supply a clearer photo.
+
+W2 — Internal windscreen 'GPS' decal — SKIPPED, unverifiable
+  Same reason as W1 — no usable windscreen-interior photo in the source set.
+
+Output files:
+- annotated/fn_ranger_dual_short_toolbox_obieco_p3_tagged.png (11 tags: D1-D4, T1-T4, P1-P3)
+- annotated/fn_ranger_dual_short_toolbox_obieco_report.txt (this file)
+
+p1, p2, p4 were not saved as separate _tagged.png files since no tags were placed on them (p1 is a text-only
+checklist page; p2 and p4 were used only as corroborating photo references for p3's placements).

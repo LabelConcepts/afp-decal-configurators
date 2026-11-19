@@ -1,0 +1,44 @@
+VEHICLE: outback_2024_wave_blue — AFP Subaru 2024 Outback XT, Navy/Blue Vehicle, WAVE
+design, 000 phone
+
+Source PDF: "AFP_SUBARU 2024 OUTBACK - WAVE - BLUE - FITTING.pdf" (8 pages).
+  Page 1 ("PRINT PARTS") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as source_images/outback_2024_wave_blue.png (1521x1076),
+    annotated/outback_2024_wave_blue_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn white labels for every "OUT" reflective strip code -> rendered and
+    saved as source_images/outback_2024_wave_blue_p3.png,
+    annotated/outback_2024_wave_blue_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists two reflective codes as "ITEM-1"/"ITEM-2" with
+extra "COLOURS"/"CMYK APPROVAL Job Ref#:..." suffix text ("OUT F4 COLOURS" = OUT F4;
+"OUT F7 CMYK APPROVAL..." = OUT F7) — confirmed genuine against the source's own clean
+"240UT F4"/"240UT F7" labels on page 3, not duplicates.
+
+33 items total (12 main decals + 21 reflective strips), all placed, none skipped.
+
+Main page (12):
+PASS-4 (155,395) "000" phone text, pass side
+PASS-1 (120,415) WAVE chequerboard, pass side
+PASS-2 (530,430) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (640,505) AFP crest + "AFP" text, pass side
+DRIVE-1 (930,845) WAVE chequerboard, drive side
+DRIVE-2 (590,870) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (370,935) AFP crest + "AFP" text, drive side
+DRIVE-4 (900,825) "000" phone text, drive side
+BONNET-1 (1245,370) AFP crest, bonnet
+REAR-3 (1120,805) "000" phone text, tailgate
+REAR-2 (1330,805) AFP crest, tailgate (right)
+REAR-1 (1240,845) "AUSTRALIAN FEDERAL POLICE" text, tailgate (lower band)
+
+Reflective page (21) — tag positions placed directly on each white strip segment at
+the exact point the source document's own label points to (cross-checked, not
+estimated):
+OUT D5 (165,375) OUT D4 (365,355) OUT D3 (565,365) OUT D2 (735,370) OUT D1 (865,370) OUT D6 (955,425)
+OUT F2 (1140,410) OUT F1 (1245,410) OUT F3 (1355,410) OUT F4 (1110,460) OUT F5 (1390,460) OUT F6 (1210,485) OUT F7 (1310,485)
+OUT P1 (265,810) OUT P2 (345,805) OUT P3 (490,790) OUT P4 (675,790) OUT P5 (890,785) OUT P6 (100,895)
+OUT R1 (1200,820) OUT R2 (1335,820)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 21 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

@@ -1,0 +1,62 @@
+VEHICLE: dmax_2person_prisoner_pod_wave — AFP Isuzu D-Max Dual Cab, 2-Person Prisoner
+Pod, WAVE design, 131 AFP
+
+Source PDF: "AFP - ISUZU DMAX UTE - PHONE OPTIONS - WAVE 2 PERSON - PRISONER POD -
+FITTING.pdf" (11 pages).
+  Page 1 ("PRINT PARTS") = real vehicle render (wireframe/outline template style, not
+    filled colour for the WAVE chequerboard — confirmed intentional, as all 4 quadrants
+    render the same way), 2x2 grid (pass/front/drive/rear) -> rendered and saved as
+    source_images/dmax_2person_prisoner_pod_wave.png (1521x1076),
+    annotated/dmax_2person_prisoner_pod_wave_tagged.png.
+  Page 3 ("REFLECTIVE PARTS") = same vehicle render with the source document's OWN
+    pre-drawn yellow leader-line labels for every "DMAX"/"WPOD"/"PPOD2" reflective code
+    -> rendered and saved as source_images/dmax_2person_prisoner_pod_wave_p3.png,
+    annotated/dmax_2person_prisoner_pod_wave_p3_tagged.png.
+
+ITEM LIST NOTE: afp_vehicles.json lists PASS-6, PASS-7, and "AV1" as duplicates of
+PASS-4 (phone text), PASS-5 (blue triangle panel), and PASS-3 (crest), respectively.
+Independently examined the pass-side render and found only ONE instance each of the
+phone text, blue triangle panel, and crest — no second, visually distinct instance
+exists. Not tagged as separate points, per project rules against guessing a duplicate
+position. "AV1" is also printed as a literal label on the rear-door render (between the
+light bar and the "AUSTRALIAN FEDERAL POLICE" text) but with no distinct graphic of its
+own — it is a placeholder/reference marker, not an additional decal.
+
+35 items in total listed; 35 placed/skipped-with-reason (11 main decals tagged, 3
+duplicate codes skipped, 24 reflective strips tagged, 1 bulk strip item skipped).
+
+Main page (11 tagged):
+PASS-1 (580,430) WAVE chequerboard (outline/wireframe artwork), cab door, pass side
+PASS-2 (620,375) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (725,460) AFP crest + "AFP" text, pass side
+PASS-4 (125,315) "131 AFP" phone text, pass-side pod
+PASS-5 (160,395) navy "BLUE 1100x1100" triangle panel, pass-side pod
+DRIVE-1 (580,860) WAVE chequerboard (outline/wireframe artwork), cab door, drive side
+DRIVE-2 (505,805) "AUSTRALIAN FEDERAL POLICE" text, drive side
+BONNET-1 (1300,290) AFP crest, bonnet
+REAR-1 (1290,795) "AUSTRALIAN FEDERAL POLICE" text, rear pod door
+REAR-2 (1175,690) AFP crest, rear pod door (left)
+REAR-3 (1400,690) "131 AFP" phone text, rear pod door (right)
+SKIPPED: PASS-6, PASS-7, AV1 (duplicates of PASS-4/PASS-5/PASS-3 — see note above).
+
+Reflective page (24 tagged) — tag positions placed directly on each white strip segment
+at the exact point the source document's own yellow leader-line label points to
+(cross-checked, not estimated):
+Drive side: DMAX D4 (555,295) DMAX D3 (715,295) DMAX D2 (885,315) DMAX D1 (1055,380)
+  WPOD D1 (325,395)
+  PPOD2 D1 (130,325) PPOD2 D2 (230,345) PPOD2 D3 (230,370) PPOD2 D4 (130,420) PPOD2 D5 (230,445)
+Front: DMAX F1 (1300,330) DMAX F2 (1300,420) DMAX F3 (1160,415) DMAX F4 (1450,415)
+Pass side: DMAX P1 (100,825) DMAX P2 (260,755) DMAX P3 (420,740) DMAX P4 (650,745)
+  WPOD P1 (780,820)
+  PPOD2 P1 (1000,725) PPOD2 P2 (900,775) PPOD2 P3 (920,800) PPOD2 P4 (990,870) PPOD2 P5 (900,895)
+
+SKIPPED (not tagged as a point): the checklist's "2 x 1200mm @ 25mm Thick Strips (VC612
+WHITE)" line (afp_vehicles.json "ITEM-1"). This is a bulk quantity spec for the long
+vertical white trim strips visible at the leading edge of the pod on both pass and
+drive sides (labelled "25mm STRIPS" directly on the render) — not an individually-
+coded, single-point decal, and the source gives no per-instance codes to distinguish
+the 2 strips. Not tagged, per project rules against guessing/inventing codes.
+
+All 11 main-page and 24 reflective placements independently measured via zoomed crops
+of each page quadrant before tagging; the reflective positions were cross-checked
+against (not blindly copied from) the source PDF's own pre-existing leader-line labels.

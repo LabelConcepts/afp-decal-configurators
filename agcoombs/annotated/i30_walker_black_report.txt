@@ -1,0 +1,33 @@
+Vehicle: i30_walker_black (Hyundai i30, Black, Walker Fire branding)
+Source: source_images/i30_walker_black.png (1521x1075, single side-profile photo with
+an existing pre-drawn client callout: blue outline + arrow + caption "GREEN ORANGE
+FINGERPRINT STRIPES" pointing at the rear-door/quarter-panel stripe decal)
+Output: annotated/i30_walker_black_tagged.png
+
+PLACED:
+- D1 "DRIVE 'GREEN ORANGE FINGERPRINT' (680/8519)" - (300,470), on the orange
+  fingerprint/contour-line stripe panel on the rear door, just below and left of the
+  door handle. Verified by cropping the original untagged source at these exact
+  coordinates before drawing (confirmed solid orange decal texture, not body paint).
+
+SKIPPED: none.
+
+*** FLAG: checklist likely incomplete ***
+parts_total_stated / parts_extracted_count = 1, and only one code (D1) exists in the
+item list. However the source photo clearly shows substantially more branding than
+just the fingerprint stripe:
+  - A large "Walker" wordmark + triangular logo mark (~x790-1010,y490-545)
+  - "FIRE PROTECTION" sub-line under the Walker wordmark
+  - Tagline "Design & Installation | Testing & 24hr Maintenance"
+  - Contact line "1300 946 495 | walkerfire.com.au"
+  - "An A.G.Coombs Company" small text near the roofline (~x1095-1150,y495-515)
+  - A small row of circular accreditation/certification badge icons plus an "FPAS"
+    logo badge (~x570-650,y555-575), similar in style to the ISO/Green-Building/Tick
+    badge clusters seen on the other AG Coombs vehicles in this batch.
+None of this additional branding has a corresponding code in agcoombs_vehicles.json's
+item list for this key. This is flagged per instructions as a likely-incomplete
+checklist, not invented as extra tags - only the one stated item (D1) was tagged in
+the output image. Recommend the client re-check the source fitting PDF for this job
+(138416) to confirm whether the Walker wordmark/tagline/contact decal and the
+accreditation badge cluster are separate chargeable items that were missed when the
+checklist was extracted.

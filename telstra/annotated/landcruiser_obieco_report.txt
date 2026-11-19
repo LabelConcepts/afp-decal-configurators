@@ -1,0 +1,94 @@
+VEHICLE: landcruiser_obieco
+"Toyota Landcruiser Obieco S/Body - Supergraphic Livery" (Telstra, non-First-Nations)
+Source checklist: source_images/landcruiser_obieco_p1.png (9 total parts)
+Photo page used for all tags: source_images/landcruiser_obieco_p2.png (1521x1075 px)
+  - p3 is a dimension-annotation page (same 4 photos with mm callouts only, no new
+    decal content) and was not used for tag placement.
+Annotated output: annotated/landcruiser_obieco_p2_tagged.png
+
+Each position below was independently measured on THIS vehicle's own photo (p2),
+using pixel-color analysis (blue/orange decal color masks) plus visual zoom-crop
+verification before placing each tag. No coordinate was copied from the other
+(First Nations) vehicle or guessed.
+
+PLACED:
+  D1 - Drive rear side Telstra T decal ("Landcruiser - Side", 855mm T)
+       Page: p2, top-left photo (driver-side profile)
+       Pixel coords: (180, 278)  [centroid of the blue "T" letter]
+       Confirmed independently on this vehicle's own photo.
+
+  P1 - Pass rear side Telstra T decal (855mm T)
+       Page: p2, bottom-left photo (passenger-side profile, black-square
+       redaction over an unrelated sticker ignored per instructions)
+       Pixel coords: (936, 732)  [centroid of the blue "T" letter]
+       Confirmed independently.
+
+  T1 - Rear small Telstra T decal (logo only, no "telstra.com" text)
+       Page: p2, bottom-right photo (rear view, between spare tires)
+       Pixel coords: (1279, 775)
+       Confirmed independently (small blue/orange T logo above the text block).
+
+  T2 - Rear "telstra.com.au" decal (bottom line of the small rear text block;
+       the decal itself reads "telstra.com" in the photo)
+       Page: p2, bottom-right photo
+       Pixel coords: (1278, 845)
+       Confirmed independently.
+
+  T3 - Rear "Safe driving is our priority / GPS monitoring is on board /
+       1800 800 437" clear decal
+       Page: p2, bottom-right photo
+       Pixel coords: (1270, 808)
+       Confirmed independently (middle text block, between T1 logo and T2 text).
+
+  T4 - Rear "Before you dig www.byda.com.au" decal
+       Page: p2, bottom-right photo, on rear bumper/tailgate strip, left of center
+       Pixel coords: (1229, 878)
+       Confirmed independently via 8x zoom crop (red/black "BEFORE YOU DIG" logo).
+
+  T5 - Rear "Green Fleet 2.2 Million..." decal
+       Page: p2, bottom-right photo, on rear bumper/tailgate strip, right of T4
+       Pixel coords: (1321, 879)
+       Confirmed independently via color-mask + zoom crop (green leaf logo).
+
+SKIPPED:
+  W1 - Internal windscreen "Parking Brake" decal
+       Reason: not visible in any supplied photo. p2 shows only exterior shots
+       (driver profile, front, passenger profile, rear); p3 is the same 4 exterior
+       photos with dimension callouts. No interior/windscreen photo was provided
+       for this vehicle. Skipped per instructions.
+
+  W2 - Internal windscreen "GPS" decal
+       Reason: same as W1 - no interior/windscreen photo supplied. Skipped.
+
+Total: 7 placed, 2 skipped (both for lack of a source photo, not a measurement failure).
+
+---
+RE-VERIFICATION (requested by coordinator, re: possible "bare/undecaled reference
+photo" concern seen on another vehicle, sprinter_high_roof):
+
+Re-opened source_images/landcruiser_obieco_p2.png AND _p3.png and zoomed to 6-8x
+on just the tailgate panel between the two spare tires (the T1-T5 cluster) to
+check whether any of these five tags were sitting on blank/undecaled panel.
+
+Finding: this vehicle's rear panel is NOT bare. At high zoom all five items are
+clearly visible as genuinely printed artwork, not a guess:
+  - T1 (small T logo): sharp, in-focus blue/orange T, clearly printed.
+  - T3 (safe driving / GPS / 1800 800 437 text): three lines of blue text,
+    legible at zoom, clearly printed.
+  - T2 (telstra.com): blue text below T3, clearly printed.
+  - T4 (Before You Dig sticker): red/black/white rectangular sticker, clearly
+    printed, on the bumper strip below the tailgate panel.
+  - T5 (GreenFleet logo): green leaf logo to the right of T4 on the same bumper
+    strip, clearly printed (smaller/fainter than T4 but unambiguously present,
+    confirmed at 7-8x zoom).
+
+Additional corroboration: source_images/landcruiser_obieco_p3.png is the
+dimension-callout version of the SAME rear photo, and it draws a magenta "40mm"
+arrow starting at the top of the T logo (anchoring T1) and an "80mm" arrow
+starting at the telstra.com baseline (anchoring T2) - i.e. the source document
+itself treats this artwork as real, measured decal content, not a blank
+reference panel.
+
+Conclusion: no change needed. T1-T5 are confirmed genuine, independently
+verified decal positions, not guesses on blank panel. This vehicle's rear photo
+does not exhibit the bare/reference-photo issue flagged on sprinter_high_roof.

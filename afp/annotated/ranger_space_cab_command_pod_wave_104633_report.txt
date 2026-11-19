@@ -1,0 +1,45 @@
+VEHICLE: ranger_space_cab_command_pod_wave_104633 — AFP Ford Ranger Space/Extra Cab,
+Command Pod, WAVE design, 131 AFP (job 104633)
+
+Source PDF: "AFP - FORD RANGER COMMAND POD - SPACE CAB - WAVE - FITTING.pdf" (8 pages).
+  Page 1 ("VISUAL") = real vehicle render, 2x2 grid (pass/front/drive/rear) ->
+    rendered and saved as
+    source_images/ranger_space_cab_command_pod_wave_104633.png (1521x1076),
+    annotated/ranger_space_cab_command_pod_wave_104633_tagged.png.
+  Page 3 ("REFLECTIVE PARTS - VC612 WHITE") = same vehicle render with the source
+    document's OWN pre-drawn yellow leader-line labels for every "FRANW" reflective
+    strip code -> rendered and saved as
+    source_images/ranger_space_cab_command_pod_wave_104633_p3.png,
+    annotated/ranger_space_cab_command_pod_wave_104633_p3_tagged.png.
+
+26 items total (15 main decals + 11 reflective strips), all placed, none skipped.
+
+Main page (15):
+PASS-1 (590,395) WAVE chequerboard, cab door, pass side
+PASS-2 (650,350) "AUSTRALIAN FEDERAL POLICE" text, pass side
+PASS-3 (720,430) AFP crest + "AFP" text, pass side
+PASS-4 (130,310) "131 AFP" phone text, pass-side pod
+PASS-5 (360,410) navy "SIDE REAR BOTTOM BLUE PIECE", pass-side pod lower corner
+DRIVE-1 (530,795) WAVE chequerboard, cab door, drive side
+DRIVE-2 (440,750) "AUSTRALIAN FEDERAL POLICE" text, drive side
+DRIVE-3 (340,830) AFP crest + "AFP" text, drive side
+DRIVE-4 (880,710) "131 AFP" phone text, drive-side pod
+DRIVE-5 (930,810) navy "SIDE REAR BOTTOM BLUE PIECE", drive-side pod lower corner
+BONNET-1 (1275,280) AFP crest, bonnet
+REAR-1 (1285,685) "AUSTRALIAN FEDERAL POLICE" text, rear pod door
+REAR-2 (1285,640) AFP crest, rear pod door (above text)
+REAR-3 (1285,720) "131 AFP" phone text, rear pod door (below text)
+REAR-4 (1285,790) navy bumper panel, lower rear pod door
+
+Reflective page (11) — tag positions placed directly on each white strip segment at the
+exact point the source document's own yellow leader-line label points to (cross-checked,
+not estimated). No "R" (rear) reflective codes exist for this vehicle, confirmed both by
+afp_vehicles.json (only D/P/F codes listed) and by the rear quadrant on page 3 having no
+pre-drawn labels:
+FRANW D1 (515,335) FRANW D2 (655,335) FRANW D3 (805,335)
+FRANW F2 (1125,390) FRANW F1 (1250,390) FRANW F3 (1395,390) FRANW F4 (1115,460) FRANW F5 (1395,460)
+FRANW P3 (265,695) FRANW P2 (420,695) FRANW P1 (570,695)
+
+All coordinates independently measured via zoomed crops of each page quadrant before
+tagging; the 11 reflective-strip positions were cross-checked against (not blindly
+copied from) the source PDF's own pre-existing leader-line labels on page 3.

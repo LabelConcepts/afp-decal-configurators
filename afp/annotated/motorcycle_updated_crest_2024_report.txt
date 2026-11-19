@@ -1,0 +1,76 @@
+motorcycle_updated_crest_2024 — AFP Police Motorcycle (Updated New Crest 2024)
+Source: source_images/motorcycle_updated_crest_2024.png was replaced with a composite of 5 full-resolution
+pages (1521x1075 each, stacked vertically, 10px gaps) rendered directly from the original fitting-guide PDF
+"101917 - AFP - MOTORCYCLE - UPDATED NEW CREST - FITTING 2024.pdf" (pages 3-7: "VISUAL + PARTS - D/P/T/F/R SIDE").
+The originally-extracted source_images PNG was just the text part-checklist page (page 1) with no photo of the
+vehicle at all, so it could not be used for placement; the PDF's own per-side pages already carry pre-drawn
+leader-line callouts (BMWMB D1-D4, P1-P4, T1/T2, R1, and the crest photos) over real installed-vehicle photos,
+which were used as a cross-check per the project methodology notes, with each position re-confirmed by cropping
+the untagged source at the exact pixel coordinates before tagging.
+Composite layout (vertical stack, page order D / P / T / F / R):
+  D SIDE page: y-offset 0-1075
+  P SIDE page: y-offset 1085-2160
+  T SIDE (top) page: y-offset 2170-3245
+  F SIDE (front) page: y-offset 3255-4330
+  R SIDE (rear) page: y-offset 4340-5415
+
+Items (14 listed in afp_vehicles.json, all placed):
+
+SIDE-1 — "Side CREST (3M 780) - 200mm High" (D side)
+  Placed at (300, 650). D-side pannier (saddlebag) lid, the round AFP crest/badge decal below the "BMW"
+  wordmark, above where the lid meets the case body. Confirmed present in source crop.
+
+FRONT-1 — "Front CREST (3M 780) - 139mm High"
+  Placed at (315, 3775) [local (315,520) on F SIDE page]. Front nose fairing, the AFP crest decal centered
+  on the nose cone between the fork legs. Page notes the visual still shows the "old crest" graphic (pre-2024
+  design) but the position is unchanged (same panel) per the page's own disclaimer "PLEASE NOTE: OLD CREST
+  IN VISUAL" — the vehicle job is specifically updating the crest art at this exact spot.
+
+ITEM-1 — "BMWMB D1 CHEQUERS (3M 780)" (D side)
+  Placed at (240, 345). D-side pannier lid, chequered (navy/white) panel, left/forward edge near the blue
+  light bracket.
+
+ITEM-2 — "BMWMB D2 POLICE (3M 780) R SIDE" (D side)
+  Placed at (412, 360). D-side pannier lid, chequered panel, right/rear portion (toward the passenger
+  backrest), matching the "BMWMB D2" leader-line label on the source page.
+
+ITEM-3 — "BMWMB D3 YELLOW SWOOSH (3M 780)" (D side)
+  Placed at (780, 390). D-side fuel tank/fairing, yellow diagonal swoosh stripe below the handlebar/mirror
+  area.
+
+ITEM-4 — "BMWMB R1 POLICE ON YELLOW (3M 780)" (rear)
+  Placed at (320, 4670) [local (320,330) on R SIDE page]. Rear top-box (topcase) lid, yellow panel with
+  "Police" text, between the two auxiliary rear lights.
+
+ITEM-5 — "BMWMB D4 CHEQUERS (3M 780) T SIDE P SIDE" (D side)
+  Placed at (1205, 330). D-side front cowl/windscreen support bracket area (small chequered accent beside
+  the blue light bar mount), matching the "BMWMB D4" leader-line label.
+
+ITEM-6 — "2x BMWMB T1 YELLOW (3M 780)" (top, 2 decals — both tagged)
+  Placed at (1095, 2375) and (960, 3105) [local (1095,205) and (960,935) on T SIDE page]. Top view: the two
+  yellow panniers'/topcase top-panel yellow decals (front pannier-top and rear topcase-top), either side of
+  the fuel filler/seat.
+
+ITEM-7 — "BMWMB T2 YELLOW (3M 780)" (top)
+  Placed at (862, 2670) [local (862,500) on T SIDE page]. Top view, yellow panel on the seat/tank junction
+  between the two T1 panels.
+
+ITEM-8 — "BMWMB D1 CHEQUERS (3M 780)" (P side; same code reused, source diagram actually labels it "BMWMB P1")
+  Placed at (1255, 1490) [local (1255,405) on P SIDE page]. P-side pannier lid, chequered panel, rear/outer
+  edge near the blue light bracket (mirrors D1 on the other side).
+
+ITEM-9 — "BMWMB D2 POLICE (3M 780)" (P side; source diagram labels it "BMWMB P2")
+  Placed at (1095, 1480) [local (1095,395) on P SIDE page]. P-side pannier lid/backrest junction, top edge
+  of the chequered panel (mirrors D2).
+
+ITEM-10 — "BMWMB D3 YELLOW SWOOSH (3M 780)" (P side; source diagram labels it "BMWMB P3")
+  Placed at (735, 1510) [local (735,425) on P SIDE page]. P-side fuel tank/fairing, yellow diagonal swoosh
+  (mirrors D3).
+
+ITEM-11 — "BMWMB D4 CHEQUERS (3M 780)" (P side; source diagram labels it "BMWMB P4")
+  Placed at (265, 1665) [local (265,580) on P SIDE page]. P-side front cowl, small chequered accent beside
+  the front indicator (mirrors D4).
+
+Note on count_mismatch: the checklist's stated total of 14 matches the number of list rows, but one row
+("2x BMWMB T1") represents 2 physically-installed decals (both tagged above as ITEM-6), so the true
+installed-decal count is 15. All 14 listed codes were visually confirmed and tagged — nothing skipped.

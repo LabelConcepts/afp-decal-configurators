@@ -1,0 +1,17 @@
+VEHICLE: bmw_x3_m340i_road_policing - "AFP BMW 340i Sedan - Road Policing (2025 Kings Crest)"
+Source: fixed source_images/bmw_x3_m340i_road_policing.png from PDF page 2 "VISUAL" (was checklist-only).
+All 17 items placed, independently measured via zoomed crops of the untagged source.
+
+PASS-3 (173,393) crest   PASS-2 (127,458) phone   PASS-1 (390,453) chequers/Police   PASS-4 (207,523) yellow skirt
+DRIVE-3 (915,753) crest  DRIVE-2 (960,837) phone  DRIVE-1 (533,833) chequers/Police  DRIVE-4 (680,890) yellow skirt
+SIDE-1 (245,890) 33mm strip, SIDE-2 (560,890) 40mm strip - both match the source doc's own pre-drawn leader lines exactly
+REAR-3 (1223,735) "AFP" text, REAR-2 (1333,735) phone, REAR-1 (1297,773) chequers, REAR-4 (1272,838) "Police" text,
+REAR-5 (1273,860) "Road Policing" text, REAR-7 (1423,735) yellow boot panel, REAR-6 (1130,890) yellow bumper panel
+
+Note: top photo and bottom photo both show the crest near the front wheel with no visible asymmetric
+cue (fuel cap, keypad etc) to confirm physical driver vs passenger side independently - assigned
+PASS=top/DRIVE=bottom per the checklist's own listed order (reading-order convention), flagged here
+per project practice rather than asserted as independently confirmed.
+Count mismatch note (flagged in afp_vehicles.json): doc states "15 + REFLECTIVE STRIPS" - the 2 SIDE
+items (each qty 2) account for the "+ reflective strips" phrasing; all 17 distinct decal types are
+real and accounted for.

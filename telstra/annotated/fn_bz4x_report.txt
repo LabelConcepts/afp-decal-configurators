@@ -1,0 +1,85 @@
+TELSTRA SUPER G - FIRST NATIONS - TOYOTA BZ4X ("fn_bz4x")
+Source: source_images/fn_bz4x_p1.png (checklist, NOT tagged per instructions)
+        source_images/fn_bz4x_p2.png (actually a full 4-photo "parts on vehicle" style
+            page, NOT merely a dimension diagram - contains: top-left = driver-side full
+            broadside photo with source document's own magenta pointer-lines already
+            marking the Handbrake/GPS windscreen decal locations; top-right = front view
+            (AU plate "2AD*8WF"); bottom-left = passenger-side full broadside photo;
+            bottom-right = rear view, matching plate, showing all 5 rear decals)
+        source_images/fn_bz4x_p3.png ("DRIVERS SIDE 'FIRST NATIONS' DECALS" close-up photo)
+        source_images/fn_bz4x_p4.png ("PASSENGER SIDE 'FIRST NATIONS' DECALS" close-up photo)
+Output: annotated/fn_bz4x_p2_tagged.png, annotated/fn_bz4x_p3_tagged.png,
+        annotated/fn_bz4x_p4_tagged.png
+
+Methodology note on D1/P1 (driver vs passenger) determination:
+Same front/rear compass method as the bz4x vehicle (RHD, AU plate => driver = vehicle's
+right-hand side facing travel direction), applied independently to this vehicle's own
+photos:
+- p2 top-left photo: rear taillight at image-LEFT, front fender at image-RIGHT =>
+  DRIVER side => D1.
+- p2 bottom-left photo: front fender at image-LEFT, rear taillight at image-RIGHT =>
+  PASSENGER side => P1.
+This was cross-checked (not merely assumed) against the two dedicated, explicitly
+labelled close-up pages:
+- p3 is explicitly titled "DRIVERS SIDE 'FIRST NATIONS' DECALS". Its two First Nations
+  medallions have distinctive, non-symmetric inner artwork (left = spiral/gear concentric
+  rings, right = ring-of-dots pattern). The SAME two distinctive patterns, in the same
+  front-to-rear order, appear in p2's top-left photo - confirming top-left = driver side.
+- p4 is explicitly titled "PASSENGER SIDE 'FIRST NATIONS' DECALS". Its medallions
+  (left = 8-petal flower/dot pattern, right = concentric wave-ring pattern) likewise match
+  p2's bottom-left photo - confirming bottom-left = passenger side.
+This double confirmation (geometric + artwork-pattern cross-check) was done specifically
+because this exact driver/passenger mix-up has happened before on this project.
+
+Placed tags - page 2 (fn_bz4x_p2.png, 1521x1075):
+
+  D1  - Drive rear side Telstra T decal 'BZ4X - Side' (471mm)  -> (415, 375)  [top-left photo, driver-side door T-logo]
+  P1  - Pass rear side Telstra T decal (471mm)                 -> (600, 805)  [bottom-left photo, passenger-side door T-logo]
+  T1  - Rear small Telstra T decal                              -> (1102, 840) [bottom-right/rear photo - independently confirmed on THIS vehicle's own rear photo, not cross-referenced from bz4x]
+  T2  - Rear 'telstra.com.au' decal                             -> (1297, 830) [rear photo, right of plate; text reads "telstra.com" at this crop/angle]
+  T3  - Rear 'Safe driving/GPS monitoring/1800 800 437' CLEAR decal -> (1202, 877) [rear photo, bottom-center text]
+  T4  - Rear 'Before you dig' decal with QR code                -> (1107, 875) [rear photo, bottom-left; QR-style pattern visible in the sticker]
+  T5  - Rear 'Green Fleet 2.2 Million...' decal                 -> (1300, 875) [rear photo, bottom-right green logo]
+  W1  - Internal windscreen 'Parking Brake' (handbrake) decal   -> (546, 328) [top-left photo - placed at the exact point the SOURCE document's own magenta pointer-line/dot indicates ("Handbrake Decal, installed internally to face the driver"); pixel location recovered by isolating that document markup's magenta dot programmatically]
+  W2  - Internal windscreen 'GPS' decal                         -> (603, 289) [top-left photo - placed at the exact point the source document's own magenta pointer-line/dot indicates ("GPS Decal, installed internally on windscreen to face the driver")]
+
+Placed tags - page 3 (fn_bz4x_p3.png, driver-side First Nations close-up, 1521x1075):
+
+  D2  - Drive door 'First Nations' decal        -> (190, 390)  [forward medallion, over the front door, just behind the front wheel arch - confirmed by its position relative to the front door handle]
+  D3  - Drive rear qtr 'First Nations' decal    -> (1120, 530) [separate, distinct rear medallion near the rear quarter panel/C-pillar - confirmed as a visually separate design element from D2, not a duplicate measurement]
+  D4  - Drive 'Connection....' clear decal (artist credit) -> (1143, 743) [small italic text decal "Connection, (c) Bobbi Lockyer/Copyright Agency" directly beneath the D3 medallion; the source PDF itself draws a magenta line+callout box to this same text as "ARTIST CREDIT DRIVE SIDE ONLY" - tag placed on the actual decal text itself, confirmed by zoomed crop]
+
+Placed tags - page 4 (fn_bz4x_p4.png, passenger-side First Nations close-up, 1521x1075):
+
+  P2  - Pass door 'First Nations' decal         -> (370, 670)  [forward medallion, over the front door, near the front wheel arch]
+  P3  - Pass rear qtr 'First Nations' decal     -> (1360, 420) [separate rear medallion near the rear quarter panel - independently measured on this image; NOT assumed identical to D3's pixel position even though symmetric in concept]
+
+Notes:
+- T1-T5 and W1-W2 were all independently confirmed on THIS First Nations vehicle's own
+  photos (fn_bz4x_p2.png bottom-right rear photo and top-left side photo respectively) -
+  cross-referencing bz4x_p2.png was NOT needed since this vehicle's own document page 2
+  turned out to contain full parts-on-vehicle photography, not just a dimension diagram
+  as initially assumed from the filename/description.
+- All coordinates were visually verified against zoomed crops of the actual decal before
+  the tag was drawn; none were copied from the other vehicle or mirrored from the
+  opposite side.
+
+ADDENDUM - re-verification of T1/T2/T4/T5 (bare/pre-decal rear-photo check):
+Following the same bare/pre-decal rear-photo issue found on sprinter_high_roof,
+landcruiser_obieco and ranger_dual_cab_tub (where opaque logo decals were tagged onto a
+rear reference photo that actually had no logo decals applied yet), this vehicle's own
+rear photo (fn_bz4x_p2.png, bottom-right panel) was re-zoomed at ~8x on the exact tagged
+pixel coordinates (crop boxes, source image coordinates: T1 (1070,800)-(1180,870), T2
+(1260,780)-(1380,850), T4 (1070,850)-(1190,910), T3 (1150,845)-(1280,905), T5
+(1260,845)-(1380,905)).
+Result: all five decals are genuinely, crisply present - not faint ghosting, not blank
+panel:
+  - T1: sharp blue "T" + orange oval beside a crisp "bZ4X" badge.
+  - T2: crisp solid blue "telstra.com" text, fully legible.
+  - T3: crisp blue 3-line "Safe driving.../GPS monitoring.../1800 800 437" text, fully
+    legible.
+  - T4: crisp "BEFORE YOU DIG" sticker, full red/black colour fill, WITH a clearly
+    rendered QR-code pattern alongside it (matching the checklist's "with QR code" note).
+  - T5: crisp green "GreenFleet" logo with full colour fill, fully legible.
+No blank/undecaled bumper was found at any of the five locations on this vehicle's photo
+either. Tag positions and fn_bz4x_p2_tagged.png are therefore left unchanged.
