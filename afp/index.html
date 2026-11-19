@@ -7,45 +7,51 @@
 <meta name="description" content="Select your vehicle's brand, model and variant to see the labelled decal placement diagram and repair checklist.">
 <style>
   :root{
-    --navy:#0d2436; --navy-2:#132f44; --blue:#0d2436; --blue-light:#eaf4fe;
-    --magenta:#1f4e8c; --ink:#1c2024; --muted:#5a6673; --line:#e1e4e8;
-    --bg:#f3f5f7; --surface:#ffffff; --surface-2:#f7f8fa; --ok:#0f8a4b;
-    --focus:#0d2436;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --navy:#0a1a26; --navy-2:#0f2434; --blue:#4fa3ff; --blue-light:#132637;
-      --magenta:#ff5cbd; --ink:#eef1f4; --muted:#9aa5b1; --line:#2a3138;
-      --bg:#14171a; --surface:#1b1f23; --surface-2:#20252a; --ok:#35c479;
-    }
-  }
-  :root[data-theme="dark"]{
-    --navy:#0a1a26; --navy-2:#0f2434; --blue:#4fa3ff; --blue-light:#132637;
-    --magenta:#ff5cbd; --ink:#eef1f4; --muted:#9aa5b1; --line:#2a3138;
-    --bg:#14171a; --surface:#1b1f23; --surface-2:#20252a; --ok:#35c479;
+    --navy:#0a1930; --navy-2:#0d2240; --blue:#0d2436; --blue-light:rgba(234,244,254,0.14);
+    --magenta:#1f4e8c; --ink:#f3f6fa; --muted:#aab6c8; --line:rgba(255,255,255,0.22);
+    --bg-1:#0a1930; --bg-2:#13284a; --bg-3:#2a1f4d;
+    --glass:rgba(255,255,255,0.08); --glass-strong:rgba(255,255,255,0.14);
+    --glass-border:rgba(255,255,255,0.28); --ok:#35e0a1;
+    --focus:#0d2436; --shadow:0 8px 32px rgba(0,0,0,0.35);
   }
   *{box-sizing:border-box;}
+  html{height:100%;}
   body{
-    margin:0; background:var(--bg); color:var(--ink);
+    margin:0; min-height:100%; color:var(--ink);
     font:15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     padding-inline:16px;
+    background:
+      radial-gradient(640px 480px at 8% -5%, rgba(79,163,255,0.38), transparent 60%),
+      radial-gradient(560px 520px at 100% 8%, rgba(255,92,189,0.28), transparent 55%),
+      radial-gradient(760px 640px at 50% 100%, rgba(80,60,220,0.30), transparent 60%),
+      linear-gradient(160deg, var(--bg-1), var(--bg-2) 55%, var(--bg-3));
+    background-attachment:fixed;
   }
   h1,h2,h3{text-wrap:balance; margin:0;}
   .wrap{max-width:720px; margin:0 auto; padding-block:28px 60px;}
 
+  .glass{
+    background:var(--glass);
+    -webkit-backdrop-filter:blur(18px) saturate(140%);
+    backdrop-filter:blur(18px) saturate(140%);
+    border:1px solid var(--glass-border);
+    box-shadow:var(--shadow), inset 0 1px 0 rgba(255,255,255,0.18);
+  }
+
   header.top{
-    background:linear-gradient(135deg, var(--navy), var(--navy-2));
-    color:#fff; border-radius:16px; padding:22px 24px; margin-bottom:20px;
+    background:linear-gradient(135deg, rgba(255,255,255,0.14), rgba(255,255,255,0.04));
+    -webkit-backdrop-filter:blur(18px) saturate(140%); backdrop-filter:blur(18px) saturate(140%);
+    border:1px solid var(--glass-border); box-shadow:var(--shadow);
+    color:#fff; border-radius:22px; padding:24px 26px; margin-bottom:20px;
   }
   header.top .eyebrow{
-    font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#9fd3ff; font-weight:600;
+    font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#9fd3ff; font-weight:700;
   }
-  header.top h1{font-size:1.5rem; margin-top:4px; font-weight:800;}
-  header.top p{color:#c7d6e2; margin-top:6px; font-size:13.5px; max-width:52ch;}
+  header.top h1{font-size:1.55rem; margin-top:6px; font-weight:800; letter-spacing:-.01em;}
+  header.top p{color:#d4ddea; margin-top:8px; font-size:13.5px; max-width:52ch;}
 
   .card{
-    background:var(--surface); border:1px solid var(--line); border-radius:14px;
-    padding:20px; margin-bottom:16px;
+    border-radius:20px; padding:22px; margin-bottom:18px;
   }
   .card h2{font-size:1.02rem; font-weight:700;}
   .card .sub{color:var(--muted); font-size:13px; margin-top:3px;}
@@ -59,69 +65,82 @@
     text-transform:uppercase; color:var(--muted); margin-bottom:6px;
   }
   select{
-    width:100%; appearance:none; background:var(--surface-2);
-    border:1.5px solid var(--line); border-radius:9px; padding:10px 32px 10px 11px;
+    width:100%; appearance:none;
+    background:rgba(255,255,255,0.10);
+    -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+    border:1.5px solid var(--glass-border); border-radius:12px; padding:11px 32px 11px 13px;
     font-size:14.5px; color:var(--ink); font-family:inherit;
-    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235a6673' stroke-width='2.5'><polyline points='6 9 12 15 18 9'/></svg>");
-    background-repeat:no-repeat; background-position:right 10px center;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23aab6c8' stroke-width='2.5'><polyline points='6 9 12 15 18 9'/></svg>");
+    background-repeat:no-repeat; background-position:right 12px center;
+    transition:background .15s ease, border-color .15s ease;
   }
-  select:disabled{opacity:.45; cursor:not-allowed;}
-  select:focus-visible{outline:2px solid var(--focus); outline-offset:1px;}
+  select option{ color:#111; }
+  select:hover:not(:disabled){background-color:rgba(255,255,255,0.16);}
+  select:disabled{opacity:.4; cursor:not-allowed;}
+  select:focus-visible{outline:2px solid var(--focus); outline-offset:2px; border-color:transparent;}
 
   .progress{display:flex; gap:6px; margin-top:16px;}
-  .progress i{flex:1; height:4px; border-radius:3px; background:var(--line);}
-  .progress i.done{background:var(--blue);}
+  .progress i{flex:1; height:4px; border-radius:3px; background:rgba(255,255,255,0.14);}
+  .progress i.done{background:linear-gradient(90deg, var(--blue), var(--magenta));}
 
   #panel{display:none;}
   #panel.show{display:block;}
 
   .imgbox{
-    position:relative; border:1px solid var(--line); border-radius:12px; overflow:hidden; background:var(--surface-2);
+    position:relative; border:1px solid var(--glass-border); border-radius:18px; overflow:hidden;
+    background:rgba(255,255,255,0.05); box-shadow:var(--shadow);
   }
   .imgbox img{display:block; width:100%; height:auto;}
   .side-tag{
-    position:absolute; top:10px; left:10px; background:var(--navy); color:#fff;
+    position:absolute; top:12px; left:12px; background:rgba(10,25,48,0.65); color:#fff;
+    -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px);
+    border:1px solid var(--glass-border);
     font-size:11px; font-weight:700; letter-spacing:.03em; text-transform:uppercase;
-    padding:4px 9px; border-radius:6px; z-index:1;
+    padding:5px 10px; border-radius:8px; z-index:1;
   }
   .imgcap{color:var(--muted); font-size:12.5px; margin-top:8px;}
 
-  .checklist{list-style:none; margin:14px 0 0; padding:0; display:flex; flex-direction:column; gap:2px;}
+  .checklist{list-style:none; margin:14px 0 0; padding:0; display:flex; flex-direction:column; gap:6px;}
   .checklist li{
-    display:flex; align-items:flex-start; gap:10px; padding:9px 8px; border-radius:8px;
+    display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:12px;
+    background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12);
+    transition:background .15s ease, border-color .15s ease;
   }
-  .checklist li:hover{background:var(--surface-2);}
+  .checklist li:hover{background:rgba(255,255,255,0.11); border-color:var(--glass-border);}
   .checklist input[type=checkbox]{
     width:18px; height:18px; margin-top:1px; accent-color:var(--magenta); flex:none; cursor:pointer;
   }
   .checklist label{display:flex; align-items:flex-start; gap:10px; cursor:pointer; width:100%;}
   .code{
-    flex:none; min-width:28px; text-align:center; background:var(--magenta); color:#fff;
-    font-size:11px; font-weight:800; border-radius:5px; padding:2px 6px; font-variant-numeric:tabular-nums;
+    flex:none; min-width:30px; text-align:center;
+    background:linear-gradient(135deg, var(--magenta), var(--blue)); color:#fff;
+    font-size:11px; font-weight:800; border-radius:7px; padding:3px 7px; font-variant-numeric:tabular-nums;
   }
   .desc{font-size:13.8px; color:var(--ink);}
 
   .summary{
-    background:var(--blue-light); border:1px solid var(--line); border-radius:10px;
-    padding:12px 14px; margin-top:16px; font-size:13px; color:var(--navy-2);
+    background:rgba(255,255,255,0.08); border:1px solid var(--glass-border); border-radius:14px;
+    -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+    padding:13px 16px; margin-top:16px; font-size:13px; color:var(--ink);
   }
-  :root[data-theme="dark"] .summary{color:var(--ink);}
-  @media (prefers-color-scheme: dark){ .summary{color:var(--ink);} }
   .summary b{font-weight:700;}
 
   .cta-row{display:flex; justify-content:flex-end; margin-top:18px;}
   button.cta{
-    appearance:none; border:none; cursor:pointer; background:var(--blue); color:#fff;
-    font:inherit; font-weight:700; font-size:14.5px; padding:12px 20px; border-radius:10px;
-    transition:transform .08s ease, background .15s ease;
+    appearance:none; border:1px solid var(--glass-border); cursor:pointer;
+    background:linear-gradient(135deg, var(--blue), var(--magenta)); color:#fff;
+    font:inherit; font-weight:700; font-size:14.5px; padding:13px 22px; border-radius:14px;
+    box-shadow:0 8px 24px rgba(79,163,255,0.35);
+    transition:transform .08s ease, box-shadow .15s ease, filter .15s ease;
   }
-  button.cta:hover{background:var(--navy);}
-  button.cta:active{transform:scale(.98);}
-  button.cta:disabled{background:var(--line); color:var(--muted); cursor:not-allowed;}
+  button.cta:hover:not(:disabled){filter:brightness(1.08); box-shadow:0 10px 28px rgba(79,163,255,0.45);}
+  button.cta:active:not(:disabled){transform:scale(.98);}
+  button.cta:disabled{background:rgba(255,255,255,0.08); color:var(--muted); cursor:not-allowed; box-shadow:none; border-color:rgba(255,255,255,0.14);}
 
   .empty-hint{
-    color:var(--muted); font-size:13.5px; text-align:center; padding:28px 10px;
-    border:1.5px dashed var(--line); border-radius:12px; margin-top:16px;
+    color:var(--muted); font-size:13.5px; text-align:center; padding:30px 12px;
+    border:1.5px dashed var(--glass-border); border-radius:18px; margin-top:16px;
+    background:rgba(255,255,255,0.04);
   }
 
   footer.note{color:var(--muted); font-size:12px; text-align:center; margin-top:22px;}
@@ -136,7 +155,7 @@
     <p>Select your vehicle's brand, model and variant to see the labelled decal placement diagram and repair checklist.</p>
   </header>
 
-  <div class="card">
+  <div class="card glass">
     <h2>1. Identify the vehicle</h2>
     <div class="sub">Each choice narrows the next.</div>
     <div class="select-grid">
@@ -161,13 +180,13 @@
   <div id="emptyHint" class="empty-hint">Make all 3 selections above to see the decal reference and repair checklist.</div>
 
   <div id="panel">
-    <div class="card">
+    <div class="card glass">
       <h2>2. Decal placement reference</h2>
       <div class="sub">Each pin's code matches a line in the checklist below.</div>
       <div class="imgbox" style="margin-top:14px;"><img id="vehImg" alt="Labelled decal placement diagram"></div>
     </div>
 
-    <div class="card">
+    <div class="card glass">
       <h2>3. What needs repair?</h2>
       <div class="sub">Tick every decal that's damaged, missing, or faded.</div>
       <ul class="checklist" id="checklist"></ul>

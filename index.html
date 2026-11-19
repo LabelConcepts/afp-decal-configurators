@@ -2,22 +2,120 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Decal Configurators</title>
+<meta name="description" content="Vehicle decal repair configurators for AFP, Telstra, AG Coombs and Bolton Clarke.">
 <style>
-  body { font-family: -apple-system, Arial, sans-serif; max-width: 600px; margin: 60px auto; padding: 0 20px; }
-  h1 { font-size: 22px; }
-  ul { line-height: 2.2; font-size: 18px; }
-  a { color: #0b5fff; text-decoration: none; }
-  a:hover { text-decoration: underline; }
+  :root{
+    --ink:#f3f6fa; --muted:#aab6c8;
+    --glass-border:rgba(255,255,255,0.28);
+    --shadow:0 8px 32px rgba(0,0,0,0.35);
+  }
+  *{box-sizing:border-box;}
+  html{height:100%;}
+  body{
+    margin:0; min-height:100%; color:var(--ink);
+    font:15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    padding-inline:16px;
+    background:
+      radial-gradient(640px 480px at 8% -5%, rgba(79,163,255,0.30), transparent 60%),
+      radial-gradient(560px 520px at 100% 8%, rgba(255,92,189,0.22), transparent 55%),
+      radial-gradient(760px 640px at 50% 100%, rgba(80,60,220,0.24), transparent 60%),
+      linear-gradient(160deg, #0a1930, #13284a 55%, #2a1f4d);
+    background-attachment:fixed;
+  }
+  .wrap{max-width:640px; margin:0 auto; padding-block:48px 60px;}
+  header{
+    background:linear-gradient(135deg, rgba(255,255,255,0.14), rgba(255,255,255,0.04));
+    -webkit-backdrop-filter:blur(18px) saturate(140%); backdrop-filter:blur(18px) saturate(140%);
+    border:1px solid var(--glass-border); box-shadow:var(--shadow);
+    border-radius:22px; padding:26px 28px; margin-bottom:24px;
+  }
+  .eyebrow{font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#9fd3ff; font-weight:700;}
+  h1{font-size:1.6rem; margin:8px 0 0; font-weight:800; letter-spacing:-.01em;}
+  header p{color:#d4ddea; margin-top:8px; font-size:13.5px; max-width:48ch;}
+
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  @media (max-width:520px){ .grid{grid-template-columns:1fr;} }
+
+  a.card{
+    position:relative; display:block; text-decoration:none; color:var(--ink);
+    border-radius:20px; padding:22px 20px; overflow:hidden;
+    border:1px solid var(--glass-border); box-shadow:var(--shadow);
+    -webkit-backdrop-filter:blur(18px) saturate(140%); backdrop-filter:blur(18px) saturate(140%);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  a.card:hover{transform:translateY(-3px); box-shadow:0 14px 36px rgba(0,0,0,0.45);}
+  a.card .glow{
+    position:absolute; inset:0; opacity:0.55; z-index:0; pointer-events:none;
+  }
+  a.card .content{position:relative; z-index:1;}
+  a.card .name{font-size:1.15rem; font-weight:800; letter-spacing:-.01em;}
+  a.card .sub{color:var(--muted); font-size:12.5px; margin-top:4px;}
+  a.card .arrow{
+    display:inline-flex; align-items:center; gap:6px; margin-top:14px;
+    font-size:12.5px; font-weight:700; color:#fff;
+  }
+
+  .afp{background:rgba(31,78,140,0.22);}
+  .afp .glow{background:radial-gradient(160px 120px at 90% -10%, rgba(79,163,255,0.55), transparent 60%);}
+
+  .telstra{background:rgba(13,84,255,0.18);}
+  .telstra .glow{background:radial-gradient(160px 120px at 90% -10%, rgba(107,44,143,0.55), transparent 60%);}
+
+  .agcoombs{background:rgba(234,98,18,0.16);}
+  .agcoombs .glow{background:radial-gradient(160px 120px at 90% -10%, rgba(255,106,0,0.5), transparent 60%);}
+
+  .boltonclarke{background:rgba(234,81,103,0.18);}
+  .boltonclarke .glow{background:radial-gradient(160px 120px at 90% -10%, rgba(236,103,48,0.5), transparent 60%);}
+
+  footer{color:var(--muted); font-size:12px; text-align:center; margin-top:28px;}
 </style>
 </head>
 <body>
-  <h1>Vehicle Decal Repair Configurators</h1>
-  <ul>
-    <li><a href="afp/">AFP</a></li>
-    <li><a href="telstra/">Telstra</a></li>
-    <li><a href="agcoombs/">AG Coombs</a></li>
-    <li><a href="boltonclarke/">Bolton Clarke</a></li>
-  </ul>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">Label Concepts</div>
+      <h1>Vehicle Decal Repair Configurators</h1>
+      <p>Pick a client to identify a vehicle, see its labelled decal placement diagram, and flag what needs repair.</p>
+    </header>
+
+    <div class="grid">
+      <a class="card afp" href="afp/">
+        <div class="glow"></div>
+        <div class="content">
+          <div class="name">AFP</div>
+          <div class="sub">Australian Federal Police</div>
+          <div class="arrow">Open configurator &rarr;</div>
+        </div>
+      </a>
+      <a class="card telstra" href="telstra/">
+        <div class="glow"></div>
+        <div class="content">
+          <div class="name">Telstra</div>
+          <div class="sub">Telstra Fleet</div>
+          <div class="arrow">Open configurator &rarr;</div>
+        </div>
+      </a>
+      <a class="card agcoombs" href="agcoombs/">
+        <div class="glow"></div>
+        <div class="content">
+          <div class="name">AG Coombs</div>
+          <div class="sub">AG Coombs Fleet</div>
+          <div class="arrow">Open configurator &rarr;</div>
+        </div>
+      </a>
+      <a class="card boltonclarke" href="boltonclarke/">
+        <div class="glow"></div>
+        <div class="content">
+          <div class="name">Bolton Clarke</div>
+          <div class="sub">Bolton Clarke Fleet</div>
+          <div class="arrow">Open configurator &rarr;</div>
+        </div>
+      </a>
+    </div>
+
+    <footer>Label Concepts &middot; fleet decal placement &amp; repair</footer>
+  </div>
 </body>
 </html>
