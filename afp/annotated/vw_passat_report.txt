@@ -1,0 +1,63 @@
+Vehicle: vw_passat — "AFP VW Passat" (police wagon livery)
+Annotated file: annotated/vw_passat_tagged.png
+Source: source_images/vw_passat.png (3368 x 2382 px), rendered from page index 1 of
+"AFP_VW PASSAT - FITTING.pdf" (the "VISUAL" page, which uses real install photos rather
+than artwork mockups) at 4x zoom.
+
+Fitting guide checklist: Total Number of Parts: 18 (3 drive-side print + 4 side
+reflective strips [2 per side] + 8 rear + 3 passenger-side print = matches: 5 drive +
+5 passenger + 8 rear = 18). All 18 placed and verified — count matches exactly.
+
+Layout: 2x2 grid of real install photos — top-left = one side profile, top-right = front,
+bottom-left = other side profile (mirrored), bottom-right = rear.
+
+IMPORTANT ASSUMPTION: the PDF's "VISUAL" page shows two full side-profile photos of the
+same vehicle, both with identical livery content (chequers, AFP crest, "131 444", Police
+text, reflective strip) mirrored left-right — there is no AFP-specific asymmetric element
+or visible steering wheel/cabin detail in either photo that conclusively identifies which
+physical side is driver vs passenger. Per this project's layout convention (driver side
+is consistently the top-left photo across all other vehicles), the top-left profile was
+labelled D (drive) and the bottom-left profile was labelled P (passenger). This should be
+confirmed against the physical vehicle or install instructions before fitting, since it
+cannot be derived from the supplied photos alone.
+
+PLACED (drive side — measured independently from the top-left photo):
+D1  (900, 870)    Drive side chequers (+ "Police" text) — 3M 680 print, full chequer band.
+D2  (230, 850)    Drive AFP side crest (420mm high).
+D3  (155, 890)    Drive "131 444" text (389mm wide).
+D4  (400, 831)    Drive side reflective strip — long segment (3500mm @ 35mm VC612 lime).
+D5  (1600, 904)   Drive side reflective strip — short segment (2250mm @ 35mm VC612 lime).
+
+PLACED (passenger side — measured independently from the bottom-left photo, not copied
+from the drive-side values):
+P1  (1000, 1730)  Pass side chequers (+ "Police" text) (mirrors D1).
+P2  (1870, 1760)  Pass AFP side crest (mirrors D2).
+P3  (1930, 1740)  Pass "131 444" text (mirrors D3).
+P4  (700, 1793)   Pass side reflective strip — long segment (mirrors D4).
+P5  (2100, 1844)  Pass side reflective strip — short segment (mirrors D5).
+
+PLACED (rear — measured independently from the bottom-right photo):
+R1  (2450, 1965)  Rear bumper base (1105w1460z, 600mm high yellow panel).
+R2  (3300, 1670)  Rear top yellow panel (1105w1460z, above the chequers).
+R3  (2600, 1770)  Rear mid chequers (3M 680, row between taillights with VW badge cutout).
+R4  (2600, 1850)  Rear lower chequers (3M 680, row around the numberplate).
+R5  (3085, 1960)  Rear "AFP" text (3M 680, 135mm wide).
+R6  (2640, 1950)  Rear "131 444" text + phone icon (3M 680, 316mm wide).
+R7  (2865, 1955)  Rear "POLICE" text in white box (3M 680).
+R8  (2870, 1693)  Rear "ROAD POLICING" text (3M 680, 36mm high, within the top yellow
+                  panel).
+
+Notes:
+- The two side reflective strips per side (3500mm + 2250mm) form one visually continuous
+  yellow line along the lower edge of the chequer band — the two lengths are a supply/
+  install-piece split (vinyl roll width constraint), not two visually distinct positions.
+  Both were tagged at different points along the same line per the checklist's explicit
+  part count (2 per side), confirmed via exact-color (238,232,11) pixel sampling.
+- D1-D5 measured from the top-left photo; P1-P5 measured independently from the
+  bottom-left photo — no coordinates copied between the two sides.
+- R1-R8 measured independently from the bottom-right rear photo.
+- The front quadrant (top-right) has no checklist items — bonnet/grille carry no
+  decals on this vehicle.
+- All 18 coordinates visually verified against the drawn tag image before saving — no
+  hidden/overlapping dots, and the drawn count (18) matches the fitting guide's stated
+  total exactly.
