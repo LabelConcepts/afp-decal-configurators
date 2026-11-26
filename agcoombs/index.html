@@ -150,14 +150,17 @@
     box-shadow:0 2px 10px rgba(0,0,0,.35); background:#fff; padding:4px;}
   footer.note .powered{display:block; margin-top:4px; opacity:.6; font-size:11px; letter-spacing:.03em;}
 
-  footer.note{display:flex; flex-direction:column; align-items:center; gap:6px;}
-  footer.note .lc-foot-logo{height:20px; width:auto; opacity:.55; margin-top:2px;}
+
+  header.top{position:relative;}
+  .lc-header-logo{position:absolute; top:22px; right:26px; height:34px; width:auto; opacity:.85;}
+  @media (max-width:480px){ .lc-header-logo{height:26px; top:18px; right:16px;} }
 </style>
 </head>
 <body>
 
 <div class="wrap">
   <header class="top">
+    <img src="assets/lc-logo-white.png" alt="Label Concepts" class="lc-header-logo">
     <div class="brandrow"><img src="logo.png" alt="A.G.Coombs logo" class="brand-logo"><div class="eyebrow">Label Concepts &middot; AG Coombs Fleet</div></div>
     <h1>Find your vehicle, flag the damage</h1>
     <p>Select your vehicle below to see exactly where each decal sits, tick the ones that need repair, then send the request through to our team.</p>
@@ -206,7 +209,7 @@
     </div>
   </div>
 
-  <footer class="note">Your selections carry through automatically &mdash; you won't need to re-enter them on the next page. <span class="powered">Decals &amp; configurator by Label Concepts</span><img src="assets/lc-logo-white.png" alt="Label Concepts" class="lc-foot-logo"></footer>
+  <footer class="note">Your selections carry through automatically &mdash; you won't need to re-enter them on the next page. <span class="powered">Decals &amp; configurator by Label Concepts</span></footer>
 </div>
 
 <script>
